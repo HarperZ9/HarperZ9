@@ -3,9 +3,18 @@
 Solo developer shipping compilers, color science tooling, and precision graphics systems.
 Arborist by day. Based in Seattle, WA.
 
+## Try QuantaLang right now
+
+```sh
+cargo install quantalang                     # compiler (quantac)
+# In VS Code: Extensions → search "QuantaLang" → Install
+```
+
+Landing page: **[harperz9.github.io/quantalang](https://harperz9.github.io/quantalang/)**
+
 ## Currently shipping
 
-- **[QuantaLang](https://github.com/HarperZ9/quantalang)** — effects-oriented systems language. Rust compiler, 600+ tests, multi-backend codegen (C · HLSL · GLSL · SPIR-V · LLVM · WASM · x86-64 · ARM64). *Active development, MIT.*
+- **[QuantaLang](https://github.com/HarperZ9/quantalang)** — effects-oriented systems language. Rust compiler, 600+ tests, multi-backend codegen (C · HLSL · GLSL · SPIR-V · LLVM · WASM · x86-64 · ARM64). *[v1.0.0 on crates.io](https://crates.io/crates/quantalang) · [docs](https://docs.rs/quantalang) · [VS Code extension](https://marketplace.visualstudio.com/items?itemName=HarperZ9.quantalang) · MIT.*
 - **[Quanta Universe](https://github.com/HarperZ9/quanta-universe)** — 23 core modules plus infra, written in QuantaLang: rendering engines, color science, algorithmic trading, OS kernel, developer tools. *Alpha, MIT.*
 - **[Quanta Color](https://github.com/HarperZ9/quanta-color)** — Python color science library. 15 color spaces, 12 tone mappers, CIECAM02/CAM16, spectral rendering, PyQt6 GUI. *v1.0.0, MIT.*
 - **[Calibrate Pro](https://github.com/HarperZ9/calibrate-pro)** — sensorless display calibration for Windows. 58-panel hardware database, DDC/CI, 3D LUT, ICC v4 profiles, optional i1Display3 measurement. *v1.0.0, MIT.*
