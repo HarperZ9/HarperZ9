@@ -1,7 +1,9 @@
 # Zain Dana Harper
 
 Solo developer shipping compilers, color science tooling, and precision graphics systems.
-Arborist by day. Based in Seattle, WA.
+Arborist by day. Remote.
+
+**Portfolio: [harperz9.github.io](https://harperz9.github.io/)**
 
 ## Try QuantaLang right now
 
@@ -21,7 +23,7 @@ Landing page: **[harperz9.github.io/quantalang](https://harperz9.github.io/quant
 
 ## Also in the workshop
 
-D3D11 post-processing engines for Bethesda games (26+ effects, ImGui, proxy-DLL) · Rendering Advancement Workshop (D3D11 proxy framework) · WoW combat automation SDK (TypeScript → Lua, 41 rotations across 39/39 specs, v1.0.0) · AI agent orchestration platform (88-agent system with 9 MCP servers) · adversarial security assessment tooling (45+ offensive primitive categories) · compliance documentation kits (CMMC · SOC 2 · HIPAA · ISO 27001 · NIST CSF · FedRAMP)
+D3D11 post-processing engines for Bethesda games (26+ effects, ImGui, proxy-DLL) · Rendering Advancement Workshop (D3D11 proxy framework) · WoW combat automation SDK (TypeScript → Lua, 41 rotations across 39/39 specs, v1.0.0) · AI agent orchestration platform (88-agent system with 9 MCP servers) · compliance documentation kits (CMMC · SOC 2 · HIPAA · ISO 27001 · NIST CSF · FedRAMP)
 
 ## Stack
 
@@ -29,7 +31,7 @@ Rust · Python · C++ · HLSL · Lua · TypeScript · CMake · D3D11 · Linux ·
 
 ## Areas
 
-Compiler design · Color science · Real-time graphics · Display calibration · Game-engine modification · Systems programming · Reverse engineering · AI agent orchestration · Adversarial security · Compliance and GRC
+Compiler design · Color science · Real-time graphics · Display calibration · Game-engine modification · Systems programming · Reverse engineering · AI agent orchestration · AI safety research · Compliance and GRC
 
 ## Elsewhere
 
