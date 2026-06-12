@@ -43,6 +43,12 @@ connects domains, but the standard is plain: ship useful pieces, keep sensitive
 systems compartmentalized, and leave enough evidence for someone else to follow
 the reasoning.
 
+## Contributor Attribution
+
+Some recent tooling work includes Claude Code as an AI coding contributor. I
+use it as a build partner, then review, test, edit, and own the public release
+surface myself.
+
 ## Elsewhere
 
 [harperadvocates.com](https://harperadvocates.com)
