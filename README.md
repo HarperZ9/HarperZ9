@@ -8,6 +8,11 @@ color/calibration products that turn research into testable software.
 
 ## Public Work
 
+- **Proof-surface stack** - small release-readiness tools for public software
+  claims: [public-surface-sweeper](https://github.com/HarperZ9/public-surface-sweeper),
+  [model-provenance-validator](https://github.com/HarperZ9/model-provenance-validator),
+  [repo-proof-index](https://github.com/HarperZ9/repo-proof-index), and
+  [warden-reporting](https://github.com/HarperZ9/warden-reporting).
 - **[QuantaLang](https://github.com/HarperZ9/quantalang)** - systems-language and compiler work for typed effects, ownership, and backend experiments.
 - **[Quanta Universe](https://github.com/HarperZ9/quanta-universe)** - public module and example surface for language, graphics, color, finance, and systems research.
 - **[Quanta Color](https://github.com/HarperZ9/quanta-color)** - Python color-science tooling for color spaces, tone mapping, appearance models, spectral workflows, and GUI experiments.
