@@ -1,0 +1,5 @@
+.env
+.env.*
+.warden-safe-cache/
+*.log
+*.tmp
