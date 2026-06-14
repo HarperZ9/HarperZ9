@@ -21,6 +21,16 @@ graphics experiments, and public product surfaces that make claims inspectable.
 - **[Agent Routing Kit](https://github.com/HarperZ9/agent-routing-kit)** - small deterministic routing and context-budget helpers extracted from larger private workflow patterns.
 - **Live frontend surfaces** - [Harper Advocates](https://harperadvocates.com) and [Harper Compliance](https://harpercompliance.llc), two private-repo service sites with public UI, custom cursors, category/pricing flows, and browser-side document workflows.
 
+## Public Lineup
+
+| Group | Repos | State |
+| --- | --- | --- |
+| Developer workflow utilities | [agent-hook-pack](https://github.com/HarperZ9/agent-hook-pack), [agent-routing-kit](https://github.com/HarperZ9/agent-routing-kit), [agent-template-pack](https://github.com/HarperZ9/agent-template-pack), [context-curator-lite](https://github.com/HarperZ9/context-curator-lite), [safe-io-lite](https://github.com/HarperZ9/safe-io-lite), [workflow-harness-lite](https://github.com/HarperZ9/workflow-harness-lite), [workspace-repo-map](https://github.com/HarperZ9/workspace-repo-map) | Artifact-backed `v0.1.x` releases. |
+| Proof and provenance | [public-surface-sweeper](https://github.com/HarperZ9/public-surface-sweeper), [model-provenance-validator](https://github.com/HarperZ9/model-provenance-validator), [repo-proof-index](https://github.com/HarperZ9/repo-proof-index), [gpu-trace-validator](https://github.com/HarperZ9/gpu-trace-validator) | Release-surface tools with package artifacts and proof-packet conventions. |
+| Quanta and editor support | [quantalang](https://github.com/HarperZ9/quantalang), [quantalang-vscode](https://github.com/HarperZ9/quantalang-vscode), [quantalang-tmLanguage](https://github.com/HarperZ9/quantalang-tmLanguage), [quanta-universe](https://github.com/HarperZ9/quanta-universe) | Compiler and editor surfaces with explicit maturity labels. |
+| Color and calibration | [calibrate-pro](https://github.com/HarperZ9/calibrate-pro), [quanta-color](https://github.com/HarperZ9/quanta-color) | Public color/calibration products; Quanta Color has package artifacts. |
+| Next candidates | [EMET](https://github.com/HarperZ9/emet), [warden-reporting](https://github.com/HarperZ9/warden-reporting), [warden-algorithms](https://github.com/HarperZ9/warden-algorithms), [warden-anomaly](https://github.com/HarperZ9/warden-anomaly) | Public candidates pending stricter release gates. |
+
 ## Current Through-Line
 
 The through-line is simple: before software or models make claims, the state
