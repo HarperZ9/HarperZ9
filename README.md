@@ -9,7 +9,7 @@ I'm **Zain Dana Harper** - self-taught, building in the open since 2023, with AI
 
 | | | |
 |---|---|---|
-| **[accountable-surface](https://github.com/HarperZ9/accountable-surface)** | bounded, *witnessed* AI agents (perceive -> gate -> act -> verify -> witness) | 129 tests - MIT |
+| **[accountable-surface](https://github.com/HarperZ9/accountable-surface)** | bounded, *witnessed* AI agents (perceive -> gate -> act -> verify -> witness) | 201 tests - MIT |
 | **[coherence-membrane](https://github.com/HarperZ9/coherence-membrane)** | witnessed perception - MATCH / DRIFT / UNVERIFIABLE, never a silent guess | 868 tests - zero-dep |
 | **[proof-surface](https://github.com/HarperZ9/proof-surface)** | a default-deny gate the model can't authorize for itself | 258 tests - PyPI |
 | **[EMET](https://github.com/HarperZ9/emet)** | an external byte-witness that never says "trusted" | 3 languages |
