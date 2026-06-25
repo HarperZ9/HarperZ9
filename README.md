@@ -1,23 +1,20 @@
 # Project Telos
-### The surface every domain launches from - let's have a look.
+### The surface every domain launches from. Let's have a look.
 
-One operation makes any claim, action, or creation **checkable** - so a person and an AI can do real work *together* and verify every step. Accountability isn't the brake; it's the **runway**. Security is one domain on it - not the point.
+One operation makes any claim, action, or creation **checkable**, so a person and an AI can do real work together and verify every step. Accountability is not the brake; it is the runway. Security is one domain on it, not the point.
 
-I'm **Zain Dana Harper** - self-taught, building in the open since 2023, with AI directed as a coordinated teammate. Everything here is native, zero-dependency, and honest about where it stands: **every claim ships beside its test, or its limit.** Don't trust it - check it.
+I am **Zain Dana Harper**, self-taught, building in the open since 2023, with AI directed as a coordinated teammate. Everything here is public, local-first where possible, and honest about where it stands: **every claim ships beside its test, or its limit.** Do not trust it, check it.
 
-### Shipped - open - run-it-yourself
+## The Flagships
 
-| | | |
+One operation runs through all of them: perceive into a witnessed form, check it against a criterion it did not author, carry a re-checkable proof, and say UNVERIFIABLE when it cannot.
+
+| Flagship | What it does | Status |
 |---|---|---|
-| **[accountable-surface](https://github.com/HarperZ9/accountable-surface)** | bounded, *witnessed* AI agents (perceive -> gate -> act -> verify -> witness) | 201 tests - MIT |
-| **[coherence-membrane](https://github.com/HarperZ9/coherence-membrane)** | witnessed perception - MATCH / DRIFT / UNVERIFIABLE, never a silent guess | 868 tests - zero-dep |
-| **[proof-surface](https://github.com/HarperZ9/proof-surface)** | a default-deny gate the model can't authorize for itself | 258 tests - PyPI |
-| **[EMET](https://github.com/HarperZ9/emet)** | an external byte-witness that never says "trusted" | 3 languages |
-| **[QuantaLang](https://github.com/HarperZ9/quantalang)** | an effects-typed compiler that won't compile a memory lie | 999 tests |
-| **[the atelier](https://harperz9.github.io/atelier.html)** | verifiable generative art - 21 algorithms steered by photographs, re-runnable from a seed | try it live |
+| gather | research intake with provenance receipts | PyPI `gather-engine` 1.5.0, fair-source |
+| index | offline multi-repo graph with MATCH / DRIFT / UNVERIFIABLE certificates | PyPI `index-graph`, shipped |
+| forum | accountable multi-agent orchestration on a witnessed causal ledger | fair-source, active |
+| the telos engine | shared perceive-and-make studio for human-AI work | active |
+| Crucible | judgment/refinement organ that steelmans, measures, and refines claims | 0.4.0 release candidate; public repo live, PyPI/package pending |
 
-### Have A Look
-
-**-> [harperz9.github.io](https://harperz9.github.io)** - the whole map, the live demos, the proof.
-
-*Solo, pre-revenue, pre-proof on the largest claims - and built to be inspected, not taken on faith.*
+Solo, pre-revenue, pre-proof on the largest claims, and built to be inspected.
