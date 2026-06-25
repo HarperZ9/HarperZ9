@@ -15,6 +15,6 @@ One operation runs through all of them: perceive into a witnessed form, check it
 | index | offline multi-repo graph with MATCH / DRIFT / UNVERIFIABLE certificates | PyPI `index-graph`, shipped |
 | forum | accountable multi-agent orchestration on a witnessed causal ledger | fair-source, active |
 | the telos engine | shared perceive-and-make studio for human-AI work | active |
-| Crucible | judgment/refinement organ that steelmans, measures, and refines claims | 0.4.0 release candidate; public repo live, PyPI/package pending |
+| crucible | judgment/refinement organ that steelmans, measures, and refines claims | 0.4.0 release candidate; public repo live, PyPI/package pending |
 
 Solo, pre-revenue, pre-proof on the largest claims, and built to be inspected.
