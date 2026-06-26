@@ -19,4 +19,12 @@ One operation runs through all of them: perceive into a witnessed form, check it
 | [the telos engine](https://github.com/HarperZ9/telos) | shared perceive-and-make studio for human-AI work | active |
 | [crucible](https://github.com/HarperZ9/crucible) | judgment/refinement organ that steelmans, measures, and refines claims | public GitHub 0.13.0 pre-1.0; no PyPI publication claim here |
 
+## Where to test it
+
+- **Doctor / clinical admin:** keep source fragments, routing decisions, and uncertainty visible before a model summary becomes action.
+- **Artist / studio:** preserve prompts, source assets, transforms, chosen branches, and export gates instead of losing the trail in a pile of outputs.
+- **Media / newsroom:** map each public claim back to witnessed sources, conflict notes, and a decision ledger.
+- **Token economy / routing:** spend model calls where they buy evidence, not where they merely create confident prose.
+- **Reasoning:** let the model perceive and propose, but keep final authority outside the model and inside a checkable record.
+
 Solo, pre-revenue, pre-proof on the largest claims, and built to be inspected. I am looking for verification, testing against real workflows, early traction from people willing to inspect the receipts, and possibly modest grassroots research funding.
