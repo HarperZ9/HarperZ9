@@ -5,6 +5,8 @@
 
 One operation makes any claim, action, or creation **checkable**, so a person and an AI can do real work together and verify every step. Accountability is not the brake; it is the runway. Security is one domain on it, not the point.
 
+**Field guide:** [harperz9.github.io/field-guide.html](https://harperz9.github.io/field-guide.html)
+
 I am **Zain Dana Harper**, self-taught, building in the open since 2023, with AI directed as a coordinated teammate. Everything here is public, local-first where possible, and honest about where it stands: **every claim ships beside its test, or its limit.** Do not trust it, check it.
 
 ## The Flagships
@@ -28,3 +30,11 @@ One operation runs through all of them: perceive into a witnessed form, check it
 - **Reasoning:** let the model perceive and propose, but keep final authority outside the model and inside a checkable record.
 
 Solo, pre-revenue, pre-proof on the largest claims, and built to be inspected. I am looking for verification, testing against real workflows, early traction from people willing to inspect the receipts, and possibly modest grassroots research funding.
+
+## Open tester threads
+
+- [Test gather intake](https://github.com/HarperZ9/gather/issues/1)
+- [Test index maps](https://github.com/HarperZ9/index/issues/13)
+- [Test forum ledgers](https://github.com/HarperZ9/forum/issues/1)
+- [Test crucible checks](https://github.com/HarperZ9/crucible/issues/1)
+- [Test the telos surface](https://github.com/HarperZ9/telos/issues/2)
