@@ -84,3 +84,11 @@ Solo, pre-revenue, pre-proof on the largest claims, and built to be inspected. I
 - [Test forum ledgers](https://github.com/HarperZ9/forum/issues/1)
 - [Test crucible checks](https://github.com/HarperZ9/crucible/issues/1)
 - [Test the telos surface](https://github.com/HarperZ9/telos/issues/2)
+
+## For developers
+
+Keep the public README, examples, and repository metadata aligned with current behavior. Before opening a PR or publishing a release, verify the working tree and any documented commands for this repo.
+
+```bash
+git status --short
+```
