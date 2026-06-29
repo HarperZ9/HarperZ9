@@ -16,10 +16,10 @@ One operation runs through all of them: perceive into a witnessed form, check it
 | Flagship | What it does | Status |
 |---|---|---|
 | [gather](https://github.com/HarperZ9/gather) | research intake with provenance receipts | PyPI `gather-engine` 1.5.0, fair-source |
-| [index](https://github.com/HarperZ9/index) | offline multi-repo graph with MATCH / DRIFT / UNVERIFIABLE certificates | PyPI `index-graph`, shipped |
-| [forum](https://github.com/HarperZ9/forum) | accountable multi-agent orchestration on a witnessed causal ledger | fair-source, active |
-| [the telos engine](https://github.com/HarperZ9/telos) | shared perceive-and-make studio for human-AI work | active |
-| [crucible](https://github.com/HarperZ9/crucible) | judgment/refinement organ that steelmans, measures, and refines claims | public GitHub 0.13.0 pre-1.0; no PyPI publication claim here |
+| [index](https://github.com/HarperZ9/index) | workspace maps and context graphs for repos, docs, and assets | PyPI `index-graph` 2.8.0, fair-source |
+| [forum](https://github.com/HarperZ9/forum) | accountable multi-agent orchestration on a witnessed causal ledger | PyPI `forum-engine` 1.12.0, fair-source |
+| [crucible](https://github.com/HarperZ9/crucible) | judgment/refinement organ that steelmans, measures, and refines claims | public repo; `crucible-bench` 1.1.0 local package metadata; no PyPI claim here |
+| [the telos engine](https://github.com/HarperZ9/telos) | shared perceive-and-make studio for human-AI work, MCP, and creative/science demos | source registry 0.1.0, active |
 
 ## Where to test it
 
@@ -30,6 +30,12 @@ One operation runs through all of them: perceive into a witnessed form, check it
 - **Reasoning:** let the model perceive and propose, but keep final authority outside the model and inside a checkable record.
 
 Solo, pre-revenue, pre-proof on the largest claims, and built to be inspected. I am looking for verification, testing against real workflows, early traction from people willing to inspect the receipts, and possibly modest grassroots research funding.
+
+## Recent public dogfood
+
+- [SmallHarness external fixture loading](https://github.com/GetSmallAI/SmallHarness/pull/13) merged: data-only external eval fixtures with path-safety handling.
+- [Pydantic AI turn index](https://github.com/pydantic/pydantic-ai/pull/6135) is open: stable chat span names with `gen_ai.turn.index` for agent trace evaluation.
+- [AutoGen scankii receipt feedback](https://github.com/microsoft/autogen/discussions/7890#discussioncomment-17474671) is live: replayable scan-receipt dogfood across static-only, file-side, and unverifiable-boundary fixtures.
 
 ## Open tester threads
 
