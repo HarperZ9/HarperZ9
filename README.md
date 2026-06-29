@@ -1,4 +1,44 @@
 # Project Telos
+
+![Project Telos profile hero](docs/brand/profile-hero.png)
+
+> Public map of the tools, demos, receipts, and status behind the Telos work.
+
+This profile is the front door for the public Project Telos tool system:
+research intake, codebase indexing, agent routing, claim checking, creative
+workspaces, release hygiene, and receipt-backed demos.
+
+## Why it matters
+
+The public portfolio should make it clear what can be opened, tested, and
+verified today. This profile keeps the flagship repos, current status, and
+tester entry points in one place instead of relying on scattered claims.
+
+## Try it
+
+```bash
+git clone https://github.com/HarperZ9/HarperZ9.git
+python -m webbrowser https://harperz9.github.io
+```
+
+## What to test first
+
+- Open the five flagship repos and run their `doctor`, `status`, or demo commands.
+- Use the tester issues linked below to report real workflow gaps.
+- Check claims against repo tests, release notes, receipts, or explicit limits.
+
+## Current status
+
+Public profile and live project map. The largest claims remain pre-proof until
+external testers reproduce them; the profile should point to evidence, not ask
+for trust.
+
+## Developer notes
+
+This repository is the GitHub profile README. Licenses and runnable commands live
+in the linked tool repositories; this page routes readers to those surfaces.
+
+## Existing public profile
 ### The surface every domain launches from. Let's have a look.
 
 **Main site:** [harperz9.github.io](https://harperz9.github.io)
