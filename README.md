@@ -37,6 +37,7 @@ for trust.
 
 This repository is the GitHub profile README. Licenses and runnable commands live
 in the linked tool repositories; this page routes readers to those surfaces.
+See [USAGE.md](USAGE.md) for the local verification path.
 
 ## Existing public profile
 ### The surface every domain launches from. Let's have a look.
@@ -91,4 +92,5 @@ Keep the public README, examples, and repository metadata aligned with current b
 
 ```bash
 git status --short
+python scripts/check_profile_surface.py
 ```
