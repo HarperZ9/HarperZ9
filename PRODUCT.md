@@ -29,6 +29,18 @@ merge what holds, push public artifacts when safe, and keep the artistic edge
 visible. Do not publish raw private session text, secrets, client material, or
 unsafe operational detail.
 
+The deeper personality frame is abstract pressure turned into instruments.
+Zain likes taking systems apart, attacking concepts, and approaching problems
+aggressively at the abstract layer before narrowing that energy into focused
+tools. The profile should state that he does not feel like a finished expert:
+the durable signal is the drive to learn and the habit of building constraints
+that make abstract energy useful.
+
+Accountability should read as an inward-facing reason for the tools, not a
+claim of moral purity. Preserve the idea that evasion, self-deception, blame,
+shortcuts, and wanting more than the work has earned are real human forces the
+tools are built against. Do not publish raw self-indicting lines verbatim.
+
 ## Brand Personality
 
 Clean, rigorous, restrained, ambitious, artistic, and human. The profile should
@@ -60,6 +72,11 @@ by a public link or test path.
 - Keep the tone ambitious and human. Zain can sound intense, artistic,
   impatient with vague demos, and fallible without sounding reckless or
   performative.
+- Preserve the abstract-potential frame: wide-ranging ideas are narrowed into
+  compilers, verifiers, maps, demos, ledgers, learning loops, and receipts.
+- Keep the accountability language honest but public-safe. It can name
+  self-deception and blame as forces the tools push against; it should not
+  publish raw confessional phrases that make the public profile self-defeating.
 - Use GitHub-native interaction: collapsible paths, Mermaid maps, and compact
   route charts that render without JavaScript.
 - Add interactivity through real reader choices: showcase drawers, demo links,
