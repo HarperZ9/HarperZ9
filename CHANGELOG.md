@@ -10,6 +10,9 @@
   anti-patterns, and accessibility floor.
 - Replaced the dense project table with mobile-readable flagship rows and a
   tighter range section covering systems, graphics, color, and public shipping.
+- Added a research receipt covering profile-template collections, subreddit and
+  developer forum patterns, accessibility guidance, and the publication trap
+  that required GitHub's `Share to Profile` control.
 - Updated the verifier, CI lint list, brand receipt, usage guide, and design
   notes around the new site-aligned profile contract.
 

@@ -20,6 +20,12 @@ REQUIRED_FILES = (
 
 REQUIRED_ASSETS = ("docs/brand/profile-hero.png",)
 
+REQUIRED_DOCS = (
+    "docs/research/2026-07-01-profile-template-research.md",
+    "docs/superpowers/specs/2026-07-01-github-profile-site-aligned-design.md",
+    "docs/superpowers/plans/2026-07-01-github-profile-site-aligned.md",
+)
+
 REQUIRED_README_TERMS = (
     "https://harperz9.github.io",
     "https://github.com/HarperZ9/telos",
@@ -78,6 +84,12 @@ def assert_required_assets() -> None:
         fail(f"missing required assets: {', '.join(missing)}")
 
 
+def assert_required_docs() -> None:
+    missing = [name for name in REQUIRED_DOCS if not (ROOT / name).exists()]
+    if missing:
+        fail(f"missing required docs: {', '.join(missing)}")
+
+
 def assert_readme_contract() -> None:
     text = README.read_text(encoding="utf-8")
     expected_terms = REQUIRED_README_TERMS + PROFILE_CONTRACT_TERMS
@@ -103,6 +115,7 @@ def assert_no_secret_shapes() -> None:
 def main() -> int:
     assert_required_files()
     assert_required_assets()
+    assert_required_docs()
     assert_readme_contract()
     assert_no_secret_shapes()
     print("profile surface: ok")

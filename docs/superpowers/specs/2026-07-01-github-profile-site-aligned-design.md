@@ -12,11 +12,18 @@ Markdown.
   they build, and which projects are worth inspecting.
 - Common template patterns such as badge walls, typing SVGs, stats cards, and
   visitor counters are visually loud but weak as proof surfaces.
+- Reddit and developer-forum examples reward novelty, but the durable lesson is
+  clarity: the visitor should understand the person, best projects, and first
+  inspection path before noticing any dynamic trick.
+- Accessibility guidance favors descriptive alt text, meaningful links, logical
+  heading order, and plain language.
 - The Project Telos site already has the right design language: clean editorial
   structure, restrained typography, the iris accent, and a repeatable flagship
   card.
 - The canonical brand file retires bespoke heroes and says repo heroes should
   use the flagship card system.
+- Publication must include the actual GitHub profile page. If GitHub does not
+  auto-render the special README, use `Share to Profile` from the repo page.
 
 ## Direction
 

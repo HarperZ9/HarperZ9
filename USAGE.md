@@ -56,6 +56,8 @@ Before publishing:
 - Confirm the profile README renders through GitHub Markdown before pushing.
 - Do not stage `.env`, local logs, private notes, browser state, credentials,
   or protected corpus material.
+- If the profile page does not show the README even though the special repo is
+  valid, open the repository page on GitHub and use `Share to Profile`.
 
 ## Developer Notes
 
@@ -66,4 +68,6 @@ Before publishing:
   required repo docs, and credential-shaped text.
 - `docs/brand/profile-hero.png` is the canonical Project Telos flagship card
   used by the profile README.
+- `docs/research/2026-07-01-profile-template-research.md` records the public
+  profile-template and forum research behind the direction.
 - `CHANGELOG.md` records public-facing profile updates.
