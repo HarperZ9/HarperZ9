@@ -6,7 +6,7 @@ Align the `HarperZ9` GitHub profile with the live Project Telos site and the
 canonical flagship artwork while keeping the README useful as plain GitHub
 Markdown. The profile must frame Telos as a cross-domain research lab and
 product ecosystem, with evidence/accountability as the method rather than the
-whole mission.
+whole mission, and with a visible human voice behind the rigorous surface.
 
 ## Research Takeaways
 
@@ -19,6 +19,9 @@ whole mission.
 - Role fit should be named directly. Hiring teams should not have to infer
   whether the profile maps to AI tooling, developer tools, evals, systems, or
   graphics/color work.
+- The profile should not make Zain sound like a sterile proof machine. It must
+  preserve the artistic, mistake-making, fallible human reason the verification
+  work exists in the first place.
 - Common template patterns such as badge walls, typing SVGs, stats cards, and
   visitor counters are visually loud but weak as proof surfaces.
 - Reddit and developer-forum examples reward novelty, but the durable lesson is
@@ -57,23 +60,27 @@ claims are immediately inspectable.
 - Personality shows through working style: self-taught, proof-first, skeptical
   of unverifiable claims, and willing to build across domains.
 - Avoid reducing the work to evidence/accountability alone.
+- Avoid presenting rigor as posturing. The voice should admit mistakes, wrong
+  turns, intuition, aesthetics, and fallibility without becoming confessional.
 
 ## Content Architecture
 
 1. Flagship card hero and the main site thesis.
-2. Zain Dana Harper identity, hiring signal, and Project Telos positioning.
+2. Zain Dana Harper identity, human voice, hiring signal, and Project Telos
+   positioning.
 3. Site, flagship, and career links.
-4. Why-this-is-worth-your-time bullets for hiring managers.
-5. Best-fit role lanes.
-6. Hiring-manager fast path, time-budgeted inspection path, and collapsible
+4. Human-part section connecting art, mistakes, and rigor.
+5. Why-this-is-worth-your-time bullets for hiring managers.
+6. Best-fit role lanes.
+7. Hiring-manager fast path, time-budgeted inspection path, and collapsible
    reader paths.
-7. Proof-of-work matrix.
-8. Mermaid ecosystem map, live-surface links, and route chart.
-9. Eight-engine flagship rows mirroring the site architecture.
-10. Domain lanes drawn from the indexed public docs and Telos dogfood packets.
-11. Public-safe private-line note routed through the main site.
-12. Range and working-style section.
-13. Tester threads and local verifier commands.
+8. Proof-of-work matrix.
+9. Mermaid ecosystem map, live-surface links, and route chart.
+10. Eight-engine flagship rows mirroring the site architecture.
+11. Domain lanes drawn from the indexed public docs and Telos dogfood packets.
+12. Public-safe private-line note routed through the main site.
+13. Range and working-style section.
+14. Tester threads and local verifier commands.
 
 ## Constraints
 

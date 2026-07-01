@@ -26,6 +26,8 @@ standard library, GitHub Actions Markdown lint.
   assessment.
 - Preserve GitHub-native interaction that helps hiring managers route through
   the work quickly.
+- Preserve the human voice: artistic, fallible, ambitious, and willing to show
+  why the verification discipline exists.
 - Use `docs/brand/profile-hero.png`; do not add bespoke README diagrams.
 
 ---
@@ -140,3 +142,18 @@ standard library, GitHub Actions Markdown lint.
 - [x] Add a proof-of-work matrix pairing claims with public evidence and first
       checks.
 - [x] Update the verifier and docs to keep the hiring proof layer in place.
+
+### Task 8: Human Voice Pass
+
+**Files:**
+
+- Modify: `README.md`
+- Modify: `scripts/check_profile_surface.py`
+
+**Steps:**
+
+- [x] Add a human opening note that names art, fallibility, and wrong turns.
+- [x] Add a `The human part` section near the top.
+- [x] Reframe evidence as method, not personality.
+- [x] Preserve hiring utility while making the profile less sterile.
+- [x] Update the verifier and docs to keep the human voice in place.
