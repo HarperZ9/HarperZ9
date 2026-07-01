@@ -23,6 +23,13 @@ quoting private transcripts: scan the actual state, dogfood tools against real
 work, adversarially test them, keep the first useful failure, merge what holds,
 push public-safe artifacts, and raise the bar again.
 
+The profile should also preserve Zain's own self-description as public-safe
+truth: taking systems apart, attacking concepts, working from abstraction,
+feeling more like potential energy than polished expertise, and building tools
+to focus that energy into problem-solving. Accountability language should name
+evasion, blame, shortcuts, and self-deception as forces the tools work against
+without publishing raw self-sabotaging phrases verbatim.
+
 Keep the project-history layer near the top. It should make the profile easier
 to trust by connecting claims to public artifacts and lived work instead of
 trying to optimize a pitch.

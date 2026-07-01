@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-07-01 - Abstract Accountability Pass
+
+- Added Zain's stated personality frame: taking systems apart, attacking
+  concepts, working abstractly and aggressively, and narrowing wide ideas into
+  focused tools.
+- Added the `abstract potential energy` and `inextinguishable drive to learn`
+  language so the profile does not pretend proficiency is the core claim.
+- Reframed accountability as an inward-facing reason for the tools: a surface
+  for confronting evasion, self-deception, blame, shortcuts, and overclaiming.
+- Updated product, usage, and verifier guardrails to preserve the public-safe
+  version of that confession without publishing raw self-sabotaging lines.
+
 ## 2026-07-01 - Session-Context Voice Pass
 
 - Scanned recent Codex and Claude Code history from the last four months for
