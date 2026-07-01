@@ -4,7 +4,9 @@
 
 Align the `HarperZ9` GitHub profile with the live Project Telos site and the
 canonical flagship artwork while keeping the README useful as plain GitHub
-Markdown.
+Markdown. The profile must frame Telos as a cross-domain research lab and
+product ecosystem, with evidence/accountability as the method rather than the
+whole mission.
 
 ## Research Takeaways
 
@@ -22,14 +24,17 @@ Markdown.
   card.
 - The canonical brand file retires bespoke heroes and says repo heroes should
   use the flagship card system.
+- `index map` and `index router` over the public workspace show a broad repo
+  set, with `build-ui` and `proof-surface` as structural hubs and docs spanning
+  compilers, rendering, color, AI4Science, agent systems, and research packets.
 - Publication must include the actual GitHub profile page. If GitHub does not
   auto-render the special README, use `Share to Profile` from the repo page.
 
 ## Direction
 
 Use the Telos flagship card as the only visual anchor. Write the profile as a
-GitHub-native route map from identity to site, engines, tester threads, and
-developer verification.
+GitHub-native route map from identity to research-lab scope, site, engines,
+domain lanes, tester threads, and developer verification.
 
 ## Voice
 
@@ -37,6 +42,7 @@ developer verification.
 - Ambitious about the system, precise about what readers can inspect.
 - Personality shows through working style: self-taught, proof-first, skeptical
   of unverifiable claims, and willing to build across domains.
+- Avoid reducing the work to evidence/accountability alone.
 
 ## Content Architecture
 
@@ -44,9 +50,10 @@ developer verification.
 2. Zain Dana Harper identity and Project Telos positioning.
 3. Site, flagship, and career links.
 4. Eight-engine flagship rows mirroring the site architecture.
-5. Public-safe private-line note routed through the main site.
-6. Range and working-style section.
-7. Tester threads and local verifier commands.
+5. Domain lanes drawn from the indexed public docs and Telos dogfood packets.
+6. Public-safe private-line note routed through the main site.
+7. Range and working-style section.
+8. Tester threads and local verifier commands.
 
 ## Constraints
 

@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-07-01 - Research Lab Scope Correction
+
+- Reframed the profile from a narrow evidence/accountability surface to Project
+  Telos as a cross-domain research lab and product ecosystem.
+- Added an index-backed scope assessment receipt covering the public workspace,
+  site docs, Telos research packets, and the profile copy impact.
+- Expanded the README with domain lanes across formal systems, AI4Science,
+  infrastructure risk, perception/media, and agent/product surfaces.
+- Updated the verifier, usage guide, product brief, design notes, and CI lint
+  list so future edits preserve the broader lab framing.
+
 ## 2026-07-01 - Site-Aligned Profile Draft
 
 - Reworked the profile README to match the live Project Telos site language:

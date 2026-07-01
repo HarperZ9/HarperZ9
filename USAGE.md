@@ -1,8 +1,8 @@
 # Usage Guide
 
 This repository publishes the `HarperZ9` GitHub profile README. It is a public
-front door to the Project Telos site, flagship engines, tester threads, and
-verification surfaces.
+front door to the Project Telos site, cross-domain research lab, flagship
+engines, tester threads, and verification surfaces.
 
 ## View
 
@@ -35,6 +35,8 @@ $markdownFiles = @(
   "USAGE.md",
   "PRODUCT.md",
   "docs/brand/README.md",
+  "docs/research/2026-07-01-profile-template-research.md",
+  "docs/research/2026-07-01-index-scope-assessment.md",
   "docs/superpowers/specs/2026-07-01-github-profile-site-aligned-design.md",
   "docs/superpowers/plans/2026-07-01-github-profile-site-aligned.md"
 )
@@ -70,4 +72,6 @@ Before publishing:
   used by the profile README.
 - `docs/research/2026-07-01-profile-template-research.md` records the public
   profile-template and forum research behind the direction.
+- `docs/research/2026-07-01-index-scope-assessment.md` records the index-backed
+  scope correction that keeps Telos framed as a research lab across domains.
 - `CHANGELOG.md` records public-facing profile updates.

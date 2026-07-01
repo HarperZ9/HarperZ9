@@ -22,6 +22,7 @@ REQUIRED_ASSETS = ("docs/brand/profile-hero.png",)
 
 REQUIRED_DOCS = (
     "docs/research/2026-07-01-profile-template-research.md",
+    "docs/research/2026-07-01-index-scope-assessment.md",
     "docs/superpowers/specs/2026-07-01-github-profile-site-aligned-design.md",
     "docs/superpowers/plans/2026-07-01-github-profile-site-aligned.md",
 )
@@ -36,6 +37,9 @@ REQUIRED_README_TERMS = (
     "https://github.com/HarperZ9/emet",
     "https://github.com/HarperZ9/buildlang",
     "https://github.com/HarperZ9/learn",
+    "Research lab, not a single tool.",
+    "Domain lanes.",
+    "Evidence is the lab method, not the whole mission.",
     "Open tester threads",
 )
 
@@ -43,7 +47,7 @@ PROFILE_CONTRACT_TERMS = (
     "Zain Dana Harper",
     "Project Telos",
     "Build with a model. Take nothing on faith.",
-    "Eight engines, equal standing.",
+    "research lab and product ecosystem",
     "One engineer, an unusual span.",
     "Test the floor.",
     "Build it to be checked, or do not ship it.",
