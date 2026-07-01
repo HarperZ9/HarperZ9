@@ -166,6 +166,132 @@ python examples/demo.py
 
 </details>
 
+## Workbench quests.
+
+Pick one path and press on it. Each quest is small enough to start in a few
+minutes and specific enough to become a real interview conversation.
+
+| Mode | Start here | Artifact you should get |
+| --- | --- | --- |
+| Make | [Studio](https://harperz9.github.io/studio.html) or `telos` | A visual state tied back to a source route. |
+| Map | `index atlas` | A local HTML map of code and docs. |
+| Capture | `gather docs` | A source packet with a receipt boundary. |
+| Route | `forum route --json` | A routing decision you can replay. |
+| Attack | `crucible` | A `MATCH`, `DRIFT`, or `UNVERIFIABLE` verdict. |
+| Validate | [proof-surface](https://github.com/HarperZ9/proof-surface) | A contract suite that either passes or names the break. |
+
+<details open>
+<summary><strong>Quest 1: make the machine draw.</strong></summary>
+
+Open [The Studio](https://harperz9.github.io/studio.html), pick a route, and
+make something visual before you read another paragraph. Then pull the source
+surface:
+
+```powershell
+git clone https://github.com/HarperZ9/telos
+cd telos
+node demo/run.mjs
+```
+
+This is the part of the work where my personality shows up fastest: image,
+motion, old rendering instincts, names, and the refusal to let a beautiful
+state float away without a record.
+
+</details>
+
+<details>
+<summary><strong>Quest 2: map a workspace.</strong></summary>
+
+Point `index` at a repo that has more knowledge than one person can keep in
+their head:
+
+```powershell
+python -m pip install index-graph
+index atlas --root C:\path\to\workspace --format html --out atlas.html
+```
+
+Open the HTML file and ask two questions: which edge surprised you, and which
+doc no longer matches the code it claims to explain?
+
+</details>
+
+<details>
+<summary><strong>Quest 3: capture a source.</strong></summary>
+
+Give `gather` a small notes folder and make it preserve the method, scope, and
+receipt instead of pretending the summary is the evidence:
+
+```powershell
+python -m pip install gather-engine
+gather docs ./research-notes --scope "claim,evidence"
+```
+
+The interesting part is not whether it sounds polished. The interesting part
+is whether you can still find the boundary between source, digest, and claim.
+
+</details>
+
+<details>
+<summary><strong>Quest 4: replay an agent route.</strong></summary>
+
+Make `forum` choose a lane without hiding the choice behind personality or
+vibes:
+
+```powershell
+python -m pip install forum-engine
+forum route --json "build the auth endpoint and the database schema"
+```
+
+Then change the prompt until the route changes. That edge case is where the
+tool starts to become useful.
+
+</details>
+
+<details>
+<summary><strong>Quest 5: force a verdict.</strong></summary>
+
+Run `crucible` and look for the point where a confident sentence stops being
+checkable:
+
+```powershell
+git clone https://github.com/HarperZ9/crucible
+cd crucible
+python examples/demo.py
+```
+
+I like this kind of tool because it is rude in the correct direction. It does
+not care whether the claim is pretty. It asks whether the claim survived the
+measurement surface.
+
+</details>
+
+<details>
+<summary><strong>Quest 6: validate a contract.</strong></summary>
+
+Pull [proof-surface](https://github.com/HarperZ9/proof-surface) and make the
+contract speak through tests:
+
+```powershell
+git clone https://github.com/HarperZ9/proof-surface
+cd proof-surface
+python -m pip install -e .
+python -m pytest -q
+```
+
+This is the boring-looking part that keeps the interesting parts honest.
+
+</details>
+
+## Conversation starters.
+
+- Ask me to map a messy repo in real time.
+- Ask me where a model answer should turn into `UNVERIFIABLE`.
+- Ask me what I overbuilt, what I cut, and what I still miss.
+- Ask me why visual tools, compiler boundaries, and receipts keep showing up
+  in the same room.
+- Ask me for the smallest demo that would make you trust one of these systems
+  less.
+
 ## The instruments.
 
 | If you want to... | Open | What it proves first |

@@ -44,6 +44,10 @@ by a public link or test path.
   route charts that render without JavaScript.
 - Add interactivity through real reader choices: showcase drawers, demo links,
   runnable command snippets, and public site surfaces.
+- Keep a quest layer near the top so a visitor can make, map, capture, route,
+  attack, or validate something without inventing their own path.
+- Include conversation starters that reveal taste, fallibility, and judgment,
+  not only project inventory.
 - Give hiring teams a fast inspection door without making the whole profile
   feel like corporate positioning.
 - Name what the instruments do in active language.
