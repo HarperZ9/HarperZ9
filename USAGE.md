@@ -14,6 +14,10 @@ artifact, a first inspection path, or an explicit boundary.
 Voice should stay human. The profile should preserve the artistic,
 mistake-making, fallible person behind the clean engineering surface.
 
+The enterprise profile pass is market-aware and telemetry-informed. Keep exact
+market numbers and traffic snapshots in research receipts unless publishing
+them directly helps the reader make a better hiring or collaboration decision.
+
 ## View
 
 Open:
@@ -45,6 +49,7 @@ $markdownFiles = @(
   "USAGE.md",
   "PRODUCT.md",
   "docs/brand/README.md",
+  "docs/research/2026-07-01-enterprise-profile-research.md",
   "docs/research/2026-07-01-profile-template-research.md",
   "docs/research/2026-07-01-index-scope-assessment.md",
   "docs/superpowers/specs/2026-07-01-github-profile-site-aligned-design.md",
@@ -85,6 +90,9 @@ Before publishing:
   used by the profile README.
 - `docs/research/2026-07-01-profile-template-research.md` records the public
   profile-template and forum research behind the direction.
+- `docs/research/2026-07-01-enterprise-profile-research.md` records the
+  market, telemetry, forum, and index signals behind the enterprise-profile
+  rewrite.
 - `docs/research/2026-07-01-index-scope-assessment.md` records the index-backed
   scope correction that keeps Telos framed as a research lab across domains.
 - `CHANGELOG.md` records public-facing profile updates.
