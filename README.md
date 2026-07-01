@@ -26,6 +26,28 @@ work expands.
 
 **Work:** [resume](https://harperz9.github.io/resume.html) | [portfolio](https://harperz9.github.io/portfolio.html) | [research](https://harperz9.github.io/research.html)
 
+## Why this profile is worth your time.
+
+- I build across the stack: public sites, Python CLIs, Node demos, MCP tools,
+  compiler experiments, C++/graphics work, docs, tests, and release surfaces.
+- I use AI aggressively without handing it authority: every serious claim needs
+  a source, receipt, test, or boundary.
+- I am strongest where the problem is underspecified: new tools, research
+  infrastructure, agent workflows, developer experience, and systems that need
+  both imagination and discipline.
+- I ship public artifacts, not just private screenshots: source repos, docs,
+  issue threads, demos, verifiers, and a portfolio site you can inspect.
+
+## Best-fit roles.
+
+| Role lane | Why I fit |
+| --- | --- |
+| AI tooling / research infrastructure | I build source intake, context, evaluation, and receipt systems around model work. |
+| Developer tools / platform engineering | I turn repeated workflows into CLIs, docs, checks, and public package surfaces. |
+| Agent orchestration / evals | I design worker/verifier splits, routing ledgers, failure modes, and replayable decisions. |
+| Systems / compilers / runtime experiments | I work below the app layer: typed effects, C/Rust/C++ paths, kernels, and runtime boundaries. |
+| Graphics, color, and visual tooling | I connect rendering, calibration, GPU traces, perceptual color, and inspectable outputs. |
+
 ## Hiring manager fast path.
 
 | Signal | Inspect first | What it shows |
@@ -35,6 +57,39 @@ work expands.
 | Research operations | [gather](https://github.com/HarperZ9/gather) | Provenance-aware intake for messy web, paper, media, and document sources. |
 | Agent orchestration | [forum](https://github.com/HarperZ9/forum) | Multi-agent plans, routing, ledgers, and resumable handoffs. |
 | Language/runtime depth | [buildlang](https://github.com/HarperZ9/buildlang) | Typed-effects systems language work with checked capability surfaces. |
+
+## Inspect by time budget.
+
+<details open>
+<summary><strong>30 seconds: decide whether to keep reading</strong></summary>
+
+Read the opening, scan the hiring table, and open the
+[portfolio](https://harperz9.github.io/portfolio.html). The signal to look for:
+one person building a coherent research/tooling ecosystem across domains, with
+source links and verification paths kept visible.
+
+</details>
+
+<details>
+<summary><strong>5 minutes: inspect the strongest artifacts</strong></summary>
+
+Open [telos](https://github.com/HarperZ9/telos),
+[index](https://github.com/HarperZ9/index), and
+[gather](https://github.com/HarperZ9/gather). In each, look for the same
+engineering habit: clear public purpose, runnable commands, receipts or tests,
+and explicit boundaries around what is not proven.
+
+</details>
+
+<details>
+<summary><strong>20 minutes: pressure-test the fit</strong></summary>
+
+Read the [CV](https://harperz9.github.io/cv.html), follow one domain lane, and
+open a tester thread. The question is not whether every line is finished; it is
+whether the work shows enough range, judgment, and self-checking discipline to
+justify a conversation.
+
+</details>
 
 <details open>
 <summary><strong>Choose your path: hiring manager</strong></summary>
@@ -64,6 +119,17 @@ every field; it is a repeatable way to turn domain work into inspectable packets
 negative fixtures, and explicit uncertainty.
 
 </details>
+
+## Proof-of-work matrix.
+
+| What I claim | Public evidence | First check |
+| --- | --- | --- |
+| I can map large code/workspace surfaces. | [index](https://github.com/HarperZ9/index) | Run a workspace map and compare it to the tree. |
+| I can turn messy research inputs into usable packets. | [gather](https://github.com/HarperZ9/gather) | Capture a source and inspect its provenance receipt. |
+| I can coordinate multi-agent work without losing the trail. | [forum](https://github.com/HarperZ9/forum) | Replay a ledgered decision path. |
+| I can build language/runtime ideas, not only wrappers. | [buildlang](https://github.com/HarperZ9/buildlang) | Inspect typed effects and the checked C path. |
+| I can make visual and native systems concrete. | [portfolio](https://harperz9.github.io/portfolio.html) | Follow the graphics, color, and Studio surfaces. |
+| I can document uncertainty instead of hiding it. | [research](https://harperz9.github.io/research.html) | Look for `MATCH`, `DRIFT`, `UNVERIFIABLE`, and named gaps. |
 
 ## Map the work.
 
