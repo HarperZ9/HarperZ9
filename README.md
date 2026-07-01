@@ -24,6 +24,11 @@ If you are hiring, the useful signal is not that I can use AI. It is that I can
 turn ambiguous technical work into instruments another engineer can run, read,
 break, and improve.
 
+I also care about the strange parts: color, rhythm, names, diagrams, tiny
+interaction details, old rendering tricks, and the feeling that a tool has a
+person behind it. I want the work to be serious without pretending the maker is
+made of glass and policy documents.
+
 **Site:** [harperz9.github.io](https://harperz9.github.io)
 
 **Work:** [resume](https://harperz9.github.io/resume.html) | [portfolio](https://harperz9.github.io/portfolio.html) | [CV](https://harperz9.github.io/cv.html) | [research](https://harperz9.github.io/research.html) | [Studio](https://harperz9.github.io/studio.html)
@@ -91,6 +96,76 @@ proof surface fails.
 
 </details>
 
+## Showcases and demos.
+
+<details open>
+<summary><strong>Open something visual.</strong></summary>
+
+Start with [The Studio](https://harperz9.github.io/studio.html). It is the live
+surface of Project Telos: a person and a model perceive the same thing, shape
+it, and check the result. The page includes the Atelier, 2D/3D fractals,
+dimension work, bring-your-own media, music, and physics routes.
+
+Then open the [catalog](https://harperz9.github.io/catalog.html) for the full
+front door and the [flagship overview](https://harperz9.github.io/overview.html)
+for the broader atlas.
+
+</details>
+
+<details>
+<summary><strong>Run a tiny demo from source.</strong></summary>
+
+These are not profile decorations; they are small runnable doors into the
+workbench.
+
+```powershell
+git clone https://github.com/HarperZ9/telos
+cd telos
+node demo/run.mjs
+```
+
+```powershell
+git clone https://github.com/HarperZ9/gather
+cd gather
+python examples/demo.py
+```
+
+```powershell
+git clone https://github.com/HarperZ9/forum
+cd forum
+python examples/demo.py
+```
+
+</details>
+
+<details>
+<summary><strong>Inspect the demo surfaces.</strong></summary>
+
+| Demo | Link | What to look for |
+| --- | --- | --- |
+| Studio | [live surface](https://harperz9.github.io/studio.html) | Visual creation, perception, and verification in one place. |
+| Project catalog | [live atlas](https://harperz9.github.io/catalog.html) | The public map of engines, demos, and research surfaces. |
+| Flagships | [overview](https://harperz9.github.io/overview.html) | How the engines fit together as peers. |
+| Research | [current lanes](https://harperz9.github.io/research.html) | Domain packets, status notes, and explicit gaps. |
+| BuildLang | [landing page](https://harperz9.github.io/buildlang/) | Effects-language compiler positioning and public route. |
+| index | [atlas demo](https://github.com/HarperZ9/index/blob/main/examples/atlas-demo.html) | A code/docs map as an inspectable artifact. |
+| gather | [proof surface](https://github.com/HarperZ9/gather/blob/main/examples/gather-demo.html) | Source intake with provenance receipts. |
+| forum | [ledger replay](https://github.com/HarperZ9/forum/blob/main/examples/forum-demo.html) | Agent routing with a replayable record. |
+
+</details>
+
+<details>
+<summary><strong>Pick a mood.</strong></summary>
+
+- **I want craft:** open Studio, then read the graphics/color lane.
+- **I want rigor:** run `python scripts/check_profile_surface.py`, then inspect
+  `crucible`, `emet`, or `proof-surface`.
+- **I want systems depth:** open BuildLang, `index`, and the C++/graphics notes.
+- **I want the person:** read the weird-human door, then follow the portfolio
+  and CV.
+
+</details>
+
 ## The instruments.
 
 | If you want to... | Open | What it proves first |
@@ -148,6 +223,36 @@ pie title Intentional profile routing mix, not traffic data
   compiler ideas, docs, and product surfaces.
 - Caring about the feel of the thing: names, diagrams, colors, error states,
   alt text, scan paths, and whether the tool invites a person to keep thinking.
+
+## Bench notes.
+
+<details>
+<summary><strong>Things I keep reaching for.</strong></summary>
+
+Color systems. Compiler boundaries. Old graphics pipelines. Small local tools.
+Diagrams that make a system less lonely. Receipts. Beautiful names. Harsh tests.
+Interfaces that feel quiet until they need to speak.
+
+</details>
+
+<details>
+<summary><strong>Things I am still learning in public.</strong></summary>
+
+How to make a very broad research lab legible without flattening it. How to
+keep ambition from becoming posture. How to let AI help without letting it
+launder uncertainty. How to make demos feel alive while still leaving a trail
+another person can check.
+
+</details>
+
+<details>
+<summary><strong>Things that usually mean I am doing the right work.</strong></summary>
+
+The first version is too strange. The second version is too clean. The third
+version has a test, a name, a diagram, a rough edge I still like, and a small
+door someone else can open.
+
+</details>
 
 ## What I am not pretending.
 

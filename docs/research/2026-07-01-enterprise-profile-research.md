@@ -149,7 +149,7 @@ positioning. The profile direction was then reapproached as a public lab bench:
 reader doors, instruments, maps, open traps, and a more visible human voice.
 The market and telemetry research still inform the routing, but the README no
 longer leads with a market-report frame. Hiring signal is carried through
-inspectable work instead of résumé-page posture.
+inspectable work instead of resume-page posture.
 
 ## Residual Limits
 
