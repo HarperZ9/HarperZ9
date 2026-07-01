@@ -24,6 +24,8 @@ standard library, GitHub Actions Markdown lint.
 - Preserve required links to the main site and the eight public engines.
 - Preserve the broader research-lab framing from the index-backed scope
   assessment.
+- Preserve GitHub-native interaction that helps hiring managers route through
+  the work quickly.
 - Use `docs/brand/profile-hero.png`; do not add bespoke README diagrams.
 
 ---
@@ -104,3 +106,20 @@ standard library, GitHub Actions Markdown lint.
 - [x] Add domain lanes covering formal systems, AI4Science, infrastructure
       risk, perception/media, and agent/product surfaces.
 - [x] Update the profile verifier and docs so the correction persists.
+
+### Task 6: Hiring Signal and GitHub-Native Interaction
+
+**Files:**
+
+- Modify: `README.md`
+- Modify: `scripts/check_profile_surface.py`
+
+**Steps:**
+
+- [x] Add a hiring-manager fast path before the deep flagship inventory.
+- [x] Add collapsible reader paths for hiring managers, engineers, and
+      research collaborators.
+- [x] Add Mermaid ecosystem map and route chart blocks that GitHub can render.
+- [x] Add direct links to live site surfaces for richer interaction.
+- [x] Label charts that are editorial routing aids rather than traffic data.
+- [x] Update the verifier and docs so these interactive affordances persist.
