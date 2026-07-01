@@ -21,6 +21,7 @@ REQUIRED_FILES = (
 REQUIRED_ASSETS = ("docs/brand/profile-hero.png",)
 
 REQUIRED_DOCS = (
+    "docs/research/2026-07-01-enterprise-profile-research.md",
     "docs/research/2026-07-01-profile-template-research.md",
     "docs/research/2026-07-01-index-scope-assessment.md",
     "docs/superpowers/specs/2026-07-01-github-profile-site-aligned-design.md",
@@ -54,10 +55,15 @@ REQUIRED_README_TERMS = (
     "https://harperz9.github.io/studio.html",
     "```mermaid",
     "Intentional profile routing mix, not traffic data",
-    "Research lab, not a single tool.",
     "Domain lanes.",
     "Evidence is the lab method, not the personality.",
     "Open tester threads",
+    "AI fluency is becoming table stakes",
+    "Choose your path: adversarial tester",
+    "Signature systems.",
+    "proof-surface",
+    "How this profile is built.",
+    "enterprise profile receipt",
 )
 
 PROFILE_CONTRACT_TERMS = (

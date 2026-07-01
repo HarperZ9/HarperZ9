@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-07-01 - Enterprise Flagship Profile Rewrite
+
+- Rewrote the profile README as a market-aware flagship surface instead of a
+  static project catalog.
+- Added an enterprise research and telemetry receipt covering GitHub profile
+  constraints, market reports, developer-forum signals, public GitHub telemetry,
+  and `index` workspace scope.
+- Sharpened the first screen around AI fluency as table stakes, with
+  differentiated value in systems judgment, verification, taste, and public
+  artifacts.
+- Added an adversarial tester path and kept GitHub-native interactive routes,
+  Mermaid maps, proof matrix, domain lanes, and tester threads.
+- Updated the product brief, usage guide, verifier, and CI lint list to protect
+  the new profile contract.
+
 ## 2026-07-01 - Human Voice Pass
 
 - Added a human opening note that names the artistic, restless, fallible person
