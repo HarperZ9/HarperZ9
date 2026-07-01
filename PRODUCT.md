@@ -22,6 +22,13 @@ should explain what Zain likes, what work he actually does, and how the public
 project history grew from graphics, color, compilers, field operations,
 technical writing, AI systems, and research tooling.
 
+The current voice is session-context informed. It should reflect the recurring
+four-month working pattern across Codex and Claude Code: scan actual state,
+dogfood tools against real work, break them adversarially, document the failure,
+merge what holds, push public artifacts when safe, and keep the artistic edge
+visible. Do not publish raw private session text, secrets, client material, or
+unsafe operational detail.
+
 ## Brand Personality
 
 Clean, rigorous, restrained, ambitious, artistic, and human. The profile should
@@ -48,6 +55,11 @@ by a public link or test path.
   lived work history that shaped the engineering judgment.
 - Keep the hiring signal implicit in the quality and specificity of the public
   artifacts. The profile should not read like a sales page.
+- Preserve the actual operating rhythm: scan, assess, dogfood, break, verify,
+  commit, push, and raise the bar.
+- Keep the tone ambitious and human. Zain can sound intense, artistic,
+  impatient with vague demos, and fallible without sounding reckless or
+  performative.
 - Use GitHub-native interaction: collapsible paths, Mermaid maps, and compact
   route charts that render without JavaScript.
 - Add interactivity through real reader choices: showcase drawers, demo links,
