@@ -8,31 +8,23 @@
 
 This is a workbench, not a trophy case.
 
-You want me when the work is too important to leave as vibes and too early to
-fit neatly inside a ticket. The repo is sprawling, the AI workflow is clever
-but untrusted, the sources are messy, the prototype is alive but fragile, and
-someone needs to turn it into something other people can run, inspect, argue
-with, and improve.
+I am **Zain Dana Harper**, a self-taught systems engineer in Seattle. I like
+the borderlands: color systems, old graphics pipelines, compilers, small local
+tools, messy source trails, agent ledgers, proofs that can fail, and interfaces
+that feel like a person built them.
 
-What you are buying is not "AI fluency." You are buying translation pressure:
-messy input into legible systems, model output into checked artifacts,
-promising demos into runnable surfaces, and ambition into a map, receipt, test,
-or named gap.
+Most of my work starts from the same private itch: I want the thing in front of
+me to be visible enough to understand, beautiful enough to keep touching, and
+honest enough to be corrected. A shader. A transit diagram. A typed effect. A
+study plan. A research packet. A receipt. A model answer that has to admit
+when it does not know.
 
-I am **Zain Dana Harper**, a self-taught systems engineer in Seattle. I build
-**Project Telos** as a cross-domain **research lab and product ecosystem** for
-AI-era work: source intake, workspace maps, agent ledgers, claim checks,
-compiler experiments, graphics, color, simulation, learning workflows, and the
-receipts that make the whole thing inspectable.
+I build verification systems because I need them. I am artistic, restless,
+fallible, stubborn, and very capable of chasing a beautiful wrong idea farther
+than I should. The public work is how I slow that down: I make the idea leave
+a map, a test, a demo, a named gap, or a scar someone else can inspect.
 
-The reason this works is not because I am sterile. I am artistic, restless,
-fallible, stubborn, and very capable of sprinting after a beautiful wrong idea.
-I build verification systems because I need them. I make strange connections,
-take wrong turns, argue with the machine, get humbled by tests, and keep the
-parts that survive being checked.
-
-The durable signal: I turn ambiguous technical work into instruments another
-engineer can run, read, break, and improve.
+**Project Telos** is the public form of that habit: a cross-domain **research lab and product ecosystem** for AI-era work across source intake, workspace maps, agent routing, claim checks, compiler experiments, graphics, color, simulation, learning workflows, and witnessed execution.
 
 **Site:** [harperz9.github.io](https://harperz9.github.io)
 
@@ -40,111 +32,134 @@ engineer can run, read, break, and improve.
 
 **Flagships:** [telos](https://github.com/HarperZ9/telos) | [index](https://github.com/HarperZ9/index) | [gather](https://github.com/HarperZ9/gather) | [forum](https://github.com/HarperZ9/forum) | [crucible](https://github.com/HarperZ9/crucible) | [emet](https://github.com/HarperZ9/emet) | [buildlang](https://github.com/HarperZ9/buildlang) | [learn](https://github.com/HarperZ9/learn)
 
-## Why you want me in the room.
+## What I keep coming back to.
 
-| If your problem sounds like... | What you get |
+| Pull | What it became |
 | --- | --- |
-| A repo nobody can explain without the one person who remembers it. | A map, dependency evidence, stale-doc pressure, and a path for the next engineer. |
-| An AI workflow that works only when watched. | Memory, receipts, verifier boundaries, and failure modes that can be replayed. |
-| A pile of sources that keeps turning into confident summaries. | Method-labeled intake, scoped packets, and visible separation between evidence and claim. |
-| A prototype people like but cannot trust. | A demo surface with checks, contracts, and a way to make the first break reproducible. |
-| A product that needs both taste and teeth. | Quiet interface judgment, strange creative range, and engineering discipline in the same loop. |
+| Light, color, and rendering | [Elder ENB](https://www.nexusmods.com/skyrimspecialedition/mods/117327), a public graphics project past 900,000 downloads; D3D11/HLSL engines; GPU trace tooling; [Build Color](https://harperz9.github.io/build-color.html), a Python color-science workbench. |
+| Languages and boundaries | [BuildLang](https://harperz9.github.io/buildlang/), a Rust-built typed-effects compiler where functions declare what they may touch and the compiler checks the promise. |
+| AI with memory and brakes | [Project Telos](https://github.com/HarperZ9/telos), [gather](https://github.com/HarperZ9/gather), [index](https://github.com/HarperZ9/index), [forum](https://github.com/HarperZ9/forum), and [crucible](https://github.com/HarperZ9/crucible): sources, maps, routes, verdicts, and receipts. |
+| Learning that does not bypass the learner | [learn](https://github.com/HarperZ9/learn), Learning Forge, study loops, graded-step boundaries, and tools that help without taking the test for you. |
+| Work that survives contact with people | Technical writing, compliance docs, Xbox networking support, field operations, arborist scheduling, customer calls, safety procedures, and the practical patience that comes from real jobs. |
+| Beautiful things with accountable edges | The Studio, fractals, sound-reactive surfaces, renderer probes, visual studies, and the rule that a good artifact should leave a trail. |
 
-You are not buying polish. You are buying someone who can sit inside uncertainty
-long enough to make it useful, then leave behind tools, docs, tests, and
-questions sharp enough for another person to continue.
+## Project history, in plain English.
 
-## Buy the pattern.
+<details open>
+<summary><strong>The short version.</strong></summary>
 
-Buy me when the job is not "implement this already-clear ticket." Buy me when
-you need someone to make the ticket possible.
+I started coding in middle school and came up without a CS degree or industry
+certification. The credential is the public trail: shipped crates, a VS Code
+Marketplace extension, open repositories, a real audience for graphics work,
+and tools that can be cloned, run, and argued with.
 
-| Buy me for | Because I will |
-| --- | --- |
-| Ambiguous AI/product infrastructure | Find the moving parts, name the state, build the first surface people can inspect. |
-| Source-heavy research workflows | Separate evidence from summary, keep provenance visible, and mark what cannot be verified yet. |
-| Developer tools with messy adoption paths | Turn repeated friction into CLIs, docs, examples, issue paths, and tests. |
-| Prototype-to-product pressure | Keep the weird useful spark while adding enough contracts for other engineers to trust it. |
-| Cross-domain technical exploration | Move between code, docs, graphics, compilers, research, and product judgment without losing the thread. |
+The throughline is not a job title. It is the same habit appearing in different
+rooms: make the hidden state visible, make the failure mode nameable, make the
+thing beautiful enough that people want to touch it again.
 
-Do not buy me for a quiet maintenance lane where the desired outcome is already
-fully specified, politically settled, and mostly waiting for throughput. I can
-do careful execution, but the highest return is in the fog before the clean
-plan exists.
+</details>
 
-## How to evaluate the bet.
+<details>
+<summary><strong>The work that shaped me.</strong></summary>
 
-You do not need to believe the profile. Spend ten minutes looking for conversion
-evidence:
+- **Technical Networking Support, Xbox Division:** TCP/IP, DNS, NAT, router
+  configuration, account-adjacent support, and the first hard lesson that a
+  correct answer is not useful until another person can act on it.
+- **Operations Manager / Lead Arborist, family business:** field work, client
+  relations, scheduling, proposals, site assessments, safety procedures,
+  vendor calls, budgets, and the kind of accountability that is not abstract.
+- **Freelance technical writing and consulting:** API guides, security and
+  compliance documentation, onboarding material, proposals, and the discipline
+  of explaining systems without exposing client internals.
+- **Independent engineering since 2023:** compilers, graphics, color science,
+  multi-agent systems, research tooling, public demos, and a growing lab
+  surface under Project Telos.
 
-1. Open [index](https://github.com/HarperZ9/index) and ask whether the map makes
-   a codebase easier to hand to the next engineer.
-2. Open [gather](https://github.com/HarperZ9/gather) and ask whether source
-   intake keeps provenance visible instead of laundering it into prose.
-3. Open [forum](https://github.com/HarperZ9/forum) and ask whether agent work
-   gets a replayable route instead of a vanished chat transcript.
-4. Open [crucible](https://github.com/HarperZ9/crucible) and ask whether a
-   claim can fail cleanly.
-5. Open [Studio](https://harperz9.github.io/studio.html) and ask whether the
-   same person who builds the checks also has taste.
+</details>
 
-If the answer to at least three is "yes, and I can see how this would apply to
-our mess," that is the buying signal.
+<details>
+<summary><strong>The projects that changed the shape of the work.</strong></summary>
+
+- **Elder ENB:** a Skyrim graphics and lighting project with roughly two years
+  of public releases, feedback loops, named editions, and more than 900,000
+  downloads. It taught me taste, iteration, users, and the difference between a
+  pretty frame and a maintained system.
+- **Native graphics lineage:** D3D11/HLSL renderers, proxy-DLL interception,
+  mid-frame compute dispatch, ACES/AgX tone mapping, TAA, SSR, SSGI, GTAO,
+  volumetrics, ImGui tools, CMake/vcpkg, and shared-memory IPC.
+- **Build Color:** a color-science workbench for color spaces, HDR tone
+  mapping, perceptual difference metrics, chromatic adaptation, ICC profiles,
+  gamut work, color-vision simulation, and 3D LUTs.
+- **BuildLang:** a typed-effects language and compiler line: lexing, parsing,
+  checking, effects, lifetimes, C FFI, C lowering, editor support, and explicit
+  maturity labels for unfinished parts.
+- **Project Telos:** the current flagship: give model-assisted work durable
+  state, senses, action boundaries, receipts, and checks before anyone is asked
+  to trust it.
+
+</details>
 
 ## Choose a door.
 
 <details open>
-<summary><strong>I have 30 seconds.</strong></summary>
+<summary><strong>I want the short version.</strong></summary>
 
-Answer one question: do you need someone who makes unclear technical work
-inspectable? If yes, skim the buyer table above, then open the
-[portfolio](https://harperz9.github.io/portfolio.html). The pattern to look
-for is not a credential stack. It is repeated conversion: unclear work becoming
-artifacts with receipts, boundaries, and runnable surfaces.
+I build tools for messy, creative, model-assisted technical work. The tools
+usually do one of five things: capture sources, map workspaces, route agents,
+check claims, or turn an idea into a surface another person can inspect.
+
+Start with [Studio](https://harperz9.github.io/studio.html) if you want the
+visual side, [telos](https://github.com/HarperZ9/telos) if you want the whole
+system, or the [portfolio](https://harperz9.github.io/portfolio.html) if you
+want the work history.
 
 </details>
 
 <details>
-<summary><strong>I am hiring for AI tooling or platform work.</strong></summary>
+<summary><strong>I want the visual and art side.</strong></summary>
+
+Open [The Studio](https://harperz9.github.io/studio.html), then the graphics
+and color notes in the [portfolio](https://harperz9.github.io/portfolio.html).
+This is where the old rendering instincts show up: light, color, tone mapping,
+volumetrics, game-engine edges, fractals, visual studies, and the desire to
+make a system feel alive without losing the receipt.
+
+</details>
+
+<details>
+<summary><strong>I want the AI systems side.</strong></summary>
 
 Start with [telos](https://github.com/HarperZ9/telos),
-[index](https://github.com/HarperZ9/index), and
-[gather](https://github.com/HarperZ9/gather). You are not buying a prompt
-operator. The strongest fit is where the problem is underspecified: agent
-workflows, research infrastructure, developer tools, source-grounded systems,
-and products that need both taste and discipline.
-
-Then read `Buy the pattern` above. The point is not whether I match a narrow
-keyword list. The point is whether your team needs a person who can convert
-fog into surfaces other people can trust.
+[gather](https://github.com/HarperZ9/gather),
+[index](https://github.com/HarperZ9/index),
+[forum](https://github.com/HarperZ9/forum), and
+[crucible](https://github.com/HarperZ9/crucible). The question underneath all
+of them is simple: what would an AI workflow look like if memory, source
+boundaries, routing decisions, action records, and failure states were first
+class instead of implied?
 
 </details>
 
 <details>
-<summary><strong>I am an engineer and want proof.</strong></summary>
+<summary><strong>I want the compiler and systems side.</strong></summary>
 
-Run this profile verifier, then inspect one flagship end to end:
-
-```powershell
-git clone https://github.com/HarperZ9/HarperZ9
-cd HarperZ9
-python scripts/check_profile_surface.py
-```
-
-Good first checks: run an `index` map, capture a `gather` packet, replay a
-`forum` ledger, force a `crucible` verdict, or inspect `buildlang` backend
-maturity labels.
+Open [BuildLang](https://harperz9.github.io/buildlang/) and the public
+[buildlang repo](https://github.com/HarperZ9/buildlang). The language asks a
+question I kept wanting tools to ask: what is this function actually allowed to
+do? That line connects back to the rest of the work: effects, receipts,
+permission boundaries, and explicit failure modes.
 
 </details>
 
 <details>
-<summary><strong>I want the weird human part.</strong></summary>
+<summary><strong>I want the messy human part.</strong></summary>
 
-I like systems that feel alive: visual tools, hard edges, careful names,
-generative art, color science, old graphics pipelines, compiler guts, and the
-moment when a messy private sketch becomes something another person can touch.
-I also overreach. I revise. I need public boundaries because ambition without a
-record turns into theater.
+I like clean instruments because I am not clean all the way down. I overreach,
+revise, get excited, get humbled by tests, and keep trying to build systems
+that judge the work instead of the worth of the person who made it.
+
+The personal page is here:
+[the person behind it](https://harperz9.github.io/person.html).
 
 </details>
 
@@ -223,8 +238,8 @@ python examples/demo.py
 - **I want rigor:** run `python scripts/check_profile_surface.py`, then inspect
   `crucible`, `emet`, or `proof-surface`.
 - **I want systems depth:** open BuildLang, `index`, and the C++/graphics notes.
-- **I want the person:** read the weird-human door, then follow the portfolio
-  and CV.
+- **I want the person:** read the messy-human door, then follow the portfolio,
+  CV, and personal page.
 
 </details>
 
@@ -346,12 +361,12 @@ This is the boring-looking part that keeps the interesting parts honest.
 
 ## Conversation starters.
 
-- Ask me to map a messy repo in real time.
-- Ask me where a model answer should turn into `UNVERIFIABLE`.
-- Ask me what I overbuilt, what I cut, and what I still miss.
-- Ask me why visual tools, compiler boundaries, and receipts keep showing up
-  in the same room.
-- Ask me for the smallest demo that would make you trust one of these systems
+- Ask me about a rendering mistake that turned into a tool.
+- Ask why color, compilers, source receipts, and model boundaries keep showing
+  up in the same room.
+- Ask what field operations taught me about software.
+- Ask what I overbuilt, what I misread, what I still do badly, and what I kept.
+- Ask for the smallest demo that would make you trust one of these systems
   less.
 
 ## The instruments.
@@ -377,43 +392,45 @@ GitHub renders this as a static diagram. The live surfaces are on the site:
 
 ```mermaid
 flowchart LR
-    messy["messy question / repo / source / idea"] --> gather["gather sources"]
+    itch["private itch / source / visual idea / repo"] --> gather["gather sources"]
     gather --> index["index the workspace"]
     index --> forum["route the work"]
     forum --> telos["make / simulate / act"]
     telos --> crucible["attack the claim"]
     crucible --> receipt["receipt, verdict, next question"]
     receipt --> human["human judgment"]
-    human --> messy
+    human --> itch
 
     telos --> studio["Studio / visual surfaces"]
     telos --> buildlang["BuildLang / effects"]
+    telos --> color["Build Color / perception"]
     crucible --> emet["EMET witness"]
     crucible --> proof["proof-surface contracts"]
 ```
 
 ```mermaid
-pie title Intentional profile routing mix, not traffic data
-    "Human signal" : 20
-    "Hiring signal" : 20
-    "Runnable instruments" : 30
-    "Research breadth" : 15
+pie title Profile routing mix, not traffic data
+    "Human and work history" : 22
+    "Visual craft" : 18
+    "Runnable instruments" : 28
+    "Research breadth" : 17
     "Break-it paths" : 15
 ```
 
-## What this buys you.
+## The pattern underneath.
 
-- Ambiguity turns into a map, a CLI, a demo, a receipt, or a named gap.
-- Model output stops being the authority and becomes one artifact inside a
-  checked workflow.
-- A messy research lane gets source intake, scope labels, and a way to say
-  `UNVERIFIABLE` without drama.
-- A promising prototype gets enough engineering surface for another person to
-  run it, break it, and decide what deserves investment.
-- The tool keeps a human shape: names, diagrams, colors, error states, alt
-  text, scan paths, and the feeling that someone cared how it lands.
-- Your team gets less hidden state: fewer "trust me" claims, fewer orphaned
-  demos, fewer private explanations that only exist in someone's head.
+- I notice when a system depends on hidden memory, private taste, or someone
+  being in the room to explain it.
+- I turn that hidden state into maps, CLIs, source packets, demos, receipts,
+  tests, and failure names.
+- I do not trust my own first answer very much. That is why the tools keep
+  asking for evidence, replay, and a clean way to say `UNVERIFIABLE`.
+- I care about beauty, but not as decoration. Light, color, rhythm, naming,
+  and interaction are how a technical system becomes something people can keep
+  using.
+- I like broad research because fields cross-pollinate. A graphics habit can
+  shape a verifier. A compiler boundary can shape an agent route. Field work
+  can shape a product checklist.
 
 ## Bench notes.
 
@@ -421,8 +438,8 @@ pie title Intentional profile routing mix, not traffic data
 <summary><strong>Things I keep reaching for.</strong></summary>
 
 Color systems. Compiler boundaries. Old graphics pipelines. Small local tools.
-Diagrams that make a system less lonely. Receipts. Beautiful names. Harsh tests.
-Interfaces that feel quiet until they need to speak.
+Diagrams that make a system less lonely. Receipts. Beautiful names. Harsh
+tests. Interfaces that feel quiet until they need to speak.
 
 </details>
 
@@ -452,8 +469,8 @@ door someone else can open.
   experiments with explicit gaps.
 - A receipt is not truth. It is a way to preserve enough state that another
   person can check what happened.
-- A model is not a coworker, a judge, or a source of authority. It is a powerful
-  instrument that needs memory, senses, brakes, and a record.
+- A model is not a coworker, a judge, or a source of authority. It is a
+  powerful instrument that needs memory, senses, brakes, and a record.
 - I am not polished all the way down. I am a human trying to build clean
   instruments from a messy interior life.
 

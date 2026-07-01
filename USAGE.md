@@ -13,14 +13,14 @@ instruments, maps, traps, and proof paths. Hiring signal should be present, but
 it should be embedded in how the work can be inspected rather than framed as a
 generic resume page.
 
-The opening should be buyer-centered. Lead with the reader's pain: ambiguous
-technical work, untrusted AI workflows, messy sources, prototypes that cannot
-yet be trusted, and products that need both taste and discipline. Then route
-that pain to public artifacts.
+The opening should be personal and grounded. Lead with what Zain likes, what
+work he repeatedly returns to, and the actual project/life history behind the
+public repos: graphics, color, compilers, field operations, technical writing,
+support work, AI systems, and research tooling. Avoid sales-page framing.
 
-Keep a buyer-qualification layer near the top. It should make the hiring
-decision easier by naming high-leverage fits, low-leverage fits, and a short
-evaluation path through public projects.
+Keep the project-history layer near the top. It should make the profile easier
+to trust by connecting claims to public artifacts and lived work instead of
+trying to optimize a pitch.
 
 Interactive elements should stay GitHub-native: expandable showcase drawers,
 quest-style interactions, demo links, runnable snippets, Mermaid diagrams, and
