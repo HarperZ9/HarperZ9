@@ -14,8 +14,13 @@ it should be embedded in how the work can be inspected rather than framed as a
 generic resume page.
 
 Interactive elements should stay GitHub-native: expandable showcase drawers,
-demo links, runnable snippets, Mermaid diagrams, and links to richer live
-surfaces on the site.
+quest-style interactions, demo links, runnable snippets, Mermaid diagrams, and
+links to richer live surfaces on the site.
+
+The workbench quests are the highest-friction interaction layer allowed inside
+GitHub Markdown. Keep them concrete, runnable, and public. A visitor should be
+able to choose a route, copy a command, inspect an artifact, or ask a better
+interview question from that section alone.
 
 Voice should stay human. The profile should preserve the artistic,
 mistake-making, fallible person behind the clean engineering surface.

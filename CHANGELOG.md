@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-07-01 - Workbench Quest Pass
+
+- Added a `Workbench quests` section with GitHub-native paths to make, map,
+  capture, route, attack, and validate public artifacts.
+- Added runnable command snippets for `telos`, `index`, `gather`, `forum`,
+  `crucible`, and `proof-surface` so the profile invites concrete inspection.
+- Added conversation starters that make the profile more personable and useful
+  in hiring conversations.
+- Updated the verifier, product brief, and usage guide so the quest layer
+  remains part of the profile contract.
+
 ## 2026-07-01 - Interactive Showcase Pass
 
 - Added a `Showcases and demos` section with expandable routes for visual
