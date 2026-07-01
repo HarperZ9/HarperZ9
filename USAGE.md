@@ -8,8 +8,10 @@ The README uses only GitHub-native interaction: collapsible sections, tables,
 Mermaid diagrams, and links to live site surfaces. Real JavaScript maps and
 dashboards should live on the site, with the profile linking out to them.
 
-Hiring-oriented sections should stay concrete: each claim needs a public
-artifact, a first inspection path, or an explicit boundary.
+The current concept is a public lab bench. Keep it vivid: reader doors,
+instruments, maps, traps, and proof paths. Hiring signal should be present, but
+it should be embedded in how the work can be inspected rather than framed as a
+generic résumé page.
 
 Voice should stay human. The profile should preserve the artistic,
 mistake-making, fallible person behind the clean engineering surface.

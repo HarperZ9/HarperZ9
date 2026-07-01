@@ -15,9 +15,9 @@ The `HarperZ9` profile README is the GitHub handoff into Project Telos. It
 should mirror the main site's clean professional design, present Telos as a
 research lab and product ecosystem across domains, route readers to the
 flagship engines, make the test path obvious, and give hiring teams an
-immediate way to inspect fit. The current profile is treated as an
-enterprise-grade flagship surface: market-aware, telemetry-informed, and built
-to move a busy hiring manager from first impression to verifiable evidence.
+immediate way to inspect fit. The current profile concept is a public lab
+bench: readers choose a door, inspect the instruments, follow the map, and see
+the fallible human behind the clean engineering surface.
 
 ## Brand Personality
 
@@ -38,12 +38,13 @@ by a public link or test path.
 - Make clear that evidence/accountability is the method, not the only domain.
 - Make clear that rigor is a response to human fallibility, not sterile
   posturing.
-- Frame AI fluency as a baseline market expectation and position the
-  differentiated value as systems judgment, verification, taste, and tooling.
+- Avoid résumé-table gravity. Lead with a memorable workbench concept, then
+  route hiring readers through concrete instruments and proof paths.
 - Use GitHub-native interaction: collapsible paths, Mermaid maps, and compact
   route charts that render without JavaScript.
-- Give hiring teams a time-budgeted inspection path and a proof-of-work matrix.
-- Name best-fit role lanes directly instead of making hiring teams infer them.
+- Give hiring teams a fast inspection door without making the whole profile
+  feel like corporate positioning.
+- Name what the instruments do in active language.
 - Keep telemetry in receipts unless it helps the reader make a better decision.
 - Put projects, source links, and tester threads ahead of decoration.
 - Preserve the README as useful plain Markdown when images are unavailable.

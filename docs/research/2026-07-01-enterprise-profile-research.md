@@ -142,6 +142,15 @@ Collected with `index_map` and `index_context` over `C:\dev\public` on
 - Recorded telemetry here rather than using low recent profile traffic as
   in-profile social proof.
 
+## Reapproach Note
+
+The first enterprise-profile rewrite was rejected as too close to corporate
+positioning. The profile direction was then reapproached as a public lab bench:
+reader doors, instruments, maps, open traps, and a more visible human voice.
+The market and telemetry research still inform the routing, but the README no
+longer leads with a market-report frame. Hiring signal is carried through
+inspectable work instead of résumé-page posture.
+
 ## Residual Limits
 
 - GitHub traffic data is recent-window telemetry only. It should inform routing,
