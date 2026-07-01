@@ -1,8 +1,21 @@
 # Changelog
 
+## 2026-07-01 - Session-Context Voice Pass
+
+- Scanned recent Codex and Claude Code history from the last four months for
+  recurring public-safe voice and work-pattern signals.
+- Reworked the profile opening around the actual operating rhythm: scan real
+  state, dogfood tools against real work, break them, document the failure,
+  merge what holds, push public-safe artifacts, and raise the bar again.
+- Added `How I actually work` so the profile reflects ambition, artistic taste,
+  adversarial testing, public-tool pressure, and fallibility without quoting
+  private session history.
+- Updated product, usage, and verifier guardrails to preserve the
+  session-context-informed voice.
+
 ## 2026-07-01 - Personal Work History Rewrite
 
-- Replaced the buyer/pitch sections with a profile centered on Zain's actual
+- Replaced the sales/pitch sections with a profile centered on Zain's actual
   interests, project history, public work, and lived experience.
 - Added `What I keep coming back to` and `Project history, in plain English`
   to connect graphics, color, compilers, AI systems, field operations,
@@ -12,27 +25,29 @@
 - Updated the verifier, product brief, and usage guide so the current profile
   rejects sales framing and preserves the personal workbench direction.
 
-## 2026-07-01 - Buying Decision Pass
+## 2026-07-01 - Superseded Positioning Pass
 
-- Added `Buy the pattern` to make the profile qualify high-leverage and
+- Added a short-fit section to make the profile qualify high-leverage and
   low-leverage hiring scenarios directly.
-- Added `How to evaluate the bet` with a ten-minute public artifact path
+- Added a ten-minute public artifact path
   through index, gather, forum, crucible, and Studio.
 - Strengthened the hiring drawer and outcome section around converting fog
   into trusted surfaces and reducing hidden state.
-- Updated the verifier, product brief, and usage guide so buyer qualification
-  remains part of the profile contract.
+- Updated the verifier, product brief, and usage guide around explicit fit
+  qualification. This direction was later superseded by the personal
+  work-history and session-context voice passes.
 
-## 2026-07-01 - Buyer Value Rewrite
+## 2026-07-01 - Superseded Value Rewrite
 
-- Reworked the profile opening from self-description to buyer-centered value:
+- Reworked the profile opening from self-description to reader-centered value:
   the reader's messy problem first, then the leverage Zain brings.
-- Added `Why you want me in the room` to connect concrete buyer pains to
+- Added a room-fit section to connect concrete reader pains to
   public Project Telos artifacts and working style.
-- Renamed the self-assessment section to `What this buys you` so the profile
+- Renamed the self-assessment section around outcomes so the profile
   describes outcomes instead of selling traits.
-- Updated the verifier, product brief, and usage guide so future edits keep
-  the buyer-value frame.
+- Updated the verifier, product brief, and usage guide around that framing.
+  This direction was later superseded by the personal work-history and
+  session-context voice passes.
 
 ## 2026-07-01 - Workbench Quest Pass
 

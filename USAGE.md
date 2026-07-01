@@ -18,6 +18,11 @@ work he repeatedly returns to, and the actual project/life history behind the
 public repos: graphics, color, compilers, field operations, technical writing,
 support work, AI systems, and research tooling. Avoid sales-page framing.
 
+The voice should match the recent Codex and Claude Code session pattern without
+quoting private transcripts: scan the actual state, dogfood tools against real
+work, adversarially test them, keep the first useful failure, merge what holds,
+push public-safe artifacts, and raise the bar again.
+
 Keep the project-history layer near the top. It should make the profile easier
 to trust by connecting claims to public artifacts and lived work instead of
 trying to optimize a pitch.

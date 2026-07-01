@@ -8,21 +8,23 @@
 
 This is a workbench, not a trophy case.
 
-I am **Zain Dana Harper**, a self-taught systems engineer in Seattle. I like
-the borderlands: color systems, old graphics pipelines, compilers, small local
-tools, messy source trails, agent ledgers, proofs that can fail, and interfaces
-that feel like a person built them.
+I am **Zain Dana Harper**, a self-taught systems engineer in Seattle. I build
+like someone trying to make the private mess public enough to survive: scan the
+actual state, find the sharp edge, build the tool, dogfood it against real
+work, break it, document the break, merge what holds, and raise the bar again.
 
-Most of my work starts from the same private itch: I want the thing in front of
-me to be visible enough to understand, beautiful enough to keep touching, and
-honest enough to be corrected. A shader. A transit diagram. A typed effect. A
-study plan. A research packet. A receipt. A model answer that has to admit
-when it does not know.
+I like systems with teeth and taste: color science, old graphics pipelines,
+compilers, small local tools, messy source trails, agent ledgers, proofs that
+can fail, and interfaces that feel like a person built them. I do not want a
+demo that only works under flattering light. I want the thing in the hands of
+developers, in real repositories, under tests, under review, and still strange
+enough to be alive.
 
 I build verification systems because I need them. I am artistic, restless,
 fallible, stubborn, and very capable of chasing a beautiful wrong idea farther
-than I should. The public work is how I slow that down: I make the idea leave
-a map, a test, a demo, a named gap, or a scar someone else can inspect.
+than I should. My recent work keeps returning to the same loop: aim too high,
+pull the whole context into view, make the idea executable, and let the first
+embarrassing failure rewrite the plan.
 
 **Project Telos** is the public form of that habit: a cross-domain **research lab and product ecosystem** for AI-era work across source intake, workspace maps, agent routing, claim checks, compiler experiments, graphics, color, simulation, learning workflows, and witnessed execution.
 
@@ -43,6 +45,38 @@ a map, a test, a demo, a named gap, or a scar someone else can inspect.
 | Work that survives contact with people | Technical writing, compliance docs, Xbox networking support, field operations, arborist scheduling, customer calls, safety procedures, and the practical patience that comes from real jobs. |
 | Beautiful things with accountable edges | The Studio, fractals, sound-reactive surfaces, renderer probes, visual studies, and the rule that a good artifact should leave a trail. |
 
+## How I actually work.
+
+<details open>
+<summary><strong>The loop.</strong></summary>
+
+Scan the real project. Read the old sessions. Find the current state. Pull the
+docs, repos, tests, demos, and market evidence into the same room. Build the
+smallest tool that changes the situation. Use it immediately. Let it fail in
+public or near-public conditions. Fold the failure back into the product.
+Commit, push, verify, repeat.
+
+That loop is the personality. I get impatient when work becomes posture, when
+tools are protected from real use, or when a claim cannot be made to stand next
+to its source. I am much more interested in the moment where the thing breaks
+and becomes better than the moment where it first sounds impressive.
+
+</details>
+
+<details>
+<summary><strong>The pressure I put on tools.</strong></summary>
+
+- **Dogfood it:** if the tool is for developers, run it on real repositories.
+- **Adversarially test it:** make the smallest failure case and keep it.
+- **Make it public when it can be:** ship the repo, demo, issue, receipt, or
+  page instead of hiding the useful part in a chat.
+- **Keep the art alive:** a rigorous system can still have color, rhythm,
+  naming, motion, and a point of view.
+- **Do not sand off the ambition:** narrow the next step without pretending the
+  larger project stopped mattering.
+
+</details>
+
 ## Project history, in plain English.
 
 <details open>
@@ -53,9 +87,9 @@ certification. The credential is the public trail: shipped crates, a VS Code
 Marketplace extension, open repositories, a real audience for graphics work,
 and tools that can be cloned, run, and argued with.
 
-The throughline is not a job title. It is the same habit appearing in different
-rooms: make the hidden state visible, make the failure mode nameable, make the
-thing beautiful enough that people want to touch it again.
+The throughline is not a job title. It is a pressure pattern: turn scattered
+state into an artifact, turn the artifact into a tool, turn the tool against
+real work, and keep whatever survives.
 
 </details>
 
@@ -105,8 +139,9 @@ thing beautiful enough that people want to touch it again.
 <summary><strong>I want the short version.</strong></summary>
 
 I build tools for messy, creative, model-assisted technical work. The tools
-usually do one of five things: capture sources, map workspaces, route agents,
-check claims, or turn an idea into a surface another person can inspect.
+usually do one of six things: capture sources, map workspaces, route agents,
+check claims, make visual systems, or turn an idea into a surface another
+person can inspect and break.
 
 Start with [Studio](https://harperz9.github.io/studio.html) if you want the
 visual side, [telos](https://github.com/HarperZ9/telos) if you want the whole
@@ -121,8 +156,8 @@ want the work history.
 Open [The Studio](https://harperz9.github.io/studio.html), then the graphics
 and color notes in the [portfolio](https://harperz9.github.io/portfolio.html).
 This is where the old rendering instincts show up: light, color, tone mapping,
-volumetrics, game-engine edges, fractals, visual studies, and the desire to
-make a system feel alive without losing the receipt.
+volumetrics, game-engine edges, fractals, visual studies, and the refusal to
+let technical rigor make the work emotionally dead.
 
 </details>
 
@@ -167,9 +202,9 @@ The personal page is here:
 <summary><strong>I want to break it.</strong></summary>
 
 Pick the claim that sounds too confident. Stale a map. Tamper with a receipt.
-Force a model answer past its source. Make a demo return `UNVERIFIABLE` for the
-right reason. The best feedback is the smallest reproducible case where the
-proof surface fails.
+Force a model answer past its source. Run the tool where it has no excuse. Make
+a demo return `UNVERIFIABLE` for the right reason. The best feedback is the
+smallest reproducible case where the proof surface fails.
 
 </details>
 
@@ -255,6 +290,7 @@ minutes and specific enough to become a real interview conversation.
 | Capture | `gather docs` | A source packet with a receipt boundary. |
 | Route | `forum route --json` | A routing decision you can replay. |
 | Attack | `crucible` | A `MATCH`, `DRIFT`, or `UNVERIFIABLE` verdict. |
+| Dogfood | a real repo or workflow | A failure that teaches the tool what to become next. |
 | Validate | [proof-surface](https://github.com/HarperZ9/proof-surface) | A contract suite that either passes or names the break. |
 
 <details open>
@@ -364,6 +400,8 @@ This is the boring-looking part that keeps the interesting parts honest.
 - Ask me about a rendering mistake that turned into a tool.
 - Ask why color, compilers, source receipts, and model boundaries keep showing
   up in the same room.
+- Ask what I learned by making agents use the tools instead of merely describe
+  them.
 - Ask what field operations taught me about software.
 - Ask what I overbuilt, what I misread, what I still do badly, and what I kept.
 - Ask for the smallest demo that would make you trust one of these systems
@@ -392,14 +430,15 @@ GitHub renders this as a static diagram. The live surfaces are on the site:
 
 ```mermaid
 flowchart LR
-    itch["private itch / source / visual idea / repo"] --> gather["gather sources"]
+    state["actual state / source / repo / visual idea"] --> gather["gather sources"]
     gather --> index["index the workspace"]
     index --> forum["route the work"]
     forum --> telos["make / simulate / act"]
-    telos --> crucible["attack the claim"]
+    telos --> dogfood["dogfood on real work"]
+    dogfood --> crucible["attack the claim"]
     crucible --> receipt["receipt, verdict, next question"]
     receipt --> human["human judgment"]
-    human --> itch
+    human --> state
 
     telos --> studio["Studio / visual surfaces"]
     telos --> buildlang["BuildLang / effects"]
@@ -410,11 +449,11 @@ flowchart LR
 
 ```mermaid
 pie title Profile routing mix, not traffic data
-    "Human and work history" : 22
+    "Human and work history" : 20
     "Visual craft" : 18
-    "Runnable instruments" : 28
-    "Research breadth" : 17
-    "Break-it paths" : 15
+    "Runnable instruments" : 25
+    "Research breadth" : 15
+    "Dogfood and break-it paths" : 22
 ```
 
 ## The pattern underneath.
@@ -423,6 +462,8 @@ pie title Profile routing mix, not traffic data
   being in the room to explain it.
 - I turn that hidden state into maps, CLIs, source packets, demos, receipts,
   tests, and failure names.
+- I push tools into real use early because the first failure is usually more
+  honest than the first pitch.
 - I do not trust my own first answer very much. That is why the tools keep
   asking for evidence, replay, and a clean way to say `UNVERIFIABLE`.
 - I care about beauty, but not as decoration. Light, color, rhythm, naming,
@@ -438,8 +479,9 @@ pie title Profile routing mix, not traffic data
 <summary><strong>Things I keep reaching for.</strong></summary>
 
 Color systems. Compiler boundaries. Old graphics pipelines. Small local tools.
-Diagrams that make a system less lonely. Receipts. Beautiful names. Harsh
-tests. Interfaces that feel quiet until they need to speak.
+Real repos. Dogfood loops. Diagrams that make a system less lonely. Receipts.
+Beautiful names. Harsh tests. Interfaces that feel quiet until they need to
+speak.
 
 </details>
 
