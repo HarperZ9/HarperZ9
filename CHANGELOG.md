@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-07-01 - Hiring Signal and Interaction Pass
+
+- Added a hiring-manager fast path above the flagship engine list.
+- Added GitHub-native interaction with collapsible reader paths for hiring
+  managers, engineers, and research collaborators.
+- Added Mermaid map and chart blocks for the public profile route, while
+  keeping real JavaScript interaction delegated to the site.
+- Added direct live-surface links to the catalog, flagships, Studio, and
+  research pages.
+- Updated the profile verifier, product brief, usage guide, and design notes so
+  the interactive hiring surface remains part of the profile contract.
+
 ## 2026-07-01 - Research Lab Scope Correction
 
 - Reframed the profile from a narrow evidence/accountability surface to Project

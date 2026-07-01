@@ -14,7 +14,8 @@ fast public map of Project Telos and Zain Dana Harper's work.
 The `HarperZ9` profile README is the GitHub handoff into Project Telos. It
 should mirror the main site's clean professional design, present Telos as a
 research lab and product ecosystem across domains, route readers to the
-flagship engines, and make the test path obvious.
+flagship engines, make the test path obvious, and give hiring teams an
+immediate way to inspect fit.
 
 ## Brand Personality
 
@@ -33,6 +34,8 @@ by a public link or test path.
 - Use the canonical Project Telos flagship card artwork.
 - Keep the copy close to the main site vocabulary.
 - Make clear that evidence/accountability is the method, not the only domain.
+- Use GitHub-native interaction: collapsible paths, Mermaid maps, and compact
+  route charts that render without JavaScript.
 - Put projects, source links, and tester threads ahead of decoration.
 - Preserve the README as useful plain Markdown when images are unavailable.
 - Keep public profile claims concrete and re-checkable.

@@ -4,6 +4,10 @@ This repository publishes the `HarperZ9` GitHub profile README. It is a public
 front door to the Project Telos site, cross-domain research lab, flagship
 engines, tester threads, and verification surfaces.
 
+The README uses only GitHub-native interaction: collapsible sections, tables,
+Mermaid diagrams, and links to live site surfaces. Real JavaScript maps and
+dashboards should live on the site, with the profile linking out to them.
+
 ## View
 
 Open:
@@ -55,6 +59,8 @@ Before publishing:
 - Keep links pointed at public repositories or public pages.
 - Keep maturity and funding language concrete.
 - Keep the profile short enough to scan from GitHub's first screen.
+- Keep GitHub-native interaction readable when collapsed sections and Mermaid
+  diagrams are unavailable.
 - Confirm the profile README renders through GitHub Markdown before pushing.
 - Do not stage `.env`, local logs, private notes, browser state, credentials,
   or protected corpus material.
