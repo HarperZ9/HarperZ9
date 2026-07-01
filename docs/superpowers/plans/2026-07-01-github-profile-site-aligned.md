@@ -75,8 +75,11 @@ standard library, GitHub Actions Markdown lint.
 
 **Steps:**
 
-- [ ] Run `python scripts/check_profile_surface.py`.
-- [ ] Run Markdown lint against the documented files.
-- [ ] Render the README through GitHub Markdown.
-- [ ] Run a credential-shaped text scan.
-- [ ] Amend the local profile commit after checks pass.
+- [x] Run `python scripts/check_profile_surface.py`.
+- [x] Run Markdown lint against the documented files.
+- [x] Render the README through GitHub Markdown.
+- [x] Run a credential-shaped text scan.
+- [x] Push the profile repo to `origin/main`.
+- [x] Use GitHub's `Share to Profile` control when the special README does not
+      auto-render on the actual profile page.
+- [x] Verify the actual profile page renders the Project Telos README.
