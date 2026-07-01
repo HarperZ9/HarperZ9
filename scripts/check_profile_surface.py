@@ -37,6 +37,10 @@ REQUIRED_README_TERMS = (
     "https://github.com/HarperZ9/emet",
     "https://github.com/HarperZ9/buildlang",
     "https://github.com/HarperZ9/learn",
+    "The human part.",
+    "artistic, restless",
+    "fallible",
+    "wrong turns",
     "Why this profile is worth your time.",
     "Best-fit roles.",
     "AI tooling / research infrastructure",
@@ -52,7 +56,7 @@ REQUIRED_README_TERMS = (
     "Intentional profile routing mix, not traffic data",
     "Research lab, not a single tool.",
     "Domain lanes.",
-    "Evidence is the lab method, not the whole mission.",
+    "Evidence is the lab method, not the personality.",
     "Open tester threads",
 )
 

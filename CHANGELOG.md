@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-07-01 - Human Voice Pass
+
+- Added a human opening note that names the artistic, restless, fallible person
+  behind the research-lab surface.
+- Added `The human part` section so the profile explains why the rigor exists:
+  as a response to ambition, mistakes, wrong turns, and aesthetic obsession.
+- Adjusted the proof/hiring language so evidence reads as a method, not a
+  personality costume.
+- Updated the verifier and product notes to preserve the more personable voice.
+
 ## 2026-07-01 - Proof-of-Work Hiring Pass
 
 - Added a sharper top-level hiring signal explaining why the profile is worth a

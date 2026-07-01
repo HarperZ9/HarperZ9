@@ -11,6 +11,9 @@ dashboards should live on the site, with the profile linking out to them.
 Hiring-oriented sections should stay concrete: each claim needs a public
 artifact, a first inspection path, or an explicit boundary.
 
+Voice should stay human. The profile should preserve the artistic,
+mistake-making, fallible person behind the clean engineering surface.
+
 ## View
 
 Open:

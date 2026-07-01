@@ -19,9 +19,9 @@ immediate way to inspect fit.
 
 ## Brand Personality
 
-Clean, rigorous, restrained, ambitious, and research-oriented. The profile
-should feel like a public engineering surface for a cross-domain lab, not a
-badge collection or marketing splash page.
+Clean, rigorous, restrained, ambitious, artistic, and human. The profile should
+feel like a public engineering surface for a cross-domain lab without erasing
+the fallible person who built it.
 
 ## Anti-References
 
@@ -34,6 +34,8 @@ by a public link or test path.
 - Use the canonical Project Telos flagship card artwork.
 - Keep the copy close to the main site vocabulary.
 - Make clear that evidence/accountability is the method, not the only domain.
+- Make clear that rigor is a response to human fallibility, not sterile
+  posturing.
 - Use GitHub-native interaction: collapsible paths, Mermaid maps, and compact
   route charts that render without JavaScript.
 - Give hiring teams a time-budgeted inspection path and a proof-of-work matrix.

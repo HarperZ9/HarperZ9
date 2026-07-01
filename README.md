@@ -12,19 +12,37 @@ engineering: shared human/model workspaces, research intake, repository
 intelligence, agent orchestration, compilers, graphics, color, simulation, and
 verification.
 
+That sounds formal. The person behind it is not. I am artistic, restless,
+fallible, and very capable of getting excited before I am right. A lot of this
+work exists because I know how easy it is to fool myself: I make strange
+connections, break my own claims, throw things away, and keep the parts that
+survive being checked.
+
 If you are hiring, the shortest read is this: I enter ambiguous technical
 systems, map the moving parts, build the toolchain around them, and leave behind
 artifacts that another engineer can inspect.
 
-Evidence is the lab method, not the whole mission. The point is to move across
-domains quickly, build useful instruments, and keep the claims honest while the
-work expands.
+Evidence is the lab method, not the personality. The point is to move across
+domains quickly, build useful instruments, make room for taste and intuition,
+and keep the claims honest while the work expands.
 
 **Site:** [harperz9.github.io](https://harperz9.github.io)
 
 **Flagships:** [telos](https://github.com/HarperZ9/telos) | [index](https://github.com/HarperZ9/index) | [gather](https://github.com/HarperZ9/gather) | [forum](https://github.com/HarperZ9/forum) | [crucible](https://github.com/HarperZ9/crucible) | [emet](https://github.com/HarperZ9/emet) | [buildlang](https://github.com/HarperZ9/buildlang) | [learn](https://github.com/HarperZ9/learn)
 
 **Work:** [resume](https://harperz9.github.io/resume.html) | [portfolio](https://harperz9.github.io/portfolio.html) | [research](https://harperz9.github.io/research.html)
+
+## The human part.
+
+I like beautiful systems, strange edges, visual tools, hard problems, and the
+moment when a messy idea finally becomes something another person can touch. I
+also make mistakes. I overreach. I revise. I need tests, receipts, witnesses,
+and public boundaries because they keep ambition from turning into theater.
+
+The work is clean because the process is not. It is sketches, wrong turns,
+argument with the machine, late-night debugging, aesthetic obsession, and a
+steady effort to make the result useful to someone who was not there for the
+mess.
 
 ## Why this profile is worth your time.
 
@@ -35,6 +53,8 @@ work expands.
 - I am strongest where the problem is underspecified: new tools, research
   infrastructure, agent workflows, developer experience, and systems that need
   both imagination and discipline.
+- I care about the feel of the thing: names, diagrams, colors, writing, error
+  states, and whether a tool invites a person to keep thinking.
 - I ship public artifacts, not just private screenshots: source repos, docs,
   issue threads, demos, verifiers, and a portfolio site you can inspect.
 
@@ -246,7 +266,8 @@ The accountability line is a core method, not the whole body of work.
   experimental, or still unproven.
 
 The personality of the work is direct: ambitious systems, clean public surfaces,
-and no claim that cannot survive being checked.
+artistic instincts, visible uncertainty, and no claim that cannot survive being
+checked.
 
 ## Test the floor.
 
