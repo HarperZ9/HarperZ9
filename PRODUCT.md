@@ -18,8 +18,9 @@ flagship engines, make the test path obvious, and give hiring teams an
 immediate way to inspect fit. The current profile concept is a public lab
 bench: readers choose a door, inspect the instruments, follow the map, and see
 the fallible human behind the clean engineering surface. The first screen
-should be buyer-centered: name the reader's problem, then show why Zain is the
-leverage point.
+should explain what Zain likes, what work he actually does, and how the public
+project history grew from graphics, color, compilers, field operations,
+technical writing, AI systems, and research tooling.
 
 ## Brand Personality
 
@@ -41,12 +42,12 @@ by a public link or test path.
 - Make clear that rigor is a response to human fallibility, not sterile
   posturing.
 - Avoid resume-table gravity. Lead with a memorable workbench concept, then
-  route hiring readers through concrete instruments and proof paths.
-- Put buyer value before self-description: the reader should see the problem
-  they need solved before reading a list of personal traits or project claims.
-- Qualify the buying decision. The profile should say when Zain is high
-  leverage, when he is not the best economic fit, and how to evaluate the bet
-  from public artifacts.
+  route readers through concrete instruments, project history, and proof paths.
+- Put actual interests and actual work before positioning language: color,
+  graphics, compilers, source trails, agent ledgers, learning systems, and the
+  lived work history that shaped the engineering judgment.
+- Keep the hiring signal implicit in the quality and specificity of the public
+  artifacts. The profile should not read like a sales page.
 - Use GitHub-native interaction: collapsible paths, Mermaid maps, and compact
   route charts that render without JavaScript.
 - Add interactivity through real reader choices: showcase drawers, demo links,

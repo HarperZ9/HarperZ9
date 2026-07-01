@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-07-01 - Personal Work History Rewrite
+
+- Replaced the buyer/pitch sections with a profile centered on Zain's actual
+  interests, project history, public work, and lived experience.
+- Added `What I keep coming back to` and `Project history, in plain English`
+  to connect graphics, color, compilers, AI systems, field operations,
+  technical writing, Xbox support, and Project Telos.
+- Reworked the reader doors around visual/art work, AI systems, compiler work,
+  the messy human part, and adversarial break-it paths.
+- Updated the verifier, product brief, and usage guide so the current profile
+  rejects sales framing and preserves the personal workbench direction.
+
 ## 2026-07-01 - Buying Decision Pass
 
 - Added `Buy the pattern` to make the profile qualify high-leverage and
