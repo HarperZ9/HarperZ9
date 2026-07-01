@@ -17,7 +17,9 @@ research lab and product ecosystem across domains, route readers to the
 flagship engines, make the test path obvious, and give hiring teams an
 immediate way to inspect fit. The current profile concept is a public lab
 bench: readers choose a door, inspect the instruments, follow the map, and see
-the fallible human behind the clean engineering surface.
+the fallible human behind the clean engineering surface. The first screen
+should be buyer-centered: name the reader's problem, then show why Zain is the
+leverage point.
 
 ## Brand Personality
 
@@ -40,6 +42,8 @@ by a public link or test path.
   posturing.
 - Avoid resume-table gravity. Lead with a memorable workbench concept, then
   route hiring readers through concrete instruments and proof paths.
+- Put buyer value before self-description: the reader should see the problem
+  they need solved before reading a list of personal traits or project claims.
 - Use GitHub-native interaction: collapsible paths, Mermaid maps, and compact
   route charts that render without JavaScript.
 - Add interactivity through real reader choices: showcase drawers, demo links,

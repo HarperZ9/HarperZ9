@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-07-01 - Buyer Value Rewrite
+
+- Reworked the profile opening from self-description to buyer-centered value:
+  the reader's messy problem first, then the leverage Zain brings.
+- Added `Why you want me in the room` to connect concrete buyer pains to
+  public Project Telos artifacts and working style.
+- Renamed the self-assessment section to `What this buys you` so the profile
+  describes outcomes instead of selling traits.
+- Updated the verifier, product brief, and usage guide so future edits keep
+  the buyer-value frame.
+
 ## 2026-07-01 - Workbench Quest Pass
 
 - Added a `Workbench quests` section with GitHub-native paths to make, map,
