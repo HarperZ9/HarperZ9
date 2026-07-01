@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-07-01 - Buying Decision Pass
+
+- Added `Buy the pattern` to make the profile qualify high-leverage and
+  low-leverage hiring scenarios directly.
+- Added `How to evaluate the bet` with a ten-minute public artifact path
+  through index, gather, forum, crucible, and Studio.
+- Strengthened the hiring drawer and outcome section around converting fog
+  into trusted surfaces and reducing hidden state.
+- Updated the verifier, product brief, and usage guide so buyer qualification
+  remains part of the profile contract.
+
 ## 2026-07-01 - Buyer Value Rewrite
 
 - Reworked the profile opening from self-description to buyer-centered value:

@@ -18,6 +18,10 @@ technical work, untrusted AI workflows, messy sources, prototypes that cannot
 yet be trusted, and products that need both taste and discipline. Then route
 that pain to public artifacts.
 
+Keep a buyer-qualification layer near the top. It should make the hiring
+decision easier by naming high-leverage fits, low-leverage fits, and a short
+evaluation path through public projects.
+
 Interactive elements should stay GitHub-native: expandable showcase drawers,
 quest-style interactions, demo links, runnable snippets, Mermaid diagrams, and
 links to richer live surfaces on the site.

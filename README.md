@@ -54,6 +54,43 @@ You are not buying polish. You are buying someone who can sit inside uncertainty
 long enough to make it useful, then leave behind tools, docs, tests, and
 questions sharp enough for another person to continue.
 
+## Buy the pattern.
+
+Buy me when the job is not "implement this already-clear ticket." Buy me when
+you need someone to make the ticket possible.
+
+| Buy me for | Because I will |
+| --- | --- |
+| Ambiguous AI/product infrastructure | Find the moving parts, name the state, build the first surface people can inspect. |
+| Source-heavy research workflows | Separate evidence from summary, keep provenance visible, and mark what cannot be verified yet. |
+| Developer tools with messy adoption paths | Turn repeated friction into CLIs, docs, examples, issue paths, and tests. |
+| Prototype-to-product pressure | Keep the weird useful spark while adding enough contracts for other engineers to trust it. |
+| Cross-domain technical exploration | Move between code, docs, graphics, compilers, research, and product judgment without losing the thread. |
+
+Do not buy me for a quiet maintenance lane where the desired outcome is already
+fully specified, politically settled, and mostly waiting for throughput. I can
+do careful execution, but the highest return is in the fog before the clean
+plan exists.
+
+## How to evaluate the bet.
+
+You do not need to believe the profile. Spend ten minutes looking for conversion
+evidence:
+
+1. Open [index](https://github.com/HarperZ9/index) and ask whether the map makes
+   a codebase easier to hand to the next engineer.
+2. Open [gather](https://github.com/HarperZ9/gather) and ask whether source
+   intake keeps provenance visible instead of laundering it into prose.
+3. Open [forum](https://github.com/HarperZ9/forum) and ask whether agent work
+   gets a replayable route instead of a vanished chat transcript.
+4. Open [crucible](https://github.com/HarperZ9/crucible) and ask whether a
+   claim can fail cleanly.
+5. Open [Studio](https://harperz9.github.io/studio.html) and ask whether the
+   same person who builds the checks also has taste.
+
+If the answer to at least three is "yes, and I can see how this would apply to
+our mess," that is the buying signal.
+
 ## Choose a door.
 
 <details open>
@@ -76,6 +113,10 @@ Start with [telos](https://github.com/HarperZ9/telos),
 operator. The strongest fit is where the problem is underspecified: agent
 workflows, research infrastructure, developer tools, source-grounded systems,
 and products that need both taste and discipline.
+
+Then read `Buy the pattern` above. The point is not whether I match a narrow
+keyword list. The point is whether your team needs a person who can convert
+fog into surfaces other people can trust.
 
 </details>
 
@@ -371,6 +412,8 @@ pie title Intentional profile routing mix, not traffic data
   run it, break it, and decide what deserves investment.
 - The tool keeps a human shape: names, diagrams, colors, error states, alt
   text, scan paths, and the feeling that someone cared how it lands.
+- Your team gets less hidden state: fewer "trust me" claims, fewer orphaned
+  demos, fewer private explanations that only exist in someone's head.
 
 ## Bench notes.
 

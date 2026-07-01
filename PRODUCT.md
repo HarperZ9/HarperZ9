@@ -44,6 +44,9 @@ by a public link or test path.
   route hiring readers through concrete instruments and proof paths.
 - Put buyer value before self-description: the reader should see the problem
   they need solved before reading a list of personal traits or project claims.
+- Qualify the buying decision. The profile should say when Zain is high
+  leverage, when he is not the best economic fit, and how to evaluate the bet
+  from public artifacts.
 - Use GitHub-native interaction: collapsible paths, Mermaid maps, and compact
   route charts that render without JavaScript.
 - Add interactivity through real reader choices: showcase drawers, demo links,
