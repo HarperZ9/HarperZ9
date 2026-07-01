@@ -13,6 +13,11 @@ instruments, maps, traps, and proof paths. Hiring signal should be present, but
 it should be embedded in how the work can be inspected rather than framed as a
 generic resume page.
 
+The opening should be buyer-centered. Lead with the reader's pain: ambiguous
+technical work, untrusted AI workflows, messy sources, prototypes that cannot
+yet be trusted, and products that need both taste and discipline. Then route
+that pain to public artifacts.
+
 Interactive elements should stay GitHub-native: expandable showcase drawers,
 quest-style interactions, demo links, runnable snippets, Mermaid diagrams, and
 links to richer live surfaces on the site.

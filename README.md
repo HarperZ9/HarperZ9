@@ -8,26 +8,31 @@
 
 This is a workbench, not a trophy case.
 
+You want me when the work is too important to leave as vibes and too early to
+fit neatly inside a ticket. The repo is sprawling, the AI workflow is clever
+but untrusted, the sources are messy, the prototype is alive but fragile, and
+someone needs to turn it into something other people can run, inspect, argue
+with, and improve.
+
+What you are buying is not "AI fluency." You are buying translation pressure:
+messy input into legible systems, model output into checked artifacts,
+promising demos into runnable surfaces, and ambition into a map, receipt, test,
+or named gap.
+
 I am **Zain Dana Harper**, a self-taught systems engineer in Seattle. I build
 **Project Telos** as a cross-domain **research lab and product ecosystem** for
 AI-era work: source intake, workspace maps, agent ledgers, claim checks,
 compiler experiments, graphics, color, simulation, learning workflows, and the
 receipts that make the whole thing inspectable.
 
-The clean surface is a little misleading. The person at the bench is artistic,
-restless, fallible, stubborn, and very capable of sprinting after a beautiful
-wrong idea. I build verification systems because I need them. I make strange
-connections, take wrong turns, argue with the machine, get humbled by tests,
-and keep the parts that survive being checked.
+The reason this works is not because I am sterile. I am artistic, restless,
+fallible, stubborn, and very capable of sprinting after a beautiful wrong idea.
+I build verification systems because I need them. I make strange connections,
+take wrong turns, argue with the machine, get humbled by tests, and keep the
+parts that survive being checked.
 
-If you are hiring, the useful signal is not that I can use AI. It is that I can
-turn ambiguous technical work into instruments another engineer can run, read,
-break, and improve.
-
-I also care about the strange parts: color, rhythm, names, diagrams, tiny
-interaction details, old rendering tricks, and the feeling that a tool has a
-person behind it. I want the work to be serious without pretending the maker is
-made of glass and policy documents.
+The durable signal: I turn ambiguous technical work into instruments another
+engineer can run, read, break, and improve.
 
 **Site:** [harperz9.github.io](https://harperz9.github.io)
 
@@ -35,15 +40,30 @@ made of glass and policy documents.
 
 **Flagships:** [telos](https://github.com/HarperZ9/telos) | [index](https://github.com/HarperZ9/index) | [gather](https://github.com/HarperZ9/gather) | [forum](https://github.com/HarperZ9/forum) | [crucible](https://github.com/HarperZ9/crucible) | [emet](https://github.com/HarperZ9/emet) | [buildlang](https://github.com/HarperZ9/buildlang) | [learn](https://github.com/HarperZ9/learn)
 
+## Why you want me in the room.
+
+| If your problem sounds like... | What you get |
+| --- | --- |
+| A repo nobody can explain without the one person who remembers it. | A map, dependency evidence, stale-doc pressure, and a path for the next engineer. |
+| An AI workflow that works only when watched. | Memory, receipts, verifier boundaries, and failure modes that can be replayed. |
+| A pile of sources that keeps turning into confident summaries. | Method-labeled intake, scoped packets, and visible separation between evidence and claim. |
+| A prototype people like but cannot trust. | A demo surface with checks, contracts, and a way to make the first break reproducible. |
+| A product that needs both taste and teeth. | Quiet interface judgment, strange creative range, and engineering discipline in the same loop. |
+
+You are not buying polish. You are buying someone who can sit inside uncertainty
+long enough to make it useful, then leave behind tools, docs, tests, and
+questions sharp enough for another person to continue.
+
 ## Choose a door.
 
 <details open>
 <summary><strong>I have 30 seconds.</strong></summary>
 
-Open the [portfolio](https://harperz9.github.io/portfolio.html), then skim the
-instrument table below. The pattern to look for: one builder turning AI work,
-research, codebases, and creative systems into artifacts with receipts,
-boundaries, and runnable surfaces.
+Answer one question: do you need someone who makes unclear technical work
+inspectable? If yes, skim the buyer table above, then open the
+[portfolio](https://harperz9.github.io/portfolio.html). The pattern to look
+for is not a credential stack. It is repeated conversion: unclear work becoming
+artifacts with receipts, boundaries, and runnable surfaces.
 
 </details>
 
@@ -52,9 +72,10 @@ boundaries, and runnable surfaces.
 
 Start with [telos](https://github.com/HarperZ9/telos),
 [index](https://github.com/HarperZ9/index), and
-[gather](https://github.com/HarperZ9/gather). I am strongest where the problem
-is underspecified: agent workflows, research infrastructure, developer tools,
-source-grounded systems, and products that need both taste and discipline.
+[gather](https://github.com/HarperZ9/gather). You are not buying a prompt
+operator. The strongest fit is where the problem is underspecified: agent
+workflows, research infrastructure, developer tools, source-grounded systems,
+and products that need both taste and discipline.
 
 </details>
 
@@ -339,16 +360,17 @@ pie title Intentional profile routing mix, not traffic data
     "Break-it paths" : 15
 ```
 
-## What I am unusually good at.
+## What this buys you.
 
-- Entering ambiguous technical systems and finding the moving parts.
-- Turning repeated workflows into CLIs, checks, docs, package surfaces, and
-  public handoff contracts.
-- Keeping AI useful without treating model output as authority.
-- Working across Python, Rust, JavaScript, C++, graphics/native systems,
-  compiler ideas, docs, and product surfaces.
-- Caring about the feel of the thing: names, diagrams, colors, error states,
-  alt text, scan paths, and whether the tool invites a person to keep thinking.
+- Ambiguity turns into a map, a CLI, a demo, a receipt, or a named gap.
+- Model output stops being the authority and becomes one artifact inside a
+  checked workflow.
+- A messy research lane gets source intake, scope labels, and a way to say
+  `UNVERIFIABLE` without drama.
+- A promising prototype gets enough engineering surface for another person to
+  run it, break it, and decide what deserves investment.
+- The tool keeps a human shape: names, diagrams, colors, error states, alt
+  text, scan paths, and the feeling that someone cared how it lands.
 
 ## Bench notes.
 
