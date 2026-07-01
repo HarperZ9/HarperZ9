@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-07-01 - Public Lab Bench Reapproach
+
+- Replaced the enterprise-profile framing with a more memorable public lab
+  bench concept: choose a door, inspect the instruments, follow the map, and
+  break the traps.
+- Removed the résumé-heavy section flow in favor of GitHub-native interactive
+  reader routes and active instrument language.
+- Rebuilt the map around the actual work loop: gather sources, index the
+  workspace, route the work, make or simulate, attack the claim, and leave a
+  receipt.
+- Kept the hiring signal but embedded it in proof paths instead of corporate
+  positioning.
+- Updated the profile verifier and product brief to protect the new concept.
+
 ## 2026-07-01 - Enterprise Flagship Profile Rewrite
 
 - Rewrote the profile README as a market-aware flagship surface instead of a
