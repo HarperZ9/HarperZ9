@@ -1,7 +1,8 @@
 # Usage Guide
 
 This repository publishes the `HarperZ9` GitHub profile README. It is a public
-map to Project Telos tools, demos, tester threads, and evidence surfaces.
+front door to the Project Telos site, flagship engines, tester threads, and
+verification surfaces.
 
 ## View
 
@@ -25,6 +26,21 @@ Run the local profile-surface check:
 python scripts/check_profile_surface.py
 ```
 
+Run the Markdown style check used by CI:
+
+```powershell
+$markdownFiles = @(
+  "README.md",
+  "CHANGELOG.md",
+  "USAGE.md",
+  "PRODUCT.md",
+  "docs/brand/README.md",
+  "docs/superpowers/specs/2026-07-01-github-profile-site-aligned-design.md",
+  "docs/superpowers/plans/2026-07-01-github-profile-site-aligned.md"
+)
+npx.cmd --yes markdownlint-cli2 @markdownFiles
+```
+
 Run the public delivery sweep when `public-surface-sweeper` is available
 locally:
 
@@ -37,13 +53,17 @@ Before publishing:
 - Keep links pointed at public repositories or public pages.
 - Keep maturity and funding language concrete.
 - Keep the profile short enough to scan from GitHub's first screen.
+- Confirm the profile README renders through GitHub Markdown before pushing.
 - Do not stage `.env`, local logs, private notes, browser state, credentials,
   or protected corpus material.
 
 ## Developer Notes
 
 - `README.md` is the shipped profile surface.
+- `PRODUCT.md` records the profile's public product purpose and anti-patterns.
 - `AGENTS.md` is the local handoff contract.
 - `scripts/check_profile_surface.py` is the CI gate for required public links,
   required repo docs, and credential-shaped text.
+- `docs/brand/profile-hero.png` is the canonical Project Telos flagship card
+  used by the profile README.
 - `CHANGELOG.md` records public-facing profile updates.
