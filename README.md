@@ -1,84 +1,80 @@
-# Project Telos
+# Zain Dana Harper / Project Telos
 
-![Project Telos profile hero](docs/brand/profile-hero.png)
+<!-- markdownlint-disable MD013 MD026 MD033 -->
 
-> Public map of the tools, demos, receipts, and status behind the Telos work.
+<img src="docs/brand/profile-hero.png" alt="Project Telos flagship card: See it, and shape it, together with a model." width="100%">
 
-This profile is the front door for the public Project Telos tool system:
-research intake, codebase indexing, agent routing, claim checking, creative
-workspaces, release hygiene, and receipt-backed demos.
+> Build with a model. Take nothing on faith.
 
-## Why it matters
+I am **Zain Dana Harper**, a self-taught systems engineer in Seattle. I build
+proof-first engines for working alongside AI without treating the model's
+confidence as authority.
 
-The public portfolio should make it clear what can be opened, tested, and
-verified today. This profile keeps the flagship repos, current status, and
-tester entry points in one place instead of relying on scattered claims.
+This profile is the GitHub front door. Start at the site, inspect the source,
+then test the tools where their claims meet real workflows.
 
-## Try it
+**Site:** [harperz9.github.io](https://harperz9.github.io)
 
-```bash
-git clone https://github.com/HarperZ9/HarperZ9.git
-python -m webbrowser https://harperz9.github.io
-```
+**Flagships:** [telos](https://github.com/HarperZ9/telos) | [index](https://github.com/HarperZ9/index) | [gather](https://github.com/HarperZ9/gather) | [forum](https://github.com/HarperZ9/forum) | [crucible](https://github.com/HarperZ9/crucible) | [emet](https://github.com/HarperZ9/emet) | [buildlang](https://github.com/HarperZ9/buildlang) | [learn](https://github.com/HarperZ9/learn)
 
-## What to test first
+**Work:** [resume](https://harperz9.github.io/resume.html) | [portfolio](https://harperz9.github.io/portfolio.html) | [research](https://harperz9.github.io/research.html)
 
-- Open the five flagship repos and run their `doctor`, `status`, or demo commands.
-- Use the tester issues linked below to report real workflow gaps.
-- Check claims against repo tests, release notes, receipts, or explicit limits.
+## Eight engines, equal standing.
 
-## Current status
+Each engine has the same requirement: show its work, expose its boundary, and
+make the result possible to check from outside the thing making the claim.
 
-Public profile and live project map. The largest claims remain pre-proof until
-external testers reproduce them; the profile should point to evidence, not ask
-for trust.
+- **[the telos engine](https://github.com/HarperZ9/telos): perceive and make.**
+  Shared human/model surface. First inspection: follow a demo back to its
+  evidence.
+- **[index](https://github.com/HarperZ9/index): map and verify.** Workspace
+  maps and architecture certificates. First inspection: run a map and compare
+  it to the source tree.
+- **[gather](https://github.com/HarperZ9/gather): intake and witness.**
+  Research intake with provenance receipts. First inspection: capture a source
+  packet and inspect the receipt.
+- **[forum](https://github.com/HarperZ9/forum): orchestrate.** Multi-agent
+  work with a witnessed ledger. First inspection: replay a decision path from
+  the ledger.
+- **[crucible](https://github.com/HarperZ9/crucible): judge.** Claim checking
+  and thesis refinement. First inspection: force a `MATCH`, `DRIFT`, or
+  `UNVERIFIABLE` verdict.
+- **[emet](https://github.com/HarperZ9/emet): witness.** External byte witness.
+  First inspection: re-derive file bytes without trusting the file.
+- **[buildlang](https://github.com/HarperZ9/buildlang): author.** Typed-effects
+  systems language. First inspection: inspect the checked effect surface and C
+  path.
+- **[learn](https://github.com/HarperZ9/learn): learn with receipts.** Learning
+  and credential provenance. First inspection: run a graded stop with a receipt.
 
-## Developer notes
+The site also documents the public-safe private-line group; source links appear
+only where the public boundary is ready.
 
-This repository is the GitHub profile README. Licenses and runnable commands live
-in the linked tool repositories; this page routes readers to those surfaces.
-See [USAGE.md](USAGE.md) for the local verification path.
+## One engineer, an unusual span.
 
-## Existing public profile
-### The surface every domain launches from. Let's have a look.
+The accountability line is the current focus, not the whole body of work.
 
-**Main site:** [harperz9.github.io](https://harperz9.github.io)
+- **AI accountability:** provenance receipts, claim checks, MCP surfaces,
+  agent routing, model-boundary discipline, and public verification paths.
+- **Systems and compilers:** Python tooling, Rust and C++ systems work,
+  compiler/runtime experiments, typed effects, and release gates.
+- **Graphics and reverse engineering:** D3D11, HLSL, proxy-DLL interception,
+  runtime instrumentation, game-state extraction, and native integrity work.
+- **Color and calibration:** ICC, 3D LUTs, perceptual color, tone mapping,
+  CIEDE2000, Oklab, CAT16, and color-vision simulation.
+- **Public product shipping:** Elder ENB on
+  [NexusMods](https://www.nexusmods.com/skyrimspecialedition/mods/117327),
+  Project Telos on GitHub, and a site where every page links to its source.
 
-One operation makes any claim, action, or creation **checkable**, so a person and an AI can do real work together and verify every step. Accountability is not the brake; it is the runway. Security is one domain on it, not the point.
+The personality of the work is direct: ambitious systems, clean public surfaces,
+and no claim that cannot survive being checked.
 
-**Field guide:** [harperz9.github.io/field-guide.html](https://harperz9.github.io/field-guide.html)
+## Test the floor.
 
-I am **Zain Dana Harper**, self-taught, building in the open since 2023, with AI directed as a coordinated teammate. Everything here is public, local-first where possible, and honest about where it stands: **every claim ships beside its test, or its limit.** Do not trust it, check it.
+Project Telos needs people willing to use the engines against real workflows,
+break the receipt discipline, and report where the proof surface fails.
 
-## The Flagships
-
-One operation runs through all of them: perceive into a witnessed form, check it against a criterion it did not author, carry a re-checkable proof, and say UNVERIFIABLE when it cannot.
-
-| Flagship | What it does | Status |
-|---|---|---|
-| [gather](https://github.com/HarperZ9/gather) | research intake with provenance receipts | PyPI `gather-engine` 1.5.0, fair-source |
-| [index](https://github.com/HarperZ9/index) | workspace maps and context graphs for repos, docs, and assets | PyPI `index-graph` 2.8.0, fair-source |
-| [forum](https://github.com/HarperZ9/forum) | accountable multi-agent orchestration on a witnessed causal ledger | PyPI `forum-engine` 1.12.0, fair-source |
-| [crucible](https://github.com/HarperZ9/crucible) | judgment/refinement organ that steelmans, measures, and refines claims | public repo; `crucible-bench` 1.1.0 local package metadata; no PyPI claim here |
-| [the telos engine](https://github.com/HarperZ9/telos) | shared perceive-and-make studio for human-AI work, MCP, and creative/science demos | source registry 0.1.0, active |
-
-## Where to test it
-
-- **Doctor / clinical admin:** keep source fragments, routing decisions, and uncertainty visible before a model summary becomes action.
-- **Artist / studio:** preserve prompts, source assets, transforms, chosen branches, and export gates instead of losing the trail in a pile of outputs.
-- **Media / newsroom:** map each public claim back to witnessed sources, conflict notes, and a decision ledger.
-- **Token economy / routing:** spend model calls where they buy evidence, not where they merely create confident prose.
-- **Reasoning:** let the model perceive and propose, but keep final authority outside the model and inside a checkable record.
-
-Solo, pre-revenue, pre-proof on the largest claims, and built to be inspected. I am looking for verification, testing against real workflows, early traction from people willing to inspect the receipts, and possibly modest grassroots research funding.
-
-## Recent public dogfood
-
-- [SmallHarness external fixture loading](https://github.com/GetSmallAI/SmallHarness/pull/13) merged: data-only external eval fixtures with path-safety handling.
-- [Pydantic AI turn index](https://github.com/pydantic/pydantic-ai/pull/6135) is open: stable chat span names with `gen_ai.turn.index` for agent trace evaluation.
-- [AutoGen scankii receipt feedback](https://github.com/microsoft/autogen/discussions/7890#discussioncomment-17474671) is live: replayable scan-receipt dogfood across static-only, file-side, and unverifiable-boundary fixtures.
-
-## Open tester threads
+Open tester threads:
 
 - [Test gather intake](https://github.com/HarperZ9/gather/issues/1)
 - [Test index maps](https://github.com/HarperZ9/index/issues/13)
@@ -88,9 +84,13 @@ Solo, pre-revenue, pre-proof on the largest claims, and built to be inspected. I
 
 ## For developers
 
-Keep the public README, examples, and repository metadata aligned with current behavior. Before opening a PR or publishing a release, verify the working tree and any documented commands for this repo.
+This repository publishes the `HarperZ9` GitHub profile README. The profile
+stays deliberately static: no badge wall, no visitor counters, no dynamic SVG
+decoration. The source, site, and verifier are the moving parts.
 
-```bash
+```powershell
 git status --short
 python scripts/check_profile_surface.py
 ```
+
+Build it to be checked, or do not ship it.

@@ -16,5 +16,18 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
       - name: Check profile surface
         run: python scripts/check_profile_surface.py
+      - name: Check Markdown style
+        run: >
+          npx --yes markdownlint-cli2
+          README.md
+          CHANGELOG.md
+          USAGE.md
+          PRODUCT.md
+          docs/brand/README.md
+          docs/superpowers/specs/2026-07-01-github-profile-site-aligned-design.md
+          docs/superpowers/plans/2026-07-01-github-profile-site-aligned.md

@@ -15,24 +15,49 @@ REQUIRED_FILES = (
     "LICENSE",
     "USAGE.md",
     "CHANGELOG.md",
+    "PRODUCT.md",
 )
+
+REQUIRED_ASSETS = ("docs/brand/profile-hero.png",)
 
 REQUIRED_README_TERMS = (
     "https://harperz9.github.io",
-    "https://github.com/HarperZ9/gather",
+    "https://github.com/HarperZ9/telos",
     "https://github.com/HarperZ9/index",
+    "https://github.com/HarperZ9/gather",
     "https://github.com/HarperZ9/forum",
     "https://github.com/HarperZ9/crucible",
-    "https://github.com/HarperZ9/telos",
+    "https://github.com/HarperZ9/emet",
+    "https://github.com/HarperZ9/buildlang",
+    "https://github.com/HarperZ9/learn",
     "Open tester threads",
+)
+
+PROFILE_CONTRACT_TERMS = (
+    "Zain Dana Harper",
+    "Project Telos",
+    "Build with a model. Take nothing on faith.",
+    "Eight engines, equal standing.",
+    "One engineer, an unusual span.",
+    "Test the floor.",
+    "Build it to be checked, or do not ship it.",
+    "docs/brand/profile-hero.png",
+)
+
+DISALLOWED_README_TERMS = (
+    "docs/brand/evidence-map.svg",
     "Recent public dogfood",
+    "https://github.com/HarperZ9/aleph",
+    "https://github.com/HarperZ9/orca",
+    "https://github.com/HarperZ9/behavior-transform",
 )
 
 SECRET_SHAPES = (
     re.compile(r"sk-[A-Za-z0-9_-]{20,}"),
-    re.compile(r"ghp_[A-Za-z0-9]{36,}"),
+    re.compile(r"gh[pousr]_[A-Za-z0-9_]{20,}"),
     re.compile(r"AKIA[0-9A-Z]{16}"),
     re.compile(r"xox[baprs]-[A-Za-z0-9-]{20,}"),
+    re.compile(r"BEGIN (RSA |OPENSSH |EC )?PRIVATE KEY"),
 )
 
 
@@ -47,16 +72,27 @@ def assert_required_files() -> None:
         fail(f"missing required files: {', '.join(missing)}")
 
 
+def assert_required_assets() -> None:
+    missing = [name for name in REQUIRED_ASSETS if not (ROOT / name).exists()]
+    if missing:
+        fail(f"missing required assets: {', '.join(missing)}")
+
+
 def assert_readme_contract() -> None:
     text = README.read_text(encoding="utf-8")
-    missing = [term for term in REQUIRED_README_TERMS if term not in text]
+    expected_terms = REQUIRED_README_TERMS + PROFILE_CONTRACT_TERMS
+    missing = [term for term in expected_terms if term not in text]
     if missing:
         fail(f"README missing required public terms: {', '.join(missing)}")
+    forbidden = [term for term in DISALLOWED_README_TERMS if term in text]
+    if forbidden:
+        fail(f"README contains disallowed public terms: {', '.join(forbidden)}")
 
 
 def assert_no_secret_shapes() -> None:
     paths = [ROOT / name for name in REQUIRED_FILES if (ROOT / name).is_file()]
     paths.append(ROOT / "scripts" / "check_profile_surface.py")
+    paths.extend((ROOT / "docs").glob("**/*.md"))
     for path in paths:
         text = path.read_text(encoding="utf-8")
         for pattern in SECRET_SHAPES:
@@ -66,6 +102,7 @@ def assert_no_secret_shapes() -> None:
 
 def main() -> int:
     assert_required_files()
+    assert_required_assets()
     assert_readme_contract()
     assert_no_secret_shapes()
     print("profile surface: ok")
