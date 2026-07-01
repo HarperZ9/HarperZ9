@@ -36,6 +36,8 @@ by a public link or test path.
 - Make clear that evidence/accountability is the method, not the only domain.
 - Use GitHub-native interaction: collapsible paths, Mermaid maps, and compact
   route charts that render without JavaScript.
+- Give hiring teams a time-budgeted inspection path and a proof-of-work matrix.
+- Name best-fit role lanes directly instead of making hiring teams infer them.
 - Put projects, source links, and tester threads ahead of decoration.
 - Preserve the README as useful plain Markdown when images are unavailable.
 - Keep public profile claims concrete and re-checkable.

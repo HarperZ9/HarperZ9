@@ -8,6 +8,9 @@ The README uses only GitHub-native interaction: collapsible sections, tables,
 Mermaid diagrams, and links to live site surfaces. Real JavaScript maps and
 dashboards should live on the site, with the profile linking out to them.
 
+Hiring-oriented sections should stay concrete: each claim needs a public
+artifact, a first inspection path, or an explicit boundary.
+
 ## View
 
 Open:
@@ -59,6 +62,7 @@ Before publishing:
 - Keep links pointed at public repositories or public pages.
 - Keep maturity and funding language concrete.
 - Keep the profile short enough to scan from GitHub's first screen.
+- Keep the time-budgeted hiring path and proof-of-work matrix close to the top.
 - Keep GitHub-native interaction readable when collapsed sections and Mermaid
   diagrams are unavailable.
 - Confirm the profile README renders through GitHub Markdown before pushing.

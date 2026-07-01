@@ -123,3 +123,20 @@ standard library, GitHub Actions Markdown lint.
 - [x] Add direct links to live site surfaces for richer interaction.
 - [x] Label charts that are editorial routing aids rather than traffic data.
 - [x] Update the verifier and docs so these interactive affordances persist.
+
+### Task 7: Proof-of-Work Hiring Pass
+
+**Files:**
+
+- Modify: `README.md`
+- Modify: `scripts/check_profile_surface.py`
+
+**Steps:**
+
+- [x] Add a concise section explaining why the profile is worth a hiring
+      manager's time.
+- [x] Add direct best-fit role lanes for hiring teams.
+- [x] Add 30-second, 5-minute, and 20-minute inspection paths.
+- [x] Add a proof-of-work matrix pairing claims with public evidence and first
+      checks.
+- [x] Update the verifier and docs to keep the hiring proof layer in place.

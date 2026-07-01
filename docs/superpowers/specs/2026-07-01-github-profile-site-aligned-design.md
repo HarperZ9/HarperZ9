@@ -14,6 +14,11 @@ whole mission.
   they build, and which projects are worth inspecting.
 - Hiring managers need a faster first screen than researchers: role signal,
   strongest artifacts, and inspection path must appear before deep theory.
+- Hiring claims should pair with public evidence and a first check; otherwise
+  they read as self-description rather than proof of work.
+- Role fit should be named directly. Hiring teams should not have to infer
+  whether the profile maps to AI tooling, developer tools, evals, systems, or
+  graphics/color work.
 - Common template patterns such as badge walls, typing SVGs, stats cards, and
   visitor counters are visually loud but weak as proof surfaces.
 - Reddit and developer-forum examples reward novelty, but the durable lesson is
@@ -42,7 +47,8 @@ GitHub-native route map from identity to research-lab scope, site, engines,
 domain lanes, tester threads, and developer verification. Add interaction only
 where it improves reader routing: hiring-manager fast path, collapsible reader
 paths, Mermaid ecosystem map, direct live-surface links, and a clearly labeled
-non-traffic route chart.
+non-traffic route chart. Keep a proof-of-work matrix near the top so hiring
+claims are immediately inspectable.
 
 ## Voice
 
@@ -57,13 +63,17 @@ non-traffic route chart.
 1. Flagship card hero and the main site thesis.
 2. Zain Dana Harper identity, hiring signal, and Project Telos positioning.
 3. Site, flagship, and career links.
-4. Hiring-manager fast path and collapsible reader paths.
-5. Mermaid ecosystem map, live-surface links, and route chart.
-6. Eight-engine flagship rows mirroring the site architecture.
-7. Domain lanes drawn from the indexed public docs and Telos dogfood packets.
-8. Public-safe private-line note routed through the main site.
-9. Range and working-style section.
-10. Tester threads and local verifier commands.
+4. Why-this-is-worth-your-time bullets for hiring managers.
+5. Best-fit role lanes.
+6. Hiring-manager fast path, time-budgeted inspection path, and collapsible
+   reader paths.
+7. Proof-of-work matrix.
+8. Mermaid ecosystem map, live-surface links, and route chart.
+9. Eight-engine flagship rows mirroring the site architecture.
+10. Domain lanes drawn from the indexed public docs and Telos dogfood packets.
+11. Public-safe private-line note routed through the main site.
+12. Range and working-style section.
+13. Tester threads and local verifier commands.
 
 ## Constraints
 

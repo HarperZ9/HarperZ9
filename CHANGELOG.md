@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-07-01 - Proof-of-Work Hiring Pass
+
+- Added a sharper top-level hiring signal explaining why the profile is worth a
+  hiring manager's time.
+- Added a time-budgeted inspection path for 30-second, 5-minute, and 20-minute
+  reviews.
+- Added a best-fit roles table for AI tooling, developer tools, agent
+  orchestration/evals, systems/runtime work, and graphics/color tooling.
+- Added a proof-of-work matrix that pairs each public claim with an artifact and
+  a first check.
+- Updated the verifier so the hiring signal, inspection path, and proof matrix
+  remain part of the profile contract.
+
 ## 2026-07-01 - Hiring Signal and Interaction Pass
 
 - Added a hiring-manager fast path above the flagship engine list.
