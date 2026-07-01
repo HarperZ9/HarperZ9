@@ -38,10 +38,12 @@ by a public link or test path.
 - Make clear that evidence/accountability is the method, not the only domain.
 - Make clear that rigor is a response to human fallibility, not sterile
   posturing.
-- Avoid résumé-table gravity. Lead with a memorable workbench concept, then
+- Avoid resume-table gravity. Lead with a memorable workbench concept, then
   route hiring readers through concrete instruments and proof paths.
 - Use GitHub-native interaction: collapsible paths, Mermaid maps, and compact
   route charts that render without JavaScript.
+- Add interactivity through real reader choices: showcase drawers, demo links,
+  runnable command snippets, and public site surfaces.
 - Give hiring teams a fast inspection door without making the whole profile
   feel like corporate positioning.
 - Name what the instruments do in active language.

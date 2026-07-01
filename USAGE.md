@@ -11,7 +11,11 @@ dashboards should live on the site, with the profile linking out to them.
 The current concept is a public lab bench. Keep it vivid: reader doors,
 instruments, maps, traps, and proof paths. Hiring signal should be present, but
 it should be embedded in how the work can be inspected rather than framed as a
-generic résumé page.
+generic resume page.
+
+Interactive elements should stay GitHub-native: expandable showcase drawers,
+demo links, runnable snippets, Mermaid diagrams, and links to richer live
+surfaces on the site.
 
 Voice should stay human. The profile should preserve the artistic,
 mistake-making, fallible person behind the clean engineering surface.
@@ -72,7 +76,7 @@ Before publishing:
 - Keep links pointed at public repositories or public pages.
 - Keep maturity and funding language concrete.
 - Keep the profile short enough to scan from GitHub's first screen.
-- Keep the time-budgeted hiring path and proof-of-work matrix close to the top.
+- Keep the reader doors and showcase/demo drawers close to the top.
 - Keep GitHub-native interaction readable when collapsed sections and Mermaid
   diagrams are unavailable.
 - Confirm the profile README renders through GitHub Markdown before pushing.

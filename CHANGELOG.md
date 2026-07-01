@@ -1,11 +1,22 @@
 # Changelog
 
+## 2026-07-01 - Interactive Showcase Pass
+
+- Added a `Showcases and demos` section with expandable routes for visual
+  surfaces, runnable source demos, demo HTML surfaces, and mood-based paths.
+- Linked live site demos for Studio, catalog, flagships, research, and
+  BuildLang, plus public repo demo surfaces for index, gather, and forum.
+- Added `Bench notes` drawers to make the profile more personal without
+  turning it into a diary.
+- Updated the verifier, product brief, and usage guide so the interactive demo
+  layer remains part of the profile contract.
+
 ## 2026-07-01 - Public Lab Bench Reapproach
 
 - Replaced the enterprise-profile framing with a more memorable public lab
   bench concept: choose a door, inspect the instruments, follow the map, and
   break the traps.
-- Removed the résumé-heavy section flow in favor of GitHub-native interactive
+- Removed the resume-heavy section flow in favor of GitHub-native interactive
   reader routes and active instrument language.
 - Rebuilt the map around the actual work loop: gather sources, index the
   workspace, route the work, make or simulate, attack the claim, and leave a
