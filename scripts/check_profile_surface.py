@@ -24,6 +24,12 @@ REQUIRED_README_TERMS = (
     "https://github.com/HarperZ9/forum",
     "https://github.com/HarperZ9/crucible",
     "https://github.com/HarperZ9/telos",
+    "https://github.com/HarperZ9/buildlang",
+    "https://github.com/HarperZ9/emet",
+    "https://github.com/HarperZ9/learn",
+    "img.shields.io/pypi/v/crucible-bench",
+    "img.shields.io/crates/v/buildlang",
+    "147 repositories",
     "Open tester threads",
     "Recent public dogfood",
 )
