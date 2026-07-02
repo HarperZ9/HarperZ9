@@ -457,7 +457,7 @@ This is the boring-looking part that keeps the interesting parts honest.
 
 | If you want to... | Open | What it proves first |
 | --- | --- | --- |
-| Make AI work inspectable | [telos](https://github.com/HarperZ9/telos) | Shared human/model workspace, MCP tools, Studio surfaces, browser evidence, and replayable receipts. |
+| Make AI work inspectable | [telos](https://github.com/HarperZ9/telos) | Shared human/model workspace, MCP tools, Studio surfaces, browser evidence, replayable receipts, and a `telos proof` CLI that turns agent actions, research claims, scientific runs, and visual measurements into re-checkable proof packets (MATCH, DRIFT, or UNVERIFIABLE). |
 | See a codebase as a map | [index](https://github.com/HarperZ9/index) | Workspace atlas, dependency evidence, freshness checks, and context envelopes. |
 | Bring messy sources inside | [gather](https://github.com/HarperZ9/gather) | Method-labeled intake for web, docs, feeds, papers, PDFs, browser/OCR/audio paths, APIs, and derived notes. |
 | Route agent work without losing the trail | [forum](https://github.com/HarperZ9/forum) | Ledgers, budgets, route records, resume state, intent checks, and verifier seams. |
