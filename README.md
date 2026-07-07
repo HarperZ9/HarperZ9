@@ -2,15 +2,16 @@
 
 <!-- markdownlint-disable MD013 MD026 MD033 -->
 
-<img src="docs/brand/profile-hero.png" alt="Project Telos flagship card: See it, and shape it, together with a model." width="100%">
+<img src="docs/brand/banner.svg" alt="Project Telos: Build with a model. Peer into the frontier." width="100%">
 
-> Build with a model. Take nothing on faith.
+> **Build with a model. Take nothing on faith.**
 
-I build instruments that make AI-assisted work prove itself. The work below is
-runnable, published, tested, and built to fail in public rather than only look
-right under flattering light. **Project Telos** is the ecosystem: eight
-flagships that capture sources, map workspaces, route agents, check claims,
-witness bytes, compile typed effects, and learn without bypassing the learner.
+I build engines that do heavy, interesting work: map a whole workspace into a
+navigable atlas in seconds, capture research from places scrapers give up on,
+run agent fleets you can replay step by step, compile a typed-effects language
+to native code, and render generative art from real mathematics. **Project
+Telos** is the line that holds them together: eight flagships, all runnable,
+published, and tested. Every claim below links to the thing that proves it.
 
 **Site:** [harperz9.github.io](https://harperz9.github.io) · **Work:**
 [resume](https://harperz9.github.io/resume.html) ·
@@ -25,19 +26,17 @@ Seattle, WA · Rust · Python · C++23 · [ORCID 0009-0001-7175-5393](https://or
 ## The flagships
 
 Versions, CI status, and downloads below pull straight from each registry and
-GitHub on page load — no hand-typed numbers to rot. Every tool returns `MATCH`,
-`DRIFT`, or `UNVERIFIABLE`, never a fourth word. Pick the claim that sounds too
-confident and try to break it.
+GitHub on page load, no hand-typed numbers to rot.
 
-[![index](https://img.shields.io/pypi/v/index-graph.svg?label=index)](https://pypi.org/project/index-graph/) [![gather](https://img.shields.io/pypi/v/gather-engine.svg?label=gather)](https://pypi.org/project/gather-engine/) [![forum](https://img.shields.io/pypi/v/forum-engine.svg?label=forum)](https://pypi.org/project/forum-engine/) [![crucible](https://img.shields.io/pypi/v/crucible-bench.svg?label=crucible)](https://pypi.org/project/crucible-bench/) [![emet](https://img.shields.io/pypi/v/emet.svg?label=emet)](https://pypi.org/project/emet/) [![buildlang](https://img.shields.io/crates/v/buildlang.svg?label=buildlang)](https://crates.io/crates/buildlang/)
+[![index](https://img.shields.io/pypi/v/index-graph?label=index&style=flat-square&labelColor=14041b&color=26dfe8)](https://pypi.org/project/index-graph/) [![gather](https://img.shields.io/pypi/v/gather-engine?label=gather&style=flat-square&labelColor=14041b&color=f8cc43)](https://pypi.org/project/gather-engine/) [![forum](https://img.shields.io/pypi/v/forum-engine?label=forum&style=flat-square&labelColor=14041b&color=99f147)](https://pypi.org/project/forum-engine/) [![crucible](https://img.shields.io/pypi/v/crucible-bench?label=crucible&style=flat-square&labelColor=14041b&color=9683ff)](https://pypi.org/project/crucible-bench/) [![emet](https://img.shields.io/pypi/v/emet?label=emet&style=flat-square&labelColor=14041b&color=ff35aa)](https://pypi.org/project/emet/) [![buildlang](https://img.shields.io/crates/v/buildlang?label=buildlang&style=flat-square&labelColor=14041b&color=ff8334)](https://crates.io/crates/buildlang/)
 
-[![index](https://img.shields.io/github/actions/workflow/status/HarperZ9/index/ci.yml?label=index)](https://github.com/HarperZ9/index/actions/workflows/ci.yml) [![gather](https://img.shields.io/github/actions/workflow/status/HarperZ9/gather/ci.yml?label=gather)](https://github.com/HarperZ9/gather/actions/workflows/ci.yml) [![forum](https://img.shields.io/github/actions/workflow/status/HarperZ9/forum/ci.yml?label=forum)](https://github.com/HarperZ9/forum/actions/workflows/ci.yml) [![crucible](https://img.shields.io/github/actions/workflow/status/HarperZ9/crucible/ci.yml?label=crucible)](https://github.com/HarperZ9/crucible/actions/workflows/ci.yml) [![emet](https://img.shields.io/github/actions/workflow/status/HarperZ9/emet/conformance.yml?label=emet)](https://github.com/HarperZ9/emet/actions/workflows/conformance.yml) [![buildlang](https://img.shields.io/github/actions/workflow/status/HarperZ9/buildlang/ci.yml?label=buildlang)](https://github.com/HarperZ9/buildlang/actions/workflows/ci.yml)
+[![index](https://img.shields.io/github/actions/workflow/status/HarperZ9/index/ci.yml?label=index&style=flat-square&labelColor=14041b)](https://github.com/HarperZ9/index/actions/workflows/ci.yml) [![gather](https://img.shields.io/github/actions/workflow/status/HarperZ9/gather/ci.yml?label=gather&style=flat-square&labelColor=14041b)](https://github.com/HarperZ9/gather/actions/workflows/ci.yml) [![forum](https://img.shields.io/github/actions/workflow/status/HarperZ9/forum/ci.yml?label=forum&style=flat-square&labelColor=14041b)](https://github.com/HarperZ9/forum/actions/workflows/ci.yml) [![crucible](https://img.shields.io/github/actions/workflow/status/HarperZ9/crucible/ci.yml?label=crucible&style=flat-square&labelColor=14041b)](https://github.com/HarperZ9/crucible/actions/workflows/ci.yml) [![emet](https://img.shields.io/github/actions/workflow/status/HarperZ9/emet/conformance.yml?label=emet&style=flat-square&labelColor=14041b)](https://github.com/HarperZ9/emet/actions/workflows/conformance.yml) [![buildlang](https://img.shields.io/github/actions/workflow/status/HarperZ9/buildlang/ci.yml?label=buildlang&style=flat-square&labelColor=14041b)](https://github.com/HarperZ9/buildlang/actions/workflows/ci.yml)
 
-[![index](https://img.shields.io/pypi/dm/index-graph.svg?label=index)](https://pypi.org/project/index-graph/) [![gather](https://img.shields.io/pypi/dm/gather-engine.svg?label=gather)](https://pypi.org/project/gather-engine/) [![forum](https://img.shields.io/pypi/dm/forum-engine.svg?label=forum)](https://pypi.org/project/forum-engine/) [![crucible](https://img.shields.io/pypi/dm/crucible-bench.svg?label=crucible)](https://pypi.org/project/crucible-bench/) [![emet](https://img.shields.io/pypi/dm/emet.svg?label=emet)](https://pypi.org/project/emet/) [![buildlang](https://img.shields.io/crates/dv/buildlang.svg?label=buildlang)](https://crates.io/crates/buildlang/)
+[![index](https://img.shields.io/pypi/dm/index-graph?label=index&style=flat-square&labelColor=14041b&color=26dfe8)](https://pypi.org/project/index-graph/) [![gather](https://img.shields.io/pypi/dm/gather-engine?label=gather&style=flat-square&labelColor=14041b&color=f8cc43)](https://pypi.org/project/gather-engine/) [![forum](https://img.shields.io/pypi/dm/forum-engine?label=forum&style=flat-square&labelColor=14041b&color=99f147)](https://pypi.org/project/forum-engine/) [![crucible](https://img.shields.io/pypi/dm/crucible-bench?label=crucible&style=flat-square&labelColor=14041b&color=9683ff)](https://pypi.org/project/crucible-bench/) [![emet](https://img.shields.io/pypi/dm/emet?label=emet&style=flat-square&labelColor=14041b&color=ff35aa)](https://pypi.org/project/emet/) [![buildlang](https://img.shields.io/crates/dv/buildlang?label=buildlang&style=flat-square&labelColor=14041b&color=ff8334)](https://crates.io/crates/buildlang/)
 
 | Tool | What it does | Install | The receipt that matters |
 | --- | --- | --- | --- |
-| [telos](https://github.com/HarperZ9/telos) | The workbench: shared human/model workspace, MCP tools, Studio surfaces, and a `telos proof` CLI that turns agent actions, research, builds, and visuals into re-checkable packets (`MATCH`/`DRIFT`/`UNVERIFIABLE`). | `node demo/run.mjs` | `0.2.0` — frontier R&D substrate, honestly early |
+| [telos](https://github.com/HarperZ9/telos) | The workbench: shared human/model workspace, MCP tools, Studio surfaces, and a `telos proof` CLI that turns agent actions, research, builds, and visuals into re-checkable packets (`MATCH`/`DRIFT`/`UNVERIFIABLE`). | `node demo/run.mjs` | `0.2.0`, frontier R&D substrate, honestly early |
 | [index](https://github.com/HarperZ9/index) | Map one repo into a verified wiki, or a whole workspace into a two-layer code+docs atlas. Built from file:line evidence. | `pip install index-graph` | deterministic, byte-identical output · known-bad fixtures kept as failing tests |
 | [gather](https://github.com/HarperZ9/gather) | Capture web, video, papers, PDFs, browser/OCR/audio into verified research packets. | `pip install gather-engine` | provenance receipt on every item · witnessed digest seal catches tampering |
 | [forum](https://github.com/HarperZ9/forum) | Coordinate agent fleets through a tamper-evident, replayable ledger. Model-agnostic. | `pip install forum-engine` | hash-chain + content-addressed bodies · Merkle checkpoint avoids CVE-2012-2459 |
@@ -45,6 +44,9 @@ confident and try to break it.
 | [emet](https://github.com/HarperZ9/emet) | A small external witness: re-derive the bytes, get `MATCH`/`DRIFT`/`UNVERIFIABLE`. Never `TRUSTED`. | `pip install emet` | **frozen spec** · 4 implementations (Py/Rust/Node/Go) pass **35 conformance vectors** in CI · MPL-2.0 |
 | [buildlang](https://github.com/HarperZ9/buildlang) | A Rust typed-effects compiler: functions declare what they may touch, the compiler checks the promise. C verified backend, HLSL/GLSL out. | `cargo install buildlang` | **940+ tests passing (0 failing)** · typed effects · C verified backend |
 | [learn](https://github.com/HarperZ9/learn) | Accountable credential + coursework engine. Halts hard at every graded step; FSRS spaced repetition. | `node src/cli.mjs` | `1.6.0` · **240 tests** · `mastery()` is a pure function of your own practice, never the machine's |
+
+Every engine returns `MATCH`, `DRIFT`, or `UNVERIFIABLE`, never a fourth word.
+Pick the claim that sounds too confident and try to break it.
 
 ## How the engines fit together
 
@@ -80,7 +82,7 @@ index atlas --root /path/to/workspace --format html --out atlas.html
 git clone https://github.com/HarperZ9/forum && cd forum
 python examples/demo.py
 
-# force a verdict — does a confident claim survive the measurement?
+# force a verdict: does a confident claim survive the measurement?
 git clone https://github.com/HarperZ9/crucible && cd crucible
 python examples/demo.py
 
@@ -162,9 +164,9 @@ that can be cloned, run, and argued with.
 
 - **Elder ENB:** two years of public releases, named editions, 900k+ downloads. Taught taste, iteration, users, and the difference between a pretty frame and a maintained system.
 - **Native graphics lineage:** D3D11/HLSL renderers, proxy-DLL interception, mid-frame compute dispatch, ACES/AgX tone mapping, TAA, SSR, SSGI, GTAO, volumetrics, ImGui tools, CMake/vcpkg, shared-memory IPC.
-- **Build Color:** a color-science workbench — color spaces, HDR tone mapping, perceptual difference metrics, chromatic adaptation, ICC profiles, gamut work, color-vision simulation, 3D LUTs.
-- **BuildLang:** a typed-effects language and compiler line — lexing, parsing, checking, effects, lifetimes, C FFI, C lowering, editor support, explicit maturity labels for unfinished parts.
-- **Project Telos:** the current flagship — durable state, senses, action boundaries, receipts, and checks before anyone is asked to trust it.
+- **Build Color:** a color-science workbench. Color spaces, HDR tone mapping, perceptual difference metrics, chromatic adaptation, ICC profiles, gamut work, color-vision simulation, 3D LUTs.
+- **BuildLang:** a typed-effects language and compiler line. Lexing, parsing, checking, effects, lifetimes, C FFI, C lowering, editor support, explicit maturity labels for unfinished parts.
+- **Project Telos:** the current flagship. Durable state, senses, action boundaries, receipts, and checks before anyone is asked to trust it.
 
 </details>
 
@@ -184,7 +186,9 @@ break the receipt discipline, and report where the proof surface fails.
 
 This README is part of the workbench. It has a local verifier and CI, and stays
 deliberately static: no badge wall beyond what each tool actually earns, no
-visitor counter, no dashboard that silently rots.
+visitor counter, no dashboard that silently rots. The banner is generated art:
+a seeded flow field in the Project Telos spectrum, the same family the site
+draws live in your browser.
 
 ```powershell
 git status --short
