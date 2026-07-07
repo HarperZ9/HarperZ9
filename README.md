@@ -2,7 +2,7 @@
 
 <!-- markdownlint-disable MD013 MD026 MD033 -->
 
-<img src="docs/brand/banner.svg" alt="Project Telos: Build with a model. Take nothing on faith." width="100%">
+<img src="docs/brand/banner.svg" alt="Project Telos: Build with a model. Peer into the frontier." width="100%">
 
 > **Build with a model. Take nothing on faith.**
 
