@@ -4,7 +4,7 @@
 
 <img src="docs/brand/banner.svg" alt="Project Telos: Build with a model. Peer into the frontier." width="100%">
 
-> **Build with a model. Take nothing on faith.**
+> **Build with a model. Peer into the frontier.**
 
 I build engines that do heavy, interesting work: map a whole workspace into a
 navigable atlas in seconds, capture research from places scrapers give up on,
@@ -18,6 +18,7 @@ published, and tested. Every claim below links to the thing that proves it.
 [portfolio](https://harperz9.github.io/portfolio.html) ·
 [CV](https://harperz9.github.io/cv.html) ·
 [research](https://harperz9.github.io/research.html) ·
+[papers](https://harperz9.github.io/publications.html) ·
 [Studio](https://harperz9.github.io/studio.html) ·
 [the person behind it](https://harperz9.github.io/person.html)
 
