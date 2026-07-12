@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="480" viewBox="0 0 1280 480" role="img" aria-label="Zain Dana Harper: build with a model, take nothing on faith">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="480" viewBox="0 0 1280 480" role="img" aria-label="Zain Dana Harper: work you can walk away from; fourteen engines that run anywhere and show their work">
   <defs>
     <radialGradient id="glow" gradientUnits="userSpaceOnUse" cx="1421" cy="-90" r="1608">
       <stop offset="0" stop-color="#ff35aa" stop-opacity="0.50"/>
@@ -104,9 +104,9 @@
 
     <rect width="1280" height="480" fill="url(#veil)"/>
     <text x="64" y="96" font-family="'Spline Sans Mono','Cascadia Code',Consolas,monospace" font-size="15" letter-spacing="6" fill="#26dfe8">PROJECT TELOS &#8725; ZAIN DANA HARPER</text>
-    <text x="60" y="196" font-family="Archivo,'Archivo Black','Segoe UI',system-ui,sans-serif" font-size="88" font-weight="900" letter-spacing="-2.5" fill="#faf4fc">Build with a model.</text>
-    <text x="60" y="290" font-family="Archivo,'Archivo Black','Segoe UI',system-ui,sans-serif" font-size="88" font-weight="900" letter-spacing="-2.5" fill="#99f147">Peer into the frontier.</text>
-    <text x="64" y="342" font-family="Archivo,'Archivo Black','Segoe UI',system-ui,sans-serif" font-size="24" font-weight="500" fill="#bfb2c5">Eight engines that reach, map, run, and render the new territory, and show it to you undistorted.</text>
+    <text x="60" y="196" font-family="Archivo,'Archivo Black','Segoe UI',system-ui,sans-serif" font-size="88" font-weight="900" letter-spacing="-2.5" fill="#faf4fc">Work you can</text>
+    <text x="60" y="290" font-family="Archivo,'Archivo Black','Segoe UI',system-ui,sans-serif" font-size="88" font-weight="900" letter-spacing="-2.5" fill="#99f147">walk away from.</text>
+    <text x="64" y="342" font-family="Archivo,'Archivo Black','Segoe UI',system-ui,sans-serif" font-size="24" font-weight="500" fill="#bfb2c5">Fourteen engines across AI, code, graphics, and research. Each runs anywhere and shows its work.</text>
     
   <g>
     <rect x="64" y="396" rx="14" width="86" height="28" fill="none" stroke="#99f147" stroke-width="1.4"/>

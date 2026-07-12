@@ -2,16 +2,16 @@
 
 <!-- markdownlint-disable MD013 MD026 MD033 -->
 
-<img src="docs/brand/banner.svg" alt="Project Telos: Build with a model. Peer into the frontier." width="100%">
+<img src="docs/brand/banner.svg" alt="Project Telos: work you can walk away from. Fourteen engines that run anywhere and show their work." width="100%">
 
-> **Build with a model. Peer into the frontier.**
+> **Work you can walk away from.**
 
-I build engines that do heavy, interesting work: map a whole workspace into a
-navigable atlas in seconds, capture research from places scrapers give up on,
-run agent fleets you can replay step by step, compile a typed-effects language
-to native code, and render generative art from real mathematics. **Project
-Telos** is the line that holds them together: eight flagships, all runnable,
-published, and tested. Every claim below links to the thing that proves it.
+I build tools across AI, code, graphics, and research that **run anywhere** and
+earn your trust, not your attention. Each one shows its work and gives you your
+time back: it answers what it can verify, says `UNVERIFIABLE` when it cannot,
+and hands back a receipt you can re-run yourself. **Project Telos** is the line
+that holds them together: fourteen engines, all runnable, published, and tested.
+Every claim below links to the thing that proves it.
 
 **Site:** [harperz9.github.io](https://harperz9.github.io) · **Work:**
 [resume](https://harperz9.github.io/resume.html) ·
@@ -37,6 +37,7 @@ GitHub on page load, no hand-typed numbers to rot.
 
 | Tool | What it does | Install | The receipt that matters |
 | --- | --- | --- | --- |
+| [flywheel](https://github.com/HarperZ9/flywheel) | The router and harness that verifies: point it at any model, local or hosted, online or offline. It answers what it can verify, escalates only the hard part, and hands back a content-addressed receipt a stranger can recompute offline. Speaks the OpenAI API, so existing tools route through the verify layer unchanged. | `python scripts/run_harness_cli.py app` | public · FSL-1.1-MIT · zero-dependency · an external check accepts each answer, never a model grading itself |
 | [telos](https://github.com/HarperZ9/telos) | The workbench: shared human/model workspace, MCP tools, Studio surfaces, and a `telos proof` CLI that turns agent actions, research, builds, and visuals into re-checkable packets (`MATCH`/`DRIFT`/`UNVERIFIABLE`). | `node demo/run.mjs` | `0.2.0`, frontier R&D substrate, honestly early |
 | [index](https://github.com/HarperZ9/index) | Map one repo into a verified wiki, or a whole workspace into a two-layer code+docs atlas. Built from file:line evidence. | `pip install index-graph` | deterministic, byte-identical output · known-bad fixtures kept as failing tests |
 | [gather](https://github.com/HarperZ9/gather) | Capture web, video, papers, PDFs, browser/OCR/audio into verified research packets. | `pip install gather-engine` | provenance receipt on every item · witnessed digest seal catches tampering |
@@ -45,6 +46,13 @@ GitHub on page load, no hand-typed numbers to rot.
 | [emet](https://github.com/HarperZ9/emet) | A small external witness: re-derive the bytes, get `MATCH`/`DRIFT`/`UNVERIFIABLE`. Never `TRUSTED`. | `pip install emet` | **frozen spec** · 4 implementations (Py/Rust/Node/Go) pass **35 conformance vectors** in CI · MPL-2.0 |
 | [buildlang](https://github.com/HarperZ9/buildlang) | A Rust typed-effects compiler: functions declare what they may touch, the compiler checks the promise. C verified backend, HLSL/GLSL out. | `cargo install buildlang` | **940+ tests passing (0 failing)** · typed effects · C verified backend |
 | [learn](https://github.com/HarperZ9/learn) | Accountable credential + coursework engine. Halts hard at every graded step; FSRS spaced repetition. | `node src/cli.mjs` | `1.6.0` · **240 tests** · `mastery()` is a pure function of your own practice, never the machine's |
+
+Also public and runnable:
+[relay](https://github.com/HarperZ9/relay) (code with any model, offline to API, with failover),
+[plexus](https://github.com/HarperZ9/plexus) (wire agent tools into a working pipeline),
+[mneme](https://github.com/HarperZ9/mneme) (accountable agent memory that carries its provenance),
+[studio-engine](https://github.com/HarperZ9/studio-engine) (generate replayable creative worlds from a seed), and
+[calibrate-pro](https://github.com/HarperZ9/calibrate-pro) (measured display calibration with a verification pass).
 
 Every engine returns `MATCH`, `DRIFT`, or `UNVERIFIABLE`, never a fourth word.
 Pick the claim that sounds too confident and try to break it.
@@ -200,4 +208,4 @@ python scripts/check_profile_surface.py
 - [profile template research](docs/research/2026-07-01-profile-template-research.md)
 - [index scope assessment](docs/research/2026-07-01-index-scope-assessment.md)
 
-Build it to be checked, or do not ship it.
+Clone it, run it, try to break it.
