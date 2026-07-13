@@ -2,32 +2,53 @@
 
 <!-- markdownlint-disable MD013 MD026 MD033 -->
 
-<img src="docs/brand/banner.svg" alt="Project Telos: Build with a model. Peer into the frontier." width="100%">
+<img src="docs/brand/banner.svg" alt="Project Telos spectrum banner: Work you can walk away from." width="100%">
 
-> **Build with a model. Peer into the frontier.**
+> **Systems engineer and technical artist. One workshop, many routes.**
 
-I build engines that do heavy, interesting work: map a whole workspace into a
-navigable atlas in seconds, capture research from places scrapers give up on,
-run agent fleets you can replay step by step, compile a typed-effects language
-to native code, and render generative art from real mathematics. **Project
-Telos** is the line that holds them together: eight flagships, all runnable,
-published, and tested. Every claim below links to the thing that proves it.
+I build across **AI and local-model infrastructure, agent tooling, compilers,
+graphics and color, and research and release systems**. **Project Telos** is
+the public workshop that holds those lanes together. The shared habit is
+simple: map the system, make the surface, test the claim, and leave a usable
+artifact.
 
-**Site:** [harperz9.github.io](https://harperz9.github.io) · **Work:**
-[resume](https://harperz9.github.io/resume.html) ·
-[portfolio](https://harperz9.github.io/portfolio.html) ·
+The banner names the ambition, not a blanket maturity claim. Some tools can
+run anywhere with few or no dependencies; others are Windows-native, GPU-facing,
+pre-1.0, or research-only. Some are released packages, some are public beta,
+and some are active R&D. Each project carries its own status below.
+
+**Start here:** [Project Telos](https://harperz9.github.io/) ·
+[Portfolio](https://harperz9.github.io/portfolio.html) ·
+[Resume](https://harperz9.github.io/resume.html) ·
 [CV](https://harperz9.github.io/cv.html) ·
-[research](https://harperz9.github.io/research.html) ·
+[LinkedIn](https://www.linkedin.com/in/zaindanaharper/)
+
+**Explore:** [research](https://harperz9.github.io/research.html) ·
 [papers](https://harperz9.github.io/publications.html) ·
 [Studio](https://harperz9.github.io/studio.html) ·
 [the person behind it](https://harperz9.github.io/person.html)
 
-Seattle, WA · Rust · Python · C++23 · [ORCID 0009-0001-7175-5393](https://orcid.org/0009-0001-7175-5393) · open to research or engineering work.
+Seattle, WA · Rust · Python · C++23 ·
+[ORCID 0009-0001-7175-5393](https://orcid.org/0009-0001-7175-5393) ·
+open to paid engineering, applied R&D, developer-tooling, and technical-art work.
+
+## Choose a door
+
+| Lane | Start with | Current shape |
+| --- | --- | --- |
+| AI and local-model infrastructure | [flywheel](https://github.com/HarperZ9/flywheel), [relay](https://github.com/HarperZ9/relay) | Harness, endpoint, routing, failover, and evaluation work. Active R&D plus a 0.1.0 source prototype; benchmark conclusions stay scoped to the task set that produced them. |
+| Agent tooling | [telos](https://github.com/HarperZ9/telos), [index](https://github.com/HarperZ9/index), [gather](https://github.com/HarperZ9/gather), [forum](https://github.com/HarperZ9/forum), [crucible](https://github.com/HarperZ9/crucible) | A mixed-maturity toolchain for context, research intake, orchestration, evaluation, and human/model workspaces. |
+| Compilers and developer systems | [BuildLang](https://github.com/HarperZ9/buildlang) | Rust-built typed-effects compiler. The C execution path and HLSL/GLSL output are the current core; other backends and linear types remain explicitly experimental. |
+| Graphics and generated media | [Studio Engine](https://github.com/HarperZ9/studio-engine), [Elder ENB](https://www.nexusmods.com/skyrimspecialedition/mods/117327) | A pre-1.0 generative engine beside an established public graphics project shaped by years of releases and user feedback. |
+| Color and calibration | [Build Color](https://github.com/HarperZ9/build-color), [Calibrate Pro](https://github.com/HarperZ9/calibrate-pro) | A 1.0.2 beta color-science workbench and a **legacy UI / modernization track** for Windows display calibration. |
+| Research and release tooling | [papers](https://harperz9.github.io/publications.html), [release toolkit](https://harperz9.github.io/toolkit.html), [emet](https://github.com/HarperZ9/emet) | Public papers, source/provenance workflows, package and CI checks, release surfaces, and a byte-level integrity witness. |
 
 ## The flagships
 
-Versions, CI status, and downloads below pull straight from each registry and
-GitHub on page load, no hand-typed numbers to rot.
+The badges pull versions, CI state, and downloads from registries and GitHub on
+page load. Static maturity wording below follows the 2026-07-12 career-facts
+authority; it is labeled by project rather than promoted into one ecosystem
+claim.
 
 [![index](https://img.shields.io/pypi/v/index-graph?label=index&style=flat-square&labelColor=14041b&color=26dfe8)](https://pypi.org/project/index-graph/) [![gather](https://img.shields.io/pypi/v/gather-engine?label=gather&style=flat-square&labelColor=14041b&color=f8cc43)](https://pypi.org/project/gather-engine/) [![forum](https://img.shields.io/pypi/v/forum-engine?label=forum&style=flat-square&labelColor=14041b&color=99f147)](https://pypi.org/project/forum-engine/) [![crucible](https://img.shields.io/pypi/v/crucible-bench?label=crucible&style=flat-square&labelColor=14041b&color=9683ff)](https://pypi.org/project/crucible-bench/) [![emet](https://img.shields.io/pypi/v/emet?label=emet&style=flat-square&labelColor=14041b&color=ff35aa)](https://pypi.org/project/emet/) [![buildlang](https://img.shields.io/crates/v/buildlang?label=buildlang&style=flat-square&labelColor=14041b&color=ff8334)](https://crates.io/crates/buildlang/)
 
@@ -35,40 +56,51 @@ GitHub on page load, no hand-typed numbers to rot.
 
 [![index](https://img.shields.io/pypi/dm/index-graph?label=index&style=flat-square&labelColor=14041b&color=26dfe8)](https://pypi.org/project/index-graph/) [![gather](https://img.shields.io/pypi/dm/gather-engine?label=gather&style=flat-square&labelColor=14041b&color=f8cc43)](https://pypi.org/project/gather-engine/) [![forum](https://img.shields.io/pypi/dm/forum-engine?label=forum&style=flat-square&labelColor=14041b&color=99f147)](https://pypi.org/project/forum-engine/) [![crucible](https://img.shields.io/pypi/dm/crucible-bench?label=crucible&style=flat-square&labelColor=14041b&color=9683ff)](https://pypi.org/project/crucible-bench/) [![emet](https://img.shields.io/pypi/dm/emet?label=emet&style=flat-square&labelColor=14041b&color=ff35aa)](https://pypi.org/project/emet/) [![buildlang](https://img.shields.io/crates/dv/buildlang?label=buildlang&style=flat-square&labelColor=14041b&color=ff8334)](https://crates.io/crates/buildlang/)
 
-| Tool | What it does | Install | The receipt that matters |
+| Tool | What it does | Maturity | The receipt that matters |
 | --- | --- | --- | --- |
-| [telos](https://github.com/HarperZ9/telos) | The workbench: shared human/model workspace, MCP tools, Studio surfaces, and a `telos proof` CLI that turns agent actions, research, builds, and visuals into re-checkable packets (`MATCH`/`DRIFT`/`UNVERIFIABLE`). | `node demo/run.mjs` | `0.2.0`, frontier R&D substrate, honestly early |
-| [index](https://github.com/HarperZ9/index) | Map one repo into a verified wiki, or a whole workspace into a two-layer code+docs atlas. Built from file:line evidence. | `pip install index-graph` | deterministic, byte-identical output · known-bad fixtures kept as failing tests |
-| [gather](https://github.com/HarperZ9/gather) | Capture web, video, papers, PDFs, browser/OCR/audio into verified research packets. | `pip install gather-engine` | provenance receipt on every item · witnessed digest seal catches tampering |
-| [forum](https://github.com/HarperZ9/forum) | Coordinate agent fleets through a tamper-evident, replayable ledger. Model-agnostic. | `pip install forum-engine` | hash-chain + content-addressed bodies · Merkle checkpoint avoids CVE-2012-2459 |
-| [crucible](https://github.com/HarperZ9/crucible) | Check a thesis against the measurement that could break it. Steelman, measure, verdict. | `pip install crucible-bench` | verdict is a pure function of the recorded measurement, no model in the loop |
-| [emet](https://github.com/HarperZ9/emet) | A small external witness: re-derive the bytes, get `MATCH`/`DRIFT`/`UNVERIFIABLE`. Never `TRUSTED`. | `pip install emet` | **frozen spec** · 4 implementations (Py/Rust/Node/Go) pass **35 conformance vectors** in CI · MPL-2.0 |
-| [buildlang](https://github.com/HarperZ9/buildlang) | A Rust typed-effects compiler: functions declare what they may touch, the compiler checks the promise. C verified backend, HLSL/GLSL out. | `cargo install buildlang` | **940+ tests passing (0 failing)** · typed effects · C verified backend |
-| [learn](https://github.com/HarperZ9/learn) | Accountable credential + coursework engine. Halts hard at every graded step; FSRS spaced repetition. | `node src/cli.mjs` | `1.6.0` · **240 tests** · `mastery()` is a pure function of your own practice, never the machine's |
+| [flywheel](https://github.com/HarperZ9/flywheel) | Runs local and hosted model routes through the same harness and oracle-backed evaluation paths. | **Research · active R&D.** No portfolio-wide model-superiority claim; each result belongs to its recorded task set, endpoint, and budget. | Cross-harness manifests, endpoint receipts, raw benchmark artifacts, and explicit non-conclusions. |
+| [telos](https://github.com/HarperZ9/telos) | Shared human/model workbench, MCP surfaces, creative tools, and four proof lanes through one CLI. | **Public work · 0.2.0 pre-1.0 source-registry package.** Tested surface; interfaces may move and npm publishing is operator-gated. | Re-checkable agent, research, visual, and build packets with explicit non-claims. |
+| [index](https://github.com/HarperZ9/index) | Maps a repo or workspace into an atlas, context envelope, symbol graph, or verified wiki. | **Public work · 2.9.0 beta.** Zero runtime dependencies. | File-and-line evidence, typed omission receipts, and freshness checks. |
+| [gather](https://github.com/HarperZ9/gather) | Captures web, video, papers, PDFs, browser/OCR/audio, and structured sources into research packets. | **Public work · 1.6.1 release.** | Provenance and digest verification stay attached to each captured item. |
+| [forum](https://github.com/HarperZ9/forum) | Routes multi-agent work through replayable ledgers, context budgets, gates, and campaigns. | **Public work · 1.13.0 versioned public package.** | Hash-chained bodies and records of who did what, under which route and constraint. |
+| [crucible](https://github.com/HarperZ9/crucible) | Registers a thesis, steelmans it, measures it, and emits a bounded verdict. | **Public work · 1.2.0 versioned public package.** | The verdict is recomputed from the recorded measurement rather than accepted from prose. |
+| [emet](https://github.com/HarperZ9/emet) | Re-derives byte-level integrity facts without making trust or release decisions. | **Public work · 1.0.0 on default public main and the local release tag; frozen 1.0.0 spec.** Four same-author implementations share the core; receipt and rebind coverage is capability-specific. | A different-author implementation is still the open bar for demonstrated independent re-derivability. |
+| [buildlang](https://github.com/HarperZ9/buildlang) | Compiles typed-effects source through C and emits HLSL/GLSL shader source. | **Public work · 1.2.0 source manifest.** C, effects, HLSL/GLSL, and receipts are core; SPIR-V, LLVM, WASM, Rust, native-ISA backends, GPU dispatch, and linear types are experimental. | Backend maturity is stated per target instead of hidden behind one compiler-wide label. |
+| [learn](https://github.com/HarperZ9/learn) | Turns source material into coursework, retrieval practice, spaced repetition, and graded records. | **Public work · 1.6.0 source version.** Zero runtime dependencies. | `mastery()` is derived from the learner's recorded practice. |
 
-Every engine returns `MATCH`, `DRIFT`, or `UNVERIFIABLE`, never a fourth word.
-Pick the claim that sounds too confident and try to break it.
+### Working surfaces beyond the flagship table
 
-## How the engines fit together
+| Project | Current role | Maturity |
+| --- | --- | --- |
+| [relay](https://github.com/HarperZ9/relay) | Coding-agent and endpoint ladder for local servers, authenticated CLIs, and configured APIs. | **Public work · 0.1.0 source prototype.** Git install; scopes writes and execution behind explicit flags. |
+| [plexus](https://github.com/HarperZ9/plexus) | Discovers what agent tools emit and consume, then proposes inspectable capability routes. | **Public work · 0.1.0 source prototype.** Git install; unmatched inputs and cycles remain visible. |
+| [mneme](https://github.com/HarperZ9/mneme) | Local agent memory with provenance, reproducible ranking, and drift checks. | **Public work · 0.1.0 source prototype.** Git install; PyPI release is not claimed yet. |
+| [studio-engine](https://github.com/HarperZ9/studio-engine) | Generates replayable shader, audio, motion, and raster artifacts from a seed. | **Research · 0.2.0 pre-1.0 engine.** APIs may move. |
+| [build-color](https://github.com/HarperZ9/build-color) | Color spaces, HDR tone mapping, appearance models, difference metrics, ICC, and LUT workflows. | **Public work · 1.0.2 beta.** A workbench and toolkit, not a physical measurement instrument. |
+| [calibrate-pro](https://github.com/HarperZ9/calibrate-pro) | Windows display-calibration code carried forward from an older desktop product line. | **Public work · legacy UI / modernization track.** The released 1.1.0 line carries that lineage into PySide6, explicit preview/confirm/verify boundaries, and evidence-labeled measured versus estimated results. |
+
+## How the workshop fits together
 
 ```mermaid
 flowchart LR
-    state["actual state / source / repo / visual idea"] --> gather["gather sources"]
-    gather --> index["index the workspace"]
-    index --> forum["route the work"]
-    forum --> telos["make / simulate / act"]
-    telos --> dogfood["dogfood on real work"]
-    dogfood --> crucible["attack the claim"]
-    crucible --> receipt["receipt, verdict, next question"]
-    receipt --> human["human judgment"]
-    human --> state
-    telos --> studio["Studio / visual surfaces"]
-    telos --> buildlang["BuildLang / effects"]
-    crucible --> emet["emet witness"]
+    problem["real problem"] --> models["AI / local-model workflows"]
+    problem --> systems["compilers / developer systems"]
+    problem --> visuals["graphics / color"]
+    problem --> research["research / release"]
+    models --> tools["flywheel · relay · forum · telos"]
+    systems --> compiler["BuildLang · index · plexus"]
+    visuals --> art["Studio Engine · Build Color · Calibrate Pro"]
+    research --> evidence["gather · crucible · emet · papers"]
+    tools --> artifact["usable artifact"]
+    compiler --> artifact
+    art --> artifact
+    evidence --> artifact
+    artifact --> human["human review and next loop"]
 ```
 
-The accountability line runs through all of them: a claim stands beside its
-source, a model answer can say `UNVERIFIABLE`, an idea leaves a receipt.
+The projects connect where their interfaces are real. They do not need to share
+one verdict vocabulary, deployment target, license, or maturity stage to belong
+to the same workshop. Rigor is the floor; it is not the only room.
 
 ## Run one in five minutes
 
@@ -87,7 +119,7 @@ python examples/demo.py
 git clone https://github.com/HarperZ9/crucible && cd crucible
 python examples/demo.py
 
-# four languages, one frozen spec, 35 conformance vectors
+# one frozen core spec plus capability-specific conformance lanes
 git clone https://github.com/HarperZ9/emet && cd emet
 python conformance/run.py membrane.py
 ```
@@ -123,10 +155,10 @@ I write about it because I know how easy it is to dodge the mirror: blame the
 room, overclaim the work, take shortcuts, want credit before earning it, or
 confuse intensity with progress.
 
-The tools are built against that. They make a claim stand beside its source.
-They make a model answer say `UNVERIFIABLE`. They make an idea leave a receipt.
-They give the next attempt somewhere firmer to launch from than mood, memory,
-or self-protection. The personal version of this is on
+That is why several Telos tools put a claim beside its source, let a model say
+`UNVERIFIABLE`, or make an action leave a receipt. Those mechanisms belong
+where they are useful; they are not a universal costume for the compiler,
+graphics, color, or product work. The personal version of this is on
 [person.html](https://harperz9.github.io/person.html).
 
 </details>
@@ -147,7 +179,8 @@ or self-protection. The personal version of this is on
 I came up without a CS degree or industry certification. The credential is the
 public trail: shipped crates, a published VS Code extension,
 [Elder ENB](https://www.nexusmods.com/skyrimspecialedition/mods/117327) (a
-Skyrim graphics project past 900,000 downloads), open repositories, and tools
+Skyrim graphics project whose public career materials report more than
+900,000 downloads), open repositories, and tools
 that can be cloned, run, and argued with.
 
 <details>
@@ -156,25 +189,44 @@ that can be cloned, run, and argued with.
 - **Technical Networking Support, Xbox Division:** TCP/IP, DNS, NAT, router configuration. The first hard lesson that a correct answer is not useful until another person can act on it.
 - **Operations Manager / Lead Arborist, family business:** field work, client relations, scheduling, proposals, budgets, safety procedures. Accountability that is not abstract.
 - **Freelance technical writing and consulting:** API guides, security and compliance documentation, onboarding material. Explaining systems without exposing client internals.
-- **Independent engineering since 2023:** compilers, graphics, color science, multi-agent systems, research tooling, public demos under Project Telos.
+- **Independent engineering since 2023:** local-model infrastructure, agent tools, compilers, graphics, color science, research tooling, release systems, and public demos under Project Telos.
 
 </details>
 
 <details>
 <summary><strong>The projects that changed the shape of the work.</strong></summary>
 
-- **Elder ENB:** two years of public releases, named editions, 900k+ downloads. Taught taste, iteration, users, and the difference between a pretty frame and a maintained system.
+- **Elder ENB:** two years of public releases and named editions; current public career materials report more than 900,000 downloads. Taught taste, iteration, users, and the difference between a pretty frame and a maintained system.
 - **Native graphics lineage:** D3D11/HLSL renderers, proxy-DLL interception, mid-frame compute dispatch, ACES/AgX tone mapping, TAA, SSR, SSGI, GTAO, volumetrics, ImGui tools, CMake/vcpkg, shared-memory IPC.
 - **Build Color:** a color-science workbench. Color spaces, HDR tone mapping, perceptual difference metrics, chromatic adaptation, ICC profiles, gamut work, color-vision simulation, 3D LUTs.
+- **Calibrate Pro:** a legacy Windows desktop product carried into a modernization track: PySide6, safer preview-and-confirm boundaries, and explicit measured/estimated labels.
 - **BuildLang:** a typed-effects language and compiler line. Lexing, parsing, checking, effects, lifetimes, C FFI, C lowering, editor support, explicit maturity labels for unfinished parts.
-- **Project Telos:** the current flagship. Durable state, senses, action boundaries, receipts, and checks before anyone is asked to trust it.
+- **Local-model and agent infrastructure:** endpoint adapters, harness comparisons, verifier-guided search, context maps, agent ledgers, and bounded evaluation artifacts.
+- **Project Telos:** the workshop that lets these lines stay distinct while sharing maps, tests, interfaces, and release discipline.
 
 </details>
 
+## Work with me
+
+I am open to paid engineering, applied research, prototyping, technical art,
+and tool or release hardening. The strongest fit is work that needs someone to
+enter an ambiguous system, map it quickly, build the missing surface, and leave
+behind something another person can run and inspect.
+
+- Local-model endpoints, agent harnesses, evaluations, context systems, and developer tools.
+- Compilers, language tooling, native systems, and difficult integration work.
+- Real-time graphics, shaders, procedural media, color science, and calibration workflows.
+- Research infrastructure, benchmark design, packaging, CI, release evidence, and technical writing.
+
+[Portfolio](https://harperz9.github.io/portfolio.html) ·
+[Resume](https://harperz9.github.io/resume.html) ·
+[CV](https://harperz9.github.io/cv.html) ·
+[LinkedIn](https://www.linkedin.com/in/zaindanaharper/)
+
 ## Open traps
 
-Project Telos needs people willing to use the engines against real workflows,
-break the receipt discipline, and report where the proof surface fails.
+If you would rather evaluate the work than read positioning, run one of these
+public seams against a real workflow and report where it fails.
 
 - [Test gather intake](https://github.com/HarperZ9/gather/issues/1)
 - [Test index maps](https://github.com/HarperZ9/index/issues/13)
@@ -200,4 +252,4 @@ python scripts/check_profile_surface.py
 - [profile template research](docs/research/2026-07-01-profile-template-research.md)
 - [index scope assessment](docs/research/2026-07-01-index-scope-assessment.md)
 
-Build it to be checked, or do not ship it.
+Clone it, run it, try to break it.
