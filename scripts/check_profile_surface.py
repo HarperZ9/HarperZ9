@@ -31,8 +31,10 @@ REQUIRED_DOCS = (
 REQUIRED_README_TERMS = (
     "Zain Dana Harper",
     "Project Telos",
-    "Build with a model. Take nothing on faith.",
+    "Work you can walk away from.",
+    "run anywhere",
     "https://harperz9.github.io",
+    "https://github.com/HarperZ9/flywheel",
     "https://github.com/HarperZ9/telos",
     "https://github.com/HarperZ9/index",
     "https://github.com/HarperZ9/gather",
@@ -44,7 +46,6 @@ REQUIRED_README_TERMS = (
     "## The flagships",
     "The receipt that matters",
     "```mermaid",
-    "Build it to be checked, or do not ship it.",
 )
 
 REQUIRED_LIVE_SHIELDS = (
@@ -77,6 +78,11 @@ DISALLOWED_README_TERMS = (
     "no spine",
     "get fucked up",
     "I get fucked up",
+    "Build with a model",
+    "Peer into the frontier",
+    "Build it to be checked, or do not ship it.",
+    "eight flagships",
+    "Eight engines",
 )
 
 SECRET_SHAPES = (
