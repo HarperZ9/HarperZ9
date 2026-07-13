@@ -40,7 +40,7 @@ open to paid engineering, applied R&D, developer-tooling, and technical-art work
 | Agent tooling | [telos](https://github.com/HarperZ9/telos), [index](https://github.com/HarperZ9/index), [gather](https://github.com/HarperZ9/gather), [forum](https://github.com/HarperZ9/forum), [crucible](https://github.com/HarperZ9/crucible) | A mixed-maturity toolchain for context, research intake, orchestration, evaluation, and human/model workspaces. |
 | Compilers and developer systems | [BuildLang](https://github.com/HarperZ9/buildlang) | Rust-built typed-effects compiler. The C execution path and HLSL/GLSL output are the current core; other backends and linear types remain explicitly experimental. |
 | Graphics and generated media | [Studio Engine](https://github.com/HarperZ9/studio-engine), [Elder ENB](https://www.nexusmods.com/skyrimspecialedition/mods/117327) | A pre-1.0 generative engine beside an established public graphics project shaped by years of releases and user feedback. |
-| Color and calibration | [Build Color](https://github.com/HarperZ9/build-color), [Calibrate Pro](https://github.com/HarperZ9/calibrate-pro) | A 1.0.2 beta color-science workbench and a **legacy UI / modernization track** for Windows display calibration. |
+| Color and calibration | [Build Color](https://github.com/HarperZ9/build-color) | A 1.0.2 beta color-science workbench for spaces, HDR tone mapping, appearance models, difference metrics, ICC, and LUT workflows. |
 | Research and release tooling | [papers](https://harperz9.github.io/publications.html), [release toolkit](https://harperz9.github.io/toolkit.html), [emet](https://github.com/HarperZ9/emet) | Public papers, source/provenance workflows, package and CI checks, release surfaces, and a byte-level integrity witness. |
 
 ## The flagships
@@ -77,7 +77,6 @@ claim.
 | [mneme](https://github.com/HarperZ9/mneme) | Local agent memory with provenance, reproducible ranking, and drift checks. | **Public work · 0.1.0 source prototype.** Git install; PyPI release is not claimed yet. |
 | [studio-engine](https://github.com/HarperZ9/studio-engine) | Generates replayable shader, audio, motion, and raster artifacts from a seed. | **Research · 0.2.0 pre-1.0 engine.** APIs may move. |
 | [build-color](https://github.com/HarperZ9/build-color) | Color spaces, HDR tone mapping, appearance models, difference metrics, ICC, and LUT workflows. | **Public work · 1.0.2 beta.** A workbench and toolkit, not a physical measurement instrument. |
-| [calibrate-pro](https://github.com/HarperZ9/calibrate-pro) | Windows display-calibration code carried forward from an older desktop product line. | **Public work · legacy UI / modernization track.** The released 1.1.0 line carries that lineage into PySide6, explicit preview/confirm/verify boundaries, and evidence-labeled measured versus estimated results. |
 
 ## How the workshop fits together
 
@@ -89,7 +88,7 @@ flowchart LR
     problem --> research["research / release"]
     models --> tools["flywheel · relay · forum · telos"]
     systems --> compiler["BuildLang · index · plexus"]
-    visuals --> art["Studio Engine · Build Color · Calibrate Pro"]
+    visuals --> art["Studio Engine · Build Color"]
     research --> evidence["gather · crucible · emet · papers"]
     tools --> artifact["usable artifact"]
     compiler --> artifact
@@ -199,7 +198,6 @@ that can be cloned, run, and argued with.
 - **Elder ENB:** two years of public releases and named editions; current public career materials report more than 900,000 downloads. Taught taste, iteration, users, and the difference between a pretty frame and a maintained system.
 - **Native graphics lineage:** D3D11/HLSL renderers, proxy-DLL interception, mid-frame compute dispatch, ACES/AgX tone mapping, TAA, SSR, SSGI, GTAO, volumetrics, ImGui tools, CMake/vcpkg, shared-memory IPC.
 - **Build Color:** a color-science workbench. Color spaces, HDR tone mapping, perceptual difference metrics, chromatic adaptation, ICC profiles, gamut work, color-vision simulation, 3D LUTs.
-- **Calibrate Pro:** a legacy Windows desktop product carried into a modernization track: PySide6, safer preview-and-confirm boundaries, and explicit measured/estimated labels.
 - **BuildLang:** a typed-effects language and compiler line. Lexing, parsing, checking, effects, lifetimes, C FFI, C lowering, editor support, explicit maturity labels for unfinished parts.
 - **Local-model and agent infrastructure:** endpoint adapters, harness comparisons, verifier-guided search, context maps, agent ledgers, and bounded evaluation artifacts.
 - **Project Telos:** the workshop that lets these lines stay distinct while sharing maps, tests, interfaces, and release discipline.
