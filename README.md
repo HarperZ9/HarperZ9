@@ -4,13 +4,14 @@
 
 <img src="docs/brand/banner.svg" alt="Project Telos spectrum banner: Work you can walk away from." width="100%">
 
-> **Systems engineer and technical artist. One workshop, many routes.**
+> **Systems engineer, technical artist, and design engineer. One workshop, many routes.**
 
-I build across **AI and local-model infrastructure, agent tooling, compilers,
-graphics and color, and research and release systems**. **Project Telos** is
-the public workshop that holds those lanes together. The shared habit is
-simple: map the system, make the surface, test the claim, and leave a usable
-artifact.
+I build across **AI and local-model infrastructure, agent tooling and
+evaluation, compilers, native and browser rendering, seeded neural graphics,
+poster design, color, and AI-assisted design workflows**. **Project Telos**
+maps fourteen flagship engines under one Flywheel thesis. Their maturity
+varies, but the shared habit is simple: map the system, make the surface, test
+the claim, and leave a usable artifact.
 
 The banner names the ambition, not a blanket maturity claim. Some tools can
 run anywhere with few or no dependencies; others are Windows-native, GPU-facing,
@@ -30,7 +31,8 @@ and some are active R&D. Each project carries its own status below.
 
 Seattle, WA · Rust · Python · C++23 ·
 [ORCID 0009-0001-7175-5393](https://orcid.org/0009-0001-7175-5393) ·
-open to paid engineering, applied R&D, developer-tooling, and technical-art work.
+open to paid employment, contract and project work, technical partnerships,
+research and academic learning paths, and practical IT.
 
 ## Choose a door
 
@@ -39,16 +41,15 @@ open to paid engineering, applied R&D, developer-tooling, and technical-art work
 | AI and local-model infrastructure | [flywheel](https://github.com/HarperZ9/flywheel), [relay](https://github.com/HarperZ9/relay) | Harness, endpoint, routing, failover, and evaluation work. Active R&D plus a 0.1.0 source prototype; benchmark conclusions stay scoped to the task set that produced them. |
 | Agent tooling | [telos](https://github.com/HarperZ9/telos), [index](https://github.com/HarperZ9/index), [gather](https://github.com/HarperZ9/gather), [forum](https://github.com/HarperZ9/forum), [crucible](https://github.com/HarperZ9/crucible) | A mixed-maturity toolchain for context, research intake, orchestration, evaluation, and human/model workspaces. |
 | Compilers and developer systems | [BuildLang](https://github.com/HarperZ9/buildlang) | Rust-built typed-effects compiler. The C execution path and HLSL/GLSL output are the current core; other backends and linear types remain explicitly experimental. |
-| Graphics and generated media | [Studio Engine](https://github.com/HarperZ9/studio-engine), [Elder ENB](https://www.nexusmods.com/skyrimspecialedition/mods/117327) | A pre-1.0 generative engine beside an established public graphics project shaped by years of releases and user feedback. |
+| Design, graphics, and generated media | [Studio Engine](https://github.com/HarperZ9/studio-engine), [Build Color](https://github.com/HarperZ9/build-color), [Elder ENB](https://www.nexusmods.com/skyrimspecialedition/mods/117327) | Browser-native poster composition with measured critique, seeded neural graphics, native rendering, color workflows, and AI-assisted iteration beside an established public graphics project. |
 | Color and calibration | [Build Color](https://github.com/HarperZ9/build-color) | A 1.0.2 beta color-science workbench for spaces, HDR tone mapping, appearance models, difference metrics, ICC, and LUT workflows. |
-| Research and release tooling | [papers](https://harperz9.github.io/publications.html), [release toolkit](https://harperz9.github.io/toolkit.html), [emet](https://github.com/HarperZ9/emet) | Public papers, source/provenance workflows, package and CI checks, release surfaces, and a byte-level integrity witness. |
+| Research, learning, and release tooling | [Learn](https://github.com/HarperZ9/learn), [papers](https://harperz9.github.io/publications.html), [release toolkit](https://harperz9.github.io/toolkit.html), [emet](https://github.com/HarperZ9/emet) | Accountable learning workflows, public papers, source and provenance systems, package and CI checks, release surfaces, and a byte-level integrity witness. |
 
 ## The flagships
 
 The badges pull versions, CI state, and downloads from registries and GitHub on
-page load. Static maturity wording below follows the 2026-07-12 career-facts
-authority; it is labeled by project rather than promoted into one ecosystem
-claim.
+page load. Static maturity wording is labeled and bounded by project rather
+than promoted into one ecosystem claim.
 
 [![index](https://img.shields.io/pypi/v/index-graph?label=index&style=flat-square&labelColor=14041b&color=26dfe8)](https://pypi.org/project/index-graph/) [![gather](https://img.shields.io/pypi/v/gather-engine?label=gather&style=flat-square&labelColor=14041b&color=f8cc43)](https://pypi.org/project/gather-engine/) [![forum](https://img.shields.io/pypi/v/forum-engine?label=forum&style=flat-square&labelColor=14041b&color=99f147)](https://pypi.org/project/forum-engine/) [![crucible](https://img.shields.io/pypi/v/crucible-bench?label=crucible&style=flat-square&labelColor=14041b&color=9683ff)](https://pypi.org/project/crucible-bench/) [![emet](https://img.shields.io/pypi/v/emet?label=emet&style=flat-square&labelColor=14041b&color=ff35aa)](https://pypi.org/project/emet/) [![buildlang](https://img.shields.io/crates/v/buildlang?label=buildlang&style=flat-square&labelColor=14041b&color=ff8334)](https://crates.io/crates/buildlang/)
 
@@ -68,12 +69,14 @@ claim.
 | [buildlang](https://github.com/HarperZ9/buildlang) | Compiles typed-effects source through C and emits HLSL/GLSL shader source. | **Public work · 1.2.0 source manifest.** C, effects, HLSL/GLSL, and receipts are core; SPIR-V, LLVM, WASM, Rust, native-ISA backends, GPU dispatch, and linear types are experimental. | Backend maturity is stated per target instead of hidden behind one compiler-wide label. |
 | [learn](https://github.com/HarperZ9/learn) | Turns source material into coursework, retrieval practice, spaced repetition, and graded records. | **Public work · 1.6.0 source version.** Zero runtime dependencies. | `mastery()` is derived from the learner's recorded practice. |
 
-### Working surfaces beyond the flagship table
+### Five additional flagship engines
+
+Together, the two tables name all fourteen flagships.
 
 | Project | Current role | Maturity |
 | --- | --- | --- |
 | [relay](https://github.com/HarperZ9/relay) | Coding-agent and endpoint ladder for local servers, authenticated CLIs, and configured APIs. | **Public work · 0.1.0 source prototype.** Git install; scopes writes and execution behind explicit flags. |
-| [plexus](https://github.com/HarperZ9/plexus) | Discovers what agent tools emit and consume, then proposes inspectable capability routes. | **Public work · 0.1.0 source prototype.** Git install; unmatched inputs and cycles remain visible. |
+| [plexus](https://github.com/HarperZ9/plexus) | Discovers what agent tools emit and consume, exports the capability graph, and proposes inspectable pipeline routes. | **Plexus 0.2.0 public source.** Git install; unmatched inputs and cycles remain visible. |
 | [mneme](https://github.com/HarperZ9/mneme) | Local agent memory with provenance, reproducible ranking, and drift checks. | **Public work · 0.1.0 source prototype.** Git install; PyPI release is not claimed yet. |
 | [studio-engine](https://github.com/HarperZ9/studio-engine) | Generates replayable shader, audio, motion, and raster artifacts from a seed. | **Research · 0.2.0 pre-1.0 engine.** APIs may move. |
 | [build-color](https://github.com/HarperZ9/build-color) | Color spaces, HDR tone mapping, appearance models, difference metrics, ICC, and LUT workflows. | **Public work · 1.0.2 beta.** A workbench and toolkit, not a physical measurement instrument. |
@@ -84,8 +87,8 @@ claim.
 flowchart LR
     problem["real problem"] --> models["AI / local-model workflows"]
     problem --> systems["compilers / developer systems"]
-    problem --> visuals["graphics / color"]
-    problem --> research["research / release"]
+    problem --> visuals["poster / neural / rendering / color"]
+    problem --> research["research / learning / release"]
     models --> tools["flywheel · relay · forum · telos"]
     systems --> compiler["BuildLang · index · plexus"]
     visuals --> art["Studio Engine · Build Color"]
@@ -200,21 +203,42 @@ that can be cloned, run, and argued with.
 - **Build Color:** a color-science workbench. Color spaces, HDR tone mapping, perceptual difference metrics, chromatic adaptation, ICC profiles, gamut work, color-vision simulation, 3D LUTs.
 - **BuildLang:** a typed-effects language and compiler line. Lexing, parsing, checking, effects, lifetimes, C FFI, C lowering, editor support, explicit maturity labels for unfinished parts.
 - **Local-model and agent infrastructure:** endpoint adapters, harness comparisons, verifier-guided search, context maps, agent ledgers, and bounded evaluation artifacts.
+- **Design and graphics workflows:** browser-native poster composition, measured contrast, overlap, and placement critique, seed-authored neural graphics, deterministic rendering, color workflows, and AI-assisted iteration and export.
 - **Project Telos:** the workshop that lets these lines stay distinct while sharing maps, tests, interfaces, and release discipline.
 
 </details>
 
 ## Work with me
 
-I am open to paid engineering, applied research, prototyping, technical art,
-and tool or release hardening. The strongest fit is work that needs someone to
-enter an ambiguous system, map it quickly, build the missing surface, and leave
-behind something another person can run and inspect.
+I am open to full-time, part-time, contract, and project work across systems
+engineering, AI and evaluation infrastructure, developer tooling, compilers,
+graphics and rendering, design engineering, technical art, implementation,
+research operations, QA, technical writing, and practical IT. The strongest
+fit is work that needs someone to enter an ambiguous system, map it quickly,
+build the missing surface, and leave behind something another person can run
+and inspect.
 
 - Local-model endpoints, agent harnesses, evaluations, context systems, and developer tools.
 - Compilers, language tooling, native systems, and difficult integration work.
-- Real-time graphics, shaders, procedural media, color science, and calibration workflows.
-- Research infrastructure, benchmark design, packaging, CI, release evidence, and technical writing.
+- Real-time graphics, shaders, procedural media, color science, poster systems, and AI-assisted design workflows.
+- Research infrastructure, benchmark design, packaging, CI, release evidence, documentation, and technical support.
+
+I am also interested in research, academic, fellowship, residency, mentorship,
+and continued learning opportunities where I can contribute real engineering
+while learning from people working at the frontier.
+
+### Paid pilots and technical partnerships
+
+I also work with organizations as an independent technical peer. Depending on
+the tool and its public license, an engagement can cover a paid pilot,
+subcontracted delivery, implementation and support, managed access, a private
+deployment, or term licensing for a defined scope. For MIT-licensed tools, the
+fee covers deployment, integration, customization, managed operation,
+training, or support, not code-use permission already granted by the license.
+
+A good first engagement starts with a concrete repository, workflow, benchmark,
+or design problem and ends with explicit acceptance criteria, working
+artifacts, and a usable handoff.
 
 [Portfolio](https://harperz9.github.io/portfolio.html) ·
 [Resume](https://harperz9.github.io/resume.html) ·
