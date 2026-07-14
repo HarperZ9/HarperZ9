@@ -46,6 +46,7 @@ REQUIRED_README_TERMS = (
     "## The flagships",
     "The receipt that matters",
     "fourteen flagship engines under one Flywheel thesis",
+    "1.1.0 package and release; frozen 1.0.0 core spec.",
     "Plexus 0.2.0 public source",
     "poster design",
     "measured critique",
@@ -93,6 +94,7 @@ DISALLOWED_README_TERMS = (
     "Build it to be checked, or do not ship it.",
     "eight flagships",
     "Eight engines",
+    "1.0.0 on default public main and the local release tag",
 )
 
 FLAGSHIP_REPO_SLUGS = (
