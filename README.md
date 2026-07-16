@@ -1,4 +1,4 @@
-# Zain Dana Harper / Project Telos
+# Zain Dana Harper / ZentropyLabs.ai
 
 <!-- markdownlint-disable MD013 MD026 MD033 -->
 
