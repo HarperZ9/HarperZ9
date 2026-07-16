@@ -36,7 +36,7 @@ research and academic learning paths, and practical IT.
 
 ## Choose a door
 
-| Lane | Start with | Current shape |
+| Track | Start with | Current shape |
 | --- | --- | --- |
 | AI and local-model infrastructure | [flywheel](https://github.com/HarperZ9/flywheel), [relay](https://github.com/HarperZ9/relay) | Harness, endpoint, routing, failover, and evaluation work. Active R&D plus a 0.1.0 source prototype; benchmark conclusions stay scoped to the task set that produced them. |
 | Agent tooling | [telos](https://github.com/HarperZ9/telos), [index](https://github.com/HarperZ9/index), [gather](https://github.com/HarperZ9/gather), [forum](https://github.com/HarperZ9/forum), [crucible](https://github.com/HarperZ9/crucible) | A mixed-maturity toolchain for context, research intake, orchestration, evaluation, and human/model workspaces. |
@@ -60,10 +60,10 @@ than promoted into one ecosystem claim.
 | Tool | What it does | Maturity | The receipt that matters |
 | --- | --- | --- | --- |
 | [flywheel](https://github.com/HarperZ9/flywheel) | Runs local and hosted model routes through the same harness and oracle-backed evaluation paths. | **Research · active R&D.** No portfolio-wide model-superiority claim; each result belongs to its recorded task set, endpoint, and budget. | Cross-harness manifests, endpoint receipts, raw benchmark artifacts, and explicit non-conclusions. |
-| [telos](https://github.com/HarperZ9/telos) | Shared human/model workbench, MCP surfaces, creative tools, and four proof lanes through one CLI. | **Public work · 0.2.0 pre-1.0 source-registry package.** Tested surface; interfaces may move and npm publishing is operator-gated. | Re-checkable agent, research, visual, and build packets with explicit non-claims. |
+| [telos](https://github.com/HarperZ9/telos) | Shared human/model workbench, MCP surfaces, creative tools, and four proof tracks through one CLI. | **Public work · 0.2.0 pre-1.0 source-registry package.** Tested surface; interfaces may move and npm publishing is a manual maintainer step. | Re-checkable agent, research, visual, and build packets with explicit non-claims. |
 | [index](https://github.com/HarperZ9/index) | Maps a repo or workspace into an atlas, context envelope, symbol graph, or verified wiki. | **Public work · 2.9.0 beta.** Zero runtime dependencies. | File-and-line evidence, typed omission receipts, and freshness checks. |
 | [gather](https://github.com/HarperZ9/gather) | Captures web, video, papers, PDFs, browser/OCR/audio, and structured sources into research packets. | **Public work · 1.6.1 release.** | Provenance and digest verification stay attached to each captured item. |
-| [forum](https://github.com/HarperZ9/forum) | Routes multi-agent work through replayable ledgers, context budgets, gates, and campaigns. | **Public work · 1.13.0 versioned public package.** | Hash-chained bodies and records of who did what, under which route and constraint. |
+| [forum](https://github.com/HarperZ9/forum) | Routes multi-agent work through replayable ledgers, context budgets, approval checkpoints, and campaigns. | **Public work · 1.13.0 versioned public package.** | Hash-chained bodies and records of who did what, under which route and constraint. |
 | [crucible](https://github.com/HarperZ9/crucible) | Registers a thesis, steelmans it, measures it, and emits a bounded verdict. | **Public work · 1.2.0 versioned public package.** | The verdict is recomputed from the recorded measurement rather than accepted from prose. |
 | [emet](https://github.com/HarperZ9/emet) | Re-derives byte-level integrity facts without making trust or release decisions. | **Public work · 1.1.0 package and release; frozen 1.0.0 core spec.** Four same-author implementations share the core; receipt and rebind coverage is capability-specific. | A different-author implementation is still the open bar for demonstrated independent re-derivability. |
 | [buildlang](https://github.com/HarperZ9/buildlang) | Compiles typed-effects source through C and emits HLSL/GLSL shader source. | **Public work · 1.2.0 source manifest.** C, effects, HLSL/GLSL, and receipts are core; SPIR-V, LLVM, WASM, Rust, native-ISA backends, GPU dispatch, and linear types are experimental. | Backend maturity is stated per target instead of hidden behind one compiler-wide label. |
@@ -129,7 +129,7 @@ python conformance/run.py membrane.py
 More surfaces: [Studio](https://harperz9.github.io/studio.html) (visual),
 [catalog](https://harperz9.github.io/catalog.html) (atlas),
 [flagships overview](https://harperz9.github.io/overview.html),
-[research lanes](https://harperz9.github.io/research.html).
+[research tracks](https://harperz9.github.io/research.html).
 
 ## How I actually work
 
