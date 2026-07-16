@@ -123,7 +123,7 @@ python examples/demo.py
 
 # one frozen core spec plus capability-specific conformance lanes
 git clone https://github.com/HarperZ9/emet && cd emet
-python conformance/run.py membrane.py
+python conformance/run.py emet.py
 ```
 
 More surfaces: [Studio](https://harperz9.github.io/studio.html) (visual),
