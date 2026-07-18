@@ -2,7 +2,7 @@
 
 <!-- markdownlint-disable MD013 MD026 MD033 -->
 
-<img src="docs/brand/zentropy-banner.png" alt="Zentropy Labs" width="100%">
+<img src="docs/brand/zentropy-banner.png" alt="Zentropy Labs: Work you can walk away from." width="100%">
 
 > **Systems engineer, technical artist, and design engineer. One workshop, many routes.**
 
