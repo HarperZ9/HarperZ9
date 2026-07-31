@@ -1,70 +1,139 @@
-# Zain Dana Harper / Zentropy Labs
+# Zain Dana Harper / ZentropyLabs.ai
 
 <!-- markdownlint-disable MD013 MD026 MD033 -->
 
-<img src="docs/brand/profile-hero.png" alt="Zentropy Labs flagship card: See it, and shape it, together with a model." width="100%">
+<img src="docs/brand/zentropy-banner.png" alt="Zentropy Labs: Work you can walk away from." width="100%">
 
-> Build with a model. Take nothing on faith.
+> **Systems engineer, technical artist, and design engineer. One workshop, many routes.**
 
-This is a workbench, not a trophy case.
+I build across **AI and local-model infrastructure, agent tooling and
+evaluation, compilers, native and browser rendering, seeded neural graphics,
+poster design, color, and AI-assisted design workflows**. **Project Telos**
+maps fourteen flagship engines under one Flywheel thesis. Their maturity
+varies, but the shared habit is simple: map the system, make the surface, test
+the claim, and leave a usable artifact.
 
-I am **Zain Dana Harper**, a self-taught systems engineer in Seattle. I like
-taking systems apart, attacking concepts, and approaching problems abstractly
-before I narrow them into tools. I build like someone trying to make the
-private mess public enough to survive: scan the actual state, find the sharp
-edge, build the tool, dogfood it against real work, break it, document the
-break, merge what holds, and raise the bar again.
+The banner names the ambition, not a blanket maturity claim. Some tools can
+run anywhere with few or no dependencies; others are Windows-native, GPU-facing,
+pre-1.0, or research-only. Some are released packages, some are public beta,
+and some are active R&D. Each project carries its own status below.
 
-I like systems with teeth and taste: color science, old graphics pipelines,
-compilers, small local tools, messy source trails, agent ledgers, proofs that
-can fail, and interfaces that feel like a person built them. I do not want a
-demo that only works under flattering light. I want the thing in the hands of
-developers, in real repositories, under tests, under review, and still strange
-enough to be alive.
+**Start here:** [Project Telos](https://harperz9.github.io/) ·
+[Portfolio](https://harperz9.github.io/portfolio.html) ·
+[Resume](https://harperz9.github.io/resume.html) ·
+[CV](https://harperz9.github.io/cv.html) ·
+[LinkedIn](https://www.linkedin.com/in/zaindanaharper/)
 
-I do not move through this like someone who feels proficient. I move like
-abstract potential energy with an inextinguishable drive to learn. The tools
-are how I force that energy through a smaller aperture until it becomes useful:
-a compiler, a verifier, a map, a visual surface, a learning loop, a receipt.
+**Explore:** [research](https://harperz9.github.io/research.html) ·
+[papers](https://harperz9.github.io/publications.html) ·
+[Studio](https://harperz9.github.io/studio.html) ·
+[the person behind it](https://harperz9.github.io/person.html)
 
-I build accountability systems because I know what evasion, self-deception,
-shortcuts, blame, and wanting more than the work has earned can do to a person.
-I am artistic, restless, fallible, stubborn, and very capable of chasing a
-beautiful wrong idea farther than I should. My recent work keeps returning to
-the same loop: aim too high, pull the whole context into view, make the idea
-executable, and let the first embarrassing failure rewrite the plan.
+Seattle, WA · Rust · Python · C++23 ·
+[ORCID 0009-0001-7175-5393](https://orcid.org/0009-0001-7175-5393) ·
+open to paid employment, contract and project work, technical partnerships,
+research and academic learning paths, and practical IT.
 
-**Zentropy Labs** (building as HarperZ9) is the public form of that habit: a
-cross-domain **research lab and product ecosystem** for accountable AI
-infrastructure. The platform is **Flywheel** — one engine composing the tool
-family (gather, crucible, index, forum, learn, telos) into a verified-inference
-loop where every agent action carries a sealed receipt a third party can
-re-walk offline. The compiler work is **buildlang** — a capability-typed
-language where computation modes enter as effects and leave as mode-matched
-receipts. Telos is one lane within Flywheel, not a separate umbrella.
+## Choose a door
 
-**Site:** [harperz9.github.io](https://harperz9.github.io)
+| Track | Start with | Current shape |
+| --- | --- | --- |
+| AI and local-model infrastructure | [flywheel](https://github.com/HarperZ9/flywheel), [relay](https://github.com/HarperZ9/relay) | Harness, endpoint, routing, failover, and evaluation work. Active R&D plus a 0.1.0 source prototype; benchmark conclusions stay scoped to the task set that produced them. |
+| Agent tooling | [telos](https://github.com/HarperZ9/telos), [index](https://github.com/HarperZ9/index), [gather](https://github.com/HarperZ9/gather), [forum](https://github.com/HarperZ9/forum), [crucible](https://github.com/HarperZ9/crucible) | A mixed-maturity toolchain for context, research intake, orchestration, evaluation, and human/model workspaces. |
+| Compilers and developer systems | [BuildLang](https://github.com/HarperZ9/buildlang) | Rust-built typed-effects compiler. The C execution path and HLSL/GLSL output are the current core; other backends and linear types remain explicitly experimental. |
+| Design, graphics, and generated media | [Studio Engine](https://github.com/HarperZ9/studio-engine), [Build Color](https://github.com/HarperZ9/build-color), [Elder ENB](https://www.nexusmods.com/skyrimspecialedition/mods/117327) | Browser-native poster composition with measured critique, seeded neural graphics, native rendering, color workflows, and AI-assisted iteration beside an established public graphics project. |
+| Color and calibration | [Build Color](https://github.com/HarperZ9/build-color) | A 1.0.2 beta color-science workbench for spaces, HDR tone mapping, appearance models, difference metrics, ICC, and LUT workflows. |
+| Research, learning, and release tooling | [Learn](https://github.com/HarperZ9/learn), [papers](https://harperz9.github.io/publications.html), [release toolkit](https://harperz9.github.io/toolkit.html), [emet](https://github.com/HarperZ9/emet) | Accountable learning workflows, public papers, source and provenance systems, package and CI checks, release surfaces, and a byte-level integrity witness. |
 
-**Work:** [resume](https://harperz9.github.io/resume.html) | [portfolio](https://harperz9.github.io/portfolio.html) | [CV](https://harperz9.github.io/cv.html) | [research](https://harperz9.github.io/research.html) | [Studio](https://harperz9.github.io/studio.html)
+## The flagships
 
-**Flagships:** [Flywheel](https://github.com/HarperZ9/local-model) | [buildlang](https://github.com/HarperZ9/buildlang) | [gather](https://github.com/HarperZ9/gather) | [crucible](https://github.com/HarperZ9/crucible) | [index](https://github.com/HarperZ9/index) | [forum](https://github.com/HarperZ9/forum) | [learn](https://github.com/HarperZ9/learn) | [telos](https://github.com/HarperZ9/telos) | [emet](https://github.com/HarperZ9/emet)
+The badges pull versions, CI state, and downloads from registries and GitHub on
+page load. Static maturity wording is labeled and bounded by project rather
+than promoted into one ecosystem claim.
 
-## What I keep coming back to.
+[![index](https://img.shields.io/pypi/v/index-graph?label=index&style=flat-square&labelColor=14041b&color=26dfe8)](https://pypi.org/project/index-graph/) [![gather](https://img.shields.io/pypi/v/gather-engine?label=gather&style=flat-square&labelColor=14041b&color=f8cc43)](https://pypi.org/project/gather-engine/) [![forum](https://img.shields.io/pypi/v/forum-engine?label=forum&style=flat-square&labelColor=14041b&color=99f147)](https://pypi.org/project/forum-engine/) [![crucible](https://img.shields.io/pypi/v/crucible-bench?label=crucible&style=flat-square&labelColor=14041b&color=9683ff)](https://pypi.org/project/crucible-bench/) [![emet](https://img.shields.io/pypi/v/emet?label=emet&style=flat-square&labelColor=14041b&color=ff35aa)](https://pypi.org/project/emet/) [![buildlang](https://img.shields.io/crates/v/buildlang?label=buildlang&style=flat-square&labelColor=14041b&color=ff8334)](https://crates.io/crates/buildlang/)
 
-| Pull | What it became |
-| --- | --- |
-| Taking systems apart | Maps, ledgers, verifier surfaces, compiler boundaries, and tools that expose where a concept stops holding together. |
-| Attacking concepts abstractly | Wide ideas narrowed into focused artifacts: a CLI, a demo, a proof packet, a language feature, or a failing test. |
-| Light, color, and rendering | [Elder ENB](https://www.nexusmods.com/skyrimspecialedition/mods/117327), a public graphics project past 900,000 downloads; D3D11/HLSL engines; GPU trace tooling; [Build Color](https://harperz9.github.io/build-color.html), a Python color-science workbench. |
-| Languages and boundaries | [BuildLang](https://harperz9.github.io/buildlang/), a Rust-built typed-effects compiler where functions declare what they may touch and the compiler checks the promise. |
-| AI with memory and brakes | [Flywheel](https://github.com/HarperZ9/local-model), [gather](https://github.com/HarperZ9/gather), [index](https://github.com/HarperZ9/index), [forum](https://github.com/HarperZ9/forum), [crucible](https://github.com/HarperZ9/crucible), and [telos](https://github.com/HarperZ9/telos): sources, maps, routes, verdicts, and receipt-wrapped agent actions. |
-| Learning that does not bypass the learner | [learn](https://github.com/HarperZ9/learn), Learning Forge, study loops, graded-step boundaries, and tools that help without taking the test for you. |
-| Work that survives contact with people | Technical writing, compliance docs, Xbox networking support, field operations, arborist scheduling, customer calls, safety procedures, and the practical patience that comes from real jobs. |
-| Beautiful things with accountable edges | The Studio, fractals, sound-reactive surfaces, renderer probes, visual studies, and the rule that a good artifact should leave a trail. |
+[![index](https://img.shields.io/github/actions/workflow/status/HarperZ9/index/ci.yml?label=index&style=flat-square&labelColor=14041b)](https://github.com/HarperZ9/index/actions/workflows/ci.yml) [![gather](https://img.shields.io/github/actions/workflow/status/HarperZ9/gather/ci.yml?label=gather&style=flat-square&labelColor=14041b)](https://github.com/HarperZ9/gather/actions/workflows/ci.yml) [![forum](https://img.shields.io/github/actions/workflow/status/HarperZ9/forum/ci.yml?label=forum&style=flat-square&labelColor=14041b)](https://github.com/HarperZ9/forum/actions/workflows/ci.yml) [![crucible](https://img.shields.io/github/actions/workflow/status/HarperZ9/crucible/ci.yml?label=crucible&style=flat-square&labelColor=14041b)](https://github.com/HarperZ9/crucible/actions/workflows/ci.yml) [![emet](https://img.shields.io/github/actions/workflow/status/HarperZ9/emet/conformance.yml?label=emet&style=flat-square&labelColor=14041b)](https://github.com/HarperZ9/emet/actions/workflows/conformance.yml) [![buildlang](https://img.shields.io/github/actions/workflow/status/HarperZ9/buildlang/ci.yml?label=buildlang&style=flat-square&labelColor=14041b)](https://github.com/HarperZ9/buildlang/actions/workflows/ci.yml)
 
-## How I actually work.
+[![index](https://img.shields.io/pypi/dm/index-graph?label=index&style=flat-square&labelColor=14041b&color=26dfe8)](https://pypi.org/project/index-graph/) [![gather](https://img.shields.io/pypi/dm/gather-engine?label=gather&style=flat-square&labelColor=14041b&color=f8cc43)](https://pypi.org/project/gather-engine/) [![forum](https://img.shields.io/pypi/dm/forum-engine?label=forum&style=flat-square&labelColor=14041b&color=99f147)](https://pypi.org/project/forum-engine/) [![crucible](https://img.shields.io/pypi/dm/crucible-bench?label=crucible&style=flat-square&labelColor=14041b&color=9683ff)](https://pypi.org/project/crucible-bench/) [![emet](https://img.shields.io/pypi/dm/emet?label=emet&style=flat-square&labelColor=14041b&color=ff35aa)](https://pypi.org/project/emet/) [![buildlang](https://img.shields.io/crates/dv/buildlang?label=buildlang&style=flat-square&labelColor=14041b&color=ff8334)](https://crates.io/crates/buildlang/)
 
-<details open>
+| Tool | What it does | Maturity | The receipt that matters |
+| --- | --- | --- | --- |
+| [flywheel](https://github.com/HarperZ9/flywheel) | Runs local and hosted model routes through the same harness and oracle-backed evaluation paths. | **Research · active R&D.** No portfolio-wide model-superiority claim; each result belongs to its recorded task set, endpoint, and budget. | Cross-harness manifests, endpoint receipts, raw benchmark artifacts, and explicit non-conclusions. |
+| [telos](https://github.com/HarperZ9/telos) | Shared human/model workbench, MCP surfaces, creative tools, and four proof tracks through one CLI. | **Public work · 0.2.0 pre-1.0 source-registry package.** Tested surface; interfaces may move and npm publishing is a manual maintainer step. | Re-checkable agent, research, visual, and build packets with explicit non-claims. |
+| [index](https://github.com/HarperZ9/index) | Maps a repo or workspace into an atlas, context envelope, symbol graph, or verified wiki. | **Public work · 2.9.0 beta.** Zero runtime dependencies. | File-and-line evidence, typed omission receipts, and freshness checks. |
+| [gather](https://github.com/HarperZ9/gather) | Captures web, video, papers, PDFs, browser/OCR/audio, and structured sources into research packets. | **Public work · 1.6.1 release.** | Provenance and digest verification stay attached to each captured item. |
+| [forum](https://github.com/HarperZ9/forum) | Routes multi-agent work through replayable ledgers, context budgets, approval checkpoints, and campaigns. | **Public work · 1.13.0 versioned public package.** | Hash-chained bodies and records of who did what, under which route and constraint. |
+| [crucible](https://github.com/HarperZ9/crucible) | Registers a thesis, steelmans it, measures it, and emits a bounded verdict. | **Public work · 1.2.0 versioned public package.** | The verdict is recomputed from the recorded measurement rather than accepted from prose. |
+| [emet](https://github.com/HarperZ9/emet) | Re-derives byte-level integrity facts without making trust or release decisions. | **Public work · 1.1.0 package and release; frozen 1.0.0 core spec.** Four same-author implementations share the core; receipt and rebind coverage is capability-specific. | A different-author implementation is still the open bar for demonstrated independent re-derivability. |
+| [buildlang](https://github.com/HarperZ9/buildlang) | Compiles typed-effects source through C and emits HLSL/GLSL shader source. | **Public work · 1.2.0 source manifest.** C, effects, HLSL/GLSL, and receipts are core; SPIR-V, LLVM, WASM, Rust, native-ISA backends, GPU dispatch, and linear types are experimental. | Backend maturity is stated per target instead of hidden behind one compiler-wide label. |
+| [learn](https://github.com/HarperZ9/learn) | Turns source material into coursework, retrieval practice, spaced repetition, and graded records. | **Public work · 1.6.0 source version.** Zero runtime dependencies. | `mastery()` is derived from the learner's recorded practice. |
+
+### Five additional flagship engines
+
+Together, the two tables name all fourteen flagships.
+
+| Project | Current role | Maturity |
+| --- | --- | --- |
+| [relay](https://github.com/HarperZ9/relay) | Coding-agent and endpoint ladder for local servers, authenticated CLIs, and configured APIs. | **Public work · 0.1.0 source prototype.** Git install; scopes writes and execution behind explicit flags. |
+| [plexus](https://github.com/HarperZ9/plexus) | Discovers what agent tools emit and consume, exports the capability graph, and proposes inspectable pipeline routes. | **Plexus 0.2.0 public source.** Git install; unmatched inputs and cycles remain visible. |
+| [mneme](https://github.com/HarperZ9/mneme) | Local agent memory with provenance, reproducible ranking, and drift checks. | **Public work · 0.1.0 source prototype.** Git install; PyPI release is not claimed yet. |
+| [studio-engine](https://github.com/HarperZ9/studio-engine) | Generates replayable shader, audio, motion, and raster artifacts from a seed. | **Research · 0.2.0 pre-1.0 engine.** APIs may move. |
+| [build-color](https://github.com/HarperZ9/build-color) | Color spaces, HDR tone mapping, appearance models, difference metrics, ICC, and LUT workflows. | **Public work · 1.0.2 beta.** A workbench and toolkit, not a physical measurement instrument. |
+
+## How the workshop fits together
+
+```mermaid
+flowchart LR
+    problem["real problem"] --> models["AI / local-model workflows"]
+    problem --> systems["compilers / developer systems"]
+    problem --> visuals["poster / neural / rendering / color"]
+    problem --> research["research / learning / release"]
+    models --> tools["flywheel · relay · forum · telos"]
+    systems --> compiler["BuildLang · index · plexus"]
+    visuals --> art["Studio Engine · Build Color"]
+    research --> evidence["gather · crucible · emet · papers"]
+    tools --> artifact["usable artifact"]
+    compiler --> artifact
+    art --> artifact
+    evidence --> artifact
+    artifact --> human["human review and next loop"]
+```
+
+The projects connect where their interfaces are real. They do not need to share
+one verdict vocabulary, deployment target, license, or maturity stage to belong
+to the same workshop. Rigor is the floor; it is not the only room.
+
+## Run one in five minutes
+
+These are not profile decorations; they are small doors into the workbench.
+
+```bash
+# map a workspace into one HTML file
+pip install index-graph
+index atlas --root /path/to/workspace --format html --out atlas.html
+
+# replay an agent route, then watch the ledger catch a tampered result
+git clone https://github.com/HarperZ9/forum && cd forum
+python examples/demo.py
+
+# force a verdict: does a confident claim survive the measurement?
+git clone https://github.com/HarperZ9/crucible && cd crucible
+python examples/demo.py
+
+# one frozen core spec plus capability-specific conformance lanes
+git clone https://github.com/HarperZ9/emet && cd emet
+python conformance/run.py emet.py
+```
+
+More surfaces: [Studio](https://harperz9.github.io/studio.html) (visual),
+[catalog](https://harperz9.github.io/catalog.html) (atlas),
+[flagships overview](https://harperz9.github.io/overview.html),
+[research tracks](https://harperz9.github.io/research.html).
+
+## How I actually work
+
+<details>
 <summary><strong>The loop.</strong></summary>
 
 Scan the real project. Read the old sessions. Find the current state. Pull the
@@ -75,38 +144,24 @@ Commit, push, verify, repeat.
 
 That loop is the personality. I get impatient when work becomes posture, when
 tools are protected from real use, or when a claim cannot be made to stand next
-to its source. I am much more interested in the moment where the thing breaks
-and becomes better than the moment where it first sounds impressive.
+to its source. I am more interested in the moment where the thing breaks and
+becomes better than the moment where it first sounds impressive.
 
 </details>
 
 <details>
-<summary><strong>The abstract engine.</strong></summary>
-
-My mind does not feel like a clean library of mastered facts. It feels more
-like stored charge: unstable, abstract, wide-ranging, and not automatically
-useful. The useful work starts when I build a constraint around it. A typed
-effect. A witness boundary. A source packet. A color model. A route ledger. A
-test that can embarrass me quickly.
-
-That is why so many of my projects are instruments. They are not proof that I
-am refined. They are how I turn an aggressive idea into something with edges
-another person can inspect.
-
-</details>
-
-<details>
-<summary><strong>The accountability reason.</strong></summary>
+<summary><strong>Why accountability.</strong></summary>
 
 I do not write about accountability because I think I am naturally accountable.
 I write about it because I know how easy it is to dodge the mirror: blame the
 room, overclaim the work, take shortcuts, want credit before earning it, or
 confuse intensity with progress.
 
-The tools are built against that. They make a claim stand beside its source.
-They make a model answer say `UNVERIFIABLE`. They make an idea leave a receipt.
-They give the next attempt somewhere firmer to launch from than mood, memory,
-or self-protection.
+That is why several Telos tools put a claim beside its source, let a model say
+`UNVERIFIABLE`, or make an action leave a receipt. Those mechanisms belong
+where they are useful; they are not a universal costume for the compiler,
+graphics, color, or product work. The personal version of this is on
+[person.html](https://harperz9.github.io/person.html).
 
 </details>
 
@@ -115,508 +170,108 @@ or self-protection.
 
 - **Dogfood it:** if the tool is for developers, run it on real repositories.
 - **Adversarially test it:** make the smallest failure case and keep it.
-- **Make it public when it can be:** ship the repo, demo, issue, receipt, or
-  page instead of hiding the useful part in a chat.
-- **Keep the art alive:** a rigorous system can still have color, rhythm,
-  naming, motion, and a point of view.
-- **Do not sand off the ambition:** narrow the next step without pretending the
-  larger project stopped mattering.
+- **Make it public when it can be:** ship the repo, demo, issue, receipt, or page.
+- **Keep the art alive:** rigor can still have color, rhythm, naming, and motion.
+- **Do not sand off the ambition:** narrow the next step without pretending the larger project stopped mattering.
 
 </details>
 
-## Project history, in plain English.
+## The throughline, in plain English
 
-<details open>
-<summary><strong>The short version.</strong></summary>
-
-I started coding in middle school and came up without a CS degree or industry
-certification. The credential is the public trail: shipped crates, a VS Code
-Marketplace extension, open repositories, a real audience for graphics work,
-and tools that can be cloned, run, and argued with.
-
-The throughline is not a job title. It is a pressure pattern: turn scattered
-state into an artifact, turn the artifact into a tool, turn the tool against
-real work, and keep whatever survives.
-
-</details>
+I came up without a CS degree or industry certification. The credential is the
+public trail: shipped crates, a published VS Code extension,
+[Elder ENB](https://www.nexusmods.com/skyrimspecialedition/mods/117327) (a
+Skyrim graphics project whose public career materials report more than
+900,000 downloads), open repositories, and tools
+that can be cloned, run, and argued with.
 
 <details>
 <summary><strong>The work that shaped me.</strong></summary>
 
-- **Technical Networking Support, Xbox Division:** TCP/IP, DNS, NAT, router
-  configuration, account-adjacent support, and the first hard lesson that a
-  correct answer is not useful until another person can act on it.
-- **Operations Manager / Lead Arborist, family business:** field work, client
-  relations, scheduling, proposals, site assessments, safety procedures,
-  vendor calls, budgets, and the kind of accountability that is not abstract.
-- **Freelance technical writing and consulting:** API guides, security and
-  compliance documentation, onboarding material, proposals, and the discipline
-  of explaining systems without exposing client internals.
-- **Independent engineering since 2023:** compilers, graphics, color science,
-  multi-agent systems, research tooling, public demos, and a growing lab
-  surface under Project Telos.
+- **Technical Networking Support, Xbox Division:** TCP/IP, DNS, NAT, router configuration. The first hard lesson that a correct answer is not useful until another person can act on it.
+- **Operations Manager / Lead Arborist, family business:** field work, client relations, scheduling, proposals, budgets, safety procedures. Accountability that is not abstract.
+- **Freelance technical writing and consulting:** API guides, security and compliance documentation, onboarding material. Explaining systems without exposing client internals.
+- **Independent engineering since 2023:** local-model infrastructure, agent tools, compilers, graphics, color science, research tooling, release systems, and public demos under Project Telos.
 
 </details>
 
 <details>
 <summary><strong>The projects that changed the shape of the work.</strong></summary>
 
-- **Elder ENB:** a Skyrim graphics and lighting project with roughly two years
-  of public releases, feedback loops, named editions, and more than 900,000
-  downloads. It taught me taste, iteration, users, and the difference between a
-  pretty frame and a maintained system.
-- **Native graphics lineage:** D3D11/HLSL renderers, proxy-DLL interception,
-  mid-frame compute dispatch, ACES/AgX tone mapping, TAA, SSR, SSGI, GTAO,
-  volumetrics, ImGui tools, CMake/vcpkg, and shared-memory IPC.
-- **Build Color:** a color-science workbench for color spaces, HDR tone
-  mapping, perceptual difference metrics, chromatic adaptation, ICC profiles,
-  gamut work, color-vision simulation, and 3D LUTs.
-- **BuildLang:** a typed-effects language and compiler line: lexing, parsing,
-  checking, effects, lifetimes, C FFI, C lowering, editor support, and explicit
-  maturity labels for unfinished parts.
-- **Project Telos:** the current flagship: give model-assisted work durable
-  state, senses, action boundaries, receipts, and checks before anyone is asked
-  to trust it.
+- **Elder ENB:** two years of public releases and named editions; current public career materials report more than 900,000 downloads. Taught taste, iteration, users, and the difference between a pretty frame and a maintained system.
+- **Native graphics lineage:** D3D11/HLSL renderers, proxy-DLL interception, mid-frame compute dispatch, ACES/AgX tone mapping, TAA, SSR, SSGI, GTAO, volumetrics, ImGui tools, CMake/vcpkg, shared-memory IPC.
+- **Build Color:** a color-science workbench. Color spaces, HDR tone mapping, perceptual difference metrics, chromatic adaptation, ICC profiles, gamut work, color-vision simulation, 3D LUTs.
+- **BuildLang:** a typed-effects language and compiler line. Lexing, parsing, checking, effects, lifetimes, C FFI, C lowering, editor support, explicit maturity labels for unfinished parts.
+- **Local-model and agent infrastructure:** endpoint adapters, harness comparisons, verifier-guided search, context maps, agent ledgers, and bounded evaluation artifacts.
+- **Design and graphics workflows:** browser-native poster composition, measured contrast, overlap, and placement critique, seed-authored neural graphics, deterministic rendering, color workflows, and AI-assisted iteration and export.
+- **Project Telos:** the workshop that lets these lines stay distinct while sharing maps, tests, interfaces, and release discipline.
 
 </details>
 
-## Choose a door.
-
-<details open>
-<summary><strong>I want the short version.</strong></summary>
-
-I build tools for messy, creative, model-assisted technical work. The tools
-usually do one of six things: capture sources, map workspaces, route agents,
-check claims, make visual systems, or turn an idea into a surface another
-person can inspect and break.
-
-Start with [Studio](https://harperz9.github.io/studio.html) if you want the
-visual side, [telos](https://github.com/HarperZ9/telos) if you want the whole
-system, or the [portfolio](https://harperz9.github.io/portfolio.html) if you
-want the work history.
-
-</details>
-
-<details>
-<summary><strong>I want the visual and art side.</strong></summary>
-
-Open [The Studio](https://harperz9.github.io/studio.html), then the graphics
-and color notes in the [portfolio](https://harperz9.github.io/portfolio.html).
-This is where the old rendering instincts show up: light, color, tone mapping,
-volumetrics, game-engine edges, fractals, visual studies, and the refusal to
-let technical rigor make the work emotionally dead.
-
-</details>
-
-<details>
-<summary><strong>I want the AI systems side.</strong></summary>
-
-Start with [telos](https://github.com/HarperZ9/telos),
-[gather](https://github.com/HarperZ9/gather),
-[index](https://github.com/HarperZ9/index),
-[forum](https://github.com/HarperZ9/forum), and
-[crucible](https://github.com/HarperZ9/crucible). The question underneath all
-of them is simple: what would an AI workflow look like if memory, source
-boundaries, routing decisions, action records, and failure states were first
-class instead of implied?
-
-</details>
-
-<details>
-<summary><strong>I want the compiler and systems side.</strong></summary>
-
-Open [BuildLang](https://harperz9.github.io/buildlang/) and the public
-[buildlang repo](https://github.com/HarperZ9/buildlang). The language asks a
-question I kept wanting tools to ask: what is this function actually allowed to
-do? That line connects back to the rest of the work: effects, receipts,
-permission boundaries, and explicit failure modes.
-
-</details>
-
-<details>
-<summary><strong>I want the messy human part.</strong></summary>
-
-I like clean instruments because I am not clean all the way down. I overreach,
-revise, get excited, get humbled by tests, and keep trying to build systems
-that judge the work instead of the worth of the person who made it.
-
-The sharper version is this: these tools are what I build when I do not trust
-myself to stay honest by force of personality alone. They are surfaces for
-looking inward without turning the whole thing into theater.
-
-The personal page is here:
-[the person behind it](https://harperz9.github.io/person.html).
-
-</details>
-
-<details>
-<summary><strong>I want to break it.</strong></summary>
-
-Pick the claim that sounds too confident. Stale a map. Tamper with a receipt.
-Force a model answer past its source. Run the tool where it has no excuse. Make
-a demo return `UNVERIFIABLE` for the right reason. The best feedback is the
-smallest reproducible case where the proof surface fails.
-
-</details>
-
-## Showcases and demos.
-
-<details open>
-<summary><strong>Open something visual.</strong></summary>
-
-Start with [The Studio](https://harperz9.github.io/studio.html). It is the live
-surface of Project Telos: a person and a model perceive the same thing, shape
-it, and check the result. The page includes the Atelier, 2D/3D fractals,
-dimension work, bring-your-own media, music, and physics routes.
-
-Then open the [catalog](https://harperz9.github.io/catalog.html) for the full
-front door and the [flagship overview](https://harperz9.github.io/overview.html)
-for the broader atlas.
-
-</details>
-
-<details>
-<summary><strong>Run a tiny demo from source.</strong></summary>
-
-These are not profile decorations; they are small runnable doors into the
-workbench.
-
-```powershell
-git clone https://github.com/HarperZ9/telos
-cd telos
-node demo/run.mjs
-```
-
-```powershell
-git clone https://github.com/HarperZ9/gather
-cd gather
-python examples/demo.py
-```
-
-```powershell
-git clone https://github.com/HarperZ9/forum
-cd forum
-python examples/demo.py
-```
-
-</details>
-
-<details>
-<summary><strong>Inspect the demo surfaces.</strong></summary>
-
-| Demo | Link | What to look for |
-| --- | --- | --- |
-| Studio | [live surface](https://harperz9.github.io/studio.html) | Visual creation, perception, and verification in one place. |
-| Project catalog | [live atlas](https://harperz9.github.io/catalog.html) | The public map of engines, demos, and research surfaces. |
-| Flagships | [overview](https://harperz9.github.io/overview.html) | How the engines fit together as peers. |
-| Research | [current lanes](https://harperz9.github.io/research.html) | Domain packets, status notes, and explicit gaps. |
-| BuildLang | [landing page](https://harperz9.github.io/buildlang/) | Effects-language compiler positioning and public route. |
-| index | [atlas demo](https://github.com/HarperZ9/index/blob/main/examples/atlas-demo.html) | A code/docs map as an inspectable artifact. |
-| gather | [proof surface](https://github.com/HarperZ9/gather/blob/main/examples/gather-demo.html) | Source intake with provenance receipts. |
-| forum | [ledger replay](https://github.com/HarperZ9/forum/blob/main/examples/forum-demo.html) | Agent routing with a replayable record. |
-
-</details>
-
-<details>
-<summary><strong>Pick a mood.</strong></summary>
-
-- **I want craft:** open Studio, then read the graphics/color lane.
-- **I want rigor:** run `python scripts/check_profile_surface.py`, then inspect
-  `crucible`, `emet`, or `proof-surface`.
-- **I want systems depth:** open BuildLang, `index`, and the C++/graphics notes.
-- **I want the person:** read the messy-human door, then follow the portfolio,
-  CV, and personal page.
-
-</details>
-
-## Workbench quests.
-
-Pick one path and press on it. Each quest is small enough to start in a few
-minutes and specific enough to become a real interview conversation.
-
-| Mode | Start here | Artifact you should get |
-| --- | --- | --- |
-| Make | [Studio](https://harperz9.github.io/studio.html) or `telos` | A visual state tied back to a source route. |
-| Map | `index atlas` | A local HTML map of code and docs. |
-| Capture | `gather docs` | A source packet with a receipt boundary. |
-| Route | `forum route --json` | A routing decision you can replay. |
-| Attack | `crucible` | A `MATCH`, `DRIFT`, or `UNVERIFIABLE` verdict. |
-| Dogfood | a real repo or workflow | A failure that teaches the tool what to become next. |
-| Validate | [proof-surface](https://github.com/HarperZ9/proof-surface) | A contract suite that either passes or names the break. |
-
-<details open>
-<summary><strong>Quest 1: make the machine draw.</strong></summary>
-
-Open [The Studio](https://harperz9.github.io/studio.html), pick a route, and
-make something visual before you read another paragraph. Then pull the source
-surface:
-
-```powershell
-git clone https://github.com/HarperZ9/telos
-cd telos
-node demo/run.mjs
-```
-
-This is the part of the work where my personality shows up fastest: image,
-motion, old rendering instincts, names, and the refusal to let a beautiful
-state float away without a record.
-
-</details>
-
-<details>
-<summary><strong>Quest 2: map a workspace.</strong></summary>
-
-Point `index` at a repo that has more knowledge than one person can keep in
-their head:
-
-```powershell
-python -m pip install index-graph
-index atlas --root C:\path\to\workspace --format html --out atlas.html
-```
-
-Open the HTML file and ask two questions: which edge surprised you, and which
-doc no longer matches the code it claims to explain?
-
-</details>
-
-<details>
-<summary><strong>Quest 3: capture a source.</strong></summary>
-
-Give `gather` a small notes folder and make it preserve the method, scope, and
-receipt instead of pretending the summary is the evidence:
-
-```powershell
-python -m pip install gather-engine
-gather docs ./research-notes --scope "claim,evidence"
-```
-
-The interesting part is not whether it sounds polished. The interesting part
-is whether you can still find the boundary between source, digest, and claim.
-
-</details>
-
-<details>
-<summary><strong>Quest 4: replay an agent route.</strong></summary>
-
-Make `forum` choose a lane without hiding the choice behind personality or
-vibes:
-
-```powershell
-python -m pip install forum-engine
-forum route --json "build the auth endpoint and the database schema"
-```
-
-Then change the prompt until the route changes. That edge case is where the
-tool starts to become useful.
-
-</details>
-
-<details>
-<summary><strong>Quest 5: force a verdict.</strong></summary>
-
-Run `crucible` and look for the point where a confident sentence stops being
-checkable:
-
-```powershell
-git clone https://github.com/HarperZ9/crucible
-cd crucible
-python examples/demo.py
-```
-
-I like this kind of tool because it is rude in the correct direction. It does
-not care whether the claim is pretty. It asks whether the claim survived the
-measurement surface.
-
-</details>
-
-<details>
-<summary><strong>Quest 6: validate a contract.</strong></summary>
-
-Pull [proof-surface](https://github.com/HarperZ9/proof-surface) and make the
-contract speak through tests:
-
-```powershell
-git clone https://github.com/HarperZ9/proof-surface
-cd proof-surface
-python -m pip install -e .
-python -m pytest -q
-```
-
-This is the boring-looking part that keeps the interesting parts honest.
-
-</details>
-
-## Conversation starters.
-
-- Ask me about a rendering mistake that turned into a tool.
-- Ask me why I like taking systems apart before I claim to understand them.
-- Ask me how an abstract idea becomes a focused tool.
-- Ask why color, compilers, source receipts, and model boundaries keep showing
-  up in the same room.
-- Ask what I learned by making agents use the tools instead of merely describe
-  them.
-- Ask what field operations taught me about software.
-- Ask what I overbuilt, what I misread, what I still do badly, and what I kept.
-- Ask for the smallest demo that would make you trust one of these systems
-  less.
-
-## The instruments.
-
-| If you want to... | Open | What it proves first |
-| --- | --- | --- |
-| Make AI work inspectable | [telos](https://github.com/HarperZ9/telos) | Shared human/model workspace, MCP tools, Studio surfaces, browser evidence, and replayable receipts. |
-| See a codebase as a map | [index](https://github.com/HarperZ9/index) | Workspace atlas, dependency evidence, freshness checks, and context envelopes. |
-| Bring messy sources inside | [gather](https://github.com/HarperZ9/gather) | Method-labeled intake for web, docs, feeds, papers, PDFs, browser/OCR/audio paths, APIs, and derived notes. |
-| Route agent work without losing the trail | [forum](https://github.com/HarperZ9/forum) | Ledgers, budgets, route records, resume state, intent checks, and verifier seams. |
-| Attack a claim | [crucible](https://github.com/HarperZ9/crucible) | `MATCH`, `DRIFT`, or `UNVERIFIABLE`, with the boundary visible. |
-| Witness bytes from outside the claim | [emet](https://github.com/HarperZ9/emet) | Source/view consistency across independent conformance vectors. |
-| Work below the app layer | [buildlang](https://github.com/HarperZ9/buildlang) | Rust compiler, typed effects, C as verified path, shader backends, and LSP surface. |
-| Learn without bypassing the human | [learn](https://github.com/HarperZ9/learn) | Credential and coursework workflows that halt at graded steps and witness boundaries. |
-
-## The map.
-
-GitHub renders this as a static diagram. The live surfaces are on the site:
-[catalog](https://harperz9.github.io/catalog.html),
-[flagships](https://harperz9.github.io/overview.html),
-[studio](https://harperz9.github.io/studio.html), and
-[research](https://harperz9.github.io/research.html).
-
-```mermaid
-flowchart LR
-    state["actual state / source / repo / visual idea"] --> gather["gather sources"]
-    gather --> index["index the workspace"]
-    index --> forum["route the work"]
-    forum --> telos["make / simulate / act"]
-    telos --> dogfood["dogfood on real work"]
-    dogfood --> crucible["attack the claim"]
-    crucible --> receipt["receipt, verdict, next question"]
-    receipt --> human["human judgment"]
-    human --> state
-
-    telos --> studio["Studio / visual surfaces"]
-    telos --> buildlang["BuildLang / effects"]
-    telos --> color["Build Color / perception"]
-    crucible --> emet["EMET witness"]
-    crucible --> proof["proof-surface contracts"]
-```
-
-```mermaid
-pie title Profile routing mix, not traffic data
-    "Human and work history" : 20
-    "Visual craft" : 18
-    "Runnable instruments" : 25
-    "Research breadth" : 15
-    "Dogfood and break-it paths" : 22
-```
-
-## The pattern underneath.
-
-- I notice when a system depends on hidden memory, private taste, or someone
-  being in the room to explain it.
-- I turn that hidden state into maps, CLIs, source packets, demos, receipts,
-  tests, and failure names.
-- I attack concepts before I trust them, then build tools that force the attack
-  into something focused enough to help.
-- I do not feel like a finished expert. I trust the drive to learn more than I
-  trust any current inventory of knowledge.
-- I push tools into real use early because the first failure is usually more
-  honest than the first pitch.
-- I do not trust my own first answer very much. That is why the tools keep
-  asking for evidence, replay, and a clean way to say `UNVERIFIABLE`.
-- I care about beauty, but not as decoration. Light, color, rhythm, naming,
-  and interaction are how a technical system becomes something people can keep
-  using.
-- I like broad research because fields cross-pollinate. A graphics habit can
-  shape a verifier. A compiler boundary can shape an agent route. Field work
-  can shape a product checklist.
-
-## Bench notes.
-
-<details>
-<summary><strong>Things I keep reaching for.</strong></summary>
-
-Color systems. Compiler boundaries. Old graphics pipelines. Small local tools.
-Taking things apart. Attacking concepts. Real repos. Dogfood loops. Diagrams
-that make a system less lonely. Receipts. Beautiful names. Harsh tests.
-Interfaces that feel quiet until they need to speak.
-
-</details>
-
-<details>
-<summary><strong>Things I am still learning in public.</strong></summary>
-
-How to make a very broad research lab legible without flattening it. How to
-keep ambition from becoming posture. How to let AI help without letting it
-launder uncertainty. How to make demos feel alive while still leaving a trail
-another person can check.
-
-</details>
-
-<details>
-<summary><strong>Things that usually mean I am doing the right work.</strong></summary>
-
-The first version is too strange. The second version is too clean. The third
-version has a test, a name, a diagram, a rough edge I still like, and a small
-door someone else can open.
-
-</details>
-
-## What I am not pretending.
-
-- A broad research lab is not the same thing as finished expertise in every
-  domain. Some lanes are mature tools; some are proof packets; some are
-  experiments with explicit gaps.
-- A receipt is not truth. It is a way to preserve enough state that another
-  person can check what happened.
-- A model is not a coworker, a judge, or a source of authority. It is a
-  powerful instrument that needs memory, senses, brakes, and a record.
-- I am not polished all the way down. I am a human trying to build clean
-  instruments from a messy interior life.
-
-## Domain lanes.
-
-The accountability line is the method, not the whole body of work.
-
-- **AI accountability:** provenance receipts, claim checks, MCP surfaces, agent
-  routing, model-boundary discipline, and public verification paths.
-- **Research operations:** source capture, domain packets, adversarial testing,
-  negative fixtures, and docs that mark what is verified, experimental, or
-  unproven.
-- **Systems and compilers:** Python tooling, Rust and C++ systems work,
-  compiler/runtime experiments, typed effects, codegen, and release gates.
-- **Graphics and color:** D3D11, HLSL, GPU traces, display calibration, ICC, 3D
-  LUTs, perceptual color, Oklab, CAT16, and color-vision simulation.
-- **Formal and physical systems:** theorem replay, physics/PDEs, thermodynamic
-  computing, quantum workflows, numerical invariants, and AI4Science packets.
-- **Public product shipping:** Project Telos on GitHub, Elder ENB on
-  [NexusMods](https://www.nexusmods.com/skyrimspecialedition/mods/117327), and
-  a site where public pages link back to source.
-
-## Open traps.
-
-Project Telos needs people willing to use the engines against real workflows,
-break the receipt discipline, and report where the proof surface fails.
+## Work with me
+
+I am open to full-time, part-time, contract, and project work across systems
+engineering, AI and evaluation infrastructure, developer tooling, compilers,
+graphics and rendering, design engineering, technical art, implementation,
+research operations, QA, technical writing, and practical IT. The strongest
+fit is work that needs someone to enter an ambiguous system, map it quickly,
+build the missing surface, and leave behind something another person can run
+and inspect.
+
+- Local-model endpoints, agent harnesses, evaluations, context systems, and developer tools.
+- Compilers, language tooling, native systems, and difficult integration work.
+- Real-time graphics, shaders, procedural media, color science, poster systems, and AI-assisted design workflows.
+- Research infrastructure, benchmark design, packaging, CI, release evidence, documentation, and technical support.
+
+I am also interested in research, academic, fellowship, residency, mentorship,
+and continued learning opportunities where I can contribute real engineering
+while learning from people working at the frontier.
+
+### Paid pilots and technical partnerships
+
+I also work with organizations as an independent technical peer. Depending on
+the tool and its public license, an engagement can cover a paid pilot,
+subcontracted delivery, implementation and support, managed access, a private
+deployment, or term licensing for a defined scope. For MIT-licensed tools, the
+fee covers deployment, integration, customization, managed operation,
+training, or support, not code-use permission already granted by the license.
+
+A good first engagement starts with a concrete repository, workflow, benchmark,
+or design problem and ends with explicit acceptance criteria, working
+artifacts, and a usable handoff.
+
+[Portfolio](https://harperz9.github.io/portfolio.html) ·
+[Resume](https://harperz9.github.io/resume.html) ·
+[CV](https://harperz9.github.io/cv.html) ·
+[LinkedIn](https://www.linkedin.com/in/zaindanaharper/)
+
+## Open traps
+
+If you would rather evaluate the work than read positioning, run one of these
+public seams against a real workflow and report where it fails.
 
 - [Test gather intake](https://github.com/HarperZ9/gather/issues/1)
 - [Test index maps](https://github.com/HarperZ9/index/issues/13)
 - [Test forum ledgers](https://github.com/HarperZ9/forum/issues/1)
 - [Test crucible checks](https://github.com/HarperZ9/crucible/issues/1)
 - [Test the telos surface](https://github.com/HarperZ9/telos/issues/2)
+- **emet's highest-leverage ask:** a *different-author* implementation from [SPEC.md](https://github.com/HarperZ9/emet/blob/main/SPEC.md) alone, in any language, passing `conformance/vectors.json`. That converts re-derivability from *asserted* to *demonstrated*.
 
-## How this profile is built.
+## How this profile is built
 
-This README is part of the workbench. It has a local verifier, CI, a template
-research receipt, an index-backed scope assessment, and a market/telemetry
-receipt. It stays deliberately static: no badge wall, no visitor counter, no
-typing SVG, and no dashboard that silently rots.
-
-- [enterprise profile receipt](docs/research/2026-07-01-enterprise-profile-research.md)
-- [profile template research](docs/research/2026-07-01-profile-template-research.md)
-- [index scope assessment](docs/research/2026-07-01-index-scope-assessment.md)
+This README is part of the workbench. It has a local verifier and CI, and stays
+deliberately static: no badge wall beyond what each tool actually earns, no
+visitor counter, no dashboard that silently rots. The banner is generated art:
+a seeded flow field in the Project Telos spectrum, the same family the site
+draws live in your browser.
 
 ```powershell
 git status --short
 python scripts/check_profile_surface.py
 ```
 
-Build it to be checked, or do not ship it.
+- [enterprise profile receipt](docs/research/2026-07-01-enterprise-profile-research.md)
+- [profile template research](docs/research/2026-07-01-profile-template-research.md)
+- [index scope assessment](docs/research/2026-07-01-index-scope-assessment.md)
+
+Clone it, run it, try to break it.
