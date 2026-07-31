@@ -1,8 +1,8 @@
-# Zain Dana Harper / Project Telos
+# Zain Dana Harper / Zentropy Labs
 
 <!-- markdownlint-disable MD013 MD026 MD033 -->
 
-<img src="docs/brand/profile-hero.png" alt="Project Telos flagship card: See it, and shape it, together with a model." width="100%">
+<img src="docs/brand/profile-hero.png" alt="Zentropy Labs flagship card: See it, and shape it, together with a model." width="100%">
 
 > Build with a model. Take nothing on faith.
 
@@ -34,13 +34,20 @@ beautiful wrong idea farther than I should. My recent work keeps returning to
 the same loop: aim too high, pull the whole context into view, make the idea
 executable, and let the first embarrassing failure rewrite the plan.
 
-**Project Telos** is the public form of that habit: a cross-domain **research lab and product ecosystem** for AI-era work across source intake, workspace maps, agent routing, claim checks, compiler experiments, graphics, color, simulation, learning workflows, and witnessed execution.
+**Zentropy Labs** (building as HarperZ9) is the public form of that habit: a
+cross-domain **research lab and product ecosystem** for accountable AI
+infrastructure. The platform is **Flywheel** — one engine composing the tool
+family (gather, crucible, index, forum, learn, telos) into a verified-inference
+loop where every agent action carries a sealed receipt a third party can
+re-walk offline. The compiler work is **buildlang** — a capability-typed
+language where computation modes enter as effects and leave as mode-matched
+receipts. Telos is one lane within Flywheel, not a separate umbrella.
 
 **Site:** [harperz9.github.io](https://harperz9.github.io)
 
 **Work:** [resume](https://harperz9.github.io/resume.html) | [portfolio](https://harperz9.github.io/portfolio.html) | [CV](https://harperz9.github.io/cv.html) | [research](https://harperz9.github.io/research.html) | [Studio](https://harperz9.github.io/studio.html)
 
-**Flagships:** [telos](https://github.com/HarperZ9/telos) | [index](https://github.com/HarperZ9/index) | [gather](https://github.com/HarperZ9/gather) | [forum](https://github.com/HarperZ9/forum) | [crucible](https://github.com/HarperZ9/crucible) | [emet](https://github.com/HarperZ9/emet) | [buildlang](https://github.com/HarperZ9/buildlang) | [learn](https://github.com/HarperZ9/learn)
+**Flagships:** [Flywheel](https://github.com/HarperZ9/local-model) | [buildlang](https://github.com/HarperZ9/buildlang) | [gather](https://github.com/HarperZ9/gather) | [crucible](https://github.com/HarperZ9/crucible) | [index](https://github.com/HarperZ9/index) | [forum](https://github.com/HarperZ9/forum) | [learn](https://github.com/HarperZ9/learn) | [telos](https://github.com/HarperZ9/telos) | [emet](https://github.com/HarperZ9/emet)
 
 ## What I keep coming back to.
 
@@ -50,7 +57,7 @@ executable, and let the first embarrassing failure rewrite the plan.
 | Attacking concepts abstractly | Wide ideas narrowed into focused artifacts: a CLI, a demo, a proof packet, a language feature, or a failing test. |
 | Light, color, and rendering | [Elder ENB](https://www.nexusmods.com/skyrimspecialedition/mods/117327), a public graphics project past 900,000 downloads; D3D11/HLSL engines; GPU trace tooling; [Build Color](https://harperz9.github.io/build-color.html), a Python color-science workbench. |
 | Languages and boundaries | [BuildLang](https://harperz9.github.io/buildlang/), a Rust-built typed-effects compiler where functions declare what they may touch and the compiler checks the promise. |
-| AI with memory and brakes | [Project Telos](https://github.com/HarperZ9/telos), [gather](https://github.com/HarperZ9/gather), [index](https://github.com/HarperZ9/index), [forum](https://github.com/HarperZ9/forum), and [crucible](https://github.com/HarperZ9/crucible): sources, maps, routes, verdicts, and receipts. |
+| AI with memory and brakes | [Flywheel](https://github.com/HarperZ9/local-model), [gather](https://github.com/HarperZ9/gather), [index](https://github.com/HarperZ9/index), [forum](https://github.com/HarperZ9/forum), [crucible](https://github.com/HarperZ9/crucible), and [telos](https://github.com/HarperZ9/telos): sources, maps, routes, verdicts, and receipt-wrapped agent actions. |
 | Learning that does not bypass the learner | [learn](https://github.com/HarperZ9/learn), Learning Forge, study loops, graded-step boundaries, and tools that help without taking the test for you. |
 | Work that survives contact with people | Technical writing, compliance docs, Xbox networking support, field operations, arborist scheduling, customer calls, safety procedures, and the practical patience that comes from real jobs. |
 | Beautiful things with accountable edges | The Studio, fractals, sound-reactive surfaces, renderer probes, visual studies, and the rule that a good artifact should leave a trail. |
