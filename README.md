@@ -6,7 +6,7 @@
 
 > **Systems engineer, technical artist, and design engineer. One workshop, many routes.**
 
-I build across **AI and local-model infrastructure, agent tooling and
+I build across **accountable AI infrastructure, agent tooling and
 evaluation, compilers, native and browser rendering, seeded neural graphics,
 poster design, color, and AI-assisted design workflows**. **Project Telos**
 maps fourteen flagship engines under one Flywheel thesis. Their maturity
@@ -38,7 +38,7 @@ research and academic learning paths, and practical IT.
 
 | Track | Start with | Current shape |
 | --- | --- | --- |
-| AI and local-model infrastructure | [flywheel](https://github.com/HarperZ9/flywheel), [relay](https://github.com/HarperZ9/relay) | Harness, endpoint, routing, failover, and evaluation work. Active R&D plus a 0.1.0 source prototype; benchmark conclusions stay scoped to the task set that produced them. |
+| accountable AI infrastructure | [flywheel](https://github.com/HarperZ9/flywheel), [relay](https://github.com/HarperZ9/relay) | Harness, endpoint, routing, failover, and evaluation work. Active R&D plus a 0.1.0 source prototype; benchmark conclusions stay scoped to the task set that produced them. |
 | Agent tooling | [telos](https://github.com/HarperZ9/telos), [index](https://github.com/HarperZ9/index), [gather](https://github.com/HarperZ9/gather), [forum](https://github.com/HarperZ9/forum), [crucible](https://github.com/HarperZ9/crucible) | A mixed-maturity toolchain for context, research intake, orchestration, evaluation, and human/model workspaces. |
 | Compilers and developer systems | [BuildLang](https://github.com/HarperZ9/buildlang) | Rust-built typed-effects compiler. The C execution path and HLSL/GLSL output are the current core; other backends and linear types remain explicitly experimental. |
 | Design, graphics, and generated media | [Studio Engine](https://github.com/HarperZ9/studio-engine), [Build Color](https://github.com/HarperZ9/build-color), [Elder ENB](https://www.nexusmods.com/skyrimspecialedition/mods/117327) | Browser-native poster composition with measured critique, seeded neural graphics, native rendering, color workflows, and AI-assisted iteration beside an established public graphics project. |
@@ -85,7 +85,7 @@ Together, the two tables name all fourteen flagships.
 
 ```mermaid
 flowchart LR
-    problem["real problem"] --> models["AI / local-model workflows"]
+    problem["real problem"] --> models["AI infrastructure workflows"]
     problem --> systems["compilers / developer systems"]
     problem --> visuals["poster / neural / rendering / color"]
     problem --> research["research / learning / release"]
@@ -191,7 +191,7 @@ that can be cloned, run, and argued with.
 - **Technical Networking Support, Xbox Division:** TCP/IP, DNS, NAT, router configuration. The first hard lesson that a correct answer is not useful until another person can act on it.
 - **Operations Manager / Lead Arborist, family business:** field work, client relations, scheduling, proposals, budgets, safety procedures. Accountability that is not abstract.
 - **Freelance technical writing and consulting:** API guides, security and compliance documentation, onboarding material. Explaining systems without exposing client internals.
-- **Independent engineering since 2023:** local-model infrastructure, agent tools, compilers, graphics, color science, research tooling, release systems, and public demos under Project Telos.
+- **Independent engineering since 2023:** Flywheel platform infrastructure, agent tools, compilers, graphics, color science, research tooling, release systems, and public demos under Project Telos.
 
 </details>
 
