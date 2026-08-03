@@ -6,10 +6,12 @@
 
 > **Systems engineer, technical artist, and design engineer. One workshop, many routes.**
 
-I build across **AI and local-model infrastructure, agent tooling and
+I build across **AI accountability infrastructure, agent tooling and
 evaluation, compilers, native and browser rendering, seeded neural graphics,
-poster design, color, and AI-assisted design workflows**. **Project Telos**
-maps fourteen flagship engines under one Flywheel thesis. Their maturity
+poster design, color, and AI-assisted design workflows**. **Flywheel** is the
+one platform: receipt discipline, TADR governance, infrastructure controls,
+and the organizational learning loop. The flagship lanes (gather, crucible,
+index, forum, learn, telos) compose through the gateway. Their maturity
 varies, but the shared habit is simple: map the system, make the surface, test
 the claim, and leave a usable artifact.
 
@@ -38,12 +40,13 @@ research and academic learning paths, and practical IT.
 
 | Track | Start with | Current shape |
 | --- | --- | --- |
-| AI and local-model infrastructure | [flywheel](https://github.com/HarperZ9/flywheel), [relay](https://github.com/HarperZ9/relay) | Harness, endpoint, routing, failover, and evaluation work. Active R&D plus a 0.1.0 source prototype; benchmark conclusions stay scoped to the task set that produced them. |
-| Agent tooling | [telos](https://github.com/HarperZ9/telos), [index](https://github.com/HarperZ9/index), [gather](https://github.com/HarperZ9/gather), [forum](https://github.com/HarperZ9/forum), [crucible](https://github.com/HarperZ9/crucible) | A mixed-maturity toolchain for context, research intake, orchestration, evaluation, and human/model workspaces. |
-| Compilers and developer systems | [BuildLang](https://github.com/HarperZ9/buildlang) | Rust-built typed-effects compiler. The C execution path and HLSL/GLSL output are the current core; other backends and linear types remain explicitly experimental. |
+| AI accountability infrastructure | [flywheel](https://github.com/HarperZ9/flywheel) | The one platform: sealed receipts at every tool call, TADR governance tiers (T1/T2/T3), 15 infrastructure controls (egress, credentials, kill switch, correlator), ed25519 signed receipts, organizational learning loop, 7 MCP lanes, generic lane caller, desktop GUI. v0.3.0. 800+ tests. |
+| Agent tooling | [gather](https://github.com/HarperZ9/gather), [crucible](https://github.com/HarperZ9/crucible), [forum](https://github.com/HarperZ9/forum), [index](https://github.com/HarperZ9/index), [learn](https://github.com/HarperZ9/learn), [telos](https://github.com/HarperZ9/telos) | Six flagship lanes composing through the gateway, auto-wired by [plexus](https://github.com/HarperZ9/plexus). Each emits organ-bundle spine entries. |
+| Accountability substrate | [emet](https://github.com/HarperZ9/emet), [proof-surface](https://github.com/HarperZ9/proof-surface), [mneme](https://github.com/HarperZ9/mneme), [accountable-surface](https://github.com/HarperZ9/accountable-surface), [relay](https://github.com/HarperZ9/relay) | Byte-level integrity witness, one-proof-packet-per-action, accountable memory, perceive-gate-act-verify, zero-dep coding agent. Four emet implementations (Python, Rust, Node.js, Go). |
+| Compilers and developer systems | [BuildLang](https://github.com/HarperZ9/buildlang) | Rust-built typed-effects compiler with sealed receipts. 1704 tests, 30 corpus files. The C execution path and HLSL/GLSL output are the current core. |
 | Design, graphics, and generated media | [Studio Engine](https://github.com/HarperZ9/studio-engine), [Build Color](https://github.com/HarperZ9/build-color), [Elder ENB](https://www.nexusmods.com/skyrimspecialedition/mods/117327) | Browser-native poster composition with measured critique, seeded neural graphics, native rendering, color workflows, and AI-assisted iteration beside an established public graphics project. |
 | Color and calibration | [Build Color](https://github.com/HarperZ9/build-color) | A 1.0.2 beta color-science workbench for spaces, HDR tone mapping, appearance models, difference metrics, ICC, and LUT workflows. |
-| Research, learning, and release tooling | [Learn](https://github.com/HarperZ9/learn), [papers](https://harperz9.github.io/publications.html), [release toolkit](https://harperz9.github.io/toolkit.html), [emet](https://github.com/HarperZ9/emet) | Accountable learning workflows, public papers, source and provenance systems, package and CI checks, release surfaces, and a byte-level integrity witness. |
+| Research, learning, and release tooling | [Learn](https://github.com/HarperZ9/learn), [papers](https://harperz9.github.io/publications.html), [emet](https://github.com/HarperZ9/emet) | Accountable learning workflows, public papers, source and provenance systems, and a byte-level integrity witness. |
 
 ## The flagships
 
