@@ -13,6 +13,10 @@ maps fourteen flagship engines under one Flywheel thesis. Their maturity
 varies, but the shared habit is simple: map the system, make the surface, test
 the claim, and leave a usable artifact.
 
+**Phantom** is the newest addition and the first shipped end-user product:
+hardware-identity privacy for Windows, at v1.0.0. It sits beside the fourteen
+engines rather than among them, a finished tool with an installer and a license.
+
 The banner names the ambition, not a blanket maturity claim. Some tools can
 run anywhere with few or no dependencies; others are Windows-native, GPU-facing,
 pre-1.0, or research-only. Some are released packages, some are public beta,
@@ -44,6 +48,7 @@ research and academic learning paths, and practical IT.
 | Design, graphics, and generated media | [Studio Engine](https://github.com/HarperZ9/studio-engine), [Build Color](https://github.com/HarperZ9/build-color), [Elder ENB](https://www.nexusmods.com/skyrimspecialedition/mods/117327) | Browser-native poster composition with measured critique, seeded neural graphics, native rendering, color workflows, and AI-assisted iteration beside an established public graphics project. |
 | Color and calibration | [Build Color](https://github.com/HarperZ9/build-color) | A 1.0.2 beta color-science workbench for spaces, HDR tone mapping, appearance models, difference metrics, ICC, and LUT workflows. |
 | Research, learning, and release tooling | [Learn](https://github.com/HarperZ9/learn), [papers](https://harperz9.github.io/publications.html), [release toolkit](https://harperz9.github.io/toolkit.html), [emet](https://github.com/HarperZ9/emet) | Accountable learning workflows, public papers, source and provenance systems, package and CI checks, release surfaces, and a byte-level integrity witness. |
+| Hardware-identity privacy | [phantom](https://github.com/HarperZ9/phantom) | Windows privacy tool at v1.0.0. Audits what a machine reveals, spoofs the registry identifiers software reads most, and restores the originals exactly on revert or uninstall. |
 
 ## The flagships
 

@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-08-21 - Phantom, first shipped product
+
+- Added **Phantom** (github.com/HarperZ9/phantom, v1.0.0) as the first shipped
+  end-user product: hardware-identity privacy for Windows.
+- Introduced it in the opening and as a new "Choose a door" track, kept beside
+  the fourteen flagship engines rather than counted among them, so the gated
+  fourteen-engine roster and its verifier stay intact.
+
 ## 2026-07-01 - Abstract Accountability Pass
 
 - Added Zain's stated personality frame: taking systems apart, attacking
