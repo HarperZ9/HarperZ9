@@ -86,6 +86,16 @@ Together, the two tables name all fourteen flagships.
 | [studio-engine](https://github.com/HarperZ9/studio-engine) | Generates replayable shader, audio, motion, and raster artifacts from a seed. | **Research · 0.2.0 pre-1.0 engine.** APIs may move. |
 | [build-color](https://github.com/HarperZ9/build-color) | Color spaces, HDR tone mapping, appearance models, difference metrics, ICC, and LUT workflows. | **Public work · 1.0.2 beta.** A workbench and toolkit, not a physical measurement instrument. |
 
+## Platforms
+
+Standalone products held apart from the fourteen engines. Each has its own page, identity, and distribution model.
+
+| Platform | What it does | Status |
+| --- | --- | --- |
+| [Phantom](https://harperz9.github.io/phantom.html) | Hardware-identity privacy for Windows and Linux. Audits what the device reveals, generates a consistent replacement identity from a seed, applies it to the identifiers software reads most, and restores the exact originals on revert or uninstall. | **Shipped · v1.1.0 · proprietary · Free / Pro / Enterprise** |
+| [behavior-transform.io](https://harperz9.github.io/behavior-transform.html) | Compliance intermediary for AI workloads. A programmatic environment that wraps the workspace, transforms context and language at the model boundary, so any work can occur within third-party provider terms of service. Environment-native authorization, policy enforcement, session authority, provider intelligence, and audit trail. | **Private · authorized operators only** |
+| [Authorized offensive security](https://harperz9.github.io/security.html) | Adversarial capability and adversarial-AI testing for lawful operators, shared only after authorization is established. | **Private · authorized parties only** |
+
 ## How the workshop fits together
 
 ```mermaid
