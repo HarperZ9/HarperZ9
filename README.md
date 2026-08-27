@@ -8,30 +8,30 @@
 
 I build across **accountable AI infrastructure, agent tooling and
 evaluation, compilers, native and browser rendering, seeded neural graphics,
-poster design, color, and AI-assisted design workflows**. **Project Telos**
-maps fourteen flagship engines under one Flywheel thesis. Their maturity
-varies, but the shared habit is simple: map the system, make the surface, test
-the claim, and leave a usable artifact.
+poster design, measured critique, color, and AI-assisted design workflows**.
+The public work is a capability graph: map the system, build the missing
+surface, test the result, and leave a handoff another person can inspect.
+Projects cross domains when the problem requires it. **Project Telos** maps fourteen flagship engines under one Flywheel thesis.
 
-**Phantom** is the newest addition and the first shipped end-user product:
-hardware-identity privacy for Windows, at v1.0.0. It sits beside the fourteen
-engines rather than among them, a finished tool with an installer and a license.
+**Phantom** sits beside those engines as a shipped end-user product. Its
+v1.1.0 release provides Layer 2 hardware-identity privacy paths for Windows and
+Linux. Kernel and firmware layers remain modeled and are not shipped.
 
 The banner names the ambition, not a blanket maturity claim. Some tools can
 run anywhere with few or no dependencies; others are Windows-native, GPU-facing,
 pre-1.0, or research-only. Some are released packages, some are public beta,
 and some are active R&D. Each project carries its own status below.
 
-**Start here:** [Project Telos](https://harperz9.github.io/) ·
-[Portfolio](https://harperz9.github.io/portfolio.html) ·
+**Start here:** [Hire / Work](https://harperz9.github.io/hire.html) ·
 [Resume](https://harperz9.github.io/resume.html) ·
+[Portfolio](https://harperz9.github.io/portfolio.html) ·
 [CV](https://harperz9.github.io/cv.html) ·
 [LinkedIn](https://www.linkedin.com/in/zaindanaharper/)
 
-**Explore:** [research](https://harperz9.github.io/research.html) ·
-[papers](https://harperz9.github.io/publications.html) ·
-[Studio](https://harperz9.github.io/studio.html) ·
-[the person behind it](https://harperz9.github.io/person.html)
+**Explore:** [capability catalog](https://harperz9.github.io/catalog.html) ·
+[authorized security](https://harperz9.github.io/security.html) ·
+[publications](https://harperz9.github.io/publications.html) ·
+[research](https://harperz9.github.io/research.html)
 
 Seattle, WA · Rust · Python · C++23 ·
 [ORCID 0009-0001-7175-5393](https://orcid.org/0009-0001-7175-5393) ·
@@ -40,15 +40,11 @@ research and academic learning paths, and practical IT.
 
 ## Choose a door
 
-| Track | Start with | Current shape |
+| Path | Start with | What to evaluate |
 | --- | --- | --- |
-| accountable AI infrastructure | [flywheel](https://github.com/HarperZ9/flywheel), [relay](https://github.com/HarperZ9/relay) | Harness, endpoint, routing, failover, and evaluation work. Active R&D plus a 0.1.0 source prototype; benchmark conclusions stay scoped to the task set that produced them. |
-| Agent tooling | [telos](https://github.com/HarperZ9/telos), [index](https://github.com/HarperZ9/index), [gather](https://github.com/HarperZ9/gather), [forum](https://github.com/HarperZ9/forum), [crucible](https://github.com/HarperZ9/crucible) | A mixed-maturity toolchain for context, research intake, orchestration, evaluation, and human/model workspaces. |
-| Compilers and developer systems | [BuildLang](https://github.com/HarperZ9/buildlang) | Rust-built typed-effects compiler. The C execution path and HLSL/GLSL output are the current core; other backends and linear types remain explicitly experimental. |
-| Design, graphics, and generated media | [Studio Engine](https://github.com/HarperZ9/studio-engine), [Build Color](https://github.com/HarperZ9/build-color), [Elder ENB](https://www.nexusmods.com/skyrimspecialedition/mods/117327) | Browser-native poster composition with measured critique, seeded neural graphics, native rendering, color workflows, and AI-assisted iteration beside an established public graphics project. |
-| Color and calibration | [Build Color](https://github.com/HarperZ9/build-color) | A 1.0.2 beta color-science workbench for spaces, HDR tone mapping, appearance models, difference metrics, ICC, and LUT workflows. |
-| Research, learning, and release tooling | [Learn](https://github.com/HarperZ9/learn), [papers](https://harperz9.github.io/publications.html), [release toolkit](https://harperz9.github.io/toolkit.html), [emet](https://github.com/HarperZ9/emet) | Accountable learning workflows, public papers, source and provenance systems, package and CI checks, release surfaces, and a byte-level integrity witness. |
-| Hardware-identity privacy | [phantom](https://github.com/HarperZ9/phantom) | Windows privacy tool at v1.0.0. Audits what a machine reveals, spoofs the registry identifiers software reads most, and restores the originals exactly on revert or uninstall. |
+| Technical, research, security, and product | [hire](https://harperz9.github.io/hire.html), [portfolio](https://harperz9.github.io/portfolio.html), [catalog](https://harperz9.github.io/catalog.html) | AI evaluation, agent infrastructure, developer tools, compilers, graphics, privacy, product engineering, and research. [Security work](https://harperz9.github.io/security.html) is shared only with lawfully authorized organizations under written scope and oversight. |
+| Public, union, field, and operations | [hire](https://harperz9.github.io/hire.html), [resume](https://harperz9.github.io/resume.html) | Technical support and practical operations beside client service, scheduling, safety judgment, arboriculture, plant care, and physical field work. |
+| Education, funding, and collaboration | [CV](https://harperz9.github.io/cv.html), [publications](https://harperz9.github.io/publications.html), [research](https://harperz9.github.io/research.html) | Public engineering artifacts, research questions, continued learning, teaching tools, grants, mentorship, and technical collaboration. |
 
 ## The flagships
 
@@ -100,24 +96,22 @@ Standalone products held apart from the fourteen engines. Each has its own page,
 
 ```mermaid
 flowchart LR
-    problem["real problem"] --> models["AI infrastructure workflows"]
-    problem --> systems["compilers / developer systems"]
-    problem --> visuals["poster / neural / rendering / color"]
-    problem --> research["research / learning / release"]
-    models --> tools["flywheel · relay · forum · telos"]
-    systems --> compiler["BuildLang · index · plexus"]
-    visuals --> art["Studio Engine · Build Color"]
-    research --> evidence["gather · crucible · emet · papers"]
-    tools --> artifact["usable artifact"]
-    compiler --> artifact
-    art --> artifact
-    evidence --> artifact
-    artifact --> human["human review and next loop"]
+    problem["real problem"] --> map["map context and evidence"]
+    problem --> build["build the missing surface"]
+    problem --> test["test the resulting state"]
+    map --> maps["index · gather · mneme"]
+    build --> systems["flywheel · BuildLang · Studio Engine"]
+    test --> checks["crucible · terminal-state fixtures · emet"]
+    maps --> coordinate["telos · forum · relay · plexus"]
+    systems --> coordinate
+    checks --> coordinate
+    coordinate --> artifact["inspectable artifact and handoff"]
+    artifact --> human["human decision"]
 ```
 
-The projects connect where their interfaces are real. They do not need to share
-one verdict vocabulary, deployment target, license, or maturity stage to belong
-to the same workshop. Rigor is the floor; it is not the only room.
+This is a navigation map, not an integration claim. A project can map, build,
+test, or coordinate across more than one hiring path. The projects connect only
+where their public interfaces and evidence support the connection.
 
 ## Run one in five minutes
 
@@ -233,6 +227,12 @@ fit is work that needs someone to enter an ambiguous system, map it quickly,
 build the missing surface, and leave behind something another person can run
 and inspect.
 
+I am also open to union, public-sector, port, park, horticulture, skilled
+operational, and other physical roles with clear safety and service
+responsibilities. Lawfully authorized security evaluation is available only
+through a written scope, oversight, and an established right to receive the
+work.
+
 - Local-model endpoints, agent harnesses, evaluations, context systems, and developer tools.
 - Compilers, language tooling, native systems, and difficult integration work.
 - Real-time graphics, shaders, procedural media, color science, poster systems, and AI-assisted design workflows.
@@ -270,7 +270,7 @@ public seams against a real workflow and report where it fails.
 - [Test forum ledgers](https://github.com/HarperZ9/forum/issues/1)
 - [Test crucible checks](https://github.com/HarperZ9/crucible/issues/1)
 - [Test the telos surface](https://github.com/HarperZ9/telos/issues/2)
-- **emet's highest-leverage ask:** a *different-author* implementation from [SPEC.md](https://github.com/HarperZ9/emet/blob/main/SPEC.md) alone, in any language, passing `conformance/vectors.json`. That converts re-derivability from *asserted* to *demonstrated*.
+- **emet's highest-value ask:** a *different-author* implementation from [SPEC.md](https://github.com/HarperZ9/emet/blob/main/SPEC.md) alone, in any language, passing `conformance/vectors.json`. That converts re-derivability from *asserted* to *demonstrated*.
 
 ## How this profile is built
 
