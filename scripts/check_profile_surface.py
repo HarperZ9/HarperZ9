@@ -46,16 +46,21 @@ REQUIRED_README_TERMS = (
     "https://github.com/sjh9714/mergewarden/pull/107",
     "## Capability constellation",
     "Flywheel is the sole primary platform",
+    "mothership",
+    "Project Telos",
     "https://github.com/HarperZ9/flywheel/releases/tag/v0.3.10",
     "Agent systems",
     "Evaluation and verification",
     "Security and privacy",
     "Developer infrastructure",
     "Graphics and retro systems",
+    "data visualization",
     "Research and education",
     "https://github.com/HarperZ9/terminal-state-fixtures",
     "https://github.com/HarperZ9/phantom/releases/tag/v1.1.0",
     "Layer 2 identity surfaces",
+    "https://harperz9.github.io/security.html",
+    "coordinated disclosure",
     "## Retro Systems Lab",
     "play → preserve → verify",
     "https://harperz9.github.io/retro.html",
@@ -86,6 +91,19 @@ DISALLOWED_README_TERMS = (
     "I am a liar",
     "get fucked up",
     "I get fucked up",
+    "Build with a model",
+    "Peer into the frontier",
+    "Build it to be checked, or do not ship it.",
+    "eight flagships",
+    "Eight engines",
+    "fourteen flagship engines under one Flywheel thesis",
+    "Together, the two tables name all fourteen flagships.",
+    "Standalone products held apart from the fourteen engines.",
+    "1.0.0 on default public main and the local release tag",
+)
+
+DISALLOWED_README_CASEFOLD_TERMS = (
+    "cali" + "brate",
 )
 
 SECRET_SHAPES = (
@@ -184,7 +202,7 @@ def assert_readme_contract() -> None:
         fail("README must include one bounded authorized-security aggregate")
     if not re.search(r"public (?:surface|pages?).{0,160}(?:sanitized|bounded)", text, re.IGNORECASE | re.DOTALL):
         fail("README must distinguish the sanitized public security surface")
-    if not re.search(r"approved\s+private or embargoed channels", text, re.IGNORECASE):
+    if not re.search(r"approved\s+private or embargoed\s+channels", text, re.IGNORECASE):
         fail("README must route controlled material through approved private or embargoed channels")
 
     markdown_targets = re.findall(r"\[[^\]]+\]\(([^)]+)\)", text)

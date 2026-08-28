@@ -7,20 +7,21 @@ Brand plus research-lab scope.
 ## Users
 
 GitHub visitors, testers, collaborators, funders, and hiring teams who need a
-fast public map of Project Telos and Zain Dana Harper's work.
+fast public map of Flywheel, Project Telos, and Zain Dana Harper's work.
 
 ## Purpose
 
-The `HarperZ9` profile README is the GitHub handoff into Project Telos. It
-should mirror the main site's clean professional design, present Telos as a
-research lab and product ecosystem across domains, route readers to the
-flagship engines, make the test path obvious, and give hiring teams an
-immediate way to inspect fit. The current profile concept is a public lab
-bench: readers choose a door, inspect the instruments, follow the map, and see
-the fallible human behind the clean engineering surface. The first screen
-should explain what Zain likes, what work he actually does, and how the public
-project history grew from graphics, color, compilers, field operations,
-technical writing, AI systems, and research tooling.
+The `HarperZ9` profile README is the GitHub handoff into Flywheel and the
+Project Telos public surface around it. It should mirror the main site's clean
+professional design, present Flywheel as the mothership for model routes,
+agent execution, receipts, benchmarks, and capability families, make the test
+path obvious, and give hiring teams an immediate way to inspect fit. The
+current profile concept is a public lab bench: readers choose a door, inspect
+the instruments, follow the map, and see the fallible human behind the clean
+engineering surface. The first screen should explain what Zain likes, what work
+he actually does, and how the public project history grew from graphics, color,
+compilers, field operations, technical writing, AI systems, security-boundary
+work, retro preservation, and research tooling.
 
 The current voice is session-context informed. It should reflect the recurring
 four-month working pattern across Codex and Claude Code: scan actual state,
@@ -44,8 +45,8 @@ tools are built against. Do not publish raw self-indicting lines verbatim.
 ## Brand Personality
 
 Clean, rigorous, restrained, ambitious, artistic, and human. The profile should
-feel like a public engineering surface for a cross-domain lab without erasing
-the fallible person who built it.
+feel like a public engineering surface for a cross-domain Flywheel-centered lab
+without erasing the fallible person who built it.
 
 ## Anti-References
 
@@ -55,9 +56,19 @@ by a public link or test path.
 
 ## Design Principles
 
-- Use the canonical Project Telos flagship card artwork.
+- Use the canonical Flywheel / Project Telos artwork and keep the profile
+  readable when the image is unavailable.
 - Keep the copy close to the main site vocabulary.
 - Make clear that evidence/accountability is the method, not the only domain.
+- Keep Flywheel as the primary platform; present other systems as capability
+  families, plug-ins, adapters, engines, or standalone-capable extensions only
+  when current repo state supports that framing.
+- Preserve public-safe security boundaries. Never publish operationally
+  enabling offensive material, credentials, private traces, or unresolved
+  affected-system details.
+- Preserve the Retro Systems Lab as play, preserve, verify: Retro Engine as
+  the creative pillar, Engine Revival as the preservation/research lane, and
+  BRender Archival as restoration proof.
 - Make clear that rigor is a response to human fallibility, not sterile
   posturing.
 - Avoid resume-table gravity. Lead with a memorable workbench concept, then

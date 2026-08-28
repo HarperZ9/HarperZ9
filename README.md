@@ -11,6 +11,11 @@ spans model-neutral agent infrastructure, deterministic evaluation, developer
 tools, native and browser graphics, technical writing, client operations, and
 physical field work.
 
+**Flywheel is the primary platform and mothership.** Project Telos is the
+workshop and public surface around it. The rest of the workshop is organized as
+capability families, engines, extensions, evidence layers, and bounded
+standalone systems.
+
 **Available for paid work:** full-time, contract, project, onsite, hybrid, or
 remote. Based in Seattle, Washington.
 
@@ -18,6 +23,8 @@ remote. Based in Seattle, Washington.
 [Resume](https://harperz9.github.io/resume.html) ·
 [CV](https://harperz9.github.io/cv.html) ·
 [Portfolio](https://harperz9.github.io/portfolio.html) ·
+[Security boundary](https://harperz9.github.io/security.html) ·
+[Retro Systems Lab](https://harperz9.github.io/retro.html) ·
 [LinkedIn](https://www.linkedin.com/in/zaindanaharper/) ·
 [Email](mailto:zaindharper@gmail.com)
 
@@ -45,12 +52,13 @@ show the work surviving another maintainer's scope, review, and repository.
 
 ## Capability constellation
 
-**Flywheel is the sole primary platform.** The current verified release is
+**Flywheel is the sole primary platform and mothership.** The current verified release is
 [Flywheel v0.3.10](https://github.com/HarperZ9/flywheel/releases/tag/v0.3.10):
 one model-neutral workbench for routing, gated tool use, evaluation lanes,
 receipts, memory, context, and reproducible workflows. The rest of the workshop
 is organized as capability families, lanes, extensions, and bounded standalone
-systems rather than a fixed flagship count.
+systems rather than a fixed flagship count. Project Telos is the public
+workshop around that platform.
 
 | Family | Representative public work |
 | --- | --- |
@@ -58,7 +66,7 @@ systems rather than a fixed flagship count.
 | **Evaluation and verification** | [Terminal State Fixtures](https://github.com/HarperZ9/terminal-state-fixtures), [Crucible](https://github.com/HarperZ9/crucible), [Emet](https://github.com/HarperZ9/emet) |
 | **Security and privacy** | [Phantom](https://github.com/HarperZ9/phantom), authorized adversarial evaluation, privacy controls, and sanitized regression fixtures |
 | **Developer infrastructure** | [BuildLang](https://github.com/HarperZ9/buildlang), [Index](https://github.com/HarperZ9/index), [Plexus](https://github.com/HarperZ9/plexus) |
-| **Graphics and retro systems** | [Studio Engine](https://github.com/HarperZ9/studio-engine), [Build Color](https://github.com/HarperZ9/build-color), and the Retro Systems Lab |
+| **Graphics and retro systems** | [Studio Engine](https://github.com/HarperZ9/studio-engine), [Build Color](https://github.com/HarperZ9/build-color), diagrams, data visualization, and the Retro Systems Lab |
 | **Research and education** | [Gather](https://github.com/HarperZ9/gather), [Learn](https://github.com/HarperZ9/learn), and [publications](https://harperz9.github.io/publications.html) |
 
 ### Phantom's boundary
@@ -71,11 +79,12 @@ expressly authorized to test.
 
 ### Authorized security, kept bounded
 
-Authorized security work spans adversarial AI evaluation, system hardening,
-privacy engineering, stress testing, regression fixtures, and coordinated
-reporting. The public surface contains sanitized tests, schemas, detectors, and
-bounded findings. Material that could enable misuse moves only through approved
-private or embargoed channels with a defined scope and remediation owner.
+[Authorized security work](https://harperz9.github.io/security.html) spans
+adversarial AI evaluation, system hardening, privacy engineering, stress
+testing, regression fixtures, and coordinated disclosure. The public surface
+contains sanitized tests, schemas, detectors, and bounded findings. Material
+that could enable misuse moves only through approved private or embargoed
+channels with a defined scope and remediation owner.
 
 ## Retro Systems Lab
 

@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-08-28 - Flywheel-first profile conversion
+
+- Kept the current conversion-first GitHub profile structure: hiring paths,
+  upstream proof PRs, capability constellation, Phantom boundary, Retro Systems
+  Lab, and concise work-with-me routing.
+- Made Flywheel explicit as the sole primary platform and mothership, with
+  Project Telos as the public workshop around it.
+- Added direct security-boundary and retro navigation plus graphics/data
+  visualization language without exposing controlled offensive material.
+- Updated product, usage, and verifier guardrails to reject stale fixed-count
+  flagship framing and keep the public/private boundary explicit.
+
 ## 2026-08-21 - Phantom, first shipped product
 
 - Added **Phantom** (github.com/HarperZ9/phantom, v1.0.0) as the first shipped

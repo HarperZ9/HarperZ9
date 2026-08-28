@@ -1,17 +1,17 @@
 # Usage Guide
 
 This repository publishes the `HarperZ9` GitHub profile README. It is a public
-front door to the Project Telos site, cross-domain research lab, flagship
-engines, tester threads, and verification surfaces.
+front door to Flywheel, the Project Telos site, cross-domain research lab,
+capability families, tester threads, and verification surfaces.
 
 The README uses only GitHub-native interaction: collapsible sections, tables,
 Mermaid diagrams, and links to live site surfaces. Real JavaScript maps and
 dashboards should live on the site, with the profile linking out to them.
 
-The current concept is a public lab bench. Keep it vivid: reader doors,
-instruments, maps, traps, and proof paths. Hiring signal should be present, but
-it should be embedded in how the work can be inspected rather than framed as a
-generic resume page.
+The current concept is a public lab bench with Flywheel as the mothership. Keep
+it vivid: reader doors, instruments, maps, traps, and proof paths. Hiring
+signal should be present, but it should be embedded in how the work can be
+inspected rather than framed as a generic resume page.
 
 The opening should be personal and grounded. Lead with what Zain likes, what
 work he repeatedly returns to, and the actual project/life history behind the
@@ -33,6 +33,15 @@ without publishing raw self-sabotaging phrases verbatim.
 Keep the project-history layer near the top. It should make the profile easier
 to trust by connecting claims to public artifacts and lived work instead of
 trying to optimize a pitch.
+
+Keep the public/private boundary explicit. Public pages may describe authorized
+security work and controlled disclosure channels, but must not publish
+operationally enabling offensive material, credentials, private traces, or
+unresolved affected-system details.
+
+Keep the retro lane visible. Retro Engine, Engine Revival, and BRender Archival
+are part of the public conversion path because retro systems make the craft,
+graphics, preservation, and evidence work inspectable.
 
 Interactive elements should stay GitHub-native: expandable showcase drawers,
 quest-style interactions, demo links, runnable snippets, Mermaid diagrams, and
@@ -118,7 +127,7 @@ Before publishing:
 - `AGENTS.md` is the local handoff contract.
 - `scripts/check_profile_surface.py` is the CI gate for required public links,
   required repo docs, and credential-shaped text.
-- `docs/brand/profile-hero.png` is the canonical Project Telos flagship card
+- `docs/brand/profile-hero.png` is the canonical Flywheel / Project Telos card
   used by the profile README.
 - `docs/research/2026-07-01-profile-template-research.md` records the public
   profile-template and forum research behind the direction.
