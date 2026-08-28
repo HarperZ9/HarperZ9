@@ -4,6 +4,7 @@ import re
 import sys
 from pathlib import Path
 
+
 ROOT = Path(__file__).resolve().parents[1]
 README = ROOT / "README.md"
 
@@ -18,104 +19,73 @@ REQUIRED_FILES = (
     "PRODUCT.md",
 )
 
-REQUIRED_ASSETS = ("docs/brand/profile-hero.png",)
+REQUIRED_ASSETS = ("docs/brand/zentropy-banner.png",)
 
 REQUIRED_DOCS = (
     "docs/research/2026-07-01-enterprise-profile-research.md",
     "docs/research/2026-07-01-profile-template-research.md",
     "docs/research/2026-07-01-index-scope-assessment.md",
+    "docs/research/2026-08-27-profile-capability-integration-review.md",
     "docs/superpowers/specs/2026-07-01-github-profile-site-aligned-design.md",
     "docs/superpowers/plans/2026-07-01-github-profile-site-aligned.md",
 )
 
 REQUIRED_README_TERMS = (
     "Zain Dana Harper",
-    "Project Telos",
-    "Work you can walk away from.",
-    "run anywhere",
-    "https://harperz9.github.io",
-    "https://github.com/HarperZ9/flywheel",
-    "https://github.com/HarperZ9/telos",
-    "https://github.com/HarperZ9/index",
-    "https://github.com/HarperZ9/gather",
-    "https://github.com/HarperZ9/forum",
-    "https://github.com/HarperZ9/crucible",
-    "https://github.com/HarperZ9/emet",
-    "https://github.com/HarperZ9/buildlang",
-    "https://github.com/HarperZ9/learn",
-    "## The flagships",
-    "The receipt that matters",
-    "fourteen flagship engines under one Flywheel thesis",
-    "1.1.0 package and release; frozen 1.0.0 core spec.",
-    "Plexus 0.2.0 public source",
-    "poster design",
-    "measured critique",
-    "seeded neural graphics",
-    "AI-assisted design workflows",
-    "managed access",
-    "term licensing",
-    "continued learning",
-    "practical IT",
-    "```mermaid",
-)
-
-REQUIRED_LIVE_SHIELDS = (
-    # name, version_needle, ci_needle, downloads_needle
-    ("index",     "img.shields.io/pypi/v/index-graph",         "img.shields.io/github/actions/workflow/status/HarperZ9/index/ci.yml",          "img.shields.io/pypi/dm/index-graph"),
-    ("gather",    "img.shields.io/pypi/v/gather-engine",       "img.shields.io/github/actions/workflow/status/HarperZ9/gather/ci.yml",         "img.shields.io/pypi/dm/gather-engine"),
-    ("forum",     "img.shields.io/pypi/v/forum-engine",        "img.shields.io/github/actions/workflow/status/HarperZ9/forum/ci.yml",          "img.shields.io/pypi/dm/forum-engine"),
-    ("crucible",  "img.shields.io/pypi/v/crucible-bench",      "img.shields.io/github/actions/workflow/status/HarperZ9/crucible/ci.yml",       "img.shields.io/pypi/dm/crucible-bench"),
-    ("emet",      "img.shields.io/pypi/v/emet",                "img.shields.io/github/actions/workflow/status/HarperZ9/emet/conformance.yml", "img.shields.io/pypi/dm/emet"),
-    ("buildlang", "img.shields.io/crates/v/buildlang",         "img.shields.io/github/actions/workflow/status/HarperZ9/buildlang/ci.yml",      "img.shields.io/crates/dv/buildlang"),
+    "Available for paid work",
+    "## Three ways to work together",
+    "https://harperz9.github.io/hire.html#engineering-path",
+    "https://harperz9.github.io/hire.html#public-service-field-path",
+    "https://harperz9.github.io/research.html",
+    "https://harperz9.github.io/resume.html",
+    "https://harperz9.github.io/cv.html",
+    "https://harperz9.github.io/portfolio.html",
+    "## Evidence accepted upstream",
+    "https://github.com/dgenio/agentfence/pull/261",
+    "https://github.com/freelawproject/litigant-portal/pull/820",
+    "https://github.com/sjh9714/mergewarden/pull/107",
+    "## Capability constellation",
+    "Flywheel is the sole primary platform",
+    "https://github.com/HarperZ9/flywheel/releases/tag/v0.3.10",
+    "Agent systems",
+    "Evaluation and verification",
+    "Security and privacy",
+    "Developer infrastructure",
+    "Graphics and retro systems",
+    "Research and education",
+    "https://github.com/HarperZ9/terminal-state-fixtures",
+    "https://github.com/HarperZ9/phantom/releases/tag/v1.1.0",
+    "Layer 2 identity surfaces",
+    "## Retro Systems Lab",
+    "play → preserve → verify",
+    "https://harperz9.github.io/retro.html",
+    "https://github.com/HarperZ9/engine-revival/releases/tag/v0.1.0",
+    "https://github.com/HarperZ9/brender-archival/releases/tag/v0.1.1",
 )
 
 DISALLOWED_README_TERMS = (
     "docs/brand/evidence-map.svg",
     "https://github.com/HarperZ9/aleph",
     "https://github.com/HarperZ9/orca",
-    "https://github.com/HarperZ9/behavior-transform",
+    "fourteen flagship engines",
+    "0.1.0 source prototype",
+    "Phantom v1.0.0",
+    "any work can occur within third-party provider terms of service",
+    "guarantees provider compliance",
+    "guaranteed provider compliance",
+    "compliant with every provider",
+    "live jailbreak corpora",
+    "exploit chains",
+    "target-specific techniques",
+    "bypass payloads",
     "What you are buying",
-    "translation pressure",
     "Why you want me in the room.",
     "Buy the pattern.",
-    "Buy me when",
     "Do not buy me",
-    "How to evaluate the bet.",
-    "that is the buying signal",
-    "What this buys you.",
-    "Your team gets less hidden state",
     "I am a cheater",
     "I am a liar",
-    "no spine",
     "get fucked up",
     "I get fucked up",
-    "Build with a model",
-    "Peer into the frontier",
-    "Build it to be checked, or do not ship it.",
-    "eight flagships",
-    "Eight engines",
-    "1.0.0 on default public main and the local release tag",
-)
-
-FLAGSHIP_REPO_SLUGS = (
-    "flywheel",
-    "telos",
-    "index",
-    "gather",
-    "forum",
-    "crucible",
-    "emet",
-    "buildlang",
-    "learn",
-    "relay",
-    "plexus",
-    "mneme",
-    "studio-engine",
-    "build-color",
-)
-
-DISALLOWED_README_CASEFOLD_TERMS = (
-    "cali" + "brate",
 )
 
 SECRET_SHAPES = (
@@ -124,6 +94,18 @@ SECRET_SHAPES = (
     re.compile(r"AKIA[0-9A-Z]{16}"),
     re.compile(r"xox[baprs]-[A-Za-z0-9-]{20,}"),
     re.compile(r"BEGIN (RSA |OPENSSH |EC )?PRIVATE KEY"),
+)
+
+EXPECTED_PATH_LABELS = (
+    "Technical and evaluation",
+    "Public, union, and field",
+    "Education and research",
+)
+
+EXPECTED_PROOF_URLS = (
+    "https://github.com/dgenio/agentfence/pull/261",
+    "https://github.com/freelawproject/litigant-portal/pull/820",
+    "https://github.com/sjh9714/mergewarden/pull/107",
 )
 
 
@@ -154,42 +136,61 @@ def assert_readme_contract() -> None:
     text = README.read_text(encoding="utf-8")
     missing = [term for term in REQUIRED_README_TERMS if term not in text]
     if missing:
-        fail(f"README missing required terms: {', '.join(missing)}")
-    for name, version_n, ci_n, downloads_n in REQUIRED_LIVE_SHIELDS:
-        for label, needle in (("version", version_n), ("CI", ci_n), ("downloads", downloads_n)):
-            if needle not in text:
-                fail(
-                    f"README missing live {label} badge for {name} "
-                    "(versions, CI status, and downloads must come from the "
-                    "registry/GitHub on page load, never hand-typed)"
-                )
-    forbidden = [term for term in DISALLOWED_README_TERMS if term in text]
+        fail(f"README missing required architecture or truth terms: {', '.join(missing)}")
+
+    casefolded = text.casefold()
+    forbidden = [term for term in DISALLOWED_README_TERMS if term.casefold() in casefolded]
     if forbidden:
         fail(f"README contains disallowed public terms: {', '.join(forbidden)}")
-    casefolded = text.casefold()
-    forbidden_casefolded = [
-        term for term in DISALLOWED_README_CASEFOLD_TERMS if term in casefolded
-    ]
-    if forbidden_casefolded:
-        fail(
-            "README contains disallowed public terms: "
-            f"{', '.join(forbidden_casefolded)}"
-        )
     if "\u2014" in text:
         fail("README contains an em dash glyph")
-    flagship_section = text.split("## The flagships", 1)[1].split(
-        "## How the workshop fits together", 1
-    )[0]
-    flagship_rows = re.findall(
-        r"^\| \[[^\]]+\]\(https://github\.com/HarperZ9/([^)]+)\) \|",
-        flagship_section,
-        flags=re.MULTILINE,
-    )
-    if tuple(flagship_rows) != FLAGSHIP_REPO_SLUGS:
+
+    word_count = len(re.findall(r"\b[\w'-]+\b", re.sub(r"<[^>]+>", " ", text)))
+    if word_count > 1000:
+        fail(f"README exceeds 1000-word hiring-surface limit: {word_count}")
+
+    paths_at = text.index("## Three ways to work together")
+    proof_at = text.index("## Evidence accepted upstream")
+    capability_at = text.index("## Capability constellation")
+    if not paths_at < proof_at < capability_at:
+        fail("hiring paths and third-party proofs must precede owned-product breadth")
+
+    paths_section = text[paths_at:proof_at]
+    path_rows = re.findall(r"^\| \*\*([^*]+)\*\* \|", paths_section, re.MULTILINE)
+    if tuple(path_rows) != EXPECTED_PATH_LABELS:
         fail(
-            "flagship tables must name the exact fourteen-engine roster in order: "
-            f"{', '.join(FLAGSHIP_REPO_SLUGS)}"
+            "hiring table must contain exactly the three approved paths in order: "
+            f"{', '.join(EXPECTED_PATH_LABELS)}"
         )
+
+    proof_section = text[proof_at:capability_at]
+    proof_urls = re.findall(
+        r"^- \[[^\]]+\]\((https://github\.com/([^/]+)/[^/]+/pull/\d+)\):",
+        proof_section,
+        re.MULTILINE,
+    )
+    observed_proof_urls = tuple(url for url, _owner in proof_urls)
+    if observed_proof_urls != EXPECTED_PROOF_URLS:
+        fail("upstream evidence section must contain exactly the three approved PR proofs")
+    if any(owner.casefold() == "harperz9" for _url, owner in proof_urls):
+        fail("upstream evidence must come from repositories outside HarperZ9")
+
+    if "Flywheel v0.3.10" not in text:
+        fail("Flywheel must be identified at verified release v0.3.10")
+    if re.search(r"Flywheel.{0,80}(?:v|version )?0\.1\.0", text, re.IGNORECASE | re.DOTALL):
+        fail("Flywheel must not be described as version 0.1.0")
+
+    if not re.search(r"authorized security", text, re.IGNORECASE):
+        fail("README must include one bounded authorized-security aggregate")
+    if not re.search(r"public (?:surface|pages?).{0,160}(?:sanitized|bounded)", text, re.IGNORECASE | re.DOTALL):
+        fail("README must distinguish the sanitized public security surface")
+    if not re.search(r"approved\s+private or embargoed channels", text, re.IGNORECASE):
+        fail("README must route controlled material through approved private or embargoed channels")
+
+    markdown_targets = re.findall(r"\[[^\]]+\]\(([^)]+)\)", text)
+    bad_targets = [target for target in markdown_targets if not target.startswith(("https://", "mailto:"))]
+    if bad_targets:
+        fail(f"README contains non-public link targets: {', '.join(bad_targets)}")
 
 
 def assert_no_secret_shapes() -> None:
