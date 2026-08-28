@@ -30,6 +30,11 @@ REQUIRED_DOCS = (
 
 REQUIRED_README_TERMS = (
     "Zain Dana Harper",
+    "Flywheel",
+    "the mothership",
+    "https://harperz9.github.io/hire.html",
+    "https://harperz9.github.io/security.html",
+    "https://harperz9.github.io/retro.html",
     "Project Telos",
     "Work you can walk away from.",
     "run anywhere",
@@ -43,9 +48,14 @@ REQUIRED_README_TERMS = (
     "https://github.com/HarperZ9/emet",
     "https://github.com/HarperZ9/buildlang",
     "https://github.com/HarperZ9/learn",
+    "https://github.com/HarperZ9/brender-archival",
+    "https://github.com/HarperZ9/engine-revival",
     "## The flagships",
-    "The receipt that matters",
-    "fourteen flagship engines under one Flywheel thesis",
+    "The public receipt",
+    "Flywheel is the primary platform",
+    "capability families",
+    "controlled disclosure",
+    "jailbreak corpora, bypass payloads, exploit chains, target-specific techniques",
     "1.1.0 package and release; frozen 1.0.0 core spec.",
     "Plexus 0.2.0 public source",
     "poster design",
@@ -56,6 +66,8 @@ REQUIRED_README_TERMS = (
     "term licensing",
     "continued learning",
     "practical IT",
+    "technical support",
+    "evaluation tooling",
     "```mermaid",
 )
 
@@ -94,6 +106,9 @@ DISALLOWED_README_TERMS = (
     "Build it to be checked, or do not ship it.",
     "eight flagships",
     "Eight engines",
+    "fourteen flagship engines under one Flywheel thesis",
+    "Together, the two tables name all fourteen flagships.",
+    "Standalone products held apart from the fourteen engines.",
     "1.0.0 on default public main and the local release tag",
 )
 

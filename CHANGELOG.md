@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-08-28 - Flywheel-First Conversion Pass
+
+- Reframed the first screen around Flywheel as the mothership and Project
+  Telos as the public workshop/surface around it.
+- Replaced stale fourteen-flagship framing with capability families, public
+  engines, controlled security lanes, and Retro Systems Lab routing.
+- Added public-safe links for hiring, security boundary, retro systems,
+  BRender Archival, and Engine Revival.
+- Updated the verifier, product brief, and usage guide so stale Telos-first
+  language fails and the public/private offensive-security boundary remains
+  explicit.
+
 ## 2026-07-01 - Abstract Accountability Pass
 
 - Added Zain's stated personality frame: taking systems apart, attacking

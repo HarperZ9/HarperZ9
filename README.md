@@ -4,21 +4,26 @@
 
 <img src="docs/brand/zentropy-banner.png" alt="Zentropy Labs: Work you can walk away from." width="100%">
 
-> **Systems engineer, technical artist, and design engineer. One workshop, many routes.**
+> **Systems engineer, technical artist, and design engineer. One mothership, many routes.**
 
 I build across **accountable AI infrastructure, agent tooling and
 evaluation, compilers, native and browser rendering, seeded neural graphics,
-poster design, color, and AI-assisted design workflows**. **Project Telos**
-maps fourteen flagship engines under one Flywheel thesis. Their maturity
-varies, but the shared habit is simple: map the system, make the surface, test
-the claim, and leave a usable artifact.
+poster design, color, and AI-assisted design workflows**.
+
+**Flywheel is the primary platform**: the mothership for routing models,
+tools, agents, receipts, context, benchmarks, and public-safe evidence. Project
+Telos is the workshop and public surface around it. The other mature systems
+are capability families, engines, plug-ins, evidence layers, adapters, or
+standalone-capable extensions depending on what their current repository state
+actually supports.
 
 The banner names the ambition, not a blanket maturity claim. Some tools can
 run anywhere with few or no dependencies; others are Windows-native, GPU-facing,
 pre-1.0, or research-only. Some are released packages, some are public beta,
 and some are active R&D. Each project carries its own status below.
 
-**Start here:** [Project Telos](https://harperz9.github.io/) ·
+**Start here:** [Flywheel / Project Telos](https://harperz9.github.io/) ·
+[Hire](https://harperz9.github.io/hire.html) ·
 [Portfolio](https://harperz9.github.io/portfolio.html) ·
 [Resume](https://harperz9.github.io/resume.html) ·
 [CV](https://harperz9.github.io/cv.html) ·
@@ -26,6 +31,8 @@ and some are active R&D. Each project carries its own status below.
 
 **Explore:** [research](https://harperz9.github.io/research.html) ·
 [papers](https://harperz9.github.io/publications.html) ·
+[security boundary](https://harperz9.github.io/security.html) ·
+[retro systems](https://harperz9.github.io/retro.html) ·
 [Studio](https://harperz9.github.io/studio.html) ·
 [the person behind it](https://harperz9.github.io/person.html)
 
@@ -38,18 +45,19 @@ research and academic learning paths, and practical IT.
 
 | Track | Start with | Current shape |
 | --- | --- | --- |
-| accountable AI infrastructure | [flywheel](https://github.com/HarperZ9/flywheel), [relay](https://github.com/HarperZ9/relay) | Harness, endpoint, routing, failover, and evaluation work. Active R&D plus a 0.1.0 source prototype; benchmark conclusions stay scoped to the task set that produced them. |
-| Agent tooling | [telos](https://github.com/HarperZ9/telos), [index](https://github.com/HarperZ9/index), [gather](https://github.com/HarperZ9/gather), [forum](https://github.com/HarperZ9/forum), [crucible](https://github.com/HarperZ9/crucible) | A mixed-maturity toolchain for context, research intake, orchestration, evaluation, and human/model workspaces. |
-| Compilers and developer systems | [BuildLang](https://github.com/HarperZ9/buildlang) | Rust-built typed-effects compiler. The C execution path and HLSL/GLSL output are the current core; other backends and linear types remain explicitly experimental. |
-| Design, graphics, and generated media | [Studio Engine](https://github.com/HarperZ9/studio-engine), [Build Color](https://github.com/HarperZ9/build-color), [Elder ENB](https://www.nexusmods.com/skyrimspecialedition/mods/117327) | Browser-native poster composition with measured critique, seeded neural graphics, native rendering, color workflows, and AI-assisted iteration beside an established public graphics project. |
-| Color and calibration | [Build Color](https://github.com/HarperZ9/build-color) | A 1.0.2 beta color-science workbench for spaces, HDR tone mapping, appearance models, difference metrics, ICC, and LUT workflows. |
-| Research, learning, and release tooling | [Learn](https://github.com/HarperZ9/learn), [papers](https://harperz9.github.io/publications.html), [release toolkit](https://harperz9.github.io/toolkit.html), [emet](https://github.com/HarperZ9/emet) | Accountable learning workflows, public papers, source and provenance systems, package and CI checks, release surfaces, and a byte-level integrity witness. |
+| Flywheel platform | [flywheel](https://github.com/HarperZ9/flywheel), [relay](https://github.com/HarperZ9/relay), [forum](https://github.com/HarperZ9/forum) | Model routes, local and hosted endpoints, agent runs, evidence ledgers, benchmarks, and execution receipts. |
+| Evaluation and research intake | [gather](https://github.com/HarperZ9/gather), [crucible](https://github.com/HarperZ9/crucible), [emet](https://github.com/HarperZ9/emet), [learn](https://github.com/HarperZ9/learn) | Source capture, bounded verdicts, byte-level witnesses, and learning records that keep claims close to evidence. |
+| Context and developer systems | [index](https://github.com/HarperZ9/index), [plexus](https://github.com/HarperZ9/plexus), [mneme](https://github.com/HarperZ9/mneme), [BuildLang](https://github.com/HarperZ9/buildlang) | Workspace maps, capability graphs, local memory, compiler work, typed effects, and source-level proof paths. |
+| Visual engines and data surfaces | [Studio Engine](https://github.com/HarperZ9/studio-engine), [Build Color](https://github.com/HarperZ9/build-color), [Elder ENB](https://www.nexusmods.com/skyrimspecialedition/mods/117327) | Shader/media generation, color-science workflows, measured critique, diagrams, visual analysis, and graphics work that can be checked rather than only admired. |
+| Retro Systems Lab | [retro systems](https://harperz9.github.io/retro.html), [BRender Archival](https://github.com/HarperZ9/brender-archival), [Engine Revival](https://github.com/HarperZ9/engine-revival) | Play, preserve, verify: interactive retro work, archival restoration, deterministic media, and evidence-driven engine revival. |
+| Security and controlled disclosure | [security boundary](https://harperz9.github.io/security.html), [Phantom](https://harperz9.github.io/phantom.html) | Public-safe capability statements for authorized defensive/offensive evaluation. Live jailbreak corpora, bypass payloads, exploit chains, target-specific techniques, credentials, private traces, and affected-version details move only through approved private or embargoed channels. |
 
 ## The flagships
 
-The badges pull versions, CI state, and downloads from registries and GitHub on
-page load. Static maturity wording is labeled and bounded by project rather
-than promoted into one ecosystem claim.
+Flywheel is the root. The table below names the public engines around it in
+the order the profile verifier checks. The badges pull versions, CI state, and
+downloads from registries and GitHub on page load. Static maturity wording is
+labeled and bounded by project rather than promoted into one ecosystem claim.
 
 [![index](https://img.shields.io/pypi/v/index-graph?label=index&style=flat-square&labelColor=14041b&color=26dfe8)](https://pypi.org/project/index-graph/) [![gather](https://img.shields.io/pypi/v/gather-engine?label=gather&style=flat-square&labelColor=14041b&color=f8cc43)](https://pypi.org/project/gather-engine/) [![forum](https://img.shields.io/pypi/v/forum-engine?label=forum&style=flat-square&labelColor=14041b&color=99f147)](https://pypi.org/project/forum-engine/) [![crucible](https://img.shields.io/pypi/v/crucible-bench?label=crucible&style=flat-square&labelColor=14041b&color=9683ff)](https://pypi.org/project/crucible-bench/) [![emet](https://img.shields.io/pypi/v/emet?label=emet&style=flat-square&labelColor=14041b&color=ff35aa)](https://pypi.org/project/emet/) [![buildlang](https://img.shields.io/crates/v/buildlang?label=buildlang&style=flat-square&labelColor=14041b&color=ff8334)](https://crates.io/crates/buildlang/)
 
@@ -57,7 +65,7 @@ than promoted into one ecosystem claim.
 
 [![index](https://img.shields.io/pypi/dm/index-graph?label=index&style=flat-square&labelColor=14041b&color=26dfe8)](https://pypi.org/project/index-graph/) [![gather](https://img.shields.io/pypi/dm/gather-engine?label=gather&style=flat-square&labelColor=14041b&color=f8cc43)](https://pypi.org/project/gather-engine/) [![forum](https://img.shields.io/pypi/dm/forum-engine?label=forum&style=flat-square&labelColor=14041b&color=99f147)](https://pypi.org/project/forum-engine/) [![crucible](https://img.shields.io/pypi/dm/crucible-bench?label=crucible&style=flat-square&labelColor=14041b&color=9683ff)](https://pypi.org/project/crucible-bench/) [![emet](https://img.shields.io/pypi/dm/emet?label=emet&style=flat-square&labelColor=14041b&color=ff35aa)](https://pypi.org/project/emet/) [![buildlang](https://img.shields.io/crates/dv/buildlang?label=buildlang&style=flat-square&labelColor=14041b&color=ff8334)](https://crates.io/crates/buildlang/)
 
-| Tool | What it does | Maturity | The receipt that matters |
+| Tool | What it does | Maturity | The public receipt |
 | --- | --- | --- | --- |
 | [flywheel](https://github.com/HarperZ9/flywheel) | Runs local and hosted model routes through the same harness and oracle-backed evaluation paths. | **Research · active R&D.** No portfolio-wide model-superiority claim; each result belongs to its recorded task set, endpoint, and budget. | Cross-harness manifests, endpoint receipts, raw benchmark artifacts, and explicit non-conclusions. |
 | [telos](https://github.com/HarperZ9/telos) | Shared human/model workbench, MCP surfaces, creative tools, and four proof tracks through one CLI. | **Public work · 0.2.0 pre-1.0 source-registry package.** Tested surface; interfaces may move and npm publishing is a manual maintainer step. | Re-checkable agent, research, visual, and build packets with explicit non-claims. |
@@ -69,9 +77,11 @@ than promoted into one ecosystem claim.
 | [buildlang](https://github.com/HarperZ9/buildlang) | Compiles typed-effects source through C and emits HLSL/GLSL shader source. | **Public work · 1.2.0 source manifest.** C, effects, HLSL/GLSL, and receipts are core; SPIR-V, LLVM, WASM, Rust, native-ISA backends, GPU dispatch, and linear types are experimental. | Backend maturity is stated per target instead of hidden behind one compiler-wide label. |
 | [learn](https://github.com/HarperZ9/learn) | Turns source material into coursework, retrieval practice, spaced repetition, and graded records. | **Public work · 1.6.0 source version.** Zero runtime dependencies. | `mastery()` is derived from the learner's recorded practice. |
 
-### Five additional flagship engines
+### Additional public engines
 
-Together, the two tables name all fourteen flagships.
+These engines can run beside Flywheel or plug into it as capability families
+when a route needs memory, endpoint control, capability mapping, visual
+generation, or color analysis.
 
 | Project | Current role | Maturity |
 | --- | --- | --- |
@@ -81,32 +91,41 @@ Together, the two tables name all fourteen flagships.
 | [studio-engine](https://github.com/HarperZ9/studio-engine) | Generates replayable shader, audio, motion, and raster artifacts from a seed. | **Research · 0.2.0 pre-1.0 engine.** APIs may move. |
 | [build-color](https://github.com/HarperZ9/build-color) | Color spaces, HDR tone mapping, appearance models, difference metrics, ICC, and LUT workflows. | **Public work · 1.0.2 beta.** A workbench and toolkit, not a physical measurement instrument. |
 
-## Platforms
+## Public platforms and controlled lanes
 
-Standalone products held apart from the fourteen engines. Each has its own page, identity, and distribution model.
+Some systems have their own page, identity, and distribution model. They still
+route back into the same Flywheel-first evidence discipline.
 
 | Platform | What it does | Status |
 | --- | --- | --- |
 | [Phantom](https://harperz9.github.io/phantom.html) | Hardware-identity privacy for Windows and Linux. Audits what the device reveals, generates a consistent replacement identity from a seed, applies it to the identifiers software reads most, and restores the exact originals on revert or uninstall. | **Shipped · v1.1.0 · proprietary · Free / Pro / Enterprise** |
 | [behavior-transform.io](https://harperz9.github.io/behavior-transform.html) | Compliance intermediary for AI workloads. A programmatic environment that wraps the workspace, transforms context and language at the model boundary, so any work can occur within third-party provider terms of service. Environment-native authorization, policy enforcement, session authority, provider intelligence, and audit trail. | **Private · authorized operators only** |
 | [Authorized offensive security](https://harperz9.github.io/security.html) | Adversarial capability and adversarial-AI testing for lawful operators, shared only after authorization is established. | **Private · authorized parties only** |
+| [Retro Systems Lab](https://harperz9.github.io/retro.html) | Retro Engine play layer, Engine Revival research lane, and BRender Archival restoration proof. | **Public-safe · preservation and creative systems evidence** |
 
 ## How the workshop fits together
 
 ```mermaid
-flowchart LR
+flowchart TD
     problem["real problem"] --> models["AI infrastructure workflows"]
     problem --> systems["compilers / developer systems"]
     problem --> visuals["poster / neural / rendering / color"]
     problem --> research["research / learning / release"]
-    models --> tools["flywheel · relay · forum · telos"]
+    problem --> retro["retro systems / preservation"]
+    problem --> security["authorized security evaluation"]
+    models --> flywheel["Flywheel mothership"]
+    flywheel --> tools["relay · forum · telos"]
     systems --> compiler["BuildLang · index · plexus"]
     visuals --> art["Studio Engine · Build Color"]
     research --> evidence["gather · crucible · emet · papers"]
+    retro --> revival["Retro Engine · Engine Revival · BRender Archival"]
+    security --> private["controlled disclosure only"]
     tools --> artifact["usable artifact"]
     compiler --> artifact
     art --> artifact
     evidence --> artifact
+    revival --> artifact
+    private --> artifact
     artifact --> human["human review and next loop"]
 ```
 
@@ -223,12 +242,12 @@ that can be cloned, run, and argued with.
 I am open to full-time, part-time, contract, and project work across systems
 engineering, AI and evaluation infrastructure, developer tooling, compilers,
 graphics and rendering, design engineering, technical art, implementation,
-research operations, QA, technical writing, and practical IT. The strongest
-fit is work that needs someone to enter an ambiguous system, map it quickly,
-build the missing surface, and leave behind something another person can run
-and inspect.
+research operations, QA, technical support, technical writing, and practical
+IT. The strongest fit is work that needs someone to enter an ambiguous system,
+map it quickly, build the missing surface, and leave behind something another
+person can run and inspect.
 
-- Local-model endpoints, agent harnesses, evaluations, context systems, and developer tools.
+- Local-model endpoints, agent harnesses, evaluation tooling, context systems, and developer tools.
 - Compilers, language tooling, native systems, and difficult integration work.
 - Real-time graphics, shaders, procedural media, color science, poster systems, and AI-assisted design workflows.
 - Research infrastructure, benchmark design, packaging, CI, release evidence, documentation, and technical support.
