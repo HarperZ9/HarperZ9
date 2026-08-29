@@ -44,23 +44,29 @@ REQUIRED_README_TERMS = (
     "https://github.com/dgenio/agentfence/pull/261",
     "https://github.com/freelawproject/litigant-portal/pull/820",
     "https://github.com/sjh9714/mergewarden/pull/107",
-    "## Capability constellation",
-    "Flywheel is the sole primary platform",
-    "mothership",
-    "Project Telos",
+    "Zain Dana Harper and Zentropy Labs are the front door",
+    "## Systems, grouped by the work they do",
+    "main agent platform",
     "https://github.com/HarperZ9/flywheel/releases/tag/v0.3.10",
-    "Agent systems",
+    "Agent execution and memory",
     "Evaluation and verification",
     "Security and privacy",
     "Developer infrastructure",
-    "Graphics and retro systems",
-    "data visualization",
+    "Graphics and runtime systems",
+    "Preservation and retro systems",
     "Research and education",
     "https://github.com/HarperZ9/terminal-state-fixtures",
     "https://github.com/HarperZ9/phantom/releases/tag/v1.1.0",
     "Layer 2 identity surfaces",
     "https://harperz9.github.io/security.html",
-    "coordinated disclosure",
+    "### Operational security systems",
+    "Array",
+    "Seed",
+    "Sofer",
+    "Isomorph",
+    "Bounds",
+    "ORCA",
+    "Gate",
     "## Retro Systems Lab",
     "play → preserve → verify",
     "https://harperz9.github.io/retro.html",
@@ -73,6 +79,9 @@ DISALLOWED_README_TERMS = (
     "https://github.com/HarperZ9/aleph",
     "https://github.com/HarperZ9/orca",
     "fourteen flagship engines",
+    "mothership",
+    "Flywheel is the sole primary platform",
+    "### Authorized security, kept bounded",
     "0.1.0 source prototype",
     "Phantom v1.0.0",
     "any work can occur within third-party provider terms of service",
@@ -169,7 +178,7 @@ def assert_readme_contract() -> None:
 
     paths_at = text.index("## Three ways to work together")
     proof_at = text.index("## Evidence accepted upstream")
-    capability_at = text.index("## Capability constellation")
+    capability_at = text.index("## Systems, grouped by the work they do")
     if not paths_at < proof_at < capability_at:
         fail("hiring paths and third-party proofs must precede owned-product breadth")
 
@@ -198,11 +207,30 @@ def assert_readme_contract() -> None:
     if re.search(r"Flywheel.{0,80}(?:v|version )?0\.1\.0", text, re.IGNORECASE | re.DOTALL):
         fail("Flywheel must not be described as version 0.1.0")
 
-    if not re.search(r"authorized security", text, re.IGNORECASE):
-        fail("README must include one bounded authorized-security aggregate")
-    if not re.search(r"public (?:surface|pages?).{0,160}(?:sanitized|bounded)", text, re.IGNORECASE | re.DOTALL):
-        fail("README must distinguish the sanitized public security surface")
-    if not re.search(r"approved\s+private or embargoed\s+channels", text, re.IGNORECASE):
+    required_security_systems = ("Array", "Seed", "Sofer", "Isomorph", "Bounds", "ORCA", "Gate")
+    missing_security_systems = [name for name in required_security_systems if name not in text]
+    if missing_security_systems:
+        fail(f"README must name distinct operational security systems: {', '.join(missing_security_systems)}")
+    security_start = text.find("### Operational security systems")
+    security_end = text.find("## Retro Systems Lab", security_start)
+    if security_start < 0 or security_end < 0:
+        fail("README must contain the operational-security section before the retro section")
+    security_section = text[security_start:security_end]
+    if not re.search(
+        r"controlled-private systems\s+with public capability descriptions",
+        security_section,
+        re.IGNORECASE,
+    ):
+        fail("operational security systems must be labeled controlled-private with public descriptions")
+    if "They are not public releases or downloads." not in security_section:
+        fail("operational security section must state that controlled-private systems are not public releases")
+    if not re.search(
+        r"Public pages describe each\s+system's job,\s+evidence, maturity, and limits",
+        security_section,
+        re.IGNORECASE,
+    ):
+        fail("README must describe the public security pages as system-specific evidence surfaces")
+    if not re.search(r"approved\s+private or embargoed\s+channels", security_section, re.IGNORECASE):
         fail("README must route controlled material through approved private or embargoed channels")
 
     markdown_targets = re.findall(r"\[[^\]]+\]\(([^)]+)\)", text)

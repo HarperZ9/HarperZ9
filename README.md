@@ -6,15 +6,15 @@
 
 ## Systems engineering, AI evaluation, and technical operations
 
-I turn ambiguous systems into inspectable tools, tests, and handoffs. My work
-spans model-neutral agent infrastructure, deterministic evaluation, developer
-tools, native and browser graphics, technical writing, client operations, and
-physical field work.
+I turn ambiguous systems into inspectable tools, tests, and handoffs across
+agent infrastructure, evaluation, developer tools, graphics, technical
+operations, and physical field work.
 
-**Flywheel is the primary platform and mothership.** Project Telos is the
-workshop and public surface around it. The rest of the workshop is organized as
-capability families, engines, extensions, evidence layers, and bounded
-standalone systems.
+**Zain Dana Harper and Zentropy Labs are the front door.** Flywheel is the main agent platform
+inside a broader workshop that also includes independent
+security systems, compilers, evaluation tools, graphics engines, preservation
+work, research, and field experience. Each project is described by what its
+code does, not forced into one product hierarchy.
 
 **Available for paid work:** full-time, contract, project, onsite, hybrid, or
 remote. Based in Seattle, Washington.
@@ -38,8 +38,7 @@ remote. Based in Seattle, Washington.
 
 ## Evidence accepted upstream
 
-These third-party results come before the owned product catalog because they
-show the work surviving another maintainer's scope, review, and repository.
+These results show the work surviving another maintainer's scope and review.
 
 - [AgentFence PR 261](https://github.com/dgenio/agentfence/pull/261): an
   owner-approved and merged Go engine optimization with deterministic rule
@@ -50,24 +49,23 @@ show the work surviving another maintainer's scope, review, and repository.
   replay fixtures for reusable-workflow pinning, revised after owner review,
   approved, merged, and CI-checked.
 
-## Capability constellation
+## Systems, grouped by the work they do
 
-**Flywheel is the sole primary platform and mothership.** The current verified release is
+The current verified release of
 [Flywheel v0.3.10](https://github.com/HarperZ9/flywheel/releases/tag/v0.3.10):
-one model-neutral workbench for routing, gated tool use, evaluation lanes,
-receipts, memory, context, and reproducible workflows. The rest of the workshop
-is organized as capability families, lanes, extensions, and bounded standalone
-systems rather than a fixed flagship count. Project Telos is the public
-workshop around that platform.
+a model-neutral agent workbench for routing, gated tool use, evaluation lanes,
+receipts, memory, context, and reproducible workflows. It is a major product,
+not a label for everything else in the workshop.
 
 | Family | Representative public work |
 | --- | --- |
-| **Agent systems** | [Flywheel](https://github.com/HarperZ9/flywheel), [Telos](https://github.com/HarperZ9/telos), [Forum](https://github.com/HarperZ9/forum), [Relay](https://github.com/HarperZ9/relay), [Mneme](https://github.com/HarperZ9/mneme) |
-| **Evaluation and verification** | [Terminal State Fixtures](https://github.com/HarperZ9/terminal-state-fixtures), [Crucible](https://github.com/HarperZ9/crucible), [Emet](https://github.com/HarperZ9/emet) |
-| **Security and privacy** | [Phantom](https://github.com/HarperZ9/phantom), authorized adversarial evaluation, privacy controls, and sanitized regression fixtures |
-| **Developer infrastructure** | [BuildLang](https://github.com/HarperZ9/buildlang), [Index](https://github.com/HarperZ9/index), [Plexus](https://github.com/HarperZ9/plexus) |
-| **Graphics and retro systems** | [Studio Engine](https://github.com/HarperZ9/studio-engine), [Build Color](https://github.com/HarperZ9/build-color), diagrams, data visualization, and the Retro Systems Lab |
-| **Research and education** | [Gather](https://github.com/HarperZ9/gather), [Learn](https://github.com/HarperZ9/learn), and [publications](https://harperz9.github.io/publications.html) |
+| **Agent execution and memory** | [Flywheel](https://github.com/HarperZ9/flywheel), [Forum](https://github.com/HarperZ9/forum), [Relay](https://github.com/HarperZ9/relay), [Mneme](https://github.com/HarperZ9/mneme), [Plexus](https://github.com/HarperZ9/plexus) |
+| **Evaluation and verification** | [Terminal State Fixtures](https://github.com/HarperZ9/terminal-state-fixtures), [Crucible](https://github.com/HarperZ9/crucible), [Emet](https://github.com/HarperZ9/emet), [Bounds](https://harperz9.github.io/bounds.html) |
+| **Security and privacy** | Shipped public work: [Phantom](https://github.com/HarperZ9/phantom). Controlled-private systems with public capability descriptions: [Array](https://harperz9.github.io/array.html), [Seed](https://harperz9.github.io/seed.html), [Sofer](https://harperz9.github.io/sofer.html), [Isomorph](https://harperz9.github.io/isomorph.html), [Bounds](https://harperz9.github.io/bounds.html), [ORCA and Gate](https://harperz9.github.io/private-practice.html) |
+| **Developer infrastructure** | [BuildLang](https://github.com/HarperZ9/buildlang), [Index](https://github.com/HarperZ9/index), [Gather](https://github.com/HarperZ9/gather), [Chorus](https://github.com/HarperZ9/chorus) |
+| **Graphics and runtime systems** | [RAW](https://github.com/HarperZ9/RAW), [SkyrimBridge](https://github.com/HarperZ9/SkyrimBridge), [Studio Engine](https://github.com/HarperZ9/studio-engine), [Truth ENB](https://harperz9.github.io/truth-enb.html), [Elder ENB](https://harperz9.github.io/elder-enb.html) |
+| **Preservation and retro systems** | [Retro Engine](https://harperz9.github.io/retro.html), [Engine Revival](https://github.com/HarperZ9/engine-revival), [BRender Archival](https://github.com/HarperZ9/brender-archival) |
+| **Research and education** | [Learn](https://github.com/HarperZ9/learn), [research records](https://harperz9.github.io/research.html), [publications](https://harperz9.github.io/publications.html), and [measured analytics](https://harperz9.github.io/analytics/current-cross-harness-pilot.html) |
 
 ### Phantom's boundary
 
@@ -77,14 +75,23 @@ covers **Layer 2 identity surfaces**. Kernel and firmware layers are modeled but
 not shipped end to end. Use is limited to machines the operator owns or is
 expressly authorized to test.
 
-### Authorized security, kept bounded
+### Operational security systems
 
-[Authorized security work](https://harperz9.github.io/security.html) spans
-adversarial AI evaluation, system hardening, privacy engineering, stress
-testing, regression fixtures, and coordinated disclosure. The public surface
-contains sanitized tests, schemas, detectors, and bounded findings. Material
-that could enable misuse moves only through approved private or embargoed
-channels with a defined scope and remediation owner.
+[Phantom](https://github.com/HarperZ9/phantom) is shipped public work. Array,
+Seed, Sofer, Isomorph, Bounds, ORCA, and Gate are controlled-private systems
+with public capability descriptions. They are not public releases or downloads.
+
+[The security catalog](https://harperz9.github.io/security.html) documents each
+system separately. Phantom changes and restores hardware-identity surfaces.
+Array coordinates approval-gated offensive campaigns. Seed runs assessment and
+detection-engineering modules. Sofer coordinates agents, models, probes, and
+multi-stage workflows. Isomorph tests AI classifier and refusal behavior at
+authorized inference boundaries. Bounds checks actions, observations, and
+releases. ORCA manages private findings and reports; Gate makes fail-closed
+integration and release decisions. Public pages describe each system's job,
+evidence, maturity, and limits. Targets, credentials, live payloads, client
+data, and engagement-specific findings stay in approved private or embargoed
+channels.
 
 ## Retro Systems Lab
 
@@ -101,9 +108,8 @@ clear:
 
 ## How I work
 
-Map the real state. Reduce the uncertainty to an executable check. Build the
-missing surface. Record what the result proves and what it does not. Leave an
-artifact another person can run, inspect, maintain, or safely operate.
+Map the real state, build the missing surface, verify it, and leave an artifact
+another person can inspect and maintain.
 
 For a role-specific view, use the [hiring page](https://harperz9.github.io/hire.html).
 For the deeper record, use the [portfolio](https://harperz9.github.io/portfolio.html)
