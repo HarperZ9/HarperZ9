@@ -7,21 +7,21 @@ Brand plus research-lab scope.
 ## Users
 
 GitHub visitors, testers, collaborators, funders, and hiring teams who need a
-fast public map of Flywheel, Project Telos, and Zain Dana Harper's work.
+fast public map of Zain Dana Harper, Zentropy Labs, and the systems in the
+workshop.
 
 ## Purpose
 
-The `HarperZ9` profile README is the GitHub handoff into Flywheel and the
-Project Telos public surface around it. It should mirror the main site's clean
-professional design, present Flywheel as the mothership for model routes,
-agent execution, receipts, benchmarks, and capability families, make the test
-path obvious, and give hiring teams an immediate way to inspect fit. The
-current profile concept is a public lab bench: readers choose a door, inspect
-the instruments, follow the map, and see the fallible human behind the clean
-engineering surface. The first screen should explain what Zain likes, what work
-he actually does, and how the public project history grew from graphics, color,
-compilers, field operations, technical writing, AI systems, security-boundary
-work, retro preservation, and research tooling.
+The `HarperZ9` profile README is the GitHub handoff into Zain Dana Harper and
+Zentropy Labs. It should mirror the main site's clean professional design,
+present Flywheel as the main agent platform inside a broader cross-domain body
+of work, make test paths obvious, and give hiring teams an immediate way to
+inspect fit. The current profile concept is a public lab bench: readers choose
+a door, inspect the instruments, follow the map, and see the fallible human
+behind the clean engineering surface. The first screen should explain what Zain
+likes, what work he actually does, and how the public project history grew from
+graphics, color, compilers, field operations, technical writing, AI systems,
+security-boundary work, retro preservation, and research tooling.
 
 The current voice is session-context informed. It should reflect the recurring
 four-month working pattern across Codex and Claude Code: scan actual state,
@@ -45,8 +45,8 @@ tools are built against. Do not publish raw self-indicting lines verbatim.
 ## Brand Personality
 
 Clean, rigorous, restrained, ambitious, artistic, and human. The profile should
-feel like a public engineering surface for a cross-domain Flywheel-centered lab
-without erasing the fallible person who built it.
+feel like a public engineering surface for a cross-domain studio without
+erasing the fallible person who built it.
 
 ## Anti-References
 
@@ -60,9 +60,11 @@ by a public link or test path.
   readable when the image is unavailable.
 - Keep the copy close to the main site vocabulary.
 - Make clear that evidence/accountability is the method, not the only domain.
-- Keep Flywheel as the primary platform; present other systems as capability
-  families, plug-ins, adapters, engines, or standalone-capable extensions only
-  when current repo state supports that framing.
+- Keep Zain Dana Harper and Zentropy Labs as the identity and front door.
+  Present Flywheel as the main agent platform, while describing every other
+  system objectively from current code, tests, dependencies, and release state.
+- Do not imply that independent products are Flywheel plug-ins, engines, or
+  subsidiaries unless current source proves that relationship.
 - Preserve public-safe security boundaries. Never publish operationally
   enabling offensive material, credentials, private traces, or unresolved
   affected-system details.
