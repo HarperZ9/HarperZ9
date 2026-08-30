@@ -10,7 +10,7 @@ I turn ambiguous systems into inspectable tools, tests, and handoffs across
 agent infrastructure, evaluation, developer tools, graphics, technical
 operations, and physical field work.
 
-**Zain Dana Harper and Zentropy Labs are the front door.** Flywheel is the main agent platform
+**Zain Dana Harper and Zentropy Labs are the front door.** Flywheel is the sole primary platform and main agent platform
 inside a broader workshop that also includes independent
 security systems, compilers, evaluation tools, graphics engines, preservation
 work, research, and field experience. Each project is described by what its
@@ -54,8 +54,8 @@ These results show the work surviving another maintainer's scope and review.
 The current verified release of
 [Flywheel v0.3.10](https://github.com/HarperZ9/flywheel/releases/tag/v0.3.10):
 a model-neutral agent workbench for routing, gated tool use, evaluation lanes,
-receipts, memory, context, and reproducible workflows. It is a major product,
-not a label for everything else in the workshop.
+receipts, memory, context, and reproducible workflows. It is the sole primary
+platform, not a label for everything else in the workshop.
 
 | Family | Representative public work |
 | --- | --- |
