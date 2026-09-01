@@ -57,7 +57,7 @@ own.
 
 | Project | What it does |
 | --- | --- |
-| [Flywheel](https://github.com/HarperZ9/flywheel) | Flywheel runs an AI task with the local or hosted model and tools you choose. It checks what happened, saves a receipt you can inspect or replay, and includes a native desktop app. |
+| [Flywheel](https://github.com/HarperZ9/flywheel) | Flywheel runs an AI task with the local or hosted model and tools you choose. It records the run, and optional sealed tool-call receipts can be inspected and rechecked offline. The repository also includes a native desktop app. |
 | [Index](https://github.com/HarperZ9/index) | Index maps repositories and multi-repo workspaces so you can see how the code fits together. It reads manifests, imports, symbols, and local documentation, then builds offline wikis, dependency maps, context packets, and architecture checks with file-and-line evidence. |
 | [Gather](https://github.com/HarperZ9/gather) | Gather collects research material from sources that basic scrapers often miss. It handles JavaScript-rendered pages, authenticated APIs, scholarly records, PDFs, OCR, audio, video, feeds, and local documents, then saves each item in a content-addressed corpus with provenance you can recheck. |
 | [BuildLang](https://github.com/HarperZ9/buildlang) | BuildLang is a systems programming language and compiler that makes programs declare what they are allowed to touch. It checks those permissions and memory rules before producing native code through C. Experimental shader output, two-way C integration, a CLI, editor support, and re-checkable build receipts are included. |
