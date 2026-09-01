@@ -178,7 +178,8 @@ EXPECTED_PROJECT_DESCRIPTIONS = (
         "https://github.com/HarperZ9/accountable-surface",
         "Accountable Surface lets an AI agent take only the file, command, web, or browser action a person has approved. "
         "It checks the request and authorization, blocks or pauses when needed, verifies the outcome, "
-        "rolls back reversible failures, and records every step in a hash-chained journal.",
+        "rolls back reversible failures, and records decisions and outcomes in a journal. Persisted journals "
+        "are hash-chained so later edits, deletions, or reordering are detected.",
     ),
 )
 
