@@ -139,9 +139,8 @@ EXPECTED_PROJECT_DESCRIPTIONS = (
     (
         "Flywheel",
         "https://github.com/HarperZ9/flywheel",
-        "Flywheel runs an AI task with the local or hosted model and tools you choose. "
-        "It checks what happened, saves a receipt you can inspect or replay, "
-        "and includes a native desktop app.",
+        "Flywheel runs an AI task with the local or hosted model and tools you choose. It records the run, and optional "
+        "sealed tool-call receipts can be inspected and rechecked offline. The repository also includes a native desktop app.",
     ),
     (
         "Index",
@@ -178,7 +177,8 @@ EXPECTED_PROJECT_DESCRIPTIONS = (
         "https://github.com/HarperZ9/accountable-surface",
         "Accountable Surface lets an AI agent take only the file, command, web, or browser action a person has approved. "
         "It checks the request and authorization, blocks or pauses when needed, verifies the outcome, "
-        "rolls back reversible failures, and records every step in a hash-chained journal.",
+        "rolls back reversible failures, and records decisions and outcomes in a journal. Persisted journals "
+        "are hash-chained so later edits, deletions, or reordering are detected.",
     ),
 )
 
