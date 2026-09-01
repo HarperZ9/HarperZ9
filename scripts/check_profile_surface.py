@@ -41,6 +41,7 @@ REQUIRED_README_TERMS = (
     "https://harperz9.github.io/cv.html",
     "https://harperz9.github.io/portfolio.html",
     "## Evidence accepted upstream",
+    "## What I built",
     "https://github.com/dgenio/agentfence/pull/261",
     "https://github.com/freelawproject/litigant-portal/pull/820",
     "https://github.com/sjh9714/mergewarden/pull/107",
@@ -134,10 +135,73 @@ EXPECTED_PROOF_URLS = (
     "https://github.com/sjh9714/mergewarden/pull/107",
 )
 
+EXPECTED_PROJECT_DESCRIPTIONS = (
+    (
+        "Flywheel",
+        "https://github.com/HarperZ9/flywheel",
+        "Flywheel runs an AI task with the local or hosted model and tools you choose. "
+        "It checks what happened, saves a receipt you can inspect or replay, "
+        "and includes a native desktop app.",
+    ),
+    (
+        "Index",
+        "https://github.com/HarperZ9/index",
+        "Index maps repositories and multi-repo workspaces so you can see how the code fits together. "
+        "It reads manifests, imports, symbols, and local documentation, then builds offline wikis, "
+        "dependency maps, context packets, and architecture checks with file-and-line evidence.",
+    ),
+    (
+        "Gather",
+        "https://github.com/HarperZ9/gather",
+        "Gather collects research material from sources that basic scrapers often miss. "
+        "It handles JavaScript-rendered pages, authenticated APIs, scholarly records, PDFs, OCR, "
+        "audio, video, feeds, and local documents, then saves each item in a content-addressed corpus "
+        "with provenance you can recheck.",
+    ),
+    (
+        "BuildLang",
+        "https://github.com/HarperZ9/buildlang",
+        "BuildLang is a systems programming language and compiler that makes programs declare what they are allowed "
+        "to touch. It checks those permissions and memory rules before producing native code through C. "
+        "Experimental shader output, two-way C integration, a CLI, editor support, and re-checkable "
+        "build receipts are included.",
+    ),
+    (
+        "Phantom",
+        "https://github.com/HarperZ9/phantom",
+        "Phantom helps you inspect and, when authorized, change the hardware identifiers a computer exposes. "
+        "It works on owned or expressly authorized Windows and Linux systems, saves a backup before "
+        "changes, and can restore the original values.",
+    ),
+    (
+        "Accountable Surface",
+        "https://github.com/HarperZ9/accountable-surface",
+        "Accountable Surface lets an AI agent take only the file, command, web, or browser action a person has approved. "
+        "It checks the request and authorization, blocks or pauses when needed, verifies the outcome, "
+        "rolls back reversible failures, and records every step in a hash-chained journal.",
+    ),
+)
+
 
 def fail(message: str) -> None:
     print(message, file=sys.stderr)
     raise SystemExit(1)
+
+
+def normalized_project_table(section: str) -> tuple[str, ...]:
+    lines = section.splitlines()
+    try:
+        start = lines.index("| Project | What it does |")
+    except ValueError:
+        return ()
+
+    block: list[str] = []
+    for line in lines[start:]:
+        if not line.strip():
+            break
+        cells = [cell.strip() for cell in line.strip().strip("|").split("|")]
+        block.append(f"| {' | '.join(cells)} |")
+    return tuple(block)
 
 
 def assert_required_files() -> None:
@@ -171,15 +235,18 @@ def assert_readme_contract() -> None:
     if "\u2014" in text:
         fail("README contains an em dash glyph")
 
-    word_count = len(re.findall(r"\b[\w'-]+\b", re.sub(r"<[^>]+>", " ", text)))
+    visible_text = re.sub(r"\[([^]]+)\]\([^)]+\)", r"\1", text)
+    visible_text = re.sub(r"<[^>]+>", " ", visible_text)
+    word_count = len(re.findall(r"\b[\w'-]+\b", visible_text))
     if word_count > 1000:
         fail(f"README exceeds 1000-word hiring-surface limit: {word_count}")
 
     paths_at = text.index("## Three ways to work together")
     proof_at = text.index("## Evidence accepted upstream")
+    projects_at = text.index("## What I built")
     capability_at = text.index("## Systems, grouped by the work they do")
-    if not paths_at < proof_at < capability_at:
-        fail("hiring paths and third-party proofs must precede owned-product breadth")
+    if not paths_at < proof_at < projects_at < capability_at:
+        fail("hiring paths, third-party proofs, and plain-language projects must precede product breadth")
 
     paths_section = text[paths_at:proof_at]
     path_rows = re.findall(r"^\| \*\*([^*]+)\*\* \|", paths_section, re.MULTILINE)
@@ -189,7 +256,7 @@ def assert_readme_contract() -> None:
             f"{', '.join(EXPECTED_PATH_LABELS)}"
         )
 
-    proof_section = text[proof_at:capability_at]
+    proof_section = text[proof_at:projects_at]
     proof_urls = re.findall(
         r"^- \[[^\]]+\]\((https://github\.com/([^/]+)/[^/]+/pull/\d+)\):",
         proof_section,
@@ -200,6 +267,18 @@ def assert_readme_contract() -> None:
         fail("upstream evidence section must contain exactly the three approved PR proofs")
     if any(owner.casefold() == "harperz9" for _url, owner in proof_urls):
         fail("upstream evidence must come from repositories outside HarperZ9")
+
+    projects_section = text[projects_at:capability_at]
+    expected_table = (
+        "| Project | What it does |",
+        "| --- | --- |",
+    ) + tuple(
+        f"| [{name}]({url}) | {description} |"
+        for name, url, description in EXPECTED_PROJECT_DESCRIPTIONS
+    )
+    observed_table = normalized_project_table(projects_section)
+    if observed_table != expected_table:
+        fail("plain-language project table must contain exactly the six approved descriptions in order")
 
     if "Flywheel v0.3.10" not in text:
         fail("Flywheel must be identified at verified release v0.3.10")
