@@ -57,7 +57,7 @@ own.
 
 | Project | What it does |
 | --- | --- |
-| [Flywheel](https://github.com/HarperZ9/flywheel) | Flywheel runs an AI task with the local or hosted model and tools you choose. It records the run, and optional sealed tool-call receipts can be inspected and rechecked offline. The repository also includes a native desktop app. |
+| [Flywheel](https://github.com/HarperZ9/flywheel) | Flywheel runs a task with any model you choose, local or frontier, behind one OpenAI-compatible surface, and runs a gated coding agent over your own folders. Every accepted answer emits a proof receipt anyone can re-run offline for the same verdict, with no learned model on the accept path. It also ships a native desktop app. |
 | [Index](https://github.com/HarperZ9/index) | Index maps repositories and multi-repo workspaces so you can see how the code fits together. It reads manifests, imports, symbols, and local documentation, then builds offline wikis, dependency maps, context packets, and architecture checks with file-and-line evidence. |
 | [Gather](https://github.com/HarperZ9/gather) | Gather collects research material from sources that basic scrapers often miss. It handles JavaScript-rendered pages, authenticated APIs, scholarly records, PDFs, OCR, audio, video, feeds, and local documents, then saves each item in a content-addressed corpus with provenance you can recheck. |
 | [BuildLang](https://github.com/HarperZ9/buildlang) | BuildLang is a systems programming language and compiler that makes programs declare what they are allowed to touch. It checks those permissions and memory rules before producing native code through C. Experimental shader output, two-way C integration, a CLI, editor support, and re-checkable build receipts are included. |
@@ -67,10 +67,12 @@ own.
 ## Systems, grouped by the work they do
 
 The current verified release of
-[Flywheel v0.3.10](https://github.com/HarperZ9/flywheel/releases/tag/v0.3.10):
-a model-neutral agent workbench for routing, gated tool use, evaluation lanes,
-receipts, memory, context, and reproducible workflows. It is the sole primary
-platform, not a label for everything else in the workshop.
+[Flywheel v1.0.1](https://github.com/HarperZ9/flywheel/releases/tag/v1.0.1):
+a self-hostable, model-agnostic agent workstation and coding harness for
+routing, gated tool use, ten native evaluation lanes, receipts, memory, context,
+and reproducible workflows. The backbone is re-derivable verification: nothing is
+accepted without a receipt, and no learned model sits on the accept path. It is
+the sole primary platform, not a label for everything else in the workshop.
 
 | Family | Representative public work |
 | --- | --- |
