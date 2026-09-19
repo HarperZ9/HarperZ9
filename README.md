@@ -4,37 +4,48 @@
 
 <img src="docs/brand/zentropy-banner.png" alt="Zentropy Labs: Work you can walk away from." width="100%">
 
-## Systems engineering, AI evaluation, and technical operations
+## Mission: re-derivable verification
 
-I turn ambiguous systems into inspectable tools, tests, and handoffs across
-agent infrastructure, evaluation, developer tools, graphics, technical
-operations, and physical field work.
+AI now shapes decisions about money, health, safety, and the work that builds the
+next AI. When a model produces an answer that matters, the person on the receiving
+end usually has to trust whoever ran it. I build tools that remove that
+requirement. An accepted result carries a receipt, and a skeptic re-runs the
+recorded check on their own machine, offline, and reaches the same verdict without
+trusting me, my company, or my lab.
 
-**Zain Dana Harper and Zentropy Labs are the front door.** Flywheel is the sole primary platform and main agent platform
-inside a broader workshop that also includes independent
-security systems, compilers, evaluation tools, graphics engines, preservation
-work, research, and field experience. Each project is described by what its
-code does, not forced into one product hierarchy.
+That property is what capture and conflict of interest cannot survive. A captured
+auditor or a self-interested lab cannot fake a verdict a skeptic re-runs for
+themselves, so accountability stops depending on who you trust and starts
+depending on a check anyone can repeat. The same holds across any actor, company,
+lab, or nation: given the same check, evidence, and assumptions, a correct
+implementation returns the same verdict. The end I work toward is trustworthy AI
+that reaches individuals without asking them to trust a party they cannot inspect.
 
-**Available for paid work:** full-time, contract, project, onsite, hybrid, or
-remote. Based in Seattle, Washington.
+A public evaluation claim should expose its claim, boundary, evidence, source
+version, execution assumptions, false-success controls, and correction path, so
+another reviewer can rerun or challenge the verdict. A receipt proves a check
+reproduces. It does not prove the answer is true of the world. That bound stays
+attached to every claim here.
 
-[Hire / work](https://harperz9.github.io/hire.html) ·
-[Resume](https://harperz9.github.io/resume.html) ·
-[CV](https://harperz9.github.io/cv.html) ·
-[Portfolio](https://harperz9.github.io/portfolio.html) ·
-[Security boundary](https://harperz9.github.io/security.html) ·
-[Retro Systems Lab](https://harperz9.github.io/retro.html) ·
-[LinkedIn](https://www.linkedin.com/in/zaindanaharper/) ·
-[Email](mailto:zaindharper@gmail.com)
+## Flagship: Flywheel v1.0.1
 
-## Three ways to work together
+Flywheel runs a task with any model you choose, local or frontier, behind one
+OpenAI-compatible surface, and runs a gated coding agent over your own folders.
+Every accepted answer emits a proof receipt anyone can re-run offline for the same
+verdict, with no learned model on the accept path. Ten native evaluation lanes
+bundle from hash-pinned source and launch on a clean machine. It also ships a
+native desktop app.
 
-| Path | Where I fit | Start here |
-| --- | --- | --- |
-| **Technical and evaluation** | Agent and model evaluation, developer infrastructure, systems integration, CI, security testing, technical support, and documentation. | [Engineering path](https://harperz9.github.io/hire.html#engineering-path) |
-| **Public, union, and field** | Public service, ports, facilities, parks and grounds, arboriculture, client operations, scheduling, safety judgment, and physical work. | [Public-service and field path](https://harperz9.github.io/hire.html#public-service-field-path) |
-| **Education and research** | Fellowships, labs, research operations, mentorship, continued learning, open-source work, and evidence-centered technical writing. | [Research and education](https://harperz9.github.io/research.html) |
+- Install: `pip install flywheel-verify`
+- Release: [Flywheel v1.0.1](https://github.com/HarperZ9/flywheel/releases/tag/v1.0.1), with the Windows installer attached
+- Honest null: on the shipped benchmark the verified loop shows no measured
+  accuracy uplift over single-shot, and the interval includes zero. The value it
+  delivers is the re-derivable receipt and the containment.
+
+[Inspect Flywheel](https://github.com/HarperZ9/flywheel) ·
+[Read publications](https://harperz9.github.io/publications.html) ·
+[See the evidence](https://harperz9.github.io/demonstrations.html) ·
+[Portfolio](https://harperz9.github.io/portfolio.html)
 
 ## Evidence accepted upstream
 
@@ -131,3 +142,22 @@ another person can inspect and maintain.
 For a role-specific view, use the [hiring page](https://harperz9.github.io/hire.html).
 For the deeper record, use the [portfolio](https://harperz9.github.io/portfolio.html)
 or [public capability atlas](https://harperz9.github.io/catalog.html).
+
+## Work with me
+
+Available for paid work: full-time, contract, project, onsite, hybrid, or remote.
+Based in Seattle, Washington.
+
+| Path | Where I fit | Start here |
+| --- | --- | --- |
+| **Technical and evaluation** | Agent and model evaluation, developer infrastructure, systems integration, CI, security testing, technical support, and documentation. | [Engineering path](https://harperz9.github.io/hire.html#engineering-path) |
+| **Public, union, and field** | Public service, ports, facilities, parks and grounds, arboriculture, client operations, scheduling, safety judgment, and physical work. | [Public-service and field path](https://harperz9.github.io/hire.html#public-service-field-path) |
+| **Education and research** | Fellowships, labs, research operations, mentorship, continued learning, open-source work, and evidence-centered technical writing. | [Research and education](https://harperz9.github.io/research.html) |
+
+[Hire / work](https://harperz9.github.io/hire.html) ·
+[Resume](https://harperz9.github.io/resume.html) ·
+[CV](https://harperz9.github.io/cv.html) ·
+[Security boundary](https://harperz9.github.io/security.html) ·
+[Retro Systems Lab](https://harperz9.github.io/retro.html) ·
+[LinkedIn](https://www.linkedin.com/in/zaindanaharper/) ·
+[Email](mailto:zaindharper@gmail.com)
