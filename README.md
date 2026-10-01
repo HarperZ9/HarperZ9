@@ -1,8 +1,8 @@
-# Zain Dana Harper / ZentropyLabs.ai
+# Zain Dana Harper
 
 <!-- markdownlint-disable MD013 MD033 -->
 
-<img src="docs/brand/zentropy-banner.png" alt="Zentropy Labs: Work you can walk away from." width="100%">
+<img src="docs/brand/banner.png" alt="Zain Dana Harper: work you can walk away from." width="100%">
 
 ## Mission: re-derivable verification
 

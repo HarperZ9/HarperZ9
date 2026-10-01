@@ -19,7 +19,7 @@ REQUIRED_FILES = (
     "PRODUCT.md",
 )
 
-REQUIRED_ASSETS = ("docs/brand/zentropy-banner.png",)
+REQUIRED_ASSETS = ("docs/brand/banner.png",)
 
 REQUIRED_DOCS = (
     "docs/research/2026-07-01-enterprise-profile-research.md",
@@ -33,7 +33,7 @@ REQUIRED_DOCS = (
 REQUIRED_README_TERMS = (
     "Zain Dana Harper",
     "Available for paid work",
-    "## Three ways to work together",
+    "## Work with me",
     "https://harperz9.github.io/hire.html#engineering-path",
     "https://harperz9.github.io/hire.html#public-service-field-path",
     "https://harperz9.github.io/research.html",
@@ -45,10 +45,9 @@ REQUIRED_README_TERMS = (
     "https://github.com/dgenio/agentfence/pull/261",
     "https://github.com/freelawproject/litigant-portal/pull/820",
     "https://github.com/sjh9714/mergewarden/pull/107",
-    "Zain Dana Harper and Zentropy Labs are the front door",
     "## Systems, grouped by the work they do",
     "sole primary platform",
-    "https://github.com/HarperZ9/flywheel/releases/tag/v0.3.10",
+    "https://github.com/HarperZ9/flywheel/releases/tag/v1.0.1",
     "Agent execution and memory",
     "Evaluation and verification",
     "Security and privacy",

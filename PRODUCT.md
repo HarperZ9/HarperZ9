@@ -7,13 +7,13 @@ Brand plus research-lab scope.
 ## Users
 
 GitHub visitors, testers, collaborators, funders, and hiring teams who need a
-fast public map of Zain Dana Harper, Zentropy Labs, and the systems in the
+fast public map of Zain Dana Harper and the systems in the
 workshop.
 
 ## Purpose
 
-The `HarperZ9` profile README is the GitHub handoff into Zain Dana Harper and
-Zentropy Labs. It should mirror the main site's clean professional design,
+The `HarperZ9` profile README is the GitHub handoff into Zain Dana Harper's
+work. It should mirror the main site's clean professional design,
 present Flywheel as the main agent platform inside a broader cross-domain body
 of work, make test paths obvious, and give hiring teams an immediate way to
 inspect fit. The current profile concept is a public lab bench: readers choose
@@ -60,7 +60,7 @@ by a public link or test path.
   readable when the image is unavailable.
 - Keep the copy close to the main site vocabulary.
 - Make clear that evidence/accountability is the method, not the only domain.
-- Keep Zain Dana Harper and Zentropy Labs as the identity and front door.
+- Keep Zain Dana Harper as the identity and front door.
   Present Flywheel as the main agent platform, while describing every other
   system objectively from current code, tests, dependencies, and release state.
 - Do not imply that independent products are Flywheel plug-ins, engines, or
