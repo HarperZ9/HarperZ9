@@ -1,163 +1,249 @@
-# Zain Dana Harper / ZentropyLabs.ai
+<!-- markdownlint-disable MD013 MD033 MD041 -->
 
-<!-- markdownlint-disable MD013 MD033 -->
+<a href="https://harperz9.github.io/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/art/hero-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="docs/art/hero-light.svg">
+    <img alt="Zain Dana Harper. Tools and investigations that let anyone recheck what an AI system did, and who knew first." src="docs/art/hero-light.svg" width="100%">
+  </picture>
+</a>
 
-<img src="docs/brand/zentropy-banner.png" alt="Zentropy Labs: Work you can walk away from." width="100%">
+<p>
+  <a href="https://github.com/HarperZ9/flywheel/releases/latest"><img alt="Flywheel latest release" src="docs/art/badge-flywheel.svg"></a>
+  <a href="https://github.com/HarperZ9/articulate/releases/latest"><img alt="Articulate latest release" src="docs/art/badge-articulate.svg"></a>
+  <a href="https://github.com/HarperZ9/telos/releases/latest"><img alt="Telos latest release" src="docs/art/badge-telos.svg"></a>
+  <a href="https://harperz9.github.io/publications.html"><img alt="Writing" src="docs/art/badge-writing.svg"></a>
+  <a href="https://harperz9.github.io/feed.xml"><img alt="Writing feed" src="docs/art/badge-feed.svg"></a>
+</p>
 
-## Mission: re-derivable verification
+I'm Zain Dana Harper. I build tools that let anyone recheck what an AI system
+did, and I publish investigations into who knew about AI incidents first and
+who pays the people who check. I work independently as a sole proprietor in
+Kent, Washington, and I take scoped evaluation work.
 
-AI now shapes decisions about money, health, safety, and the work that builds the
-next AI. When a model produces an answer that matters, the person on the receiving
-end usually has to trust whoever ran it. I build tools that remove that
-requirement. An accepted result carries a receipt, and a skeptic re-runs the
-recorded check on their own machine, offline, and reaches the same verdict without
-trusting me, my company, or my lab.
+A result is worth trusting when an outside skeptic can rerun the check on their
+own machine and reach the same verdict. That holds whoever ran the model:
+any lab, open or closed, any company, any nation. My own verdicts get the same
+treatment.
 
-That property is what capture and conflict of interest cannot survive. A captured
-auditor or a self-interested lab cannot fake a verdict a skeptic re-runs for
-themselves, so accountability stops depending on who you trust and starts
-depending on a check anyone can repeat. The same holds across any actor, company,
-lab, or nation: given the same check, evidence, and assumptions, a correct
-implementation returns the same verdict. The end I work toward is trustworthy AI
-that reaches individuals without asking them to trust a party they cannot inspect.
-
-A public evaluation claim should expose its claim, boundary, evidence, source
-version, execution assumptions, false-success controls, and correction path, so
-another reviewer can rerun or challenge the verdict. A receipt proves a check
-reproduces. It does not prove the answer is true of the world. That bound stays
-attached to every claim here.
-
-## Flagship: Flywheel v1.0.1
-
-Flywheel runs a task with any model you choose, local or frontier, behind one
-OpenAI-compatible surface, and runs a gated coding agent over your own folders.
-Every accepted answer emits a proof receipt anyone can re-run offline for the same
-verdict, with no learned model on the accept path. Ten native evaluation lanes
-bundle from hash-pinned source and launch on a clean machine. It also ships a
-native desktop app.
-
-- Install: `pip install flywheel-verify`
-- Release: [Flywheel v1.0.1](https://github.com/HarperZ9/flywheel/releases/tag/v1.0.1), with the Windows installer attached
-- Honest null: on the shipped benchmark the verified loop shows no measured
-  accuracy uplift over single-shot, and the interval includes zero. The value it
-  delivers is the re-derivable receipt and the containment.
-
-[Inspect Flywheel](https://github.com/HarperZ9/flywheel) ·
-[Read publications](https://harperz9.github.io/publications.html) ·
-[See the evidence](https://harperz9.github.io/demonstrations.html) ·
-[Portfolio](https://harperz9.github.io/portfolio.html)
-
-## Evidence accepted upstream
-
-These results show the work surviving another maintainer's scope and review.
-
-- [AgentFence PR 261](https://github.com/dgenio/agentfence/pull/261): an
-  owner-approved and merged Go engine optimization with deterministic rule
-  selection, allocation coverage, and green cross-platform checks.
-- [Free Law Project PR 820](https://github.com/freelawproject/litigant-portal/pull/820):
-  approved and merged documentation for running the fast DB-free test suite.
-- [Mergewarden PR 107](https://github.com/sjh9714/mergewarden/pull/107):
-  replay fixtures for reusable-workflow pinning, revised after owner review,
-  approved, merged, and CI-checked.
-
-## What I built
-
-Six representative projects, described by what the code does. Flywheel is the
-primary platform; the others solve narrower problems and can be used on their
-own.
-
-| Project | What it does |
+| Pick a door | Go |
 | --- | --- |
-| [Flywheel](https://github.com/HarperZ9/flywheel) | Flywheel runs a task with any model you choose, local or frontier, behind one OpenAI-compatible surface, and runs a gated coding agent over your own folders. Every accepted answer emits a proof receipt anyone can re-run offline for the same verdict, with no learned model on the accept path. It also ships a native desktop app. |
-| [Index](https://github.com/HarperZ9/index) | Index maps repositories and multi-repo workspaces so you can see how the code fits together. It reads manifests, imports, symbols, and local documentation, then builds offline wikis, dependency maps, context packets, and architecture checks with file-and-line evidence. |
-| [Gather](https://github.com/HarperZ9/gather) | Gather collects research material from sources that basic scrapers often miss. It handles JavaScript-rendered pages, authenticated APIs, scholarly records, PDFs, OCR, audio, video, feeds, and local documents, then saves each item in a content-addressed corpus with provenance you can recheck. |
-| [BuildLang](https://github.com/HarperZ9/buildlang) | BuildLang is a systems programming language and compiler that makes programs declare what they are allowed to touch. It checks those permissions and memory rules before producing native code through C. Experimental shader output, two-way C integration, a CLI, editor support, and re-checkable build receipts are included. |
-| [Phantom](https://github.com/HarperZ9/phantom) | Phantom helps you inspect and, when authorized, change the hardware identifiers a computer exposes. It works on owned or expressly authorized Windows and Linux systems, saves a backup before changes, and can restore the original values. |
-| [Accountable Surface](https://github.com/HarperZ9/accountable-surface) | Accountable Surface lets an AI agent take only the file, command, web, or browser action a person has approved. It checks the request and authorization, blocks or pauses when needed, verifies the outcome, rolls back reversible failures, and records decisions and outcomes in a journal. Persisted journals are hash-chained so later edits, deletions, or reordering are detected. |
+| Run an AI task with any model and keep a record you can recheck | [Flywheel and the flagships](#flywheel-and-the-flagships) |
+| Read the investigations | [Who Knew First and the series](#who-knew-first-and-the-series) |
+| See where the work is heading | [Watching the trace, checking before the action](#watching-the-trace-checking-before-the-action) |
+| Hire me for evaluation work | [Work with me](#work-with-me) |
+| Get in touch | [Reach me](#reach-me) |
 
-## Systems, grouped by the work they do
+<img alt="" src="docs/art/rule-light.svg#gh-light-mode-only" width="100%"><img alt="" src="docs/art/rule-dark.svg#gh-dark-mode-only" width="100%">
 
-The current verified release of
-[Flywheel v1.0.1](https://github.com/HarperZ9/flywheel/releases/tag/v1.0.1):
-a self-hostable, model-agnostic agent workstation and coding harness for
-routing, gated tool use, ten native evaluation lanes, receipts, memory, context,
-and reproducible workflows. The backbone is re-derivable verification: nothing is
-accepted without a receipt, and no learned model sits on the accept path. It is
-the sole primary platform, not a label for everything else in the workshop.
+## Flywheel and the flagships
 
-| Family | Representative public work |
+<a href="https://harperz9.github.io/flywheel.html">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/art/verdicts-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="docs/art/verdicts-light.svg">
+    <img alt="Three verdicts: MATCH, the rerun agrees with the record; DRIFT, the rerun disagrees and says where; UNVERIFIABLE, the record cannot be checked." src="docs/art/verdicts-light.svg" width="100%">
+  </picture>
+</a>
+
+[Flywheel](https://github.com/HarperZ9/flywheel) is a self-hostable,
+model-agnostic AI workstation and coding harness. It runs any model, frontier
+or local, behind one OpenAI-compatible surface, with your keys and data kept on
+your machine. Rowan, the desktop assistant, turns a plain request into a
+recorded run. Relay runs a permission-gated coding agent over your own folders.
+Lanes add research intake, workspace maps, memory, agent routing and writing.
+`flywheel check-output` checks answers against finance, medicine and law packs
+and can emit Lean 4 proofs. Every accepted run leaves a sealed receipt that an
+independent witness reruns offline, with no learned model deciding the verdict.
+
+```text
+pip install flywheel-verify
+flywheel up
+flywheel lanes --probe
+```
+
+On the shipped benchmark the verified loop shows no measured accuracy gain over
+a single pass; the interval includes zero. The value is the workstation and a
+record you can check yourself. Flywheel is source-available under FSL-1.1-MIT.
+
+Each flagship below also works on its own and plugs into Flywheel.
+
+<details>
+<summary><b>Current release of every flagship</b> (refreshed daily from GitHub)</summary>
+
+<!-- releases:start -->
+| Tool | What it does | Release |
+| --- | --- | --- |
+| [Flywheel](https://github.com/HarperZ9/flywheel) | AI workstation and coding harness: any model, gated agent, rerunnable receipts | [v1.1.2](https://github.com/HarperZ9/flywheel/releases/tag/v1.1.2) (2026-09-29) |
+| [Articulate](https://github.com/HarperZ9/articulate) | Local writing checker and editor with content-free receipts | [v0.7.0](https://github.com/HarperZ9/articulate/releases/tag/v0.7.0) (2026-10-01) |
+| [Telos](https://github.com/HarperZ9/telos) | Accountable actuation: senses, actions and hardware control in permission tiers | [v0.6.0](https://github.com/HarperZ9/telos/releases/tag/v0.6.0) (2026-10-01) |
+| [Accountable Surface](https://github.com/HarperZ9/accountable-surface) | Gates agent actions on explicit grants, with a hash-chained journal | [v0.2.0](https://github.com/HarperZ9/accountable-surface/releases/tag/v0.2.0) (2026-09-18) |
+| [Forum](https://github.com/HarperZ9/forum) | Coordinates agent teams with a replayable ledger | [v1.16.0](https://github.com/HarperZ9/forum/releases/tag/v1.16.0) (2026-10-01) |
+| [Relay](https://github.com/HarperZ9/relay) | Permission-checked coding agent for any model endpoint | [v0.6.0](https://github.com/HarperZ9/relay/releases/tag/v0.6.0) (2026-10-01) |
+| [Gather](https://github.com/HarperZ9/gather) | Research intake from the web, papers, video, scans and audio, with provenance | [v2.1.0](https://github.com/HarperZ9/gather/releases/tag/v2.1.0) (2026-10-01) |
+| [Index](https://github.com/HarperZ9/index) | Offline repository and workspace maps with file and line evidence | [v2.15.0](https://github.com/HarperZ9/index/releases/tag/v2.15.0) (2026-10-01) |
+| [Mneme](https://github.com/HarperZ9/mneme) | Agent memory where every recall can be rechecked | [v0.6.0](https://github.com/HarperZ9/mneme/releases/tag/v0.6.0) (2026-10-01) |
+| [Canon](https://github.com/HarperZ9/canon) | One memory and personality record shared across models and tools | [v0.6.0](https://github.com/HarperZ9/canon/releases/tag/v0.6.0) (2026-10-01) |
+| [Crucible](https://github.com/HarperZ9/crucible) | Tests falsifiable claims and records MATCH, DRIFT or UNVERIFIABLE | [v1.4.0](https://github.com/HarperZ9/crucible/releases/tag/v1.4.0) (2026-10-01) |
+| [EMET](https://github.com/HarperZ9/emet) | Checks that bytes reaching a model still match their source | [v1.3.0](https://github.com/HarperZ9/emet/releases/tag/v1.3.0) (2026-09-13) |
+| [Learn](https://github.com/HarperZ9/learn) | Turns your own material into a course that never takes the test for you | [v2.1.0](https://github.com/HarperZ9/learn/releases/tag/v2.1.0) (2026-10-01) |
+| [Plexus](https://github.com/HarperZ9/plexus) | Finds and wires compatible tools in an agent toolchain | [v0.3.0](https://github.com/HarperZ9/plexus/releases/tag/v0.3.0) (2026-10-01) |
+| [Phantom](https://github.com/HarperZ9/phantom) | Reversible hardware-identity privacy for owned Windows and Linux machines | [v1.1.1](https://github.com/HarperZ9/phantom/releases/tag/v1.1.1) (2026-09-10) |
+<!-- releases:end -->
+
+</details>
+
+<details>
+<summary><b>Work accepted upstream</b></summary>
+
+Changes that survived another maintainer's review and merged:
+
+- [AgentFence PR 261](https://github.com/dgenio/agentfence/pull/261): a Go engine optimization with deterministic rule selection and allocation coverage.
+- [Free Law Project PR 820](https://github.com/freelawproject/litigant-portal/pull/820): documentation for the fast database-free test suite.
+- [Mergewarden PR 107](https://github.com/sjh9714/mergewarden/pull/107): replay fixtures for reusable-workflow pinning, revised after owner review.
+
+The [portfolio](https://harperz9.github.io/portfolio.html) lists merged, open and
+closed contributions separately.
+
+</details>
+
+<img alt="" src="docs/art/rule-light.svg#gh-light-mode-only" width="100%"><img alt="" src="docs/art/rule-dark.svg#gh-dark-mode-only" width="100%">
+
+## Who Knew First and the series
+
+<a href="https://harperz9.github.io/who-knew-first.html">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/art/incidents-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="docs/art/incidents-light.svg">
+    <img alt="Nine marks for nine 2026 AI agent incidents. Six carry an outer mark: in those six, someone outside the organization that ran the model told the public first." src="docs/art/incidents-light.svg" width="100%">
+  </picture>
+</a>
+
+[Who Knew First](https://harperz9.github.io/who-knew-first.html) is a record of
+nine 2026 incidents in which an AI agent crossed a boundary. In six of them,
+someone outside the organization that ran the model told the public first. The
+argument is simple: whoever holds an incident's logs gets to name it, and the
+name decides how fast anyone else hears about it.
+
+[The series](https://harperz9.github.io/who-knew-first-series.html) tests the
+questions that argument raises. Each piece stands alone, lists its sources and
+the confidence of each claim, and says what each claim does not prove.
+
+| Piece | The question | Status |
+| --- | --- | --- |
+| [Who Pays the Referees](https://harperz9.github.io/who-pays-the-referees.html) | The people who check AI models depend on the labs they check. Which of those terms are public? | Published 1 October 2026 |
+| [The Terms for Telling](https://harperz9.github.io/the-terms-for-telling.html) | The party that holds the records also writes the contracts of the people who could tell. Who got heard? | Published 1 October 2026 |
+| Who Kept the Books | In money cases from 1514 to Iran-Contra, what made the first account move? | Planned |
+| The Maker Is Part of the Story | Three famous stories, read for who funds the work and who edits the record. | Planned |
+| A Check It Cannot Predict | Does a check that is certain and outside the actor's control work on AI models too? | Planned, no result yet |
+
+An Anthropic-built model helped compile these pieces, and Anthropic appears in
+the record, so each piece marks where Anthropic is a party and invites an
+outside check of those items.
+
+<details>
+<summary><b>Latest writing</b> (refreshed daily from the site feed)</summary>
+
+<!-- writing:start -->
+| Date | Piece |
 | --- | --- |
-| **Agent execution and memory** | [Flywheel](https://github.com/HarperZ9/flywheel), [Forum](https://github.com/HarperZ9/forum), [Relay](https://github.com/HarperZ9/relay), [Mneme](https://github.com/HarperZ9/mneme), [Plexus](https://github.com/HarperZ9/plexus) |
-| **Evaluation and verification** | [Terminal State Fixtures](https://github.com/HarperZ9/terminal-state-fixtures), [Crucible](https://github.com/HarperZ9/crucible), [Emet](https://github.com/HarperZ9/emet), [Bounds](https://harperz9.github.io/bounds.html) |
-| **Security and privacy** | Shipped public work: [Phantom](https://github.com/HarperZ9/phantom). Controlled-private systems with public capability descriptions: [Array](https://harperz9.github.io/array.html), [Seed](https://harperz9.github.io/seed.html), [Sofer](https://harperz9.github.io/sofer.html), [Isomorph](https://harperz9.github.io/isomorph.html), [Bounds](https://harperz9.github.io/bounds.html), [ORCA and Gate](https://harperz9.github.io/private-practice.html) |
-| **Developer infrastructure** | [BuildLang](https://github.com/HarperZ9/buildlang), [Index](https://github.com/HarperZ9/index), [Gather](https://github.com/HarperZ9/gather), [Chorus](https://github.com/HarperZ9/chorus) |
-| **Graphics and runtime systems** | [RAW](https://github.com/HarperZ9/RAW), [SkyrimBridge](https://github.com/HarperZ9/SkyrimBridge), [Studio Engine](https://github.com/HarperZ9/studio-engine), [Truth ENB](https://harperz9.github.io/truth-enb.html), [Elder ENB](https://harperz9.github.io/elder-enb.html) |
-| **Preservation and retro systems** | [Retro Engine](https://harperz9.github.io/retro.html), [Engine Revival](https://github.com/HarperZ9/engine-revival), [BRender Archival](https://github.com/HarperZ9/brender-archival) |
-| **Research and education** | [Learn](https://github.com/HarperZ9/learn), [research records](https://harperz9.github.io/research.html), [publications](https://harperz9.github.io/publications.html), and [measured analytics](https://harperz9.github.io/analytics/current-cross-harness-pilot.html) |
+| 2026-10-01 | [Who Pays the Referees](https://harperz9.github.io/who-pays-the-referees.html) |
+| 2026-10-01 | [The Terms for Telling](https://harperz9.github.io/the-terms-for-telling.html) |
+| 2026-10-01 | [The Number Has a Vintage](https://harperz9.github.io/the-number-has-a-vintage.html) |
+| 2026-09-28 | [What the Formula Counts](https://harperz9.github.io/what-the-formula-counts.html) |
+| 2026-09-28 | [The Timestamp Is Not the Order](https://harperz9.github.io/the-timestamp-is-not-the-order.html) |
+| 2026-09-28 | [The Scene the Song Did Not Tell You](https://harperz9.github.io/the-scene-the-song-did-not-tell-you.html) |
+<!-- writing:end -->
 
-### Phantom's boundary
+Everything else, essays, briefings and papers, is on the
+[writing page](https://harperz9.github.io/publications.html).
 
-[Phantom v1.1.0](https://github.com/HarperZ9/phantom/releases/tag/v1.1.0)
-ships reversible hardware-identity privacy controls for Windows and Linux. It
-covers **Layer 2 identity surfaces**. Kernel and firmware layers are modeled but
-not shipped end to end. Use is limited to machines the operator owns or is
-expressly authorized to test.
+</details>
 
-### Operational security systems
+<img alt="" src="docs/art/rule-light.svg#gh-light-mode-only" width="100%"><img alt="" src="docs/art/rule-dark.svg#gh-dark-mode-only" width="100%">
 
-[Phantom](https://github.com/HarperZ9/phantom) is shipped public work. Array,
-Seed, Sofer, Isomorph, Bounds, ORCA, and Gate are controlled-private systems
-with public capability descriptions. They are not public releases or downloads.
+## Watching the trace, checking before the action
 
-[The security catalog](https://harperz9.github.io/security.html) documents each
-system separately. Phantom changes and restores hardware-identity surfaces.
-Array coordinates approval-gated offensive campaigns. Seed runs assessment and
-detection-engineering modules. Sofer coordinates agents, models, probes, and
-multi-stage workflows. Isomorph tests AI classifier and refusal behavior at
-authorized inference boundaries. Bounds checks actions, observations, and
-releases. ORCA manages private findings and reports; Gate makes fail-closed
-integration and release decisions. Public pages describe each system's job,
-evidence, maturity, and limits. Targets, credentials, live payloads, client
-data, and engagement-specific findings stay in approved private or embargoed
-channels.
+<a href="https://harperz9.github.io/systems/telos.html">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/art/monitor-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="docs/art/monitor-light.svg">
+    <img alt="A trace of observed steps runs into a check that sits before the action. One path continues to an action with a receipt; the other halts before the action runs." src="docs/art/monitor-light.svg" width="100%">
+  </picture>
+</a>
 
-## Retro Systems Lab
+A receipt tells you what happened after the fact. The next step is to watch an
+agent's trace as it runs and check each consequential action before it happens.
+If the check fails, the action halts on its own, with no person needing to step
+in, and the record shows why.
 
-The lab follows **play → preserve → verify** while keeping each proof boundary
-clear:
+This is work in progress, and the pieces exist at different stages:
 
-- [Retro Engine](https://harperz9.github.io/retro.html) is the interactive
-  browser studio for owned pixel, palette, shader, and CRT experiments.
-- [Engine Revival v0.1.0](https://github.com/HarperZ9/engine-revival/releases/tag/v0.1.0)
-  is the public preservation and restoration-evidence spine.
-- [BRender Archival v0.1.1](https://github.com/HarperZ9/brender-archival/releases/tag/v0.1.1)
-  carries the specific BRender restoration record. Generic retro visuals are
-  not presented as BRender evidence.
+- [Accountable Surface](https://github.com/HarperZ9/accountable-surface) lets an agent take only the action a person approved, then verifies the outcome and rolls back what it can.
+- [Telos](https://github.com/HarperZ9/telos) places sensing, actions and workstation hardware control in explicit permission tiers, each with confirmation points and receipts.
+- Rowan's monitor, in [Flywheel 1.2.0 on PyPI](https://pypi.org/project/flywheel-verify/1.2.0/), refuses to trust a check that rewrote its own grading files.
 
-## How I work
+Trace observation uses what providers document: reasoning summaries, token
+counts, effort settings and ordinary outputs. It never tries to pull hidden
+reasoning out of a model through jailbreaks or prompt injection, and it never
+bypasses an access control.
 
-Map the real state, build the missing surface, verify it, and leave an artifact
-another person can inspect and maintain.
+<details>
+<summary><b>How the pieces connect</b></summary>
 
-For a role-specific view, use the [hiring page](https://harperz9.github.io/hire.html).
-For the deeper record, use the [portfolio](https://harperz9.github.io/portfolio.html)
-or [public capability atlas](https://harperz9.github.io/catalog.html).
+```mermaid
+flowchart LR
+  T[Agent trace] --> M{Check before the action}
+  M -- passes --> A[Action runs]
+  M -- fails --> H[Halted, with the reason recorded]
+  A --> R[Sealed receipt]
+  H --> R
+  R --> W[Independent rerun: MATCH, DRIFT or UNVERIFIABLE]
+  W --> P[Published finding with its limits]
+```
+
+</details>
+
+<img alt="" src="docs/art/rule-light.svg#gh-light-mode-only" width="100%"><img alt="" src="docs/art/rule-dark.svg#gh-dark-mode-only" width="100%">
 
 ## Work with me
 
-Available for paid work: full-time, contract, project, onsite, hybrid, or remote.
-Based in Seattle, Washington.
+I take scoped work on evaluation design review, harness integration, agent
+safety review before an audit, incident review, and conflict-of-interest
+review. Each engagement gets a quote built from the labor, time, compute and
+tooling it needs. I have no paid client today and no current sponsors.
+
+Independence comes first, so the rules are public:
+
+- Income from this work is published with its exact source, API credits included.
+- When one source passes 15 percent of income over twelve months, I disclose it and give my findings about that party a second review.
+- At 50 percent, I decline new work evaluating that party. A first contract is most of the income by arithmetic, so it is disclosed in full and the decline rule waits for the second.
+- One standard for every lab. I build with Anthropic and OpenAI models and publish investigations that name both.
+
+<details>
+<summary><b>Roles and paths</b></summary>
+
+I'm also open to technical and nontechnical roles in AI governance and
+evaluation, and willing to relocate to London or travel to San Francisco.
 
 | Path | Where I fit | Start here |
 | --- | --- | --- |
-| **Technical and evaluation** | Agent and model evaluation, developer infrastructure, systems integration, CI, security testing, technical support, and documentation. | [Engineering path](https://harperz9.github.io/hire.html#engineering-path) |
-| **Public, union, and field** | Public service, ports, facilities, parks and grounds, arboriculture, client operations, scheduling, safety judgment, and physical work. | [Public-service and field path](https://harperz9.github.io/hire.html#public-service-field-path) |
-| **Education and research** | Fellowships, labs, research operations, mentorship, continued learning, open-source work, and evidence-centered technical writing. | [Research and education](https://harperz9.github.io/research.html) |
+| **Technical and evaluation** | Agent and model evaluation, developer tooling, CI, security testing, technical support and documentation. | [Engineering path](https://harperz9.github.io/hire.html#engineering-path) |
+| **Public, union, and field** | Public service, facilities, parks and grounds, arboriculture, scheduling and safety judgment, from eleven years of field work. | [Public-service and field path](https://harperz9.github.io/hire.html#public-service-field-path) |
+| **Education and research** | Fellowships, research operations and evidence-centered technical writing. | [Research](https://harperz9.github.io/research.html) |
 
-[Hire / work](https://harperz9.github.io/hire.html) ·
 [Resume](https://harperz9.github.io/resume.html) ·
 [CV](https://harperz9.github.io/cv.html) ·
-[Security boundary](https://harperz9.github.io/security.html) ·
-[Retro Systems Lab](https://harperz9.github.io/retro.html) ·
-[LinkedIn](https://www.linkedin.com/in/zaindanaharper/) ·
-[Email](mailto:zaindharper@gmail.com)
+[Portfolio](https://harperz9.github.io/portfolio.html)
+
+</details>
+
+## Reach me
+
+- Email: [zaindharper@gmail.com](mailto:zaindharper@gmail.com)
+- Site: [harperz9.github.io](https://harperz9.github.io/)
+- LinkedIn: [zaindanaharper](https://www.linkedin.com/in/zaindanaharper/)
+- Writing feed: [feed.xml](https://harperz9.github.io/feed.xml)
+- Hiring page: [hire](https://harperz9.github.io/hire.html)
+
+<sub>The art on this page is generated by <code>scripts/profile_art.py</code>. Motion stops when your system asks for reduced motion.</sub>

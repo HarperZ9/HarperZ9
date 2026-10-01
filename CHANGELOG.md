@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026-10-01 - Interactive, generated profile
+
+- Redesigned the README around the current scope: Flywheel and the flagships,
+  Who Knew First and the series, trace observation with a check before each
+  action, consulting with the independence rules, and published contact
+  routes.
+- Added generated SVG plates (hero, verdicts, incidents, monitor, divider) in
+  light and dark variants, with motion that stops under reduced-motion.
+- Added `scripts/refresh_profile.py` and a daily workflow that refresh the
+  release table, the latest-writing list and the badges using only
+  `GITHUB_TOKEN`.
+- Rebuilt the profile check around `scripts/profile_surface.toml`. The word
+  limit rose from 1000 to 1700 by operator decision; the reason is recorded in
+  the config.
+- Led with the operating name Zain Dana Harper and removed the retired name.
+
 ## 2026-08-28 - Flywheel-first profile conversion
 
 - Kept the current conversion-first GitHub profile structure: hiring paths,

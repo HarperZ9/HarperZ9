@@ -13,3 +13,9 @@ profile.
   links, and verification commands available as real text outside the image.
 - Provenance boundary: source fonts and local rendering inputs remain in the
   site project; this repo commits only the exported PNG used by GitHub.
+
+## Generated art (2026-10-01)
+
+The README now uses the generated plates in `docs/art`, drawn by
+`scripts/profile_art.py`. `banner.png` and `profile-hero.png` remain for
+external uses and are no longer referenced by the README.
