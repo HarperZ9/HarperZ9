@@ -67,7 +67,7 @@ def check_terms(text: str, config: dict) -> None:
     ]
     if found:
         fail(f"README contains disallowed terms: {', '.join(found)}")
-    if "—" in text:
+    if chr(0x2014) in text:
         fail("README contains an em dash")
 
 
