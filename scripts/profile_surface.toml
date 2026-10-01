@@ -1,0 +1,80 @@
+# Configuration for scripts/check_profile_surface.py.
+
+[readme]
+# Visible words, counted after link targets and HTML tags are stripped. Text
+# inside collapsed <details> sections and the generated tables counts too.
+#
+# Raised from 1000 to 1700 on 2026-10-01 by operator decision. The old limit
+# was set for a short hiring page. The profile now carries the current scope
+# (Flywheel and the flagships, the investigations, the monitor direction,
+# consulting with its independence rules) and keeps depth in collapsed
+# sections, so the first screen stays short while the page stays complete.
+# The redesigned README counted about 1300 words at the change; 1700 leaves
+# room for the daily refresh of the release and writing tables and for one
+# more published series piece without another limit change.
+max_words = 1700
+
+# Headings that must appear, in this order.
+section_order = [
+  "## Flywheel and the flagships",
+  "## Who Knew First and the series",
+  "## Watching the trace, checking before the action",
+  "## Work with me",
+  "## Reach me",
+]
+
+# Blocks rewritten by scripts/refresh_profile.py.
+generated_blocks = ["releases", "writing"]
+
+required_terms = [
+  "Zain Dana Harper",
+  "sole proprietor",
+  "https://github.com/HarperZ9/flywheel",
+  "pip install flywheel-verify",
+  "source-available under FSL-1.1-MIT",
+  "no measured accuracy gain",
+  "https://harperz9.github.io/who-knew-first.html",
+  "https://harperz9.github.io/who-knew-first-series.html",
+  "https://harperz9.github.io/who-pays-the-referees.html",
+  "https://harperz9.github.io/the-terms-for-telling.html",
+  "jailbreaks or prompt injection",
+  "no paid client today and no current sponsors",
+  "Income from this work is published with its exact source",
+  "15 percent",
+  "50 percent",
+  "One standard for every lab",
+  "https://harperz9.github.io/hire.html#engineering-path",
+  "https://harperz9.github.io/hire.html#public-service-field-path",
+  "https://harperz9.github.io/resume.html",
+  "https://harperz9.github.io/cv.html",
+  "https://harperz9.github.io/portfolio.html",
+  "https://github.com/dgenio/agentfence/pull/261",
+  "https://github.com/freelawproject/litigant-portal/pull/820",
+  "https://github.com/sjh9714/mergewarden/pull/107",
+  "mailto:zaindharper@gmail.com",
+]
+
+disallowed_terms = [
+  "Zentropy",
+  "open source",
+  "flywheel verify",
+  "flywheel doctor",
+  "mothership",
+  "fourteen flagship engines",
+  "eight flagships",
+  "guarantees provider compliance",
+  "live jailbreak corpora",
+  "exploit chains",
+  "bypass payloads",
+  "on retainer",
+  "in use at",
+  "delivered to",
+  "per hour",
+  "hourly",
+  "discount",
+  "insurance",
+  "UBI",
+  "Status: draft",
+  "C:\\",
+  "E:\\",
+]

@@ -28,7 +28,8 @@ Never publish:
 - Keep claims concrete and checkable.
 - When adding a product, use the same maturity language used by the portfolio
   site: public work, release candidate, sample, research, or archived.
-- Keep the profile short enough to scan from GitHub's first screen.
+- Keep the first screen short; put depth in collapsed sections. The word limit lives in `scripts/profile_surface.toml`.
+- Regenerate art with `python scripts/profile_art.py` and live blocks with `python scripts/refresh_profile.py`.
 
 ## Verification
 

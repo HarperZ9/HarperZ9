@@ -21,6 +21,10 @@ jobs:
           node-version: "24"
       - name: Check profile surface
         run: python scripts/check_profile_surface.py
+      - name: Check the art regenerates byte for byte
+        run: |
+          python scripts/profile_art.py
+          git diff --exit-code -- docs/art
       - name: Check Markdown style
         run: >
           npx --yes markdownlint-cli2

@@ -1,63 +1,32 @@
 # Usage Guide
 
-This repository publishes the `HarperZ9` GitHub profile README. It is a public
-front door to Flywheel, the Project Telos site, cross-domain research lab,
-capability families, tester threads, and verification surfaces.
+This repository publishes the `HarperZ9` GitHub profile README. The design,
+scope and claim rules are in `PRODUCT.md`.
 
-The README uses only GitHub-native interaction: collapsible sections, tables,
-Mermaid diagrams, and links to live site surfaces. Real JavaScript maps and
-dashboards should live on the site, with the profile linking out to them.
+The README uses only what GitHub renders: generated SVG plates in light and
+dark variants, collapsed sections, tables, one Mermaid diagram, and links to
+live pages. Richer interactive pages live on the site.
 
-The current concept is a public lab bench with Flywheel as the mothership. Keep
-it vivid: reader doors, instruments, maps, traps, and proof paths. Hiring
-signal should be present, but it should be embedded in how the work can be
-inspected rather than framed as a generic resume page.
+## Regenerate the art
 
-The opening should be personal and grounded. Lead with what Zain likes, what
-work he repeatedly returns to, and the actual project/life history behind the
-public repos: graphics, color, compilers, field operations, technical writing,
-support work, AI systems, and research tooling. Avoid sales-page framing.
+```powershell
+python scripts/profile_art.py
+```
 
-The voice should match the recent Codex and Claude Code session pattern without
-quoting private transcripts: scan the actual state, dogfood tools against real
-work, adversarially test them, keep the first useful failure, merge what holds,
-push public-safe artifacts, and raise the bar again.
+Output is deterministic, and CI fails if the committed SVGs differ from a
+fresh run.
 
-The profile should also preserve Zain's own self-description as public-safe
-truth: taking systems apart, attacking concepts, working from abstraction,
-feeling more like potential energy than polished expertise, and building tools
-to focus that energy into problem-solving. Accountability language should name
-evasion, blame, shortcuts, and self-deception as forces the tools work against
-without publishing raw self-sabotaging phrases verbatim.
+## Refresh the live blocks
 
-Keep the project-history layer near the top. It should make the profile easier
-to trust by connecting claims to public artifacts and lived work instead of
-trying to optimize a pitch.
+```powershell
+python scripts/refresh_profile.py
+python scripts/refresh_profile.py --check
+```
 
-Keep the public/private boundary explicit. Public pages may describe authorized
-security work and controlled disclosure channels, but must not publish
-operationally enabling offensive material, credentials, private traces, or
-unresolved affected-system details.
-
-Keep the retro lane visible. Retro Engine, Engine Revival, and BRender Archival
-are part of the public conversion path because retro systems make the craft,
-graphics, preservation, and evidence work inspectable.
-
-Interactive elements should stay GitHub-native: expandable showcase drawers,
-quest-style interactions, demo links, runnable snippets, Mermaid diagrams, and
-links to richer live surfaces on the site.
-
-The workbench quests are the highest-friction interaction layer allowed inside
-GitHub Markdown. Keep them concrete, runnable, and public. A visitor should be
-able to choose a route, copy a command, inspect an artifact, or ask a better
-interview question from that section alone.
-
-Voice should stay human. The profile should preserve the artistic,
-mistake-making, fallible person behind the clean engineering surface.
-
-The enterprise profile pass is market-aware and telemetry-informed. Keep exact
-market numbers and traffic snapshots in research receipts unless publishing
-them directly helps the reader make a better hiring or collaboration decision.
+The first command rewrites the release table, the latest-writing list and the
+badges. The second exits 1 when a rewrite would change files. The scheduled
+`Refresh profile` workflow runs the same script daily and commits only when
+something changed.
 
 ## View
 
@@ -123,17 +92,12 @@ Before publishing:
 ## Developer Notes
 
 - `README.md` is the shipped profile surface.
-- `PRODUCT.md` records the profile's public product purpose and anti-patterns.
+- `PRODUCT.md` records scope, art rules and claim rules.
 - `AGENTS.md` is the local handoff contract.
-- `scripts/check_profile_surface.py` is the CI gate for required public links,
-  required repo docs, and credential-shaped text.
-- `docs/brand/profile-hero.png` is the canonical Flywheel / Project Telos card
-  used by the profile README.
-- `docs/research/2026-07-01-profile-template-research.md` records the public
-  profile-template and forum research behind the direction.
-- `docs/research/2026-07-01-enterprise-profile-research.md` records the
-  market, telemetry, forum, and index signals behind the enterprise-profile
-  rewrite.
-- `docs/research/2026-07-01-index-scope-assessment.md` records the index-backed
-  scope correction that keeps Telos framed as a research lab across domains.
+- `scripts/check_profile_surface.py` is the CI gate. Its rules, including the
+  word limit and the reason it was set, live in `scripts/profile_surface.toml`.
+- `scripts/art_kit.py` and `scripts/profile_art.py` draw the plates in
+  `docs/art`.
+- `scripts/refresh_profile.py` writes the generated README blocks and badges.
+- `docs/research` keeps earlier research records behind the profile.
 - `CHANGELOG.md` records public-facing profile updates.
