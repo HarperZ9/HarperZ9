@@ -74,9 +74,9 @@ Each flagship below also works on its own and plugs into Flywheel.
 <!-- releases:start -->
 | Tool | What it does | Release |
 | --- | --- | --- |
-| [Flywheel](https://github.com/HarperZ9/flywheel) | AI workstation and coding harness: any model, gated agent, rerunnable receipts | [v1.1.2](https://github.com/HarperZ9/flywheel/releases/tag/v1.1.2) (2026-09-29) |
+| [Flywheel](https://github.com/HarperZ9/flywheel) | AI workstation and coding harness: any model, gated agent, rerunnable receipts | [v1.2.1](https://github.com/HarperZ9/flywheel/releases/tag/v1.2.1) (2026-10-02) |
 | [Articulate](https://github.com/HarperZ9/articulate) | Local writing checker and editor with content-free receipts | [v0.7.0](https://github.com/HarperZ9/articulate/releases/tag/v0.7.0) (2026-10-01) |
-| [Telos](https://github.com/HarperZ9/telos) | Accountable actuation: senses, actions and hardware control in permission tiers | [v0.6.0](https://github.com/HarperZ9/telos/releases/tag/v0.6.0) (2026-10-01) |
+| [Telos](https://github.com/HarperZ9/telos) | Accountable actuation: senses, actions and hardware control in permission tiers | [v0.7.0](https://github.com/HarperZ9/telos/releases/tag/v0.7.0) (2026-10-02) |
 | [Accountable Surface](https://github.com/HarperZ9/accountable-surface) | Gates agent actions on explicit grants, with a hash-chained journal | [v0.2.0](https://github.com/HarperZ9/accountable-surface/releases/tag/v0.2.0) (2026-09-18) |
 | [Forum](https://github.com/HarperZ9/forum) | Coordinates agent teams with a replayable ledger | [v1.16.0](https://github.com/HarperZ9/forum/releases/tag/v1.16.0) (2026-10-01) |
 | [Relay](https://github.com/HarperZ9/relay) | Permission-checked coding agent for any model endpoint | [v0.6.0](https://github.com/HarperZ9/relay/releases/tag/v0.6.0) (2026-10-01) |
