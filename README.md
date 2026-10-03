@@ -76,7 +76,7 @@ Each flagship below also works on its own and plugs into Flywheel.
 | --- | --- | --- |
 | [Flywheel](https://github.com/HarperZ9/flywheel) | AI workstation and coding harness: any model, gated agent, rerunnable receipts | [v1.2.1](https://github.com/HarperZ9/flywheel/releases/tag/v1.2.1) (2026-10-02) |
 | [Articulate](https://github.com/HarperZ9/articulate) | Local writing checker and editor with content-free receipts | [v0.7.0](https://github.com/HarperZ9/articulate/releases/tag/v0.7.0) (2026-10-01) |
-| [Telos](https://github.com/HarperZ9/telos) | Accountable actuation: senses, actions and hardware control in permission tiers | [v0.7.0](https://github.com/HarperZ9/telos/releases/tag/v0.7.0) (2026-10-02) |
+| [Telos](https://github.com/HarperZ9/telos) | Accountable actuation: senses, actions and hardware control in permission tiers | [v0.8.0](https://github.com/HarperZ9/telos/releases/tag/v0.8.0) (2026-10-03) |
 | [Accountable Surface](https://github.com/HarperZ9/accountable-surface) | Gates agent actions on explicit grants, with a hash-chained journal | [v0.2.0](https://github.com/HarperZ9/accountable-surface/releases/tag/v0.2.0) (2026-09-18) |
 | [Forum](https://github.com/HarperZ9/forum) | Coordinates agent teams with a replayable ledger | [v1.16.0](https://github.com/HarperZ9/forum/releases/tag/v1.16.0) (2026-10-01) |
 | [Relay](https://github.com/HarperZ9/relay) | Permission-checked coding agent for any model endpoint | [v0.6.0](https://github.com/HarperZ9/relay/releases/tag/v0.6.0) (2026-10-01) |
@@ -147,12 +147,12 @@ outside check of those items.
 <!-- writing:start -->
 | Date | Piece |
 | --- | --- |
+| 2026-10-02 | [A Bullshitter Knows a Bullshitter](https://harperz9.github.io/why-i-do-this.html) |
 | 2026-10-01 | [Who Pays the Referees](https://harperz9.github.io/who-pays-the-referees.html) |
 | 2026-10-01 | [The Terms for Telling](https://harperz9.github.io/the-terms-for-telling.html) |
 | 2026-10-01 | [The Number Has a Vintage](https://harperz9.github.io/the-number-has-a-vintage.html) |
 | 2026-09-28 | [What the Formula Counts](https://harperz9.github.io/what-the-formula-counts.html) |
 | 2026-09-28 | [The Timestamp Is Not the Order](https://harperz9.github.io/the-timestamp-is-not-the-order.html) |
-| 2026-09-28 | [The Scene the Song Did Not Tell You](https://harperz9.github.io/the-scene-the-song-did-not-tell-you.html) |
 <!-- writing:end -->
 
 Everything else, essays, briefings and papers, is on the
