@@ -147,12 +147,12 @@ outside check of those items.
 <!-- writing:start -->
 | Date | Piece |
 | --- | --- |
+| 2026-10-08 | [Who Kept the Books](https://harperz9.github.io/who-kept-the-books.html) |
+| 2026-10-08 | [The Maker Is Part of the Story](https://harperz9.github.io/the-maker-is-part-of-the-story.html) |
+| 2026-10-08 | [A Check It Cannot Predict](https://harperz9.github.io/a-check-it-cannot-predict.html) |
 | 2026-10-02 | [A Bullshitter Knows a Bullshitter](https://harperz9.github.io/why-i-do-this.html) |
 | 2026-10-01 | [Who Pays the Referees](https://harperz9.github.io/who-pays-the-referees.html) |
 | 2026-10-01 | [The Terms for Telling](https://harperz9.github.io/the-terms-for-telling.html) |
-| 2026-10-01 | [The Number Has a Vintage](https://harperz9.github.io/the-number-has-a-vintage.html) |
-| 2026-09-28 | [What the Formula Counts](https://harperz9.github.io/what-the-formula-counts.html) |
-| 2026-09-28 | [The Timestamp Is Not the Order](https://harperz9.github.io/the-timestamp-is-not-the-order.html) |
 <!-- writing:end -->
 
 Everything else, essays, briefings and papers, is on the
