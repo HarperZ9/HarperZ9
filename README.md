@@ -75,17 +75,17 @@ Each flagship below also works on its own and plugs into Flywheel.
 | Tool | What it does | Release |
 | --- | --- | --- |
 | [Flywheel](https://github.com/HarperZ9/flywheel) | AI workstation and coding harness: any model, gated agent, rerunnable receipts | [v1.9.0](https://github.com/HarperZ9/flywheel/releases/tag/v1.9.0) (2026-10-15) |
-| [Articulate](https://github.com/HarperZ9/articulate) | Local writing checker and editor with content-free receipts | [v0.12.0](https://github.com/HarperZ9/articulate/releases/tag/v0.12.0) (2026-10-22) |
+| [Articulate](https://github.com/HarperZ9/articulate) | Local writing checker and editor with content-free receipts | [v0.15.1](https://github.com/HarperZ9/articulate/releases/tag/v0.15.1) (2026-10-23) |
 | [Telos](https://github.com/HarperZ9/telos) | Accountable actuation: senses, actions and hardware control in permission tiers | [v0.9.0](https://github.com/HarperZ9/telos/releases/tag/v0.9.0) (2026-10-03) |
 | [Accountable Surface](https://github.com/HarperZ9/accountable-surface) | Gates agent actions on explicit grants, with a hash-chained journal | [v0.2.0](https://github.com/HarperZ9/accountable-surface/releases/tag/v0.2.0) (2026-09-18) |
 | [Forum](https://github.com/HarperZ9/forum) | Coordinates agent teams with a replayable ledger | [v1.17.0](https://github.com/HarperZ9/forum/releases/tag/v1.17.0) (2026-10-03) |
 | [Relay](https://github.com/HarperZ9/relay) | Permission-checked coding agent for any model endpoint | [v0.7.0](https://github.com/HarperZ9/relay/releases/tag/v0.7.0) (2026-10-03) |
-| [Gather](https://github.com/HarperZ9/gather) | Research intake from the web, papers, video, scans and audio, with provenance | [v2.3.0](https://github.com/HarperZ9/gather/releases/tag/v2.3.0) (2026-10-04) |
+| [Gather](https://github.com/HarperZ9/gather) | Research intake from the web, papers, video, scans and audio, with provenance | [v2.4.0](https://github.com/HarperZ9/gather/releases/tag/v2.4.0) (2026-10-23) |
 | [Index](https://github.com/HarperZ9/index) | Offline repository and workspace maps with file and line evidence | [v2.16.0](https://github.com/HarperZ9/index/releases/tag/v2.16.0) (2026-10-03) |
 | [Mneme](https://github.com/HarperZ9/mneme) | Agent memory where every recall can be rechecked | [v0.7.0](https://github.com/HarperZ9/mneme/releases/tag/v0.7.0) (2026-10-03) |
-| [Canon](https://github.com/HarperZ9/canon) | One memory and personality record shared across models and tools | [v0.6.0](https://github.com/HarperZ9/canon/releases/tag/v0.6.0) (2026-10-01) |
-| [Crucible](https://github.com/HarperZ9/crucible) | Tests falsifiable claims and records MATCH, DRIFT or UNVERIFIABLE | [v1.5.0](https://github.com/HarperZ9/crucible/releases/tag/v1.5.0) (2026-10-03) |
-| [EMET](https://github.com/HarperZ9/emet) | Checks that bytes reaching a model still match their source | [v1.3.0](https://github.com/HarperZ9/emet/releases/tag/v1.3.0) (2026-09-13) |
+| [Canon](https://github.com/HarperZ9/canon) | One memory and personality record shared across models and tools | [v0.7.0](https://github.com/HarperZ9/canon/releases/tag/v0.7.0) (2026-10-23) |
+| [Crucible](https://github.com/HarperZ9/crucible) | Tests falsifiable claims and records MATCH, DRIFT or UNVERIFIABLE | [v1.6.0](https://github.com/HarperZ9/crucible/releases/tag/v1.6.0) (2026-10-23) |
+| [EMET](https://github.com/HarperZ9/emet) | Checks that bytes reaching a model still match their source | [v1.3.1](https://github.com/HarperZ9/emet/releases/tag/v1.3.1) (2026-10-23) |
 | [Learn](https://github.com/HarperZ9/learn) | Turns your own material into a course that never takes the test for you | [v2.3.0](https://github.com/HarperZ9/learn/releases/tag/v2.3.0) (2026-10-03) |
 | [Plexus](https://github.com/HarperZ9/plexus) | Finds and wires compatible tools in an agent toolchain | [v0.4.0](https://github.com/HarperZ9/plexus/releases/tag/v0.4.0) (2026-10-03) |
 | [Phantom](https://github.com/HarperZ9/phantom) | Reversible hardware-identity privacy for owned Windows and Linux machines | [v1.1.1](https://github.com/HarperZ9/phantom/releases/tag/v1.1.1) (2026-09-10) |
