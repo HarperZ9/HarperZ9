@@ -4,7 +4,7 @@ This repository publishes the `HarperZ9` GitHub profile README. The design,
 scope and claim rules are in `PRODUCT.md`.
 
 The README uses only what GitHub renders: generated SVG plates in light and
-dark variants, collapsed sections, tables, one Mermaid diagram, and links to
+dark variants, collapsed sections, tables, and links to
 live pages. Richer interactive pages live on the site.
 
 ## Regenerate the art

@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-11-02 - Five platforms, one stack
+
+- Rewrote the README around the five platforms: The Flywheel, Articulate,
+  The Commons (CMMNS), The Playground (Superframe and raw-native) and
+  BuildLang. Each leads with what it does for the reader and a command to run.
+- Versions read live on 2 November 2026 from the GitHub releases API, PyPI and
+  crates.io, with a Verified line under the release table.
+- Stated the career transition in the words the site's resume uses, and the
+  lab posture as built to serve, with no engagement begun.
+- Removed the trace-monitor section and its plate. Removed the slash-separated
+  keyword rails from the hero and incidents plates, per the site design rules.
+- Badges now cover Flywheel, Articulate, CMMNS, Superframe and BuildLang. The
+  release table adds CMMNS, Superframe, raw-native and BuildLang and drops
+  Phantom.
+
 ## 2026-10-01 - Interactive, generated profile
 
 - Redesigned the README around the current scope: Flywheel and the flagships,

@@ -13,17 +13,16 @@ hiring teams who need a fast, honest map of Zain Dana Harper's work.
 ## Purpose
 
 The `HarperZ9` profile README is the GitHub door into the work. Since
-2026-10-01 it covers the current scope in this order:
+2026-11-02 it covers the current scope in this order:
 
-1. Flywheel and the flagships: what the tools do, the commands to run, the
-   honest null, and the current release of each flagship.
-2. Who Knew First and the series: the finding, the published pieces, the
-   planned pieces marked as planned, and the model-use disclosure.
-3. The direction: trace observation and a check before each consequential
-   action, with what exists today and the stated exclusion of hidden
-   reasoning extraction.
-4. Work with me: scoped consulting, the independence rules and the public
-   income ledger commitment, plus roles and paths in a collapsed section.
+1. Who I am, including the career transition stated as the resume states it.
+2. Five platforms, one stack: The Flywheel, Articulate, The Commons, The
+   Playground and BuildLang, each with what it does for the reader, a command
+   to run where one exists, honest limits, and the current release table.
+3. Writing and investigations: Who Knew First, the series, the publications
+   page, and the model-use disclosure.
+4. Work with me: scoped consulting, the lab posture, the independence rules,
+   and roles and paths in collapsed sections.
 5. Reach me: published routes only.
 
 Depth lives in collapsed `<details>` sections so the first screen stays short.
@@ -47,7 +46,7 @@ plain in the words. Human and fallible, never hyped.
   SMIL ignores `prefers-reduced-motion`; with CSS, reduced motion stops every
   animation.
 - Interaction stays GitHub-native: a pick-a-door table of in-page links,
-  collapsed sections, a Mermaid diagram, and badges that open live releases.
+  collapsed sections, and badges that open live releases.
 - `scripts/refresh_profile.py`, run daily by `.github/workflows/refresh.yml`,
   rewrites the release table, the latest-writing list and the version badges
   from the GitHub releases API and the site feed. It uses only `GITHUB_TOKEN`.
