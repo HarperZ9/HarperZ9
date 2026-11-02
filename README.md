@@ -133,9 +133,9 @@ the confidence of each claim, and says what each claim does not prove.
 | --- | --- | --- |
 | [Who Pays the Referees](https://harperz9.github.io/who-pays-the-referees.html) | The people who check AI models depend on the labs they check. Which of those terms are public? | Published 1 October 2026 |
 | [The Terms for Telling](https://harperz9.github.io/the-terms-for-telling.html) | The party that holds the records also writes the contracts of the people who could tell. Who got heard? | Published 1 October 2026 |
-| Who Kept the Books | In money cases from 1514 to Iran-Contra, what made the first account move? | Planned |
-| The Maker Is Part of the Story | Three famous stories, read for who funds the work and who edits the record. | Planned |
-| A Check It Cannot Predict | Does a check that is certain and outside the actor's control work on AI models too? | Planned, no result yet |
+| [Who Kept the Books](https://harperz9.github.io/who-kept-the-books.html) | In money cases from 1514 to Iran-Contra, what made the first account move? | Published 8 October 2026 |
+| [The Maker Is Part of the Story](https://harperz9.github.io/the-maker-is-part-of-the-story.html) | Three famous stories, read for who funds the work and who edits the record. | Published 8 October 2026 |
+| [A Check It Cannot Predict](https://harperz9.github.io/a-check-it-cannot-predict.html) | Does a check that is certain and outside the actor's control work on AI models too? | Published 8 October 2026 |
 
 An Anthropic-built model helped compile these pieces, and Anthropic appears in
 the record, so each piece marks where Anthropic is a party and invites an
