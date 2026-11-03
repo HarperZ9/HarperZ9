@@ -80,7 +80,7 @@ Each flagship below also works on its own and plugs into Flywheel.
 | [Accountable Surface](https://github.com/HarperZ9/accountable-surface) | Gates agent actions on explicit grants, with a hash-chained journal | [v0.2.0](https://github.com/HarperZ9/accountable-surface/releases/tag/v0.2.0) (2026-09-18) |
 | [Forum](https://github.com/HarperZ9/forum) | Coordinates agent teams with a replayable ledger | [v1.17.0](https://github.com/HarperZ9/forum/releases/tag/v1.17.0) (2026-10-03) |
 | [Relay](https://github.com/HarperZ9/relay) | Permission-checked coding agent for any model endpoint | [v0.7.0](https://github.com/HarperZ9/relay/releases/tag/v0.7.0) (2026-10-03) |
-| [Gather](https://github.com/HarperZ9/gather) | Research intake from the web, papers, video, scans and audio, with provenance | [v2.4.0](https://github.com/HarperZ9/gather/releases/tag/v2.4.0) (2026-10-23) |
+| [Gather](https://github.com/HarperZ9/gather) | Research intake from the web, papers, video, scans and audio, with provenance | [v2.5.0](https://github.com/HarperZ9/gather/releases/tag/v2.5.0) (2026-11-03) |
 | [Index](https://github.com/HarperZ9/index) | Offline repository and workspace maps with file and line evidence | [v2.16.0](https://github.com/HarperZ9/index/releases/tag/v2.16.0) (2026-10-03) |
 | [Mneme](https://github.com/HarperZ9/mneme) | Agent memory where every recall can be rechecked | [v0.7.0](https://github.com/HarperZ9/mneme/releases/tag/v0.7.0) (2026-10-03) |
 | [Canon](https://github.com/HarperZ9/canon) | One memory and personality record shared across models and tools | [v0.7.0](https://github.com/HarperZ9/canon/releases/tag/v0.7.0) (2026-10-23) |
