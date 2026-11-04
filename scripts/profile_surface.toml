@@ -12,13 +12,20 @@
 # The redesigned README counted about 1300 words at the change; 1700 leaves
 # room for the daily refresh of the release and writing tables and for one
 # more published series piece without another limit change.
+#
+# The 2026-11-02 rewrite around the five platforms counts well under the
+# limit, so the limit stays.
 max_words = 1700
 
 # Headings that must appear, in this order.
 section_order = [
-  "## Flywheel and the flagships",
-  "## Who Knew First and the series",
-  "## Watching the trace, checking before the action",
+  "## Five platforms, one stack",
+  "### The Flywheel",
+  "### Articulate",
+  "### The Commons",
+  "### The Playground",
+  "### BuildLang",
+  "## Writing and investigations",
   "## Work with me",
   "## Reach me",
 ]
@@ -31,13 +38,20 @@ required_terms = [
   "sole proprietor",
   "https://github.com/HarperZ9/flywheel",
   "pip install flywheel-verify",
+  "pip install articulate-writing",
+  "cargo install buildlang",
+  "https://harperz9.github.io/cmmns/install.html",
+  "https://github.com/HarperZ9/superframe",
+  "no professional",
+  "no pilot or engagement with any lab has begun",
+  "Verified",
   "source-available under FSL-1.1-MIT",
   "no measured accuracy gain",
   "https://harperz9.github.io/who-knew-first.html",
   "https://harperz9.github.io/who-knew-first-series.html",
+  "https://harperz9.github.io/publications.html",
   "https://harperz9.github.io/who-pays-the-referees.html",
   "https://harperz9.github.io/the-terms-for-telling.html",
-  "jailbreaks or prompt injection",
   "no paid client today and no current sponsors",
   "Income from this work is published with its exact source",
   "15 percent",

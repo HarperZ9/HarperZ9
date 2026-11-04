@@ -34,10 +34,14 @@ ATOM = "{http://www.w3.org/2005/Atom}"
 WRITING_COUNT = 6
 
 FLAGSHIPS = (
-    ("flywheel", "Flywheel", "AI workstation and coding harness: any model, gated agent, rerunnable receipts"),
-    ("articulate", "Articulate", "Local writing checker and editor with content-free receipts"),
-    ("telos", "Telos", "Accountable actuation: senses, actions and hardware control in permission tiers"),
-    ("accountable-surface", "Accountable Surface", "Gates agent actions on explicit grants, with a hash-chained journal"),
+    ("flywheel", "Flywheel", "Runs AI tasks on any model and keeps a record you can recheck offline"),
+    ("articulate", "Articulate", "Checks prose on your computer and names each pattern and its line"),
+    ("cmmns", "CMMNS", "Browser extension that shows where social media replies come from"),
+    ("superframe", "Superframe", "Describe a piece in words; render it from one seed in every medium"),
+    ("raw-native", "raw-native", "C++23 renderer that measures a fast effect against its reference"),
+    ("buildlang", "BuildLang", "Compiled language whose function types list their side effects"),
+    ("telos", "Telos", "MCP server and CLI: web reading, CI triage, browser control after you grant access"),
+    ("accountable-surface", "Accountable Surface", "Lets an agent act only within permission grants you write"),
     ("forum", "Forum", "Coordinates agent teams with a replayable ledger"),
     ("relay", "Relay", "Permission-checked coding agent for any model endpoint"),
     ("gather", "Gather", "Research intake from the web, papers, video, scans and audio, with provenance"),
@@ -48,10 +52,15 @@ FLAGSHIPS = (
     ("emet", "EMET", "Checks that bytes reaching a model still match their source"),
     ("learn", "Learn", "Turns your own material into a course that never takes the test for you"),
     ("plexus", "Plexus", "Finds and wires compatible tools in an agent toolchain"),
-    ("phantom", "Phantom", "Reversible hardware-identity privacy for owned Windows and Linux machines"),
 )
 
-BADGES = (("flywheel", "Flywheel"), ("articulate", "Articulate"), ("telos", "Telos"))
+BADGES = (
+    ("flywheel", "Flywheel"),
+    ("articulate", "Articulate"),
+    ("cmmns", "CMMNS"),
+    ("superframe", "Superframe"),
+    ("buildlang", "BuildLang"),
+)
 
 
 def fetch(url: str, accept: str) -> bytes:
@@ -135,7 +144,6 @@ def planned_files() -> dict[Path, str]:
     for repo, label in BADGES:
         files[ART / f"badge-{repo}.svg"] = badge(label, releases[repo][0])
     files[ART / "badge-writing.svg"] = badge("Writing", f"latest {writing[0][0]}")
-    files[ART / "badge-feed.svg"] = badge("Atom feed", "subscribe")
     return files
 
 

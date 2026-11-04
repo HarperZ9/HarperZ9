@@ -23,7 +23,6 @@ from art_kit import (  # noqa: E402
     crop_marks,
     defs,
     f,
-    flare,
     rings,
     style_block,
     svg_open,
@@ -55,18 +54,16 @@ def hero(p: Palette) -> str:
     body = [
         svg_open(w, h, "Zain Dana Harper",
                  "A luminous aperture drawn in fine radial lines beside the name "
-                 "Zain Dana Harper and the line: tools and investigations that let "
-                 "anyone recheck what an AI system did."),
+                 "Zain Dana Harper and the line: software that checks AI work, shows "
+                 "where replies come from, and makes art from one seed."),
         style_block(), defs(p, uid),
         f'<rect width="{w}" height="{h}" fill="{p.ground}"/>',
         aperture(p, uid, 1010, 210, 1.0, SEED),
-        text(64, 118, "INDEPENDENT AI EVALUATION  /  ACCOUNTABILITY  /  INVESTIGATIONS",
-             12, p.soft, mono=True, spacing=2.2),
-        text(60, 196, "Zain Dana Harper", 68, p.ink, weight=700, spacing=-1.5),
-        f'<path d="M64 226H600" stroke="{p.ink}" stroke-width="1"/>',
-        text(64, 270, "Tools and investigations that let anyone", 25, p.soft),
-        text(64, 304, "recheck what an AI system did, and who knew first.", 25, p.soft),
-        text(64, 362, "harperz9.github.io", 14, p.ink, mono=True),
+        text(60, 176, "Zain Dana Harper", 68, p.ink, weight=700, spacing=-1.5),
+        f'<path d="M64 206H600" stroke="{p.ink}" stroke-width="1"/>',
+        text(64, 250, "Software that checks AI work, shows where", 25, p.soft),
+        text(64, 284, "replies come from, and makes art from one seed.", 25, p.soft),
+        text(64, 352, "harperz9.github.io", 14, p.ink, mono=True),
         veil(p, uid, w, h), crop_marks(p, w, h), "</svg>",
     ]
     return "".join(body)
@@ -114,38 +111,7 @@ def incidents(p: Palette) -> str:
     body.append(f'<path d="M890 196H1160" stroke="{p.soft}" stroke-width="1" stroke-dasharray="2 4"/>')
     body.append(text(80, 226, "Six of nine: someone outside the organization told the public first.", 17, p.ink))
     body.append(text(890, 226, "The other three.", 17, p.soft))
-    body.append(text(80, 254, "WHO KNEW FIRST  /  NINE CASE LEDGERS  /  2026", 12, p.soft, mono=True, spacing=2))
     body += [veil(p, uid, w, h), crop_marks(p, w, h), "</svg>"]
-    return "".join(body)
-
-
-def monitor(p: Palette) -> str:
-    w, h, uid = 1280, 300, f"monitor-{p.name}"
-    gx, gy = 700, 130
-    ticks = "".join(f"M{x} {gy - 9}V{gy + 9}" for x in range(90, 600, 22))
-    body = [
-        svg_open(w, h, "A check before the action",
-                 "A trace of observed steps runs into an aperture, the pre-action "
-                 "check. One path continues to an action with a receipt; the other "
-                 "stops at a bar before the action runs."),
-        style_block(), defs(p, uid), f'<rect width="{w}" height="{h}" fill="{p.ground}"/>',
-        f'<g class="drift"><path d="{ticks}" stroke="{p.soft}" stroke-width="1.2"/></g>',
-        f'<path d="M80 {gy}H{gx - 60}" stroke="{p.ink}" stroke-width="1"/>',
-        mini_aperture(p, gx, gy, 0.8, SEED + 50, p.ink),
-        flare(gx, gy, 52, -60, 30),
-        f'<path d="M{gx + 58} {gy}C{gx + 160} {gy} {gx + 180} 70 {gx + 290} 70H1150" '
-        f'fill="none" stroke="{p.verified}" stroke-width="1.6"/>',
-        f'<circle cx="1158" cy="70" r="7" fill="none" stroke="{p.verified}" stroke-width="1.6"/>',
-        f'<path d="M{gx + 58} {gy}C{gx + 140} {gy} {gx + 160} 196 {gx + 240} 196H{gx + 300}" '
-        f'fill="none" stroke="{p.drift}" stroke-width="1.6"/>',
-        f'<path d="M{gx + 304} 180V212" stroke="{p.drift}" stroke-width="3"/>',
-        text(80, 186, "trace observed, step by step", 16, p.soft),
-        text(gx, 236, "checked before it acts", 16, p.ink, anchor="middle"),
-        text(1150, 50, "runs, with a receipt", 16, p.verified, anchor="end"),
-        text(gx + 320, 202, "halted before it runs", 16, p.drift),
-        text(80, 270, "DIRECTION IN PROGRESS  /  NOT A RELEASE", 12, p.soft, mono=True, spacing=2),
-        veil(p, uid, w, h), crop_marks(p, w, h), "</svg>",
-    ]
     return "".join(body)
 
 
@@ -169,7 +135,7 @@ def rule(p: Palette) -> str:
     ])
 
 
-PANELS = {"hero": hero, "verdicts": verdicts, "incidents": incidents, "monitor": monitor, "rule": rule}
+PANELS = {"hero": hero, "verdicts": verdicts, "incidents": incidents, "rule": rule}
 
 
 def main() -> int:

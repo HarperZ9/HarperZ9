@@ -4,39 +4,43 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/art/hero-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="docs/art/hero-light.svg">
-    <img alt="Zain Dana Harper. Tools and investigations that let anyone recheck what an AI system did, and who knew first." src="docs/art/hero-light.svg" width="100%">
+    <img alt="Zain Dana Harper. Software that checks AI work, shows where replies come from, and makes art from one seed." src="docs/art/hero-light.svg" width="100%">
   </picture>
 </a>
 
 <p>
   <a href="https://github.com/HarperZ9/flywheel/releases/latest"><img alt="Flywheel latest release" src="docs/art/badge-flywheel.svg"></a>
   <a href="https://github.com/HarperZ9/articulate/releases/latest"><img alt="Articulate latest release" src="docs/art/badge-articulate.svg"></a>
-  <a href="https://github.com/HarperZ9/telos/releases/latest"><img alt="Telos latest release" src="docs/art/badge-telos.svg"></a>
-  <a href="https://harperz9.github.io/publications.html"><img alt="Writing" src="docs/art/badge-writing.svg"></a>
-  <a href="https://harperz9.github.io/feed.xml"><img alt="Writing feed" src="docs/art/badge-feed.svg"></a>
+  <a href="https://github.com/HarperZ9/cmmns/releases/latest"><img alt="CMMNS latest release" src="docs/art/badge-cmmns.svg"></a>
+  <a href="https://github.com/HarperZ9/superframe/releases/latest"><img alt="Superframe latest release" src="docs/art/badge-superframe.svg"></a>
+  <a href="https://github.com/HarperZ9/buildlang/releases/latest"><img alt="BuildLang latest release" src="docs/art/badge-buildlang.svg"></a>
+  <a href="https://harperz9.github.io/publications.html"><img alt="Latest writing" src="docs/art/badge-writing.svg"></a>
 </p>
 
-I'm Zain Dana Harper. I build tools that let anyone recheck what an AI system
-did, and I publish investigations into who knew about AI incidents first and
-who pays the people who check. I work independently as a sole proprietor in
-Kent, Washington, and I take scoped evaluation work.
+I'm Zain Dana Harper. I build software you run on your own machine: it checks
+what an AI model did, shows where the replies in a thread come from, checks
+your prose line by line, and turns a sentence into a painting, a page of type
+and a sound from one seed.
 
-A result is worth trusting when an outside skeptic can rerun the check on their
-own machine and reach the same verdict. That holds whoever ran the model:
-any lab, open or closed, any company, any nation. My own verdicts get the same
-treatment.
+I came to software after eleven years of production arboriculture. I have
+programmed on my own for about thirteen years and have no professional
+programming experience yet.
+Since September 2026 I have worked as a sole proprietor from Kent, Washington. I am looking for roles in AI evaluation and
+developer tooling.
 
-| Pick a door | Go |
-| --- | --- |
-| Run an AI task with any model and keep a record you can recheck | [Flywheel and the flagships](#flywheel-and-the-flagships) |
-| Read the investigations | [Who Knew First and the series](#who-knew-first-and-the-series) |
-| See where the work is heading | [Watching the trace, checking before the action](#watching-the-trace-checking-before-the-action) |
-| Hire me for evaluation work | [Work with me](#work-with-me) |
-| Get in touch | [Reach me](#reach-me) |
+## Five platforms, one stack
+
+| Platform | What it does for you | Start |
+| --- | --- | --- |
+| **THE FLYWHEEL** | Run AI tasks on any hosted or local model and keep a record you can recheck offline. | [Flywheel](#the-flywheel) |
+| **ARTICULATE** | Check your writing on your own computer, with each finding tied to its line. | [Articulate](#articulate) |
+| **THE COMMONS** | See where social media replies come from while you read a thread. | [CMMNS](#the-commons) |
+| **THE PLAYGROUND** | Describe a piece in words and render it as paint, type, lines, sound and touch. | [Superframe](#the-playground) |
+| **BUILDLANG** | Write programs whose function types list their side effects, and documents with no TeX install. | [BuildLang](#buildlang) |
 
 <img alt="" src="docs/art/rule-light.svg#gh-light-mode-only" width="100%"><img alt="" src="docs/art/rule-dark.svg#gh-dark-mode-only" width="100%">
 
-## Flywheel and the flagships
+### The Flywheel
 
 <a href="https://harperz9.github.io/flywheel.html">
   <picture>
@@ -46,38 +50,99 @@ treatment.
   </picture>
 </a>
 
-[Flywheel](https://github.com/HarperZ9/flywheel) is a self-hostable,
-model-agnostic AI workstation and coding harness. It runs any model, frontier
-or local, behind one OpenAI-compatible surface, with your keys and data kept on
-your machine. Rowan, the desktop assistant, turns a plain request into a
-recorded run. Relay runs a permission-gated coding agent over your own folders.
-Lanes add research intake, workspace maps, memory, agent routing and writing.
-`flywheel check-output` checks answers against finance, medicine and law packs
-and can emit Lean 4 proofs. Every accepted run leaves a sealed receipt that an
-independent witness reruns offline, with no learned model deciding the verdict.
-
 ```text
-pip install flywheel-verify
-flywheel up
-flywheel lanes --probe
+python -m pip install flywheel-verify
+flywheel gate
 ```
 
-On the shipped benchmark the verified loop shows no measured accuracy gain over
-a single pass; the interval includes zero. The value is the workstation and a
-record you can check yourself. Flywheel is source-available under FSL-1.1-MIT.
+[Flywheel](https://github.com/HarperZ9/flywheel) puts any model behind one
+OpenAI-compatible endpoint on your machine. `flywheel code` runs a coding agent
+that asks before it writes or runs anything. `flywheel check-output` compares
+the values in an answer with the source that decides them, such as a tax table
+or a court calendar. Every step lands on a hash-chained ledger, and a sealed
+result can be checked again offline with the Python standard library alone.
+`flywheel gate` runs a built-in task with no model and no network, then seals
+the result and checks the seal again.
 
-Each flagship below also works on its own and plugs into Flywheel.
+The one capability comparison on record shows no measured accuracy gain:
+verified inference scored 9 of 10 against single-shot 8 of 10, and the 95%
+interval for the difference, -0.236 to +0.420, includes zero. Flywheel is
+source-available under FSL-1.1-MIT.
+
+### Articulate
+
+```text
+python -m pip install articulate-writing
+articulate check README.md --profile readme --gate
+```
+
+[Articulate](https://github.com/HarperZ9/articulate) reads a draft on your
+computer and names each writing pattern with the line it sits on: stacked
+hedges, marketing words, contrast framing, em dashes. A profile for each kind
+of writing decides which findings block, so `--gate` drops into CI or a
+pre-commit hook. It needs no model, account or key. Use it to improve writing
+and leave authorship to other evidence: on 183 texts of known origin it flagged
+57 of 75 human texts as well as all 84 AI texts.
+
+### The Commons
+
+[CMMNS](https://github.com/HarperZ9/cmmns), spoken "commons", is a browser
+extension for Chrome, Edge, Brave and Firefox. Rest the pointer on a reply on
+X, YouTube, Reddit, Bluesky or five other networks, and a window opens beside
+it.
+It shows where the platform places the account, signs of coordination, how the
+reply argues, and whether a fact-checker has reviewed the claim. Install it
+from the latest release with the
+[install guide](https://harperz9.github.io/cmmns/install.html), which checks
+your download against a signed checksum file. A Python analysis layer for saved
+threads merged on 2 November and is not in a release yet.
+
+### The Playground
+
+```text
+git clone https://github.com/HarperZ9/superframe && cd superframe
+npm run make -- "heavy rust coral upper left, fine teal frost on the right" out/first --seed first
+```
+
+[Superframe](https://github.com/HarperZ9/superframe) turns a sentence into one
+seeded recipe and renders it as paint, living type, line drawing, material,
+sound and a vibration pattern. The same words and seed give the same files byte
+for byte. Each render also writes a plain-language study of its parts for
+people and screen readers, and a JSON study for software. It needs Node 24 or
+newer. [raw-native](https://github.com/HarperZ9/raw-native) is the C++23
+renderer beside it: it runs a fast real-time effect next to a slower reference
+and reports how far apart they are.
+
+### BuildLang
+
+```text
+cargo install buildlang
+```
+
+[BuildLang](https://github.com/HarperZ9/buildlang) is a compiled language whose
+function types list side effects such as file, network and C access. It builds
+native binaries through C and emits HLSL and GLSL shaders. Its document layer
+sets one source to PDF, SVG and HTML with its own line breaker and page
+builder. BuildTeX, in review as
+[buildlang#116](https://github.com/HarperZ9/buildlang/pull/116), adds a checked
+build: it reads its own PDF back and fails on overfull lines, missing glyphs,
+unembedded fonts or text out of reading order, and it refuses to start TeX or
+Lean. Its proof checker exists as a design so far.
 
 <details>
-<summary><b>Current release of every flagship</b> (refreshed daily from GitHub)</summary>
+<summary><b>Current release of every tool</b> (refreshed daily from GitHub)</summary>
 
 <!-- releases:start -->
 | Tool | What it does | Release |
 | --- | --- | --- |
-| [Flywheel](https://github.com/HarperZ9/flywheel) | AI workstation and coding harness: any model, gated agent, rerunnable receipts | [v1.9.0](https://github.com/HarperZ9/flywheel/releases/tag/v1.9.0) (2026-10-15) |
-| [Articulate](https://github.com/HarperZ9/articulate) | Local writing checker and editor with content-free receipts | [v0.17.1](https://github.com/HarperZ9/articulate/releases/tag/v0.17.1) (2026-11-02) |
-| [Telos](https://github.com/HarperZ9/telos) | Accountable actuation: senses, actions and hardware control in permission tiers | [v0.9.0](https://github.com/HarperZ9/telos/releases/tag/v0.9.0) (2026-10-03) |
-| [Accountable Surface](https://github.com/HarperZ9/accountable-surface) | Gates agent actions on explicit grants, with a hash-chained journal | [v0.2.0](https://github.com/HarperZ9/accountable-surface/releases/tag/v0.2.0) (2026-09-18) |
+| [Flywheel](https://github.com/HarperZ9/flywheel) | Runs AI tasks on any model and keeps a record you can recheck offline | [v1.9.0](https://github.com/HarperZ9/flywheel/releases/tag/v1.9.0) (2026-10-15) |
+| [Articulate](https://github.com/HarperZ9/articulate) | Checks prose on your computer and names each pattern and its line | [v0.17.1](https://github.com/HarperZ9/articulate/releases/tag/v0.17.1) (2026-11-02) |
+| [CMMNS](https://github.com/HarperZ9/cmmns) | Browser extension that shows where social media replies come from | [v3.9.1](https://github.com/HarperZ9/cmmns/releases/tag/v3.9.1) (2026-10-28) |
+| [Superframe](https://github.com/HarperZ9/superframe) | Describe a piece in words; render it from one seed in every medium | [v0.2.0](https://github.com/HarperZ9/superframe/releases/tag/v0.2.0) (2026-10-28) |
+| [raw-native](https://github.com/HarperZ9/raw-native) | C++23 renderer that measures a fast effect against its reference | [v0.8.0](https://github.com/HarperZ9/raw-native/releases/tag/v0.8.0) (2026-10-14) |
+| [BuildLang](https://github.com/HarperZ9/buildlang) | Compiled language whose function types list their side effects | [v1.10.0](https://github.com/HarperZ9/buildlang/releases/tag/v1.10.0) (2026-10-23) |
+| [Telos](https://github.com/HarperZ9/telos) | MCP server and CLI: web reading, CI triage, browser control after you grant access | [v0.9.0](https://github.com/HarperZ9/telos/releases/tag/v0.9.0) (2026-10-03) |
+| [Accountable Surface](https://github.com/HarperZ9/accountable-surface) | Lets an agent act only within permission grants you write | [v0.2.0](https://github.com/HarperZ9/accountable-surface/releases/tag/v0.2.0) (2026-09-18) |
 | [Forum](https://github.com/HarperZ9/forum) | Coordinates agent teams with a replayable ledger | [v1.17.0](https://github.com/HarperZ9/forum/releases/tag/v1.17.0) (2026-10-03) |
 | [Relay](https://github.com/HarperZ9/relay) | Permission-checked coding agent for any model endpoint | [v0.7.0](https://github.com/HarperZ9/relay/releases/tag/v0.7.0) (2026-10-03) |
 | [Gather](https://github.com/HarperZ9/gather) | Research intake from the web, papers, video, scans and audio, with provenance | [v2.5.0](https://github.com/HarperZ9/gather/releases/tag/v2.5.0) (2026-11-03) |
@@ -88,28 +153,15 @@ Each flagship below also works on its own and plugs into Flywheel.
 | [EMET](https://github.com/HarperZ9/emet) | Checks that bytes reaching a model still match their source | [v1.3.1](https://github.com/HarperZ9/emet/releases/tag/v1.3.1) (2026-10-23) |
 | [Learn](https://github.com/HarperZ9/learn) | Turns your own material into a course that never takes the test for you | [v2.3.0](https://github.com/HarperZ9/learn/releases/tag/v2.3.0) (2026-10-03) |
 | [Plexus](https://github.com/HarperZ9/plexus) | Finds and wires compatible tools in an agent toolchain | [v0.4.0](https://github.com/HarperZ9/plexus/releases/tag/v0.4.0) (2026-10-03) |
-| [Phantom](https://github.com/HarperZ9/phantom) | Reversible hardware-identity privacy for owned Windows and Linux machines | [v1.1.1](https://github.com/HarperZ9/phantom/releases/tag/v1.1.1) (2026-09-10) |
 <!-- releases:end -->
 
 </details>
 
-<details>
-<summary><b>Work accepted upstream</b></summary>
-
-Changes that survived another maintainer's review and merged:
-
-- [AgentFence PR 261](https://github.com/dgenio/agentfence/pull/261): a Go engine optimization with deterministic rule selection and allocation coverage.
-- [Free Law Project PR 820](https://github.com/freelawproject/litigant-portal/pull/820): documentation for the fast database-free test suite.
-- [Mergewarden PR 107](https://github.com/sjh9714/mergewarden/pull/107): replay fixtures for reusable-workflow pinning, revised after owner review.
-
-The [portfolio](https://harperz9.github.io/portfolio.html) lists merged, open and
-closed contributions separately.
-
-</details>
+<sub>Verified 3 November 2026: release tags from the GitHub releases API; flywheel-verify 1.9.0 and articulate-writing 0.17.1 on PyPI; buildlang 1.10.0 on crates.io; the Flywheel and Articulate figures from each project's README and its linked results.</sub>
 
 <img alt="" src="docs/art/rule-light.svg#gh-light-mode-only" width="100%"><img alt="" src="docs/art/rule-dark.svg#gh-dark-mode-only" width="100%">
 
-## Who Knew First and the series
+## Writing and investigations
 
 <a href="https://harperz9.github.io/who-knew-first.html">
   <picture>
@@ -119,15 +171,16 @@ closed contributions separately.
   </picture>
 </a>
 
-[Who Knew First](https://harperz9.github.io/who-knew-first.html) is a record of
-nine 2026 incidents in which an AI agent crossed a boundary. In six of them,
-someone outside the organization that ran the model told the public first. The
-argument is simple: whoever holds an incident's logs gets to name it, and the
-name decides how fast anyone else hears about it.
-
-[The series](https://harperz9.github.io/who-knew-first-series.html) tests the
-questions that argument raises. Each piece stands alone, lists its sources and
-the confidence of each claim, and says what each claim does not prove.
+[Who Knew First](https://harperz9.github.io/who-knew-first.html) records nine
+2026 incidents in which an AI agent crossed a boundary. In six of them, someone
+outside the organization that ran the model told the public first.
+[The series](https://harperz9.github.io/who-knew-first-series.html) follows the
+questions that raises, starting with
+[Who Pays the Referees](https://harperz9.github.io/who-pays-the-referees.html)
+and [The Terms for Telling](https://harperz9.github.io/the-terms-for-telling.html).
+Each piece lists its sources and the confidence of each claim. An
+Anthropic-built model helped compile them, and Anthropic appears in the record,
+so each piece marks where Anthropic is a party.
 
 | Piece | The question | Status |
 | --- | --- | --- |
@@ -137,9 +190,8 @@ the confidence of each claim, and says what each claim does not prove.
 | [The Maker Is Part of the Story](https://harperz9.github.io/the-maker-is-part-of-the-story.html) | Three famous stories, read for who funds the work and who edits the record. | Published 8 October 2026 |
 | [A Check It Cannot Predict](https://harperz9.github.io/a-check-it-cannot-predict.html) | Does a check that is certain and outside the actor's control work on AI models too? | Published 8 October 2026 |
 
-An Anthropic-built model helped compile these pieces, and Anthropic appears in
-the record, so each piece marks where Anthropic is a party and invites an
-outside check of those items.
+The [publications page](https://harperz9.github.io/publications.html) lists the
+essays, briefings and papers, with DOIs where they have one.
 
 <details>
 <summary><b>Latest writing</b> (refreshed daily from the site feed)</summary>
@@ -155,52 +207,19 @@ outside check of those items.
 | 2026-10-01 | [The Terms for Telling](https://harperz9.github.io/the-terms-for-telling.html) |
 <!-- writing:end -->
 
-Everything else, essays, briefings and papers, is on the
-[writing page](https://harperz9.github.io/publications.html).
-
 </details>
 
-<img alt="" src="docs/art/rule-light.svg#gh-light-mode-only" width="100%"><img alt="" src="docs/art/rule-dark.svg#gh-dark-mode-only" width="100%">
-
-## Watching the trace, checking before the action
-
-<a href="https://harperz9.github.io/systems/telos.html">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/art/monitor-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="docs/art/monitor-light.svg">
-    <img alt="A trace of observed steps runs into a check that sits before the action. One path continues to an action with a receipt; the other halts before the action runs." src="docs/art/monitor-light.svg" width="100%">
-  </picture>
-</a>
-
-A receipt tells you what happened after the fact. The next step is to watch an
-agent's trace as it runs and check each consequential action before it happens.
-If the check fails, the action halts on its own, with no person needing to step
-in, and the record shows why.
-
-This is work in progress, and the pieces exist at different stages:
-
-- [Accountable Surface](https://github.com/HarperZ9/accountable-surface) lets an agent take only the action a person approved, then verifies the outcome and rolls back what it can.
-- [Telos](https://github.com/HarperZ9/telos) places sensing, actions and workstation hardware control in explicit permission tiers, each with confirmation points and receipts.
-- Rowan's monitor, in [Flywheel 1.2.0 on PyPI](https://pypi.org/project/flywheel-verify/1.2.0/), refuses to trust a check that rewrote its own grading files.
-
-Trace observation uses what providers document: reasoning summaries, token
-counts, effort settings and ordinary outputs. It never tries to pull hidden
-reasoning out of a model through jailbreaks or prompt injection, and it never
-bypasses an access control.
-
 <details>
-<summary><b>How the pieces connect</b></summary>
+<summary><b>Work accepted upstream</b></summary>
 
-```mermaid
-flowchart LR
-  T[Agent trace] --> M{Check before the action}
-  M -- passes --> A[Action runs]
-  M -- fails --> H[Halted, with the reason recorded]
-  A --> R[Sealed receipt]
-  H --> R
-  R --> W[Independent rerun: MATCH, DRIFT or UNVERIFIABLE]
-  W --> P[Published finding with its limits]
-```
+Changes that passed another maintainer's review and merged:
+
+- [AgentFence PR 261](https://github.com/dgenio/agentfence/pull/261): a faster Go engine that picks rules in a fixed order, with allocation tests.
+- [Free Law Project PR 820](https://github.com/freelawproject/litigant-portal/pull/820): documentation for the fast database-free test suite.
+- [Mergewarden PR 107](https://github.com/sjh9714/mergewarden/pull/107): replay fixtures for reusable-workflow pinning, revised after owner review.
+
+The [portfolio](https://harperz9.github.io/portfolio.html) lists merged, open
+and closed contributions separately.
 
 </details>
 
@@ -209,27 +228,32 @@ flowchart LR
 ## Work with me
 
 I take scoped work on evaluation design review, harness integration, agent
-safety review before an audit, incident review, and conflict-of-interest
-review. Each engagement gets a quote built from the labor, time, compute and
-tooling it needs. I have no paid client today and no current sponsors.
+safety review before an audit, and incident review. Each quote comes from the
+labor, time, compute and tooling the job needs.
+I have no paid client today and no current sponsors.
+The evaluation tooling is built to serve embedded evaluation at frontier AI
+labs, and no pilot or engagement with any lab has begun.
 
-Independence comes first, so the rules are public:
+<details>
+<summary><b>Independence rules</b></summary>
 
 - Income from this work is published with its exact source, API credits included.
 - When one source passes 15 percent of income over twelve months, I disclose it and give my findings about that party a second review.
 - At 50 percent, I decline new work evaluating that party. A first contract is most of the income by arithmetic, so it is disclosed in full and the decline rule waits for the second.
 - One standard for every lab. I build with Anthropic and OpenAI models and publish investigations that name both.
 
+</details>
+
 <details>
 <summary><b>Roles and paths</b></summary>
 
-I'm also open to technical and nontechnical roles in AI governance and
-evaluation, and willing to relocate to London or travel to San Francisco.
+I'm open to technical and nontechnical roles in AI governance and evaluation,
+and willing to relocate to London or travel to San Francisco.
 
 | Path | Where I fit | Start here |
 | --- | --- | --- |
 | **Technical and evaluation** | Agent and model evaluation, developer tooling, CI, security testing, technical support and documentation. | [Engineering path](https://harperz9.github.io/hire.html#engineering-path) |
-| **Public, union, and field** | Public service, facilities, parks and grounds, arboriculture, scheduling and safety judgment, from eleven years of field work. | [Public-service and field path](https://harperz9.github.io/hire.html#public-service-field-path) |
+| **Public service and field** | Public service, facilities, parks and grounds, arboriculture, scheduling and safety judgment, from eleven years of field work. | [Public-service and field path](https://harperz9.github.io/hire.html#public-service-field-path) |
 | **Education and research** | Fellowships, research operations and evidence-centered technical writing. | [Research](https://harperz9.github.io/research.html) |
 
 [Resume](https://harperz9.github.io/resume.html) ·
@@ -244,6 +268,5 @@ evaluation, and willing to relocate to London or travel to San Francisco.
 - Site: [harperz9.github.io](https://harperz9.github.io/)
 - LinkedIn: [zaindanaharper](https://www.linkedin.com/in/zaindanaharper/)
 - Writing feed: [feed.xml](https://harperz9.github.io/feed.xml)
-- Hiring page: [hire](https://harperz9.github.io/hire.html)
 
 <sub>The art on this page is generated by <code>scripts/profile_art.py</code>. Motion stops when your system asks for reduced motion.</sub>
