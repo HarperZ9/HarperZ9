@@ -82,8 +82,7 @@ hedges, marketing words, contrast framing, em dashes. A profile for each kind
 of writing decides which findings block, so `--gate` drops into CI or a
 pre-commit hook. It needs no model, account or key. Use it to improve writing
 and leave authorship to other evidence: on 183 texts of known origin it flagged
-57 of 75 human texts as well as all 84 AI texts. PyPI serves 0.16.0; the
-0.17.0 release is on GitHub.
+57 of 75 human texts as well as all 84 AI texts.
 
 ### The Commons
 
@@ -137,7 +136,7 @@ Lean. Its proof checker exists as a design so far.
 | Tool | What it does | Release |
 | --- | --- | --- |
 | [Flywheel](https://github.com/HarperZ9/flywheel) | Runs AI tasks on any model and keeps a record you can recheck offline | [v1.9.0](https://github.com/HarperZ9/flywheel/releases/tag/v1.9.0) (2026-10-15) |
-| [Articulate](https://github.com/HarperZ9/articulate) | Checks prose on your computer and names each pattern and its line | [v0.17.0](https://github.com/HarperZ9/articulate/releases/tag/v0.17.0) (2026-10-26) |
+| [Articulate](https://github.com/HarperZ9/articulate) | Checks prose on your computer and names each pattern and its line | [v0.17.1](https://github.com/HarperZ9/articulate/releases/tag/v0.17.1) (2026-11-02) |
 | [CMMNS](https://github.com/HarperZ9/cmmns) | Browser extension that shows where social media replies come from | [v3.9.1](https://github.com/HarperZ9/cmmns/releases/tag/v3.9.1) (2026-10-28) |
 | [Superframe](https://github.com/HarperZ9/superframe) | Describe a piece in words; render it from one seed in every medium | [v0.2.0](https://github.com/HarperZ9/superframe/releases/tag/v0.2.0) (2026-10-28) |
 | [raw-native](https://github.com/HarperZ9/raw-native) | C++23 renderer that measures a fast effect against its reference | [v0.8.0](https://github.com/HarperZ9/raw-native/releases/tag/v0.8.0) (2026-10-14) |
@@ -146,7 +145,7 @@ Lean. Its proof checker exists as a design so far.
 | [Accountable Surface](https://github.com/HarperZ9/accountable-surface) | Lets an agent act only within permission grants you write | [v0.2.0](https://github.com/HarperZ9/accountable-surface/releases/tag/v0.2.0) (2026-09-18) |
 | [Forum](https://github.com/HarperZ9/forum) | Coordinates agent teams with a replayable ledger | [v1.17.0](https://github.com/HarperZ9/forum/releases/tag/v1.17.0) (2026-10-03) |
 | [Relay](https://github.com/HarperZ9/relay) | Permission-checked coding agent for any model endpoint | [v0.7.0](https://github.com/HarperZ9/relay/releases/tag/v0.7.0) (2026-10-03) |
-| [Gather](https://github.com/HarperZ9/gather) | Research intake from the web, papers, video, scans and audio, with provenance | [v2.4.0](https://github.com/HarperZ9/gather/releases/tag/v2.4.0) (2026-10-23) |
+| [Gather](https://github.com/HarperZ9/gather) | Research intake from the web, papers, video, scans and audio, with provenance | [v2.5.0](https://github.com/HarperZ9/gather/releases/tag/v2.5.0) (2026-11-03) |
 | [Index](https://github.com/HarperZ9/index) | Offline repository and workspace maps with file and line evidence | [v2.16.0](https://github.com/HarperZ9/index/releases/tag/v2.16.0) (2026-10-03) |
 | [Mneme](https://github.com/HarperZ9/mneme) | Agent memory where every recall can be rechecked | [v0.7.0](https://github.com/HarperZ9/mneme/releases/tag/v0.7.0) (2026-10-03) |
 | [Canon](https://github.com/HarperZ9/canon) | One memory and personality record shared across models and tools | [v0.7.0](https://github.com/HarperZ9/canon/releases/tag/v0.7.0) (2026-10-23) |
@@ -158,7 +157,7 @@ Lean. Its proof checker exists as a design so far.
 
 </details>
 
-<sub>Verified 2 November 2026: release tags from the GitHub releases API; flywheel-verify 1.9.0 and articulate-writing 0.16.0 on PyPI; buildlang 1.10.0 on crates.io; the Flywheel and Articulate figures from each project's README and its linked results.</sub>
+<sub>Verified 3 November 2026: release tags from the GitHub releases API; flywheel-verify 1.9.0 and articulate-writing 0.17.1 on PyPI; buildlang 1.10.0 on crates.io; the Flywheel and Articulate figures from each project's README and its linked results.</sub>
 
 <img alt="" src="docs/art/rule-light.svg#gh-light-mode-only" width="100%"><img alt="" src="docs/art/rule-dark.svg#gh-dark-mode-only" width="100%">
 
@@ -182,6 +181,14 @@ and [The Terms for Telling](https://harperz9.github.io/the-terms-for-telling.htm
 Each piece lists its sources and the confidence of each claim. An
 Anthropic-built model helped compile them, and Anthropic appears in the record,
 so each piece marks where Anthropic is a party.
+
+| Piece | The question | Status |
+| --- | --- | --- |
+| [Who Pays the Referees](https://harperz9.github.io/who-pays-the-referees.html) | The people who check AI models depend on the labs they check. Which of those terms are public? | Published 1 October 2026 |
+| [The Terms for Telling](https://harperz9.github.io/the-terms-for-telling.html) | The party that holds the records also writes the contracts of the people who could tell. Who got heard? | Published 1 October 2026 |
+| [Who Kept the Books](https://harperz9.github.io/who-kept-the-books.html) | In money cases from 1514 to Iran-Contra, what made the first account move? | Published 8 October 2026 |
+| [The Maker Is Part of the Story](https://harperz9.github.io/the-maker-is-part-of-the-story.html) | Three famous stories, read for who funds the work and who edits the record. | Published 8 October 2026 |
+| [A Check It Cannot Predict](https://harperz9.github.io/a-check-it-cannot-predict.html) | Does a check that is certain and outside the actor's control work on AI models too? | Published 8 October 2026 |
 
 The [publications page](https://harperz9.github.io/publications.html) lists the
 essays, briefings and papers, with DOIs where they have one.
