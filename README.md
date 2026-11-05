@@ -136,7 +136,7 @@ Lean. Its proof checker exists as a design so far.
 | Tool | What it does | Release |
 | --- | --- | --- |
 | [Flywheel](https://github.com/HarperZ9/flywheel) | Runs AI tasks on any model and keeps a record you can recheck offline | [v1.9.0](https://github.com/HarperZ9/flywheel/releases/tag/v1.9.0) (2026-10-15) |
-| [Articulate](https://github.com/HarperZ9/articulate) | Checks prose on your computer and names each pattern and its line | [v0.17.1](https://github.com/HarperZ9/articulate/releases/tag/v0.17.1) (2026-11-02) |
+| [Articulate](https://github.com/HarperZ9/articulate) | Checks prose on your computer and names each pattern and its line | [v0.18.0](https://github.com/HarperZ9/articulate/releases/tag/v0.18.0) (2026-11-05) |
 | [CMMNS](https://github.com/HarperZ9/cmmns) | Browser extension that shows where social media replies come from | [v3.9.1](https://github.com/HarperZ9/cmmns/releases/tag/v3.9.1) (2026-10-28) |
 | [Superframe](https://github.com/HarperZ9/superframe) | Describe a piece in words; render it from one seed in every medium | [v0.2.0](https://github.com/HarperZ9/superframe/releases/tag/v0.2.0) (2026-10-28) |
 | [raw-native](https://github.com/HarperZ9/raw-native) | C++23 renderer that measures a fast effect against its reference | [v0.8.0](https://github.com/HarperZ9/raw-native/releases/tag/v0.8.0) (2026-10-14) |
