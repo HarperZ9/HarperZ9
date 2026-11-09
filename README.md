@@ -140,7 +140,7 @@ Lean. Its proof checker exists as a design so far.
 | [CMMNS](https://github.com/HarperZ9/cmmns) | Browser extension that shows where social media replies come from | [v3.9.1](https://github.com/HarperZ9/cmmns/releases/tag/v3.9.1) (2026-10-28) |
 | [Superframe](https://github.com/HarperZ9/superframe) | Describe a piece in words; render it from one seed in every medium | [v0.2.0](https://github.com/HarperZ9/superframe/releases/tag/v0.2.0) (2026-10-28) |
 | [raw-native](https://github.com/HarperZ9/raw-native) | C++23 renderer that measures a fast effect against its reference | [v0.8.0](https://github.com/HarperZ9/raw-native/releases/tag/v0.8.0) (2026-10-14) |
-| [BuildLang](https://github.com/HarperZ9/buildlang) | Compiled language whose function types list their side effects | [v1.10.0](https://github.com/HarperZ9/buildlang/releases/tag/v1.10.0) (2026-10-23) |
+| [BuildLang](https://github.com/HarperZ9/buildlang) | Compiled language whose function types list their side effects | [v1.13.0](https://github.com/HarperZ9/buildlang/releases/tag/v1.13.0) (2026-11-09) |
 | [Telos](https://github.com/HarperZ9/telos) | MCP server and CLI: web reading, CI triage, browser control after you grant access | [v0.9.0](https://github.com/HarperZ9/telos/releases/tag/v0.9.0) (2026-10-03) |
 | [Accountable Surface](https://github.com/HarperZ9/accountable-surface) | Lets an agent act only within permission grants you write | [v0.2.0](https://github.com/HarperZ9/accountable-surface/releases/tag/v0.2.0) (2026-09-18) |
 | [Forum](https://github.com/HarperZ9/forum) | Coordinates agent teams with a replayable ledger | [v1.17.0](https://github.com/HarperZ9/forum/releases/tag/v1.17.0) (2026-10-03) |
