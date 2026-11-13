@@ -22,11 +22,19 @@ what an AI model did, shows where the replies in a thread come from, checks
 your prose line by line, and turns a sentence into a painting, a page of type
 and a sound from one seed.
 
+I am a natural philosopher and toolmaker.
+
 I came to software after eleven years of production arboriculture. I have
 programmed on my own for about thirteen years and have no professional
 programming experience yet.
 Since September 2026 I have worked as a sole proprietor from Kent, Washington. I am looking for roles in AI evaluation and
 developer tooling.
+
+## What I stand for
+
+Knowledge has no owner, so I publish methods, data and failures openly. People
+who admit an honest error should have a way back. If I play for any side, it is
+humanity's.
 
 ## Five platforms, one stack
 
