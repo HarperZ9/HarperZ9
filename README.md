@@ -22,8 +22,7 @@ what an AI model did, shows where the replies in a thread come from, checks
 your prose line by line, and turns a sentence into a painting, a page of type
 and a sound from one seed.
 
-I am a natural philosopher and toolmaker. I study how systems behave, living
-and built, and I build the instruments to check what I find.
+I am a natural philosopher and toolmaker.
 
 I came to software after eleven years of production arboriculture. I have
 programmed on my own for about thirteen years and have no professional
@@ -33,12 +32,9 @@ developer tooling.
 
 ## What I stand for
 
-Knowledge has no owner, so I publish methods, data and failures in the open.
-People who hold power should be open to scrutiny, and the tools to check a
-public claim should be free to anyone. People who admit an honest error should
-have a way back. I am tied to no organization, institution or nation. If I play
-for any side, it is humanity's. I do this work to leave a better world for my
-son.
+Knowledge has no owner, so I publish methods, data and failures openly. People
+who admit an honest error should have a way back. If I play for any side, it is
+humanity's.
 
 ## Five platforms, one stack
 
