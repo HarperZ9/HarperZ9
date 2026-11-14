@@ -23,6 +23,7 @@ from art_kit import (  # noqa: E402
     crop_marks,
     defs,
     f,
+    inks,
     rings,
     style_block,
     svg_open,
@@ -55,15 +56,17 @@ def hero(p: Palette) -> str:
         svg_open(w, h, "Zain Dana Harper",
                  "A luminous aperture drawn in fine radial lines beside the name "
                  "Zain Dana Harper and the line: software that checks AI work, shows "
-                 "where replies come from, and makes art from one seed."),
+                 "where replies come from, and makes art from one seed. Six small "
+                 "ink marks stand for the six platforms."),
         style_block(), defs(p, uid),
         f'<rect width="{w}" height="{h}" fill="{p.ground}"/>',
         aperture(p, uid, 1010, 210, 1.0, SEED),
-        text(60, 176, "Zain Dana Harper", 68, p.ink, weight=700, spacing=-1.5),
+        text(60, 176, "Zain Dana Harper", 68, p.ink, display=True, weight=700, spacing=-1.5),
         f'<path d="M64 206H600" stroke="{p.ink}" stroke-width="1"/>',
         text(64, 250, "Software that checks AI work, shows where", 25, p.soft),
         text(64, 284, "replies come from, and makes art from one seed.", 25, p.soft),
         text(64, 352, "harperz9.github.io", 14, p.ink, mono=True),
+        inks(p, 600, 347),
         veil(p, uid, w, h), crop_marks(p, w, h), "</svg>",
     ]
     return "".join(body)
