@@ -104,9 +104,8 @@ shows where the platform places the account, signs of coordination, how the
 reply argues, and whether a fact-checker has reviewed the claim. Install it
 from the latest release with the
 [install guide](https://harperz9.github.io/cmmns/install.html), which checks
-your download against a signed checksum file. Merged for the next
-release: saving any page from a right-click, and a Python analysis layer for
-saved threads.
+your download against a signed checksum file. Release 3.10.0 adds
+right-click page saving and a Python analysis layer for saved threads.
 
 ### The Playground
 
@@ -141,8 +140,8 @@ glyphs, unembedded fonts or text out of reading order, and it refuses to start
 TeX or Lean. A Metamath proof verifier ships with it. The checker meant to
 replace Lean is still a design.
 
-Merged and unreleased: experimental backends that write x86-64 executables
-with no outside toolchain and WebAssembly binary modules.
+Release 1.15.0 adds experimental backends that write x86-64 executables with
+no outside toolchain and WebAssembly binary modules.
 
 <details>
 <summary><b>Current release of every tool</b> (refreshed daily from GitHub)</summary>
@@ -152,10 +151,10 @@ with no outside toolchain and WebAssembly binary modules.
 | --- | --- | --- |
 | [Flywheel](https://github.com/HarperZ9/flywheel) | Runs AI tasks on any model and keeps a record you can recheck | [v1.9.0](https://github.com/HarperZ9/flywheel/releases/tag/v1.9.0) |
 | [Articulate](https://github.com/HarperZ9/articulate) | Checks prose locally and names each pattern and its line | [v0.18.0](https://github.com/HarperZ9/articulate/releases/tag/v0.18.0) |
-| [CMMNS](https://github.com/HarperZ9/cmmns) | Browser extension that shows where social media replies come from | [v3.9.1](https://github.com/HarperZ9/cmmns/releases/tag/v3.9.1) |
-| [The Playground](https://github.com/HarperZ9/superframe) | Renders a described piece from one seed in every medium | [v0.2.0](https://github.com/HarperZ9/superframe/releases/tag/v0.2.0) |
+| [CMMNS](https://github.com/HarperZ9/cmmns) | Browser extension that shows where social media replies come from | [v3.10.0](https://github.com/HarperZ9/cmmns/releases/tag/v3.10.0) |
+| [The Playground](https://github.com/HarperZ9/superframe) | Renders a described piece from one seed in every medium | [v0.3.0](https://github.com/HarperZ9/superframe/releases/tag/v0.3.0) |
 | [raw-native](https://github.com/HarperZ9/raw-native) | C++23 renderer that measures a fast effect against its reference | [v0.8.0](https://github.com/HarperZ9/raw-native/releases/tag/v0.8.0) |
-| [BuildLang](https://github.com/HarperZ9/buildlang) | Compiled language whose function types list their side effects | [v1.14.0](https://github.com/HarperZ9/buildlang/releases/tag/v1.14.0) |
+| [BuildLang](https://github.com/HarperZ9/buildlang) | Compiled language whose function types list their side effects | [v1.15.0](https://github.com/HarperZ9/buildlang/releases/tag/v1.15.0) |
 | [Telos](https://github.com/HarperZ9/telos) | MCP server and CLI: web reading, CI triage, browser control you grant | [v0.9.0](https://github.com/HarperZ9/telos/releases/tag/v0.9.0) |
 | [Accountable Surface](https://github.com/HarperZ9/accountable-surface) | Lets an agent act only within grants you write | [v0.2.0](https://github.com/HarperZ9/accountable-surface/releases/tag/v0.2.0) |
 | [Forum](https://github.com/HarperZ9/forum) | Coordinates agent teams with a replayable ledger | [v1.17.0](https://github.com/HarperZ9/forum/releases/tag/v1.17.0) |
@@ -172,7 +171,7 @@ with no outside toolchain and WebAssembly binary modules.
 
 </details>
 
-<sub>Verified 14 November 2026: release tags and merged pull requests on the GitHub API; flywheel-verify 1.9.0 and articulate-writing 0.18.0 on PyPI; buildlang 1.14.0 on crates.io; the Flywheel and Articulate figures in each README; the writing list in the site feed.</sub>
+<sub>Verified 14 November 2026: release tags and merged pull requests on the GitHub API; flywheel-verify 1.9.0 and articulate-writing 0.18.0 on PyPI; buildlang 1.15.0 on crates.io; the Flywheel and Articulate figures in each README; the writing list in the site feed.</sub>
 
 <img alt="" src="docs/art/rule-light.svg#gh-light-mode-only" width="100%"><img alt="" src="docs/art/rule-dark.svg#gh-dark-mode-only" width="100%">
 
