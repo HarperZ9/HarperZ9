@@ -4,8 +4,10 @@ Every figure is generated from code with the standard library only. The output
 is deterministic: the same seed and palette give the same bytes, so a reviewer
 can regenerate any panel and diff it.
 
-Palette values come from the site's design tokens (void and bone grounds,
-verdict colors). The spectrum appears only as the single flare on the aperture.
+Palette values and font stacks come from the site's shared kit: wall, ink,
+soft, line, verdict colours and the three primaries from system/kit/kit.css,
+and the six platform inks from world/site/crossover/colour-tokens.json. The
+primaries appear only as the single flare on the aperture rim.
 """
 
 from __future__ import annotations
@@ -25,39 +27,48 @@ class Palette:
     drift: str
     unverifiable: str
     glow: str
+    primaries: tuple[str, str, str]
+    platforms: tuple[str, ...]
 
 
 DARK = Palette(
     name="dark",
-    ground="#060608",
+    ground="#0a0a0c",
     ink="#ece5d6",
     soft="#b8b0a0",
-    line="#29282c",
+    line="#2e2c31",
     verified="#63d4ce",
     drift="#e29472",
     unverifiable="#b3b1e6",
     glow="#f6e7c4",
+    primaries=("#e2584a", "#e3b25a", "#8e9be6"),
+    platforms=("#c8ab90", "#99b4d1", "#adb885", "#81bfb7", "#aea6f0", "#e395bb"),
 )
 
 LIGHT = Palette(
     name="light",
-    ground="#ebe5d8",
+    ground="#e8e3d9",
     ink="#16130f",
     soft="#4a443b",
-    line="#c9bfab",
+    line="#c4baa6",
     verified="#0a6b61",
     drift="#8f3a19",
     unverifiable="#4e4d85",
     glow="#16130f",
+    primaries=("#c8322b", "#d79e35", "#1d2562"),
+    platforms=("#7a6047", "#405871", "#889261", "#427f78", "#8a81c8", "#bb7196"),
 )
 
 PALETTES = (DARK, LIGHT)
 
-# The one spectral flare: refraction on the aperture rim, never used in text.
-FLARE = ("#3fd3e6", "#e2489f", "#f0b23c")
+# Platform order for Palette.platforms: The Flywheel, Articulate, The Commons,
+# The Playground, BuildLang, Research.
 
-SANS = "'Hanken Grotesk','Helvetica Neue',Helvetica,Arial,sans-serif"
-MONO = "Conso,'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace"
+# The site's face tokens. Accession leads; Hanken Grotesk and Conso are the
+# still fallback, then the system faces, which is what an <img> on GitHub gets.
+SANS = "'Accession Text','Hanken Grotesk',system-ui,sans-serif"
+DISPLAY = "'Accession Display','Hanken Grotesk',system-ui,sans-serif"
+MONO = "'Accession Mono','Conso',ui-monospace,monospace"
 
 
 class Rng:
@@ -197,10 +208,10 @@ def halftone(cx: float, cy: float, r_in: float, r_out: float, step: float,
     return f'<g fill="{fill}" fill-opacity=".55">{"".join(dots)}</g>'
 
 
-def flare(cx: float, cy: float, r: float, start_deg: float, span_deg: float) -> str:
-    """The single spectral mark: one rim arc split into three offset channels."""
+def flare(p: Palette, cx: float, cy: float, r: float, start_deg: float, span_deg: float) -> str:
+    """The single colour mark: one rim arc split into the site's three primaries."""
     out = []
-    for k, color in enumerate(FLARE):
+    for k, color in enumerate(p.primaries):
         off = (k - 1) * 1.6
         a0, a1 = math.radians(start_deg), math.radians(start_deg + span_deg)
         x0, y0 = cx + off + r * math.cos(a0), cy + r * math.sin(a0)
@@ -227,7 +238,7 @@ def aperture(p: Palette, uid: str, cx: float, cy: float, scale: float, seed: int
         + f'<circle class="breathe" cx="{f(cx)}" cy="{f(cy)}" r="{f(62 * s)}" fill="url(#glow-{uid})"/>'
         + f'<circle cx="{f(cx)}" cy="{f(cy)}" r="{f(30 * s)}" fill="{p.ground}"/>'
         + f'<circle cx="{f(cx)}" cy="{f(cy)}" r="{f(30 * s)}" fill="none" stroke="{p.ink}" stroke-width="1.2"/>'
-        + flare(cx, cy, 150 * s, -58, 34)
+        + flare(p, cx, cy, 150 * s, -58, 34)
     )
 
 
@@ -238,9 +249,20 @@ def svg_open(w: int, h: int, title: str, desc: str) -> str:
     )
 
 
+def inks(p: Palette, x_end: float, cy: float, r: float = 8, step: float = 13) -> str:
+    """Six flat overlapping discs, one per platform ink, ending at x_end."""
+    count = len(p.platforms)
+    x0 = x_end - r - step * (count - 1)
+    return "".join(
+        f'<circle cx="{f(x0 + step * i)}" cy="{f(cy)}" r="{f(r)}" fill="{color}" fill-opacity=".88"/>'
+        for i, color in enumerate(p.platforms)
+    )
+
+
 def text(x: float, y: float, body: str, size: float, fill: str, *, mono: bool = False,
-         weight: int = 400, anchor: str = "start", spacing: float = 0, opacity: float = 1) -> str:
-    family = MONO if mono else SANS
+         display: bool = False, weight: int = 400, anchor: str = "start",
+         spacing: float = 0, opacity: float = 1) -> str:
+    family = MONO if mono else DISPLAY if display else SANS
     extra = f' letter-spacing="{spacing}"' if spacing else ""
     extra += f' fill-opacity="{opacity}"' if opacity != 1 else ""
     return (

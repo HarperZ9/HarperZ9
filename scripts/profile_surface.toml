@@ -15,11 +15,14 @@
 #
 # The 2026-11-02 rewrite around the five platforms counts well under the
 # limit, so the limit stays.
+#
+# 2026-11-14: Research joined as the sixth platform row, so the heading reads
+# "Six platforms, one stack". The limit stays.
 max_words = 1700
 
 # Headings that must appear, in this order.
 section_order = [
-  "## Five platforms, one stack",
+  "## Six platforms, one stack",
   "### The Flywheel",
   "### Articulate",
   "### The Commons",

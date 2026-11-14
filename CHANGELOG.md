@@ -1,5 +1,23 @@
 # Changelog
 
+## 2026-11-14 - Current state, six platforms, site palette
+
+- README brought to the state of 14 November 2026: The Playground is the
+  engine, with Superframe as its core and the renderer first published as
+  raw-native in `native/`. BuildTeX is released (BuildLang 1.11.0), and the
+  x86-64 executable and WebAssembly binary backends are merged and unreleased.
+  CMMNS page saves and its Python analysis layer are merged and unreleased.
+  The Flywheel comparison is marked retired, as the Flywheel README states.
+- Research joins as the sixth platform row and opens the site's research page.
+- One biography sentence names trees, archaeology, geology, geography and
+  paleontology.
+- Art: grounds, line colour and font stacks now come from the site kit. The
+  rim flare uses the site's three primaries, and the hero carries six discs in
+  the platform inks. The Superframe badge is now the Playground badge.
+- The release table drops the date after each tag and shortens five
+  descriptions, which keeps the page under the word limit. Each tag links to
+  its release page.
+
 ## 2026-11-02 - Five platforms, one stack
 
 - Rewrote the README around the five platforms: The Flywheel, Articulate,

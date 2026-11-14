@@ -24,7 +24,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from art_kit import MONO  # noqa: E402
+from art_kit import DARK, MONO  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 README = ROOT / "README.md"
@@ -34,32 +34,33 @@ ATOM = "{http://www.w3.org/2005/Atom}"
 WRITING_COUNT = 6
 
 FLAGSHIPS = (
-    ("flywheel", "Flywheel", "Runs AI tasks on any model and keeps a record you can recheck offline"),
-    ("articulate", "Articulate", "Checks prose on your computer and names each pattern and its line"),
+    ("flywheel", "Flywheel", "Runs AI tasks on any model and keeps a record you can recheck"),
+    ("articulate", "Articulate", "Checks prose locally and names each pattern and its line"),
     ("cmmns", "CMMNS", "Browser extension that shows where social media replies come from"),
-    ("superframe", "Superframe", "Describe a piece in words; render it from one seed in every medium"),
+    ("superframe", "The Playground", "Renders a described piece from one seed in every medium"),
     ("raw-native", "raw-native", "C++23 renderer that measures a fast effect against its reference"),
     ("buildlang", "BuildLang", "Compiled language whose function types list their side effects"),
-    ("telos", "Telos", "MCP server and CLI: web reading, CI triage, browser control after you grant access"),
-    ("accountable-surface", "Accountable Surface", "Lets an agent act only within permission grants you write"),
+    ("telos", "Telos", "MCP server and CLI: web reading, CI triage, browser control you grant"),
+    ("accountable-surface", "Accountable Surface", "Lets an agent act only within grants you write"),
     ("forum", "Forum", "Coordinates agent teams with a replayable ledger"),
     ("relay", "Relay", "Permission-checked coding agent for any model endpoint"),
-    ("gather", "Gather", "Research intake from the web, papers, video, scans and audio, with provenance"),
-    ("index", "Index", "Offline repository and workspace maps with file and line evidence"),
+    ("gather", "Gather", "Research intake from web, papers, video and audio, with provenance"),
+    ("index", "Index", "Offline repository maps with file and line evidence"),
     ("mneme", "Mneme", "Agent memory where every recall can be rechecked"),
-    ("canon", "Canon", "One memory and personality record shared across models and tools"),
+    ("canon", "Canon", "One memory and personality record shared across models"),
     ("crucible", "Crucible", "Tests falsifiable claims and records MATCH, DRIFT or UNVERIFIABLE"),
     ("emet", "EMET", "Checks that bytes reaching a model still match their source"),
-    ("learn", "Learn", "Turns your own material into a course that never takes the test for you"),
+    ("learn", "Learn", "Turns your material into a course and leaves the test to you"),
     ("plexus", "Plexus", "Finds and wires compatible tools in an agent toolchain"),
 )
 
+# (repository, badge label, badge file slug)
 BADGES = (
-    ("flywheel", "Flywheel"),
-    ("articulate", "Articulate"),
-    ("cmmns", "CMMNS"),
-    ("superframe", "Superframe"),
-    ("buildlang", "BuildLang"),
+    ("flywheel", "Flywheel", "flywheel"),
+    ("articulate", "Articulate", "articulate"),
+    ("cmmns", "CMMNS", "cmmns"),
+    ("superframe", "Playground", "playground"),
+    ("buildlang", "BuildLang", "buildlang"),
 )
 
 
@@ -106,8 +107,8 @@ def writing_block(items: list[tuple[str, str, str]]) -> str:
 def releases_block(releases: dict[str, tuple[str, str, str]]) -> str:
     lines = ["| Tool | What it does | Release |", "| --- | --- | --- |"]
     for repo, name, note in FLAGSHIPS:
-        tag, date, url = releases[repo]
-        lines.append(f"| [{name}](https://github.com/HarperZ9/{repo}) | {note} | [{tag}]({url}) ({date}) |")
+        tag, _date, url = releases[repo]
+        lines.append(f"| [{name}](https://github.com/HarperZ9/{repo}) | {note} | [{tag}]({url}) |")
     return "\n".join(lines)
 
 
@@ -119,11 +120,11 @@ def badge(label: str, value: str) -> str:
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="22" viewBox="0 0 {w} 22" '
         f'role="img" aria-label="{label} {value}"><title>{label} {value}</title>'
-        f'<rect x=".5" y=".5" width="{w - 1}" height="21" fill="#060608" stroke="#6f6a61"/>'
-        f'<rect x="{lw:.1f}" y=".5" width="{vw - .5:.1f}" height="21" fill="#ece5d6"/>'
+        f'<rect x=".5" y=".5" width="{w - 1}" height="21" fill="{DARK.ground}" stroke="#6f6a61"/>'
+        f'<rect x="{lw:.1f}" y=".5" width="{vw - .5:.1f}" height="21" fill="{DARK.ink}"/>'
         f'<g font-family="{MONO}" font-size="12">'
-        f'<text x="6" y="15" fill="#ece5d6">{label}</text>'
-        f'<text x="{lw + 6:.1f}" y="15" fill="#060608">{value}</text></g></svg>\n'
+        f'<text x="6" y="15" fill="{DARK.ink}">{label}</text>'
+        f'<text x="{lw + 6:.1f}" y="15" fill="{DARK.ground}">{value}</text></g></svg>\n'
     )
 
 
@@ -141,8 +142,8 @@ def planned_files() -> dict[Path, str]:
     text = replace_block(text, "writing", writing_block(writing))
     text = replace_block(text, "releases", releases_block(releases))
     files = {README: text}
-    for repo, label in BADGES:
-        files[ART / f"badge-{repo}.svg"] = badge(label, releases[repo][0])
+    for repo, label, slug in BADGES:
+        files[ART / f"badge-{slug}.svg"] = badge(label, releases[repo][0])
     files[ART / "badge-writing.svg"] = badge("Writing", f"latest {writing[0][0]}")
     return files
 
