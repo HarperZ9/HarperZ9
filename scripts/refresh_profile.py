@@ -46,7 +46,7 @@ FLAGSHIPS = (
     ("accountable-surface", "Accountable Surface", "Lets an agent act only within grants you write"),
     ("forum", "Forum", "Coordinates agent teams with a replayable ledger"),
     ("relay", "Relay", "Permission-checked coding agent for any model endpoint"),
-    ("gather", "Gather", "Research intake from web, papers, video and audio, with provenance"),
+    ("gather", "Gather", "Research intake with provenance; takes files apart and rebuilds them exactly"),
     ("index", "Index", "Offline repository maps with file and line evidence"),
     ("mneme", "Mneme", "Agent memory where every recall can be rechecked"),
     ("canon", "Canon", "One memory and personality record shared across models"),
