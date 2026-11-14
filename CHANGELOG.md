@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-11-14 - Full upstream record
+
+- "Work accepted upstream" now states the counts read from the GitHub API on
+  14 November 2026: 82 pull requests to 66 projects the author does not own,
+  41 merged, 20 open and 21 closed without merge. Three of the merged add one
+  line to a tool list.
+- Datasette PR 2815 joins the three named examples. The portfolio page carries
+  the full list.
+
 ## 2026-11-14 - Lettering in Accession for every viewer
 
 - Every word in the art is now drawn from the Accession font files as vector
