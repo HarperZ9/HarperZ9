@@ -43,6 +43,9 @@ plain in the words. Human and fallible, never hyped.
   marks, on the site's wall grounds. Colours and font stacks are the site
   kit's tokens. The site's three primaries appear only as the one flare on an
   aperture rim, and the hero carries six small discs in the platform inks.
+- Lettering is Accession, drawn as outlines by `scripts/type_kit.py` from the
+  font files in `docs/brand/fonts`, because an image on GitHub loads no font.
+  The words of each plate stay in its `<title>` and `<desc>`.
 - Each plate has light and dark variants served through `<picture>` with
   `prefers-color-scheme`. Plates link to the live page they illustrate.
 - Motion is slow CSS animation inside the SVG. CSS was chosen over SMIL because

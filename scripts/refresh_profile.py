@@ -5,8 +5,9 @@ Reads two public sources and rewrites the README blocks between markers:
 - the site's Atom feed (https://harperz9.github.io/feed.xml) for the latest writing;
 - the GitHub releases API for the current release of each flagship.
 
-It also redraws the version badges in docs/art. Standard library only. A
-GITHUB_TOKEN in the environment raises the API rate limit; nothing else is used.
+It also redraws the version badges in docs/art, with their labels set as
+Accession Mono outlines by type_kit.py, which needs fontTools. A GITHUB_TOKEN
+in the environment raises the API rate limit; nothing else is used.
 
     python scripts/refresh_profile.py           # rewrite README and badges
     python scripts/refresh_profile.py --check   # exit 1 if a rewrite would change files
@@ -24,7 +25,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from art_kit import DARK, MONO  # noqa: E402
+from art_kit import DARK  # noqa: E402
+from type_kit import glyph_defs, outline, width  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 README = ROOT / "README.md"
@@ -114,17 +116,16 @@ def releases_block(releases: dict[str, tuple[str, str, str]]) -> str:
 
 def badge(label: str, value: str) -> str:
     """A square-cornered chip that reads on both GitHub themes."""
-    lw = 12 + 7.2 * len(label)
-    vw = 12 + 7.2 * len(value)
+    lw = 12 + width(label, 12, "mono")
+    vw = 12 + width(value, 12, "mono")
     w = round(lw + vw)
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="22" viewBox="0 0 {w} 22" '
         f'role="img" aria-label="{label} {value}"><title>{label} {value}</title>'
         f'<rect x=".5" y=".5" width="{w - 1}" height="21" fill="{DARK.ground}" stroke="#6f6a61"/>'
         f'<rect x="{lw:.1f}" y=".5" width="{vw - .5:.1f}" height="21" fill="{DARK.ink}"/>'
-        f'<g font-family="{MONO}" font-size="12">'
-        f'<text x="6" y="15" fill="{DARK.ink}">{label}</text>'
-        f'<text x="{lw + 6:.1f}" y="15" fill="{DARK.ground}">{value}</text></g></svg>\n'
+        f'{outline(label, 6, 15, 12, DARK.ink, role="mono")}'
+        f'{outline(value, lw + 6, 15, 12, DARK.ground, role="mono")}{glyph_defs()}</svg>\n'
     )
 
 

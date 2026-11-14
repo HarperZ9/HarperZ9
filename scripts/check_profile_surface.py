@@ -27,6 +27,12 @@ REQUIRED_FILES = (
     "scripts/art_kit.py",
     "scripts/profile_art.py",
     "scripts/refresh_profile.py",
+    "scripts/type_kit.py",
+    "docs/brand/fonts/OFL.txt",
+    "docs/brand/fonts/AccessionDisplay-Bold.ttf",
+    "docs/brand/fonts/AccessionText-Regular.ttf",
+    "docs/brand/fonts/AccessionMono-Regular.ttf",
+    "docs/brand/fonts/AccessionMono-Bold.ttf",
 )
 
 SECRET_SHAPES = (
@@ -113,6 +119,10 @@ def check_images(text: str) -> None:
             fail(f"{svg.name} animates without honoring prefers-reduced-motion")
         if "<script" in body or "href=\"http" in body:
             fail(f"{svg.name} contains a script or a remote reference")
+        if "<text" in body or "font-family" in body:
+            fail(f"{svg.name} sets live text; letters must be Accession outlines from type_kit.py")
+        if "<title" not in body:
+            fail(f"{svg.name} has no <title> carrying its words")
 
 
 def check_links(text: str) -> None:
@@ -131,7 +141,8 @@ def check_links(text: str) -> None:
 
 
 def check_secrets() -> None:
-    paths = [ROOT / name for name in REQUIRED_FILES if (ROOT / name).is_file()]
+    paths = [ROOT / name for name in REQUIRED_FILES
+             if (ROOT / name).is_file() and not name.endswith(".ttf")]
     paths += [CONFIG, Path(__file__).resolve()]
     paths += list((ROOT / "docs").glob("**/*.md"))
     paths += list((ROOT / ".github").glob("**/*.yml"))

@@ -1,10 +1,12 @@
 """Shared drawing kit for the profile art.
 
-Every figure is generated from code with the standard library only. The output
-is deterministic: the same seed and palette give the same bytes, so a reviewer
-can regenerate any panel and diff it.
+Every figure is generated from code. The drawing uses the standard library;
+the lettering is set by type_kit.py, which needs fontTools and the Accession
+files in docs/brand/fonts. The output is deterministic: the same seed, palette
+and font files give the same bytes, so a reviewer can regenerate any panel and
+diff it.
 
-Palette values and font stacks come from the site's shared kit: wall, ink,
+Palette values and faces come from the site's shared kit: wall, ink,
 soft, line, verdict colours and the three primaries from system/kit/kit.css,
 and the six platform inks from world/site/crossover/colour-tokens.json. The
 primaries appear only as the single flare on the aperture rim.
@@ -14,6 +16,8 @@ from __future__ import annotations
 
 import math
 from dataclasses import dataclass
+
+from type_kit import outline
 
 
 @dataclass(frozen=True)
@@ -64,11 +68,10 @@ PALETTES = (DARK, LIGHT)
 # Platform order for Palette.platforms: The Flywheel, Articulate, The Commons,
 # The Playground, BuildLang, Research.
 
-# The site's face tokens. Accession leads; Hanken Grotesk and Conso are the
-# still fallback, then the system faces, which is what an <img> on GitHub gets.
-SANS = "'Accession Text','Hanken Grotesk',system-ui,sans-serif"
-DISPLAY = "'Accession Display','Hanken Grotesk',system-ui,sans-serif"
-MONO = "'Accession Mono','Conso',ui-monospace,monospace"
+# Lettering follows the site's face roles: Accession Display for the name,
+# Accession Text for running words, Accession Mono for addresses and labels.
+# GitHub shows the art through <img>, where no font loads, so every letter is
+# drawn as an outline taken from the font files (see type_kit.py).
 
 
 class Rng:
@@ -262,10 +265,9 @@ def inks(p: Palette, x_end: float, cy: float, r: float = 8, step: float = 13) ->
 def text(x: float, y: float, body: str, size: float, fill: str, *, mono: bool = False,
          display: bool = False, weight: int = 400, anchor: str = "start",
          spacing: float = 0, opacity: float = 1) -> str:
-    family = MONO if mono else DISPLAY if display else SANS
-    extra = f' letter-spacing="{spacing}"' if spacing else ""
-    extra += f' fill-opacity="{opacity}"' if opacity != 1 else ""
-    return (
-        f'<text x="{f(x)}" y="{f(y)}" font-family="{family}" font-size="{size}" '
-        f'font-weight="{weight}" fill="{fill}" text-anchor="{anchor}"{extra}>{body}</text>'
-    )
+    """Text as Accession outlines. The words stay readable in <title> and <desc>."""
+    if mono:
+        role = "mono-bold" if weight >= 600 else "mono"
+    else:
+        role = "display" if display else "text"
+    return outline(body, x, y, size, fill, role=role, anchor=anchor, spacing=spacing, opacity=opacity)

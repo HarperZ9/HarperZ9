@@ -16,6 +16,8 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
+      - name: Install fontTools for the Accession outlines
+        run: python -m pip install fonttools==4.64.0
       - uses: actions/setup-node@v6
         with:
           node-version: "24"
