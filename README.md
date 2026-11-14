@@ -225,14 +225,16 @@ essays, briefings and papers.
 <details>
 <summary><b>Work accepted upstream</b></summary>
 
-Changes that passed another maintainer's review and merged:
+I sent 82 pull requests to 66 outside projects: 41 merged, 20 open, 21 closed
+without merge (GitHub API, 14 November 2026). Three merged ones are list entries.
+Merged examples:
 
-- [AgentFence PR 261](https://github.com/dgenio/agentfence/pull/261): a faster Go engine that picks rules in a fixed order, with allocation tests.
-- [Free Law Project PR 820](https://github.com/freelawproject/litigant-portal/pull/820): documentation for the fast database-free test suite.
-- [Mergewarden PR 107](https://github.com/sjh9714/mergewarden/pull/107): replay fixtures for reusable-workflow pinning, revised after owner review.
+- [Datasette PR 2815](https://github.com/simonw/datasette/pull/2815): malformed row URLs return HTTP 400.
+- [AgentFence PR 261](https://github.com/dgenio/agentfence/pull/261): rule lookup without per-call sorting.
+- [Mergewarden PR 107](https://github.com/sjh9714/mergewarden/pull/107): workflow-pinning replay fixtures.
+- [Free Law Project PR 820](https://github.com/freelawproject/litigant-portal/pull/820): fast-test documentation.
 
-The [portfolio](https://harperz9.github.io/portfolio.html) lists merged, open
-and closed contributions separately.
+The [portfolio](https://harperz9.github.io/portfolio.html) lists all 82.
 
 </details>
 
