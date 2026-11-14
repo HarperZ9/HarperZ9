@@ -160,7 +160,7 @@ with no outside toolchain and WebAssembly binary modules.
 | [Accountable Surface](https://github.com/HarperZ9/accountable-surface) | Lets an agent act only within grants you write | [v0.2.0](https://github.com/HarperZ9/accountable-surface/releases/tag/v0.2.0) |
 | [Forum](https://github.com/HarperZ9/forum) | Coordinates agent teams with a replayable ledger | [v1.17.0](https://github.com/HarperZ9/forum/releases/tag/v1.17.0) |
 | [Relay](https://github.com/HarperZ9/relay) | Permission-checked coding agent for any model endpoint | [v0.7.0](https://github.com/HarperZ9/relay/releases/tag/v0.7.0) |
-| [Gather](https://github.com/HarperZ9/gather) | Research intake from web, papers, video and audio, with provenance | [v2.5.0](https://github.com/HarperZ9/gather/releases/tag/v2.5.0) |
+| [Gather](https://github.com/HarperZ9/gather) | Research intake with provenance; takes files apart and rebuilds them exactly | [v2.6.0](https://github.com/HarperZ9/gather/releases/tag/v2.6.0) |
 | [Index](https://github.com/HarperZ9/index) | Offline repository maps with file and line evidence | [v2.16.0](https://github.com/HarperZ9/index/releases/tag/v2.16.0) |
 | [Mneme](https://github.com/HarperZ9/mneme) | Agent memory where every recall can be rechecked | [v0.7.0](https://github.com/HarperZ9/mneme/releases/tag/v0.7.0) |
 | [Canon](https://github.com/HarperZ9/canon) | One memory and personality record shared across models | [v0.7.0](https://github.com/HarperZ9/canon/releases/tag/v0.7.0) |
