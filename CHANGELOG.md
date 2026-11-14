@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026-11-14 - Lettering in Accession for every viewer
+
+- Every word in the art is now drawn from the Accession font files as vector
+  outlines: Accession Display Bold for the name, Accession Text Regular for
+  running words, Accession Mono Regular and Bold for the address, the verdict
+  labels and the badges. GitHub shows the art through an image tag, where no
+  font loads, so a font name alone showed the viewer's system face.
+- `scripts/type_kit.py` reads outlines, advances and pair kerning with
+  fontTools. Each glyph is written once per picture and placed with `use`.
+- The four font files and `OFL.txt` are in `docs/brand/fonts`, copied from the
+  site repository. Both workflows install `fonttools==4.64.0`.
+- The surface check fails on any `<text>` element or `font-family` in the art
+  and requires a `<title>` in every SVG. The verdicts and incidents plates now
+  carry their label text in `<desc>`.
+- The hero name is set at 62 px, down from 68, so it ends inside the rule.
+
 ## 2026-11-14 - Current state, six platforms, site palette
 
 - README brought to the state of 14 November 2026: The Playground is the

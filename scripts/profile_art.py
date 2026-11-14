@@ -15,6 +15,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
+from type_kit import glyph_defs  # noqa: E402
 from art_kit import (  # noqa: E402
     PALETTES,
     Palette,
@@ -61,13 +62,13 @@ def hero(p: Palette) -> str:
         style_block(), defs(p, uid),
         f'<rect width="{w}" height="{h}" fill="{p.ground}"/>',
         aperture(p, uid, 1010, 210, 1.0, SEED),
-        text(60, 176, "Zain Dana Harper", 68, p.ink, display=True, weight=700, spacing=-1.5),
+        text(62, 176, "Zain Dana Harper", 62, p.ink, display=True, weight=700, spacing=-1),
         f'<path d="M64 206H600" stroke="{p.ink}" stroke-width="1"/>',
         text(64, 250, "Software that checks AI work, shows where", 25, p.soft),
         text(64, 284, "replies come from, and makes art from one seed.", 25, p.soft),
         text(64, 352, "harperz9.github.io", 14, p.ink, mono=True),
         inks(p, 600, 347),
-        veil(p, uid, w, h), crop_marks(p, w, h), "</svg>",
+        veil(p, uid, w, h), crop_marks(p, w, h), glyph_defs(), "</svg>",
     ]
     return "".join(body)
 
@@ -82,7 +83,9 @@ def verdicts(p: Palette) -> str:
     body = [
         svg_open(w, h, "Three verdicts",
                  "Three apertures labelled MATCH, DRIFT and UNVERIFIABLE: the only "
-                 "outcomes an independent recheck of a Flywheel receipt can return."),
+                 "outcomes an independent recheck of a Flywheel receipt can return. "
+                 "MATCH: the rerun agrees with the record. DRIFT: the rerun disagrees, "
+                 "and says where. UNVERIFIABLE: the record cannot be checked."),
         style_block(), defs(p, uid), f'<rect width="{w}" height="{h}" fill="{p.ground}"/>',
     ]
     for i, (cx, accent, label, note) in enumerate(cols):
@@ -90,7 +93,7 @@ def verdicts(p: Palette) -> str:
         body.append(text(cx, 232, label, 17, accent, mono=True, weight=600, anchor="middle", spacing=2))
         body.append(text(cx, 260, note, 15, p.soft, anchor="middle"))
     body.append(f'<path d="M320 118H560M720 118H960" stroke="{p.line}" stroke-width="1" stroke-dasharray="2 5"/>')
-    body += [veil(p, uid, w, h), crop_marks(p, w, h), "</svg>"]
+    body += [veil(p, uid, w, h), crop_marks(p, w, h), glyph_defs(), "</svg>"]
     return "".join(body)
 
 
@@ -100,7 +103,8 @@ def incidents(p: Palette) -> str:
         svg_open(w, h, "Who told the public first",
                  "Nine small apertures for nine 2026 AI agent incidents. Six carry an "
                  "outer mark: in those six, someone outside the organization that ran "
-                 "the model told the public first."),
+                 "the model told the public first. The caption reads: Six of nine: "
+                 "someone outside the organization told the public first. The other three."),
         style_block(), defs(p, uid), f'<rect width="{w}" height="{h}" fill="{p.ground}"/>',
     ]
     for i in range(9):
@@ -114,7 +118,7 @@ def incidents(p: Palette) -> str:
     body.append(f'<path d="M890 196H1160" stroke="{p.soft}" stroke-width="1" stroke-dasharray="2 4"/>')
     body.append(text(80, 226, "Six of nine: someone outside the organization told the public first.", 17, p.ink))
     body.append(text(890, 226, "The other three.", 17, p.soft))
-    body += [veil(p, uid, w, h), crop_marks(p, w, h), "</svg>"]
+    body += [veil(p, uid, w, h), crop_marks(p, w, h), glyph_defs(), "</svg>"]
     return "".join(body)
 
 

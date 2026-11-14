@@ -14,6 +14,20 @@ profile.
 - Provenance boundary: source fonts and local rendering inputs remain in the
   site project; this repo commits only the exported PNG used by GitHub.
 
+## Fonts (2026-11-14)
+
+`fonts/` holds the four Accession files the art is set in, with their licence,
+`fonts/OFL.txt` (SIL Open Font License 1.1, copyright Zain Dana Harper):
+
+- `AccessionDisplay-Bold.ttf`: the name on the hero.
+- `AccessionText-Regular.ttf`: running words.
+- `AccessionMono-Regular.ttf`: the site address and the badges.
+- `AccessionMono-Bold.ttf`: the verdict labels.
+
+All four are version 0.1.0, copied unchanged from `system/fonts/accession/static/`
+in the HarperZ9.github.io repository. `scripts/type_kit.py` reads them with
+fontTools and writes each letter as an outline.
+
 ## Generated art (2026-10-01)
 
 The README now uses the generated plates in `docs/art`, drawn by
