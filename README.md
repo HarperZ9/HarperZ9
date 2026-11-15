@@ -149,8 +149,8 @@ no outside toolchain and WebAssembly binary modules.
 <!-- releases:start -->
 | Tool | What it does | Release |
 | --- | --- | --- |
-| [Flywheel](https://github.com/HarperZ9/flywheel) | Runs AI tasks on any model and keeps a record you can recheck | [v1.9.0](https://github.com/HarperZ9/flywheel/releases/tag/v1.9.0) |
-| [Articulate](https://github.com/HarperZ9/articulate) | Checks prose locally and names each pattern and its line | [v0.18.0](https://github.com/HarperZ9/articulate/releases/tag/v0.18.0) |
+| [Flywheel](https://github.com/HarperZ9/flywheel) | Runs AI tasks on any model and keeps a record you can recheck | [v2.0.0](https://github.com/HarperZ9/flywheel/releases/tag/v2.0.0) |
+| [Articulate](https://github.com/HarperZ9/articulate) | Checks prose locally and names each pattern and its line | [v0.19.1](https://github.com/HarperZ9/articulate/releases/tag/v0.19.1) |
 | [CMMNS](https://github.com/HarperZ9/cmmns) | Browser extension that shows where social media replies come from | [v3.10.0](https://github.com/HarperZ9/cmmns/releases/tag/v3.10.0) |
 | [The Playground](https://github.com/HarperZ9/superframe) | Renders a described piece from one seed in every medium | [v0.3.0](https://github.com/HarperZ9/superframe/releases/tag/v0.3.0) |
 | [raw-native](https://github.com/HarperZ9/raw-native) | C++23 renderer that measures a fast effect against its reference | [v0.8.0](https://github.com/HarperZ9/raw-native/releases/tag/v0.8.0) |
