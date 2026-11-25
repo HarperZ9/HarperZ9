@@ -46,7 +46,7 @@ humanity's.
 | **THE COMMONS** | See where social media replies come from while you read a thread. | [CMMNS](#the-commons) |
 | **THE PLAYGROUND** | Describe a piece in words and render it as paint, type, lines, sound and touch. | [The Playground](#the-playground) |
 | **BUILDLANG** | Write programs whose function types list their side effects, and documents with no TeX install. | [BuildLang](#buildlang) |
-| **RESEARCH** | Read the papers and essays. | [Research](https://harperz9.github.io/research.html) |
+| **RESEARCH** | Papers, essays, and [architecture](https://harperz9.github.io/architecture.html). | [Research](https://harperz9.github.io/research.html) |
 
 <img alt="" src="docs/art/rule-light.svg#gh-light-mode-only" width="100%"><img alt="" src="docs/art/rule-dark.svg#gh-dark-mode-only" width="100%">
 
@@ -229,9 +229,10 @@ without merge (GitHub API, 14 November 2026). Three merged ones are list entries
 Merged examples:
 
 - [Datasette PR 2815](https://github.com/simonw/datasette/pull/2815): malformed row URLs return HTTP 400.
-- [AgentFence PR 261](https://github.com/dgenio/agentfence/pull/261): rule lookup without per-call sorting.
-- [Mergewarden PR 107](https://github.com/sjh9714/mergewarden/pull/107): workflow-pinning replay fixtures.
-- [Free Law Project PR 820](https://github.com/freelawproject/litigant-portal/pull/820): fast-test documentation.
+- [grimp PRs 303-305](https://github.com/python-grimp/grimp/pull/303): graph fixes.
+- [AgentFence PR 261](https://github.com/dgenio/agentfence/pull/261): unsorted rule lookup.
+- [Mergewarden PR 107](https://github.com/sjh9714/mergewarden/pull/107): replay fixtures.
+- [Free Law Project PR 820](https://github.com/freelawproject/litigant-portal/pull/820): fast-test docs.
 
 The [portfolio](https://harperz9.github.io/portfolio.html) lists all 82.
 
@@ -270,6 +271,7 @@ and willing to relocate to London or travel to San Francisco.
 | **Public service and field** | Public service, facilities, parks and grounds, arboriculture, scheduling and safety judgment, from eleven years of field work. | [Public-service and field path](https://harperz9.github.io/hire.html#public-service-field-path) |
 | **Education and research** | Fellowships, research operations and evidence-centered technical writing. | [Research](https://harperz9.github.io/research.html) |
 
+[Architecture](https://harperz9.github.io/architecture.html) ·
 [Resume](https://harperz9.github.io/resume.html) ·
 [CV](https://harperz9.github.io/cv.html) ·
 [Portfolio](https://harperz9.github.io/portfolio.html)
