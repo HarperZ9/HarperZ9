@@ -18,7 +18,11 @@
 #
 # 2026-11-14: Research joined as the sixth platform row, so the heading reads
 # "Six platforms, one stack". The limit stays.
-max_words = 1700
+#
+# 2026-11-26: Raised from 1700 to 2100 to carry the Wave 19-24 verified proof
+# table and Super Accelerator + Super Solver summary inside a collapsed
+# section while keeping ~300 words of headroom for daily refresh_profile.py runs.
+max_words = 2100
 
 # Headings that must appear, in this order.
 section_order = [
