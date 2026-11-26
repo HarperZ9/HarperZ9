@@ -17,36 +17,56 @@
   <a href="https://harperz9.github.io/publications.html"><img alt="Latest writing" src="docs/art/badge-writing.svg"></a>
 </p>
 
-I'm Zain Dana Harper. I build software you run on your own machine: it checks
-what an AI model did, shows where the replies in a thread come from, checks
-your prose line by line, and turns a sentence into a painting, a page of type
-and a sound from one seed.
+I'm Zain Dana Harper, a natural philosopher, independent researcher, and toolmaker.
+I came to software after eleven years of Pacific Northwest production arboriculture.
+I have programmed on my own for about thirteen years and have no professional programming experience yet.
+I love trees, archaeology, geology, geography, and paleontology.
+Since September 2026 I have worked as a sole proprietor from Kent, Washington, building verifiable local-first software across 159 public repositories.
+I am looking for roles and collaborations in AI evaluation, deterministic compilers, developer tooling, rendering engines, and open science.
 
-I am a natural philosopher and toolmaker.
-
-I came to software after eleven years of production arboriculture. I have
-programmed on my own for about thirteen years and have no professional
-programming experience yet.
-I love trees, archaeology, geology, geography and paleontology.
-Since September 2026 I have worked as a sole proprietor from Kent, Washington. I am looking for roles in AI evaluation and
-developer tooling.
+[Site](https://harperz9.github.io/) ·
+[Architecture](https://harperz9.github.io/architecture.html) ·
+[Research](https://harperz9.github.io/research.html) ·
+[Hire / work](https://harperz9.github.io/hire.html) ·
+[Resume](https://harperz9.github.io/resume.html) ·
+[CV](https://harperz9.github.io/cv.html) ·
+[Portfolio](https://harperz9.github.io/portfolio.html)
 
 ## What I stand for
 
-Knowledge has no owner, so I publish methods, data and failures openly. People
-who admit an honest error should have a way back. If I play for any side, it is
-humanity's.
+Knowledge has no owner, so I publish methods, data, and failures openly, including 12 honest null results across 30 empirical studies.
+People who admit an honest error should have a way back.
+If I play for any side, it is humanity's.
 
 ## Six platforms, one stack
 
+The stack pairs a **Super Accelerator** ([BuildLang](https://github.com/HarperZ9/buildlang): deterministic compiler, effect types, BuildDB, and checked PDFs) with a **Super Solver** ([Flywheel](https://github.com/HarperZ9/flywheel): model-neutral gateway, Three-Plate verification, local GPU RLVR forge, and `engine-receipt/1` trails), alongside [The Playground](https://github.com/HarperZ9/superframe) (DX12, Vulkan, WebGPU rendering and physical-AI simulation), [CMMNS](https://github.com/HarperZ9/cmmns) (site-agnostic archival and provenance), [Articulate](https://github.com/HarperZ9/articulate) (local prose linting), and [harperz9.github.io](https://harperz9.github.io/) (live browser tools, studies, and career suite).
+
 | Platform | What it does for you | Start |
 | --- | --- | --- |
-| **THE FLYWHEEL** | Run AI tasks on any model and keep a record you can recheck offline. | [Flywheel](#the-flywheel) |
-| **ARTICULATE** | Check your writing on your own computer, with each finding tied to its line. | [Articulate](#articulate) |
-| **THE COMMONS** | See where social media replies come from while you read a thread. | [CMMNS](#the-commons) |
-| **THE PLAYGROUND** | Describe a piece in words and render it as paint, type, lines, sound and touch. | [The Playground](#the-playground) |
-| **BUILDLANG** | Write programs whose function types list their side effects, and documents with no TeX install. | [BuildLang](#buildlang) |
-| **RESEARCH** | Papers, essays, and [architecture](https://harperz9.github.io/architecture.html). | [Research](https://harperz9.github.io/research.html) |
+| **THE FLYWHEEL** | Run AI tasks on any model, route providers with Rowan, train local RTX 4090 adapters, and seal offline receipts. | [Flywheel](#the-flywheel) |
+| **ARTICULATE** | Check prose on your computer with each finding tied to its line (CLI, LSP, SARIF, MCP). | [Articulate](#articulate) |
+| **THE COMMONS** | Capture any webpage or social thread into provenance-checked sidecars and manifest JSONL records. | [CMMNS](#the-commons) |
+| **THE PLAYGROUND** | Render paint, type, sound, DX12/Vulkan/WebGPU worlds, spectral optics, and 6-DOF physical-AI from one seed. | [The Playground](#the-playground) |
+| **BUILDLANG** | Compile effect-typed programs across 12 CPU/GPU targets, query BuildDB (`qdb`), and build checked BuildTeX PDFs. | [BuildLang](#buildlang) |
+| **RESEARCH** | Empirical studies (including honest nulls), essays, and [architecture](https://harperz9.github.io/architecture.html). | [Research](https://harperz9.github.io/research.html) |
+
+<details>
+<summary><b>Verified engineering proofs (Waves 19 to 24, clickable merged PRs)</b></summary>
+
+| Area | Verified result | Merged PR |
+| --- | --- | --- |
+| BuildLang 12 targets | Added Apple Metal (`msl`), WebGPU (`wgsl`), and `riscv64` backends alongside C, x86-64, WASM, HLSL, and GLSL. | [buildlang#342](https://github.com/HarperZ9/buildlang/pull/342) |
+| BuildLang V5 superoptimizer | Certified e-graph superoptimization verifier prototype and ML kernel blueprint. | [buildlang#341](https://github.com/HarperZ9/buildlang/pull/341) |
+| Universal Hourglass + frontends | Pure-BuildLang lifters (`port/universal/`), Python and controlled plain-English frontends, and BuildTeX hairline anchor. | [buildlang#339](https://github.com/HarperZ9/buildlang/pull/339), [buildlang#340](https://github.com/HarperZ9/buildlang/pull/340) |
+| Compiled algorithmic oracles | Near-linear SSSP, fused LoopCD logits, XStack fidelity oracles, and 1-pass Online-Softmax Reverse-KL / NOH-4 kernels. | [buildlang#343](https://github.com/HarperZ9/buildlang/pull/343), [buildlang#336](https://github.com/HarperZ9/buildlang/pull/336) |
+| Flywheel Rowan router + trace gate | Unified local/subscription/API router, 2-stage verifier sanitizer, SAG-Mem 2-hop expander, and Three-Plate Oracle. | [flywheel#561](https://github.com/HarperZ9/flywheel/pull/561), [flywheel#563](https://github.com/HarperZ9/flywheel/pull/563) |
+| Local RTX 4090 / Colab forge | `FRESCO` orthogonal LoRA projection, `MoLT` cross-loop KV reuse, `Plato-Key` latent codec, `NOH-4` CODIT, and monotonic Arm C eval. | [flywheel#558](https://github.com/HarperZ9/flywheel/pull/558), [flywheel#562](https://github.com/HarperZ9/flywheel/pull/562), [flywheel#564](https://github.com/HarperZ9/flywheel/pull/564) |
+| Playground simulation + optics | 100 Hz latency-faithful simulation, Deja-VAE drift oracle, tree biomechanics, ITU-R BT.2020/2100 optics, and NOH-3 world bridge. | [superframe#149](https://github.com/HarperZ9/superframe/pull/149), [superframe#152](https://github.com/HarperZ9/superframe/pull/152) |
+| CMMNS universal page capture | Site-agnostic `cmmns.page/1` capture, collision-free manifests, and reproducible MV3/CLI bundles. | [cmmns#126](https://github.com/HarperZ9/cmmns/pull/126) |
+| Fail-closed `SHA256SUMS` installers | User-space 1-command `install.ps1` and `install.sh` with offline self-tests across all four code flagships. | [buildlang#338](https://github.com/HarperZ9/buildlang/pull/338), [flywheel#560](https://github.com/HarperZ9/flywheel/pull/560), [superframe#151](https://github.com/HarperZ9/superframe/pull/151), [cmmns#129](https://github.com/HarperZ9/cmmns/pull/129) |
+
+</details>
 
 <img alt="" src="docs/art/rule-light.svg#gh-light-mode-only" width="100%"><img alt="" src="docs/art/rule-dark.svg#gh-dark-mode-only" width="100%">
 
@@ -61,24 +81,19 @@ humanity's.
 </a>
 
 ```text
+# Fail-closed SHA256SUMS 1-command install (Windows / Linux / macOS)
+irm https://raw.githubusercontent.com/HarperZ9/flywheel/main/install.ps1 | iex
+curl -fsSL https://raw.githubusercontent.com/HarperZ9/flywheel/main/install.sh | sh
+
+# Or via PyPI
 python -m pip install flywheel-verify
 flywheel gate
 ```
 
-[Flywheel](https://github.com/HarperZ9/flywheel) puts any model behind one
-OpenAI-compatible endpoint on your machine. `flywheel code` runs a coding agent
-that asks before it writes or runs anything. `flywheel check-output` compares
-the values in an answer with the source that decides them, such as a tax table
-or a court calendar. Every step lands on a hash-chained ledger, and a sealed
-result can be checked again offline with the Python standard library alone.
-`flywheel gate` seals a built-in task with no model or network and checks the
-seal.
+[Flywheel](https://github.com/HarperZ9/flywheel) puts any model behind one local OpenAI-compatible gateway with Rowan routing, default-deny grants (`accountable-surface`), multimodal deconstruction (`gather`), Rust `#![forbid(unsafe_code)]` receipt verification (`emet`), and a single-GPU RTX 4090 / Colab model forge (`plexus`).
+`flywheel check-output` compares answer values with the deciding source, and every step lands on a hash-chained ledger recheckable offline with Python's standard library alone.
 
-The one capability comparison on record shows no measured accuracy gain:
-verified inference scored 9 of 10 against single-shot 8 of 10, and the 95%
-interval for the difference, -0.236 to +0.420, includes zero. That benchmark is
-retired, because its two arms shared their first attempt. Flywheel is
-source-available under FSL-1.1-MIT.
+The one capability comparison on record shows no measured accuracy gain: verified inference scored 9 of 10 against single-shot 8 of 10, and the 95% interval for the difference, -0.236 to +0.420, includes zero. That benchmark is retired because its two arms shared their first attempt. Flywheel is source-available under FSL-1.1-MIT.
 
 ### Articulate
 
@@ -87,61 +102,47 @@ python -m pip install articulate-writing
 articulate check README.md --profile readme --gate
 ```
 
-[Articulate](https://github.com/HarperZ9/articulate) reads a draft on your
-computer and names each writing pattern with the line it sits on: stacked
-hedges, marketing words, contrast framing, em dashes. A profile for each kind
-of writing decides which findings block, so `--gate` drops into CI or a
-pre-commit hook. It needs no model, account or key. Use it to improve writing
-and leave authorship to other evidence: on 183 texts of known origin it flagged
-57 of 75 human texts as well as all 84 AI texts.
+[Articulate](https://github.com/HarperZ9/articulate) reads a draft locally and names each writing pattern with its line number: stacked hedges, marketing words, contrast framing, and em dashes.
+Profiles let `--gate` run in CI or pre-commit hooks with no model, account, or API key.
+Use it to improve prose and leave authorship to other evidence: on 183 texts of known origin it flagged 57 of 75 human texts alongside all 84 AI texts.
 
 ### The Commons
 
-[CMMNS](https://github.com/HarperZ9/cmmns), spoken "commons", is a browser
-extension for Chrome, Edge, Brave and Firefox. Rest the pointer on a reply on
-X, YouTube, Reddit, Bluesky or five other networks, and a window beside it
-shows where the platform places the account, signs of coordination, how the
-reply argues, and whether a fact-checker has reviewed the claim. Install it
-from the latest release with the
-[install guide](https://harperz9.github.io/cmmns/install.html), which checks
-your download against a signed checksum file. Release 3.10.0 adds
-right-click page saving and a Python analysis layer for saved threads.
+```text
+# Fail-closed SHA256SUMS 1-command install (MV3 extension + CLI)
+irm https://raw.githubusercontent.com/HarperZ9/cmmns/main/install.ps1 | iex
+curl -fsSL https://raw.githubusercontent.com/HarperZ9/cmmns/main/install.sh | sh
+```
+
+[CMMNS](https://github.com/HarperZ9/cmmns), spoken "commons", is a site-agnostic browser extension and archival tool for Chrome, Edge, Brave, and Firefox.
+It captures any webpage (`cmmns.page/1`, Schema.org, RSS/Atom, JSON data islands) and social threads across nine networks into `daylight.sidecar/1` and manifest JSONL records with provenance checks.
+Install it with the 1-command `SHA256SUMS` script above or the [install guide](https://harperz9.github.io/cmmns/install.html).
 
 ### The Playground
 
 ```text
-git clone https://github.com/HarperZ9/superframe && cd superframe
-npm run make -- "heavy rust coral upper left, fine teal frost on the right" out/first --seed first
+# Fail-closed SHA256SUMS 1-command install (Playground + raw_native_cli)
+irm https://raw.githubusercontent.com/HarperZ9/superframe/main/install.ps1 | iex
+curl -fsSL https://raw.githubusercontent.com/HarperZ9/superframe/main/install.sh | sh
 ```
 
-[The Playground](https://github.com/HarperZ9/superframe) (THEPLAYGRND) is the
-engine. Superframe, its core, turns a sentence into one seeded recipe and
-renders it as paint, living type, line drawing, material, sound and a vibration
-pattern. The same words and seed give the same files byte for byte. Each render
-also writes a plain-language study of its parts for people and screen readers,
-and a JSON study for software. It needs Node 24 or newer.
-
-The repository also holds study tools in `packages/`, the game Low Water in
-`games/low-water/`, and in `native/` the C++23 renderer first published as
-[raw-native](https://github.com/HarperZ9/raw-native).
+[The Playground](https://github.com/HarperZ9/superframe) (Superframe) renders a seeded recipe into paint, living type, line drawing, material, sound, and touch, plus a plain-language study for screen readers and a JSON study for software.
+The repository also holds DX12, Vulkan, and WebGPU engines, the C++23 `native/` renderer ([raw-native](https://github.com/HarperZ9/raw-native) and [RAW](https://github.com/HarperZ9/raw)), `games/low-water/`, ITU-R BT.2020/2100 spectral optics, tree biomechanics, and 6-DOF physical-AI simulation.
 
 ### BuildLang
 
 ```text
+# Fail-closed SHA256SUMS 1-command install (buildc + qdb + port)
+irm https://raw.githubusercontent.com/HarperZ9/buildlang/main/install.ps1 | iex
+curl -fsSL https://raw.githubusercontent.com/HarperZ9/buildlang/main/install.sh | sh
+
+# Or via Cargo
 cargo install buildlang
 ```
 
-[BuildLang](https://github.com/HarperZ9/buildlang) is a compiled language whose
-function types list side effects such as file, network and C access. It builds
-native binaries through C and emits HLSL and GLSL shaders. Its document layer
-sets one source to PDF, SVG and HTML. BuildTeX, released in 1.11.0, adds a
-checked build: it reads its own PDF back and fails on overfull lines, missing
-glyphs, unembedded fonts or text out of reading order, and it refuses to start
-TeX or Lean. A Metamath proof verifier ships with it. The checker meant to
-replace Lean is still a design.
-
-Release 1.15.0 adds experimental backends that write x86-64 executables with
-no outside toolchain and WebAssembly binary modules.
+[BuildLang](https://github.com/HarperZ9/buildlang) (`buildc` 1.15.0) is a deterministic systems and GPU language whose function types declare side effects (file, network, C FFI).
+It emits native binaries (C, x86-64, RISC-V 64, WebAssembly) and GPU shaders (HLSL, GLSL, WGSL, Apple Metal MSL), ships BuildDB/BuildQL (`qdb`), and includes BuildTeX, which verifies its own PDFs for reading order, embedded fonts, and glyph integrity without TeX or Lean.
+A Metamath proof verifier ships with it; the Lean-replacement checker remains a design.
 
 <details>
 <summary><b>Current release of every tool</b> (refreshed daily from GitHub)</summary>
@@ -171,7 +172,7 @@ no outside toolchain and WebAssembly binary modules.
 
 </details>
 
-<sub>Verified 14 November 2026: release tags and merged pull requests on the GitHub API; flywheel-verify 1.9.0 and articulate-writing 0.18.0 on PyPI; buildlang 1.15.0 on crates.io; the Flywheel and Articulate figures in each README; the writing list in the site feed.</sub>
+<sub>Verified 26 November 2026: merged pull requests and release tags on the GitHub API; flywheel-verify and articulate-writing on PyPI; buildlang 1.15.0 on crates.io; fail-closed SHA256SUMS installers across all four code flagships.</sub>
 
 <img alt="" src="docs/art/rule-light.svg#gh-light-mode-only" width="100%"><img alt="" src="docs/art/rule-dark.svg#gh-dark-mode-only" width="100%">
 
@@ -185,14 +186,8 @@ no outside toolchain and WebAssembly binary modules.
   </picture>
 </a>
 
-[Who Knew First](https://harperz9.github.io/who-knew-first.html) records nine
-2026 incidents in which an AI agent crossed a boundary. In six of them, someone
-outside the organization that ran the model told the public first.
-[The series](https://harperz9.github.io/who-knew-first-series.html) follows the
-questions that raises.
-Each piece lists its sources and the confidence of each claim. An
-Anthropic-built model helped compile them, and Anthropic appears in the record,
-so each piece marks where Anthropic is a party.
+[Who Knew First](https://harperz9.github.io/who-knew-first.html) records nine 2026 incidents in which an AI agent crossed a boundary; in six of them, someone outside the operating organization told the public first.
+[The series](https://harperz9.github.io/who-knew-first-series.html) follows the governance questions that raises, listing sources, claim confidence, and where Anthropic is a party.
 
 | Piece | The question | Published |
 | --- | --- | --- |
@@ -202,8 +197,7 @@ so each piece marks where Anthropic is a party.
 | [The Maker Is Part of the Story](https://harperz9.github.io/the-maker-is-part-of-the-story.html) | Three famous stories, read for who funds the work and who edits the record. | 8 October 2026 |
 | [A Check It Cannot Predict](https://harperz9.github.io/a-check-it-cannot-predict.html) | Does a check that is certain and outside the actor's control work on AI models too? | 8 October 2026 |
 
-The [publications page](https://harperz9.github.io/publications.html) lists the
-essays, briefings and papers.
+The [publications page](https://harperz9.github.io/publications.html) lists the essays, briefings, and papers.
 
 <details>
 <summary><b>Latest writing</b> (refreshed daily from the site feed)</summary>
@@ -222,11 +216,9 @@ essays, briefings and papers.
 </details>
 
 <details>
-<summary><b>Work accepted upstream</b></summary>
+<summary><b>Work accepted upstream (41 merged PRs across 34 repos)</b></summary>
 
-I sent 82 pull requests to 66 outside projects: 41 merged, 20 open, 21 closed
-without merge (GitHub API, 14 November 2026). Three merged ones are list entries.
-Merged examples:
+I sent 82 pull requests to 66 outside projects: 41 merged across 34 outside repositories, 20 open, and 21 closed without merge (GitHub API, 14 November 2026). Three merged ones are list entries. Merged examples:
 
 - [Datasette PR 2815](https://github.com/simonw/datasette/pull/2815): malformed row URLs return HTTP 400.
 - [grimp PRs 303-305](https://github.com/python-grimp/grimp/pull/303): graph fixes.
@@ -242,12 +234,9 @@ The [portfolio](https://harperz9.github.io/portfolio.html) lists all 82.
 
 ## Work with me
 
-I take scoped work on evaluation design review, harness integration, agent
-safety review before an audit, and incident review. Each quote comes from the
-labor, time, compute and tooling the job needs.
+I take scoped work on evaluation design review, harness integration, agent safety review before an audit, and incident review. Each quote comes from the labor, time, compute, and tooling the job needs.
 I have no paid client today and no current sponsors.
-The evaluation tooling is built to serve embedded evaluation at frontier AI
-labs, and no pilot or engagement with any lab has begun.
+The evaluation tooling is built to serve embedded evaluation at frontier AI labs, and no pilot or engagement with any lab has begun.
 
 <details>
 <summary><b>Independence rules</b></summary>
@@ -262,14 +251,13 @@ labs, and no pilot or engagement with any lab has begun.
 <details>
 <summary><b>Roles and paths</b></summary>
 
-I'm open to technical and nontechnical roles in AI governance and evaluation,
-and willing to relocate to London or travel to San Francisco.
+I'm open to technical and nontechnical roles in AI governance, evaluation, compilers, developer tooling, and open science, and willing to relocate to London or travel to San Francisco.
 
 | Path | Where I fit | Start here |
 | --- | --- | --- |
-| **Technical and evaluation** | Agent and model evaluation, developer tooling, CI, security testing, technical support and documentation. | [Engineering path](https://harperz9.github.io/hire.html#engineering-path) |
-| **Public service and field** | Public service, facilities, parks and grounds, arboriculture, scheduling and safety judgment, from eleven years of field work. | [Public-service and field path](https://harperz9.github.io/hire.html#public-service-field-path) |
-| **Education and research** | Fellowships, research operations and evidence-centered technical writing. | [Research](https://harperz9.github.io/research.html) |
+| **Technical and evaluation** | Agent and model evaluation, compilers, rendering, developer tooling, CI, security testing, and documentation. | [Engineering path](https://harperz9.github.io/hire.html#engineering-path) |
+| **Public service and field** | Public service, facilities, parks and grounds, arboriculture, scheduling, and safety judgment from eleven years of field work. | [Public-service and field path](https://harperz9.github.io/hire.html#public-service-field-path) |
+| **Education and research** | Fellowships, research operations, and evidence-centered technical writing. | [Research](https://harperz9.github.io/research.html) |
 
 [Architecture](https://harperz9.github.io/architecture.html) ·
 [Resume](https://harperz9.github.io/resume.html) ·
