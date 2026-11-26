@@ -22,7 +22,11 @@
 # 2026-11-26: Raised from 1700 to 2100 to carry the Wave 19-24 verified proof
 # table and Super Accelerator + Super Solver summary inside a collapsed
 # section while keeping ~300 words of headroom for daily refresh_profile.py runs.
-max_words = 2100
+#
+# 2026-11-26 (Wave 32A): Raised from 2100 to 2600 to add the 10-Vertical
+# Capabilities & 1-Command Install Matrix and Wave 25-31 merged PR proofs while
+# keeping >300 words of headroom for daily refresh_profile.py runs.
+max_words = 2600
 
 # Headings that must appear, in this order.
 section_order = [

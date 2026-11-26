@@ -25,6 +25,10 @@ Since September 2026 I have worked as a sole proprietor from Kent, Washington, b
 I am looking for roles and collaborations in AI evaluation, deterministic compilers, developer tooling, rendering engines, and open science.
 
 [Site](https://harperz9.github.io/) ·
+[Playground](https://harperz9.github.io/playground/) ·
+[Models](https://harperz9.github.io/models.html) ·
+[Tools](https://harperz9.github.io/tools.html) ·
+[Security](https://harperz9.github.io/security.html) ·
 [Architecture](https://harperz9.github.io/architecture.html) ·
 [Research](https://harperz9.github.io/research.html) ·
 [Hire / work](https://harperz9.github.io/hire.html) ·
@@ -40,31 +44,37 @@ If I play for any side, it is humanity's.
 
 ## Six platforms, one stack
 
-The stack pairs a **Super Accelerator** ([BuildLang](https://github.com/HarperZ9/buildlang): deterministic compiler, effect types, BuildDB, and checked PDFs) with a **Super Solver** ([Flywheel](https://github.com/HarperZ9/flywheel): model-neutral gateway, Three-Plate verification, local GPU RLVR forge, and `engine-receipt/1` trails), alongside [The Playground](https://github.com/HarperZ9/superframe) (DX12, Vulkan, WebGPU rendering and physical-AI simulation), [CMMNS](https://github.com/HarperZ9/cmmns) (site-agnostic archival and provenance), [Articulate](https://github.com/HarperZ9/articulate) (local prose linting), and [harperz9.github.io](https://harperz9.github.io/) (live browser tools, studies, and career suite).
+The stack pairs a **Super Accelerator** ([BuildLang](https://github.com/HarperZ9/buildlang), `AGPL-3.0-only`: deterministic compiler, effect types, BuildDB, and checked PDFs) with a **Super Solver** ([Flywheel](https://github.com/HarperZ9/flywheel), `FSL-1.1-MIT`: model-neutral gateway, Three-Plate verification, local GPU RLVR forge, and `engine-receipt/1` trails), alongside [The Playground](https://github.com/HarperZ9/superframe) (`FSL-1.1-MIT`: DX12, Vulkan, WebGPU rendering and physical-AI simulation), [CMMNS](https://github.com/HarperZ9/cmmns) (`AGPL-3.0-only`: site-agnostic archival and offline provenance), [Articulate](https://github.com/HarperZ9/articulate) (`FSL-1.1-MIT`: local prose linting), and [harperz9.github.io](https://harperz9.github.io/) (live browser tools, studies, and career suite).
 
-| Platform | What it does for you | Start |
-| --- | --- | --- |
-| **THE FLYWHEEL** | Run AI tasks on any model, route providers with Rowan, train local RTX 4090 adapters, and seal offline receipts. | [Flywheel](#the-flywheel) |
-| **ARTICULATE** | Check prose on your computer with each finding tied to its line (CLI, LSP, SARIF, MCP). | [Articulate](#articulate) |
-| **THE COMMONS** | Capture any webpage or social thread into provenance-checked sidecars and manifest JSONL records. | [CMMNS](#the-commons) |
-| **THE PLAYGROUND** | Render paint, type, sound, DX12/Vulkan/WebGPU worlds, spectral optics, and 6-DOF physical-AI from one seed. | [The Playground](#the-playground) |
-| **BUILDLANG** | Compile effect-typed programs across 12 CPU/GPU targets, query BuildDB (`qdb`), and build checked BuildTeX PDFs. | [BuildLang](#buildlang) |
-| **RESEARCH** | Empirical studies (including honest nulls), essays, and [architecture](https://harperz9.github.io/architecture.html). | [Research](https://harperz9.github.io/research.html) |
+### 10-Vertical Capabilities and 1-Command Install Matrix
+
+| Vertical | Flagship / Tool | License | 1-Command Start | Live Surface |
+| --- | --- | --- | --- | --- |
+| 1. Compilers & GPU Backends | [BuildLang](https://github.com/HarperZ9/buildlang) (`buildc` v1.15.0) | `AGPL-3.0-only` | `cargo install buildlang` | [buildlang.html](https://harperz9.github.io/buildlang.html) |
+| 2. AI Gateway, Eval & Receipts | [Flywheel](https://github.com/HarperZ9/flywheel) (v2.0.0) | `FSL-1.1-MIT` | `pip install flywheel-verify` | [flywheel.html](https://harperz9.github.io/flywheel.html) |
+| 3. Local GPU RLVR Model Forge | [Flywheel](https://github.com/HarperZ9/flywheel) + [Plexus](https://github.com/HarperZ9/plexus) | `FSL-1.1-MIT` | `flywheel gate` (RTX 4090 / Colab) | [models.html](https://harperz9.github.io/models.html) |
+| 4. Prose Linting & CI Gates | [Articulate](https://github.com/HarperZ9/articulate) (v0.19.1) | `FSL-1.1-MIT` | `pip install articulate-writing` | [tools.html](https://harperz9.github.io/tools.html) |
+| 5. Web & AI Provenance / Archival | [CMMNS](https://github.com/HarperZ9/cmmns) (v3.10.0) | `AGPL-3.0-only` | `curl -fsSL https://raw.githubusercontent.com/HarperZ9/cmmns/main/install.sh \| sh` | [cmmns.html](https://harperz9.github.io/cmmns.html) |
+| 6. DX12, Vulkan, WebGPU & Paint | [The Playground](https://github.com/HarperZ9/superframe) (v0.3.0) | `FSL-1.1-MIT` | `curl -fsSL https://raw.githubusercontent.com/HarperZ9/superframe/main/install.sh \| sh` | [playground/](https://harperz9.github.io/playground/) |
+| 7. Physical-AI, Optics & Audio | [The Playground](https://github.com/HarperZ9/superframe) / [raw-native](https://github.com/HarperZ9/raw-native) | `FSL-1.1-MIT` | `raw_native_cli` + WebGPU studio | [playground/](https://harperz9.github.io/playground/) |
+| 8. MCP Servers & Agent Grants | [Telos](https://github.com/HarperZ9/telos) / [Accountable Surface](https://github.com/HarperZ9/accountable-surface) | `FSL-1.1-ALv2` / `AGPL-3.0-only` | `npx project-telos-mcp` | [security.html](https://harperz9.github.io/security.html) |
+| 9. Corpus Intake & Repo Atlas | [Gather](https://github.com/HarperZ9/gather) / [Index](https://github.com/HarperZ9/index) / [Canon](https://github.com/HarperZ9/canon) | `AGPL-3.0-only` / `FSL-1.1-MIT` | `pip install gather-engine index-graph` | [tools.html](https://harperz9.github.io/tools.html) |
+| 10. Empirical Research & Audits | [HarperZ9 Studies](https://harperz9.github.io/studies/) (30 studies, 12 nulls) | `CC-BY-4.0` | Offline verification scripts + receipts | [studies/](https://harperz9.github.io/studies/) |
 
 <details>
-<summary><b>Verified engineering proofs (Waves 19 to 24, clickable merged PRs)</b></summary>
+<summary><b>Verified engineering proofs (Waves 19 to 31, clickable merged PRs)</b></summary>
 
 | Area | Verified result | Merged PR |
 | --- | --- | --- |
 | BuildLang 12 targets | Added Apple Metal (`msl`), WebGPU (`wgsl`), and `riscv64` backends alongside C, x86-64, WASM, HLSL, and GLSL. | [buildlang#342](https://github.com/HarperZ9/buildlang/pull/342) |
-| BuildLang V5 superoptimizer | Certified e-graph superoptimization verifier prototype and ML kernel blueprint. | [buildlang#341](https://github.com/HarperZ9/buildlang/pull/341) |
+| BuildLang V5 superoptimizer + GPU TV | Certified e-graph superoptimizer (`14/14` tests) and GPU polyhedral translation validation (`10/10` tests). | [buildlang#341](https://github.com/HarperZ9/buildlang/pull/341), [buildlang#344](https://github.com/HarperZ9/buildlang/pull/344), [buildlang#346](https://github.com/HarperZ9/buildlang/pull/346) |
 | Universal Hourglass + frontends | Pure-BuildLang lifters (`port/universal/`), Python and controlled plain-English frontends, and BuildTeX hairline anchor. | [buildlang#339](https://github.com/HarperZ9/buildlang/pull/339), [buildlang#340](https://github.com/HarperZ9/buildlang/pull/340) |
 | Compiled algorithmic oracles | Near-linear SSSP, fused LoopCD logits, XStack fidelity oracles, and 1-pass Online-Softmax Reverse-KL / NOH-4 kernels. | [buildlang#343](https://github.com/HarperZ9/buildlang/pull/343), [buildlang#336](https://github.com/HarperZ9/buildlang/pull/336) |
-| Flywheel Rowan router + trace gate | Unified local/subscription/API router, 2-stage verifier sanitizer, SAG-Mem 2-hop expander, and Three-Plate Oracle. | [flywheel#561](https://github.com/HarperZ9/flywheel/pull/561), [flywheel#563](https://github.com/HarperZ9/flywheel/pull/563) |
+| Flywheel Super Solver + Rowan router | Unified local/subscription/API router, 2-stage sanitizer, SAG-Mem, Three-Plate Oracle, `34.99x` Merkle speedup, and Welch PSD detector. | [flywheel#561](https://github.com/HarperZ9/flywheel/pull/561), [flywheel#565](https://github.com/HarperZ9/flywheel/pull/565), [flywheel#566](https://github.com/HarperZ9/flywheel/pull/566), [flywheel#568](https://github.com/HarperZ9/flywheel/pull/568) |
 | Local RTX 4090 / Colab forge | `FRESCO` orthogonal LoRA projection, `MoLT` cross-loop KV reuse, `Plato-Key` latent codec, `NOH-4` CODIT, and monotonic Arm C eval. | [flywheel#558](https://github.com/HarperZ9/flywheel/pull/558), [flywheel#562](https://github.com/HarperZ9/flywheel/pull/562), [flywheel#564](https://github.com/HarperZ9/flywheel/pull/564) |
-| Playground simulation + optics | 100 Hz latency-faithful simulation, Deja-VAE drift oracle, tree biomechanics, ITU-R BT.2020/2100 optics, and NOH-3 world bridge. | [superframe#149](https://github.com/HarperZ9/superframe/pull/149), [superframe#152](https://github.com/HarperZ9/superframe/pull/152) |
-| CMMNS universal page capture | Site-agnostic `cmmns.page/1` capture, collision-free manifests, and reproducible MV3/CLI bundles. | [cmmns#126](https://github.com/HarperZ9/cmmns/pull/126) |
-| Fail-closed `SHA256SUMS` installers | User-space 1-command `install.ps1` and `install.sh` with offline self-tests across all four code flagships. | [buildlang#338](https://github.com/HarperZ9/buildlang/pull/338), [flywheel#560](https://github.com/HarperZ9/flywheel/pull/560), [superframe#151](https://github.com/HarperZ9/superframe/pull/151), [cmmns#129](https://github.com/HarperZ9/cmmns/pull/129) |
+| Playground simulation, optics & RAW | 100 Hz physical-AI simulation, ITU-R BT.2020/2100 optics, WGSL/HLSL `DeltaE 0.0` parity, and RAW Wave 80 (`96/96` checks). | [superframe#149](https://github.com/HarperZ9/superframe/pull/149), [superframe#153](https://github.com/HarperZ9/superframe/pull/153), [superframe#155](https://github.com/HarperZ9/superframe/pull/155) |
+| CMMNS page capture & AI provenance | Site-agnostic `cmmns.page/1`, offline Web/AI provenance verifier (`cmmns provenance verify`), and `funding.json`. | [cmmns#126](https://github.com/HarperZ9/cmmns/pull/126), [cmmns#130](https://github.com/HarperZ9/cmmns/pull/130), [cmmns#131](https://github.com/HarperZ9/cmmns/pull/131) |
+| Live WebGPU Playground & site hub | Live `/playground/` studio, `/models.html`, `/tools.html`, `/llms.txt`, and fail-closed `SHA256SUMS` installers on all 4 flagships. | [HarperZ9.github.io#585](https://github.com/HarperZ9/HarperZ9.github.io/pull/585), [HarperZ9.github.io#586](https://github.com/HarperZ9/HarperZ9.github.io/pull/586), [buildlang#338](https://github.com/HarperZ9/buildlang/pull/338), [flywheel#560](https://github.com/HarperZ9/flywheel/pull/560) |
 
 </details>
 
